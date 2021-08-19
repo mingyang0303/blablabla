@@ -1512,7 +1512,7 @@ def refute(update, context):
 refute_handler = CommandHandler('unapprove', refute, filters=Filters.user(user_id=owners))
 CHECK_HANDLER = CommandHandler('check', check)
 INVENTORY_HANDLER = CommandHandler('inventory', inventory)
-DRAW_HANDLER = CommandHandler('draw', draw , run_async=True)
+DRAW_HANDLER = CommandHandler('draw', draw)
 SLOT_HANDLER = CommandHandler('slot', slot)
 START_HANDLER = CommandHandler('start', start)
 CREDIT_HANDLER = CommandHandler('credit', credit)
