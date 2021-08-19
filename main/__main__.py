@@ -7,7 +7,7 @@ import random
 import json
 from telegram.ext.dispatcher import run_async
 import time
-import database as DB
+from main import database as DB
 import requests
 
 
