@@ -23,7 +23,7 @@ ONE , TWO , THREE , *_ = range(100)
 S_START , S_INCREASE ,S_POP , FIRST , SECOND , *_ = range(1000)
 owners = [163494588,652962567,1027794428,801509492]
 
-updater = Updater(token='1736686159:AAFG0jC4qEHE5ahhc_F7kZY-LMH5UR1lxAM', use_context=True)
+updater = Updater(token='1971187658:AAExBMgQrDPZUnf5Ua3J66W26rSPhHm6MwU', use_context=True)
 dispatcher = updater.dispatcher
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
