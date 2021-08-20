@@ -5,14 +5,17 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update, ParseMo
 from telegram.ext import Updater, CallbackQueryHandler, CallbackContext , Filters
 import random
 import json
+import os
 from telegram.ext.dispatcher import run_async
 import time
 from main import database as DB
 import requests
 
 
-DBPATH="billy.db"
-conn = DB.init(DBPATH)
+
+DB_PATH=os.environ['DATABASE_URL']
+conn = DB.init(DB_PATH)
+
 DB.setup(conn)
 
 #state
