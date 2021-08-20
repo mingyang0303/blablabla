@@ -1,1 +1,0 @@
-DBPATH = "billy.db"
