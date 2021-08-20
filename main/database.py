@@ -2,11 +2,13 @@ import os
 import psycopg2
 
 DATABASE_URL = os.environ['DATABASE_URL']
-
 conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+cur = conn.cursor()
+global conn, cur
 
 def init(name):
   return psycopg2.connect(DATABASE_URL, sslmode='require')
+
 
 
 def setup(conn):
