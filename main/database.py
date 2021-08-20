@@ -1,8 +1,12 @@
-import sqlite3
+import os
+import psycopg2
 
+DATABASE_URL = os.environ['DATABASE_URL']
+
+conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 
 def init(name):
-  return sqlite3.connect(name, check_same_thread=False)
+  return psycopg2.connect(DATABASE_URL, sslmode='require')
 
 
 def setup(conn):
