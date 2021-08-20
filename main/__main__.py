@@ -14,12 +14,11 @@ import requests
 
 
 DB_PATH=os.environ['DATABASE_URL']
-conn = DB.init(DB_PATH)
-
-DB.setup(conn)
+DB.init(DB_PATH)
+DB.setup()
 
 #state
-ONE , TWO , THREE , *_ = range(100)
+ONE , TWO , THREE , *_ = range(50)
 #callback data
 
 
@@ -671,11 +670,11 @@ def draw(update ,context):
     pic = aa[0]['link']
     star = aa[0]['star']
     eng = aa[0]['eng']
-    user_exp = DB.get_user_value(conn, user_id, "exp")
-    user_level = DB.get_user_value(conn, user_id, "level")
-    user_diamonds = DB.get_user_value(conn, user_id, "diamonds")
-    user_bagslot = DB.get_user_value(conn, user_id, "bagslot")
-    user_maxbagslot = DB.get_user_value(conn, user_id, "maxbagslot")
+    user_exp = DB.get_user_value(user_id, "exp")
+    user_level = DB.get_user_value(user_id, "level")
+    user_diamonds = DB.get_user_value(user_id, "diamonds")
+    user_bagslot = DB.get_user_value(user_id, "bagslot")
+    user_maxbagslot = DB.get_user_value(user_id, "maxbagslot")
     if user_diamonds ==None:
         update.message.reply_text('先启动/start')
         return -1
@@ -688,8 +687,8 @@ def draw(update ,context):
 
 
     if msg == '古币' or msg == 'gubi':
-     DB.add_diamonds(conn, user_id, -5)
-     DB.add_slot(conn , user_id)
+     DB.add_diamonds(user_id, -5)
+     DB.add_slot(user_id)
      a = update.message.reply_text(f'3')
      a.edit_text('2')
      a.edit_text('1')
@@ -702,11 +701,11 @@ def draw(update ,context):
                     f'◈背包空间/bag slots : <b>{user_bagslot+1}/{user_maxbagslot}</b>📦\n\n\n'
                     f'<i><b>**卡片以加入背包/Card added to bag**</b></i>', parse_mode=ParseMode.HTML
         )
-     DB.add_user_card(conn,user_id,bb,eng)
-     DB.add_exp(conn, user_id, 500)
+     DB.add_user_card(user_id,bb,eng)
+     DB.add_exp(user_id, 500)
      if user_exp >= user_level*500:
-         DB.add_exp(conn, user_id,-user_exp)
-         DB.add_level(conn,user_id)
+         DB.add_exp(user_id,-user_exp)
+         DB.add_level(user_id)
          context.bot.send_message(chat_id=update.effective_chat.id, text=f'{user} 升级到了 level : {user_level + 1}\n type /inventory again to refresh'
                                                                          f'\n再按一次 /inventory 刷新')
 
@@ -729,7 +728,7 @@ def start(update , context):
     user = update.effective_user
     username = update.effective_user.name
     user_id = update.effective_user.id
-    DB.add_user(conn , user_id)
+    DB.add_user(user_id)
     update.message.reply_text(f'♢ 欢迎 ♢ \n<b>{user_name}</b>\n<b>ID :</b> <code>{user_id}</code>'
                               f'\n<b>USERNAME : {username}</b>\n\n\n'
                               f'<b>您的资料已开始记录在数据库</b>', parse_mode =ParseMode.HTML)
@@ -739,15 +738,15 @@ def start(update , context):
 def inventory(update , context):
     user_name = update.effective_user.first_name
     user_id = update.effective_user.id
-    user_diamonds = DB.get_user_value(conn , user_id, "diamonds")
-    user_bagslot = DB.get_user_value(conn, user_id, "bagslot")
-    user_maxbagslot = DB.get_user_value(conn, user_id, "maxbagslot")
-    user_gold = DB.get_user_value(conn, user_id, "gold")
-    user_exp = DB.get_user_value(conn, user_id, "exp")
-    user_level = DB.get_user_value(conn, user_id, "level")
+    user_diamonds = DB.get_user_value(user_id, "diamonds")
+    user_bagslot = DB.get_user_value(user_id, "bagslot")
+    user_maxbagslot = DB.get_user_value(user_id, "maxbagslot")
+    user_gold = DB.get_user_value(user_id, "gold")
+    user_exp = DB.get_user_value(user_id, "exp")
+    user_level = DB.get_user_value(user_id, "level")
     if user_exp >= user_level * 500:
-        DB.add_exp(conn, user_id, -user_exp)
-        DB.add_level(conn, user_id)
+        DB.add_exp(user_id, -user_exp)
+        DB.add_level(user_id)
         context.bot.send_message(chat_id=update.effective_chat.id, text=f'{user_name} 升级到了 level : {user_level + 1}\n type /inventory again to refresh'
                                                                          f'\n再按一次 /inventory 刷新')
 
@@ -786,7 +785,7 @@ def add(update , context):
         msg = int(msg)
 
         if id in owners:
-         DB.add_diamonds(conn, user_id, msg)
+         DB.add_diamonds( user_id, msg)
          update.message.reply_text(f'{user_name} 奖励 {msg}魔法石💎给 {to}\n'
                                f'{user_name} gift {msg} diamonds to {to}')
 
@@ -804,7 +803,7 @@ def give(update , context):
     to = update.message.reply_to_message.from_user.first_name
     to_id = update.message.reply_to_message.from_user.id
     from_id = update.message.from_user.id
-    from_gold = DB.get_user_value(conn, from_id, "gold")
+    from_gold = DB.get_user_value(from_id, "gold")
     try:
      msg = update.message.text.split(None,1)[1]
      msg = int(msg)
@@ -830,8 +829,8 @@ def give(update , context):
         update.message.reply_text('回复人/ reply to someone')
         return -1
 
-    DB.add_gold(conn, to_id, msg)
-    DB.minus_gold(conn, from_id, msg)
+    DB.add_gold(to_id, msg)
+    DB.minus_gold(from_id, msg)
     update.message.reply_text(f'{user}支付{msg} 金币🟡给 {to}\n'
                               f'{user} sent {msg} gold🟡 to {to}')
 
@@ -911,8 +910,8 @@ def mycards(update , context):
     user = update.effective_user.first_name
     id = update.effective_user.id
     query = update.callback_query
-    cards = DB.get_user_card(conn ,id, 'card_name')
-    cards_en = DB.get_user_card_eng(conn, id, 'eng')
+    cards = DB.get_user_card(id, 'card_name')
+    cards_en = DB.get_user_card_eng(id, 'eng')
     b = 1
     c = "."
     finS = ''
@@ -938,8 +937,8 @@ def increase(update , context):
 def end_increase(update , context):
     user = update.effective_user.first_name
     id = update.effective_user.id
-    max = DB.get_user_value(conn, id, "maxbagslot")
-    diamonds = DB.get_user_value(conn, id, "diamonds")
+    max = DB.get_user_value(id, "maxbagslot")
+    diamonds = DB.get_user_value(id, "diamonds")
     cd = context.chat_data
     query = update.callback_query
     if update.callback_query.from_user.id != id:
@@ -950,8 +949,8 @@ def end_increase(update , context):
             query.message.edit_text(f'{user} You dont have enough diamonds')
             return -1
          else:
-          DB.buy_slot(conn , id)
-          DB.add_diamonds(conn, id, -5)
+          DB.buy_slot(id)
+          DB.add_diamonds(id, -5)
           query.message.edit_text(f'successfully increase from* {max}* to *{max+5}*\n  '
                                   f'成功把背包空间提升从 *{max}* 到 *{max+5}*', parse_mode = ParseMode.MARKDOWN_V2)
           return ConversationHandler.END
@@ -986,8 +985,8 @@ def end_pop(update , context):
     user = update.effective_user.first_name
     id = update.effective_user.id
     query = update.callback_query
-    user_exp = DB.get_user_value(conn, id, "exp")
-    user_level = DB.get_user_value(conn, id, "level")
+    user_exp = DB.get_user_value(id, "exp")
+    user_level = DB.get_user_value(id, "level")
     # query.answer()
     cd = context.chat_data
     name = update.callback_query.from_user.first_name
@@ -1000,12 +999,12 @@ def end_pop(update , context):
                                 f'EXP : 250\n\n'
                                 f'其他人哈哈哈哈垃圾', parse_mode = ParseMode.MARKDOWN_V2)
         if user_exp >= user_level * 500:
-            DB.add_exp(conn, id, -user_exp)
-            DB.add_level(conn, id)
+            DB.add_exp(id, -user_exp)
+            DB.add_level(id)
             context.bot.send_message(chat_id = update.effective_chat.id  , text = f'{name} 升级到了 level : {user_level+1}\n type /inventory again to refresh'
                                                                          f'\n再按一次 /inventory 刷新')
-        DB.add_diamonds(conn, id, b)
-        DB.add_exp(conn , id , 250)
+        DB.add_diamonds(id, b)
+        DB.add_exp(id , 250)
 
     return S_POP
 
@@ -1180,21 +1179,21 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
-                DB.add_gold(conn, fid, 100)
-                DB.add_exp(conn , fid , 100)
+                DB.add_gold(fid, 100)
+                DB.add_exp(fid , 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{f} win !!\n"
                                         f'{f}金币🟡Gold + 100\n'
                                         f'EXP + 100')
             elif cd['tohp'] > cd['fromhp']:
-                DB.add_gold(conn, tid, 100)
-                DB.add_exp(conn, tid, 100)
+                DB.add_gold(tid, 100)
+                DB.add_exp(tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{t} win !!\n"
                                         f'{t}金币🟡Gold + 100\n'
                                         f'EXP + 100')
             elif cd['tohp'] == cd['fromhp']:
-                DB.add_gold(conn, tid, 100)
+                DB.add_gold(tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f" Draw !!\n")
 
@@ -1215,15 +1214,15 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
-                DB.add_gold(conn, fid, 100)
-                DB.add_exp(conn, fid, 100)
+                DB.add_gold(fid, 100)
+                DB.add_exp(fid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{f} win !!\n"
                                         f'{f}金币🟡Gold + 100\n'
                                         f'EXP + 100')
             elif cd['tohp'] > cd['fromhp']:
-                DB.add_gold(conn, tid, 100)
-                DB.add_exp(conn, tid, 100)
+                DB.add_gold( tid, 100)
+                DB.add_exp( tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{t} win !!\n"
                                         f'{t}金币🟡Gold + 100\n'
@@ -1246,15 +1245,15 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
-                DB.add_gold(conn, fid, 100)
-                DB.add_exp(conn, fid, 100)
+                DB.add_gold( fid, 100)
+                DB.add_exp( fid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{f} win !!\n"
                                         f'{f}金币🟡Gold + 100\n'
                                         f'EXP + 100')
             elif cd['tohp'] > cd['fromhp']:
-                DB.add_gold(conn, tid, 100)
-                DB.add_exp(conn, tid, 100)
+                DB.add_gold( tid, 100)
+                DB.add_exp( tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{t} win !!\n"
                                         f'{t}金币🟡Gold + 100\n'
@@ -1277,15 +1276,15 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
-                DB.add_gold(conn, fid, 100)
-                DB.add_exp(conn, fid, 100)
+                DB.add_gold( fid, 100)
+                DB.add_exp( fid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{f} win !!\n"
                                         f'{f}金币🟡Gold + 100\n'
                                         f'EXP + 100')
             elif cd['tohp'] > cd['fromhp']:
-                DB.add_gold(conn, tid, 100)
-                DB.add_exp(conn , tid , 100)
+                DB.add_gold( tid, 100)
+                DB.add_exp( tid , 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{t} win !!\n"
                                         f'{t}金币🟡Gold + 100\n'
@@ -1308,15 +1307,15 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
-                DB.add_gold(conn, fid, 100)
-                DB.add_exp(conn, fid, 100)
+                DB.add_gold( fid, 100)
+                DB.add_exp( fid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{f} win !!\n"
                                         f'{f}金币🟡Gold + 100\n'
                                         f'EXP + 100')
             elif cd['tohp'] > cd['fromhp']:
-                DB.add_gold(conn, tid, 100)
-                DB.add_exp(conn , tid , 100)
+                DB.add_gold( tid, 100)
+                DB.add_exp( tid , 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{t} win !!\n"
                                         f'{t}金币🟡Gold + 100\n'
@@ -1339,15 +1338,15 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
-                DB.add_gold(conn, fid, 100)
-                DB.add_exp(conn, fid, 100)
+                DB.add_gold( fid, 100)
+                DB.add_exp( fid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{f} win !!"
                                         f'{f}金币🟡Gold + 100\n'
                                         f'EXP + 100')
             elif cd['tohp'] > cd['fromhp']:
-                DB.add_gold(conn, tid, 100)
-                DB.add_exp(conn, tid, 100)
+                DB.add_gold( tid, 100)
+                DB.add_exp( tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{t} win !!"
                                         f'{t}金币🟡Gold + 100\n'
@@ -1370,13 +1369,13 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
-                DB.add_gold(conn, fid, 100)
-                DB.add_exp(conn, fid, 100)
+                DB.add_gold( fid, 100)
+                DB.add_exp( fid, 100)
                 query.message.edit_text(f'{f}金币🟡Gold + 100\n'
                                         f'EXP + 100')
             elif cd['tohp'] > cd['fromhp']:
-                DB.add_gold(conn, tid, 100)
-                DB.add_exp(conn, tid, 100)
+                DB.add_gold( tid, 100)
+                DB.add_exp( tid, 100)
                 query.message.edit_text(f'{t}金币🟡Gold + 100\n'
                                         f'EXP + 100')
             return ConversationHandler.END
