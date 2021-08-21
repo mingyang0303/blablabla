@@ -10,7 +10,7 @@ def init(url):
 
 def setup():
     conn.autocommit = True
-    cur.execute("""CREATE TABLE User
+    cur.execute("""CREATE TABLE IF NOT EXISTS User
             (
                   user_id integer primary key,
                   is_admin bool,
