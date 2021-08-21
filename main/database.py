@@ -13,7 +13,7 @@ def setup():
     cur.execute("""CREATE TABLE IF NOT EXISTS User
             (
                   user_id int,
-                  is_admin bit,
+                  is_admin bool,
                   diamonds int,
                   bagslot int,
                   maxbagslot int,
