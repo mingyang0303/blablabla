@@ -5,6 +5,7 @@ def init(url):
     global conn, cur
     conn = psycopg2.connect(url, sslmode='require')
     cur = conn.cursor()
+    print(url)
 
 
 
