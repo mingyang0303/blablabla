@@ -784,7 +784,7 @@ def add(update , context):
     
     msg = int(msg)
 
-    if id in owners:
+    if user_id in owners:
          DB.add_diamonds(user_id, msg)
          update.message.reply_text(f'{user_name} 奖励 {msg}魔法石💎给 {to}\n'
                                f'{user_name} gift {msg} diamonds to {to}')
