@@ -68,9 +68,9 @@ VALUES (
   conn.commit()
 
 def get_user_value(user_id: int, items: str):
-    stmt = f"SELECT {items} FROM Usr WHERE user_id={user_id};"
+    stmt = f"SELECT {items} FROM Usr WHERE user_id=%s;"
     try:
-     cur.execute(stmt)
+     cur.execute(stmt, (user_id,))
      r = cur.fetchone()[0]
     except TypeError:
      r = None
@@ -78,9 +78,9 @@ def get_user_value(user_id: int, items: str):
      return r
 
 def get_user_card(user_id: int, items: str):
-    stmt = f"SELECT card_name FROM Card WHERE user_id={user_id};"
+    stmt = f"SELECT card_name FROM Card WHERE user_id=%s;"
     try:
-     cur.execute(stmt)
+     cur.execute(stmt, (user_id,))
      r = cur.fetchall()
     except TypeError:
      r = None
@@ -88,9 +88,9 @@ def get_user_card(user_id: int, items: str):
      return r
 
 def get_user_card_eng(user_id: int, items: str):
-    stmt = f"SELECT eng FROM Card WHERE user_id={user_id};"
+    stmt = f"SELECT eng FROM Card WHERE user_id=%s;"
     try:
-     cur.execute(stmt)
+     cur.execute(stmt, (user_id,))
      r = cur.fetchall()
     except TypeError:
      r = None
