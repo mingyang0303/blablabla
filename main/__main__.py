@@ -18,7 +18,7 @@ DB.init(DB_PATH)
 DB.setup()
 
 #state
-ONE , TWO , THREE , *_ = range(50)
+ONE , TWO , THREE , FIRST , SECOND,  *_ = range(50)
 #callback data
 
 
