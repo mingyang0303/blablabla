@@ -45,7 +45,7 @@ def add_user(user_id):
   stmt = """INSERT INTO Usr (user_id, is_admin, diamonds, bagslot , maxbagslot , gold, exp , level)
 VALUES (
   %s,
-  0,
+  FALSE,
   10,
   0,
   50,
