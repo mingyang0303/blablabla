@@ -24,7 +24,7 @@ def setup():
             );
     """)
     conn.commit()
-    cur.execute("""CREATE TABLE Card
+    cur.execute("""CREATE TABLE IF NOT EXISTS Card
                 (
                       user_id integer,
                       card_name text,
@@ -33,7 +33,7 @@ def setup():
                 );
         """)
     conn.commit()
-    cur.execute("""CREATE TABLE Chat
+    cur.execute("""CREATE TABLE IF NOT EXISTS Chat
                     (
                           chat_id integer
 
