@@ -123,7 +123,7 @@ def add_level(user_id : int):
     conn.commit()
 
 def add_diamonds(user_id : int , diamonds : int):
-    stmt = f"UPDATE Usr SET diamonds = diamonds + ? WHERE user_id = %s;"
+    stmt = f"UPDATE Usr SET diamonds = diamonds + %s WHERE user_id = %s;"
     cur.execute(stmt, (diamonds,user_id))
     conn.commit()
 
