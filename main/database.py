@@ -7,13 +7,11 @@ def init(url):
     cur = conn.cursor()
     print(url)
 
-
-
 def setup():
     conn.autocommit = True
     cur.execute("SELECT VERSION();")
     print("Connected to", cur.fetchone())
-    cur.execute("""CREATE TABLE IF NOT EXISTS User
+    cur.execute("""CREATE TABLE IF NOT EXISTS "User"
             (
                   user_id serial primary key,
                   is_admin bool,
@@ -44,7 +42,7 @@ def setup():
     conn.commit()
 
 def add_user(user_id):
-  stmt = """INSERT INTO User (user_id, is_admin, diamonds, bagslot , maxbagslot , gold, exp , level)
+  stmt = """INSERT INTO "User" (user_id, is_admin, diamonds, bagslot , maxbagslot , gold, exp , level)
 VALUES (
   %s,
   0,
@@ -70,7 +68,7 @@ VALUES (
   conn.commit()
 
 def get_user_value(user_id: int, items: str):
-    stmt = f"SELECT {items} FROM User WHERE user_id={user_id};"
+    stmt = f"SELECT {items} FROM "User" WHERE user_id={user_id};"
     try:
      cur.execute(stmt)
      r = cur.fetchone()[0]
@@ -115,37 +113,37 @@ def add_card(user_id : int , card_name : str):
     conn.commit()
 
 def add_exp(user_id : int , exp : int):
-    stmt = f"UPDATE User SET exp = exp + %s WHERE user_id = %s;"
+    stmt = f"UPDATE "User" SET exp = exp + %s WHERE user_id = %s;"
     cur.execute(stmt, (exp,user_id))
     conn.commit()
 
 def add_level(user_id : int):
-    stmt = f"UPDATE User SET level = level + 1 WHERE user_id = %s;"
+    stmt = f"UPDATE "User" SET level = level + 1 WHERE user_id = %s;"
     cur.execute(stmt, (user_id,))
     conn.commit()
 
 def add_diamonds(user_id : int , diamonds : int):
-    stmt = f"UPDATE User SET diamonds = diamonds + ? WHERE user_id = %s;"
+    stmt = f"UPDATE "User" SET diamonds = diamonds + ? WHERE user_id = %s;"
     cur.execute(stmt, (diamonds,user_id))
     conn.commit()
 
 def add_slot(user_id : int):
-    stmt = f"UPDATE User SET bagslot = bagslot + 1 WHERE user_id = %s;"
+    stmt = f"UPDATE "User" SET bagslot = bagslot + 1 WHERE user_id = %s;"
     cur.execute(stmt, (user_id,))
     conn.commit()
 
 def add_gold(user_id : int , gold : int):
-    stmt = f"UPDATE User SET gold = gold + %s WHERE user_id =%s;"
+    stmt = f"UPDATE "User" SET gold = gold + %s WHERE user_id =%s;"
     cur.execute(stmt, (gold,user_id))
     conn.commit()
 
 def minus_gold(user_id : int , gold : int):
-    stmt = f"UPDATE User SET gold = gold - %s WHERE user_id = %s;"
+    stmt = f"UPDATE "User" SET gold = gold - %s WHERE user_id = %s;"
     cur.execute(stmt, (gold,user_id))
     conn.commit()
 
 def buy_slot(user_id : int):
-    stmt = f"UPDATE User SET maxbagslot = maxbagslot + 5 WHERE user_id =%s;"
+    stmt = f"UPDATE "User" SET maxbagslot = maxbagslot + 5 WHERE user_id =%s;"
     cur.execute(stmt, (user_id,))
     conn.commit()
 
