@@ -10,9 +10,11 @@ def init(url):
 
 def setup():
     conn.autocommit = True
+    cur.execute("SELECT VERSION();")
+    print("Connected to", cur.fetchone())
     cur.execute("""CREATE TABLE IF NOT EXISTS User
             (
-                  user_id integer primary key,
+                  user_id serial primary key,
                   is_admin bool,
                   diamonds integer,
                   bagslot integer,
