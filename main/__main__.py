@@ -23,7 +23,7 @@ ONE , TWO , THREE , *_ = range(50)
 
 
 S_START , S_INCREASE ,S_POP , FIRST , SECOND , *_ = range(1000)
-owners = [163494588,652962567,1027794428,801509492]
+owners = [163494588,652962567,1027794428,801509492,935241907]
 
 updater = Updater(token='1971187658:AAExBMgQrDPZUnf5Ua3J66W26rSPhHm6MwU', use_context=True)
 dispatcher = updater.dispatcher
@@ -974,10 +974,12 @@ def pop(update , context):
 
     a = context.bot.get_chat_member(chat_id=update.effective_chat.id, user_id=update.effective_user.id).status
 
-    if a == "creator" or a == "administrator" or user_id == owner:
+    if user_id in owners:
      update.message.reply_text(f'*领取* {b} 魔法石 💎\n'
                               f'*Claim* {b} diamond',
                               reply_markup=reply_markup, parse_mode=ParseMode.MARKDOWN_V2)
+    else:
+      update.message.reply_text('not authorized')
     return S_POP
 
 def end_pop(update , context):
