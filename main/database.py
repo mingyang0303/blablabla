@@ -13,20 +13,20 @@ def setup():
     print("Connected to", cur.fetchone())
     cur.execute("""CREATE TABLE IF NOT EXISTS Usr
             (
-                  user_id serial primary key,
-                  is_admin bool,
+                  user_id int not null primary key,
+                  is_admin bool not null,
                   diamonds integer,
                   bagslot integer,
                   maxbagslot integer,
                   gold integer,
-                  exp integer,
-                  level integer
+                  exp integer not null,
+                  level integer not null
             );
     """)
     conn.commit()
     cur.execute("""CREATE TABLE IF NOT EXISTS Card
                 (
-                      user_id integer,
+                      user_id integer not null,
                       card_name text,
                       eng text
 
@@ -35,7 +35,7 @@ def setup():
     conn.commit()
     cur.execute("""CREATE TABLE IF NOT EXISTS Chat
                     (
-                          chat_id integer
+                          chat_id integer not null
 
                     );
             """)
