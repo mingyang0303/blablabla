@@ -10,7 +10,7 @@ def init(url):
 
 def setup():
     conn.autocommit = True
-    cur.execute("""CREATE TABLE IF NOT EXISTS User
+    cur.execute("""CREATE TABLE User
             (
                   user_id integer primary key,
                   is_admin bool,
@@ -24,7 +24,7 @@ def setup():
             )
     """)
     conn.commit()
-    cur.execute("""CREATE TABLE IF NOT EXISTS Card
+    cur.execute("""CREATE TABLE Card
                 (
                       user_id integer,
                       card_name text,
@@ -33,7 +33,7 @@ def setup():
                 )
         """)
     conn.commit()
-    cur.execute("""CREATE TABLE IF NOT EXISTS Chat
+    cur.execute("""CREATE TABLE Chat
                     (
                           chat_id integer
 
