@@ -781,19 +781,18 @@ def add(update , context):
 
     a = context.bot.get_chat_member(chat_id=update.effective_chat.id, user_id=update.effective_user.id).status
 
-    if msg.strip().isdigit():
-        msg = int(msg)
+    
+    msg = int(msg)
 
-        if user_id in owners:
-         DB.add_diamonds( user_id, msg)
+    if id in owners:
+         DB.add_diamonds(user_id, msg)
          update.message.reply_text(f'{user_name} 奖励 {msg}魔法石💎给 {to}\n'
                                f'{user_name} gift {msg} diamonds to {to}')
 
-        else:
+    else:
          update.message.reply_text('not authorized')
          return -1
-    else:
-     update.message.reply_text('not a number')
+
 
 def give(update , context):
     if not update.message.reply_to_message:
