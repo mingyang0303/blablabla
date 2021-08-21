@@ -12,30 +12,30 @@ def setup():
     conn.autocommit = True
     cur.execute("""CREATE TABLE IF NOT EXISTS User
             (
-                  user_id int,
+                  user_id integer primary key,
                   is_admin bool,
-                  diamonds int,
-                  bagslot int,
-                  maxbagslot int,
-                  gold int,
-                  exp int,
-                  level int
+                  diamonds integer,
+                  bagslot integer,
+                  maxbagslot integer,
+                  gold integer,
+                  exp integer,
+                  level integer
 
             )
     """)
     conn.commit()
     cur.execute("""CREATE TABLE IF NOT EXISTS Card
                 (
-                      user_id int,
-                      card_name TEXT,
-                      eng TEXT
+                      user_id integer,
+                      card_name text,
+                      eng text
 
                 )
         """)
     conn.commit()
     cur.execute("""CREATE TABLE IF NOT EXISTS Chat
                     (
-                          Chat_id int
+                          chat_id integer
 
                     )
             """)
@@ -63,7 +63,6 @@ VALUES (
   %s,
   %s,
   %s
-
 )"""
   cur.execute(stmt, (user_id, card_name, eng))
   conn.commit()
@@ -99,7 +98,7 @@ def get_user_card_eng(user_id: int, items: str):
      return r
 
 def approved_list():
-    stmt = f"SELECT Chat_id FROM Chat"
+    stmt = f"SELECT chat_id FROM Chat"
     try:
      cur.execute(stmt)
      r = cur.fetchall()
