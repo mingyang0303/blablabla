@@ -960,9 +960,8 @@ def pop(update , context):
     user_id = update.effective_user.id
     query = update.callback_query
     cd = context.chat_data
-    cd['a'] = random.randint(1,5)
-    random.seed(cd['a'])
-    b = cd['a']
+    random.seed(time.time())
+    b = cd['a'] = random.randint(1,5)
     # query.answer()
     owner = 163494588
 
