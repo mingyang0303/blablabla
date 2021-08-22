@@ -1395,7 +1395,7 @@ def help(update , context):
     cd = context.chat_data
     query = update.callback_query
     keyboard = [
-        [InlineKeyboardButton('Give', callback_data='give'),InlineKeyboardButton('Draw', callback_data='start')],
+        [InlineKeyboardButton('Give', callback_data='give'),InlineKeyboardButton('Draw', callback_data='draw')],
         [InlineKeyboardButton('Increase', callback_data='increase'), InlineKeyboardButton('Inventory', callback_data='inventory')],
         [InlineKeyboardButton('Mycards', callback_data='mycards'), InlineKeyboardButton('Game', callback_data='game')],
         [InlineKeyboardButton('Support', callback_data='support'), InlineKeyboardButton('Group', callback_data='group')],
@@ -1410,7 +1410,7 @@ def bk(update , context):
     cd = context.chat_data
     query = update.callback_query
     keyboard = [
-        [InlineKeyboardButton('Give', callback_data='give'),InlineKeyboardButton('Draw', callback_data='start')],
+        [InlineKeyboardButton('Give', callback_data='give'),InlineKeyboardButton('Draw', callback_data='draw')],
         [InlineKeyboardButton('Increase', callback_data='increase'), InlineKeyboardButton('Inventory', callback_data='inventory')],
         [InlineKeyboardButton('Mycards', callback_data='mycards'), InlineKeyboardButton('Game', callback_data='game')],
         [InlineKeyboardButton('Support', callback_data='support'), InlineKeyboardButton('Group', callback_data='group')],
@@ -1429,6 +1429,16 @@ def st(update , context):
     query.edit_message_text('先启动机器人 /starts 后你的数据才会被记录\n'
                     'start the bot first with /starts so that your data will be recorded', reply_markup=reply_markup)
     return THIRD
+def inc(update , context):
+    query = update.callback_query
+    keyboard = [
+        [InlineKeyboardButton('Back\n回去', callback_data='back')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    query.edit_message_text('花费5个魔法石增加5个背包空间\n'
+                    'spend 5 diamonds to increase 5 bag space', reply_markup=reply_markup)
+    return THIRD
+
 def gi(update , context):
     query = update.callback_query
     keyboard = [
@@ -1621,7 +1631,8 @@ help_handler = ConversationHandler(
                 CallbackQueryHandler(dr, pattern='^' + str('draw') + '$'),
                 CallbackQueryHandler(gm, pattern='^' + str('game') + '$'),
                 CallbackQueryHandler(bk, pattern='^' + str('back') + '$'),
-                CallbackQueryHandler(ch, pattern='^' + str('channel') + '$')
+                CallbackQueryHandler(ch, pattern='^' + str('channel') + '$'), 
+                CallbackQueryHandler(inc, pattern='^' + str('increase') + '$') 
 
             ]
         },
