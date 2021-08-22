@@ -1398,14 +1398,18 @@ def help(update , context):
         [InlineKeyboardButton('Give', callback_data='give'),InlineKeyboardButton('Draw', callback_data='draw')],
         [InlineKeyboardButton('Increase', callback_data='increase'), InlineKeyboardButton('Inventory', callback_data='inventory')],
         [InlineKeyboardButton('Mycards', callback_data='mycards'), InlineKeyboardButton('Game', callback_data='game')],
-        [InlineKeyboardButton('Support', callback_data='support'), InlineKeyboardButton('Group', callback_data='group')],
-        [InlineKeyboardButton('Channel', callback_data='channel')]
+        [InlineKeyboardButton('Support', callback_data='support'), InlineKeyboardButton('Group', callback_data='group'),InlineKeyboardButton('Channel', callback_data='channel')],
+        [InlineKeyboardButton('Close', callback_data='close')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     update.message.reply_text('以下是可以帮到你的信息，请在使用前阅读，谢谢合作\n\n'
                               'Below are explantion of the bot , please take a momment to read , thank you.',reply_markup=reply_markup)
     return THIRD
-
+  
+def cls(update , context):
+    cd = context.chat_data
+    context.bot.delete_message(chat_id = update.effective_chat.id, message_id = cd['message'].message_id)
+    
 def bk(update , context):
     cd = context.chat_data
     query = update.callback_query
@@ -1413,8 +1417,8 @@ def bk(update , context):
         [InlineKeyboardButton('Give', callback_data='give'),InlineKeyboardButton('Draw', callback_data='draw')],
         [InlineKeyboardButton('Increase', callback_data='increase'), InlineKeyboardButton('Inventory', callback_data='inventory')],
         [InlineKeyboardButton('Mycards', callback_data='mycards'), InlineKeyboardButton('Game', callback_data='game')],
-        [InlineKeyboardButton('Support', callback_data='support'), InlineKeyboardButton('Group', callback_data='group')],
-        [InlineKeyboardButton('Channel', callback_data='channel')]
+        [InlineKeyboardButton('Support', callback_data='support'), InlineKeyboardButton('Group', callback_data='group'),InlineKeyboardButton('Channel', callback_data='channel')],
+        [InlineKeyboardButton('Close', callback_data='close')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     query.edit_message_text('以下是可以帮到你的信息，请在使用前阅读，谢谢合作\n\n'
@@ -1499,17 +1503,17 @@ def dr(update , context):
         [InlineKeyboardButton('Back\n回去', callback_data='back')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
-    query.edit_message_text('*抽卡机*\n'
+    query.edit_message_text('<b>抽卡机</B>\n'
                     '◊ 请写 /draw 卡池名字'
                     '◊ 每次要等6秒后才可以再使用以避免炸群\n'
                     '◊ 每次抽卡花费 5 魔法石\n'
                     '◊ 要比较顺的抽卡体验请到私聊抽哦\n'
                     '\n'
-                    '*card slots*\n'
+                    '<b>card slots</b>\n'
                     'please write /draw card slot name\n'
-                    'bot have been set to sleep 6 sec after every draw to avoid spam\n'
+                    'bot have been set to sleep 6 sec after every draw to avoid spam.\n'
                     'every draw cost 5 diamonds\n'
-                    'draw in pm if you want smoother experience', reply_markup=reply_markup, parse_mode = ParseMode.MARKDOWN_V2)
+                    'draw in pm if you want smoother experience', reply_markup=reply_markup, parse_mode = ParseMode.HTML)
     return THIRD
 def gm(update , context):
     query = update.callback_query
@@ -1632,7 +1636,8 @@ help_handler = ConversationHandler(
                 CallbackQueryHandler(gm, pattern='^' + str('game') + '$'),
                 CallbackQueryHandler(bk, pattern='^' + str('back') + '$'),
                 CallbackQueryHandler(ch, pattern='^' + str('channel') + '$'), 
-                CallbackQueryHandler(inc, pattern='^' + str('increase') + '$') 
+                CallbackQueryHandler(inc, pattern='^' + str('increase') + '$'),
+                CallbackQueryHandler(cls, pattern='^' + str('close') + '$')
 
             ]
         },
