@@ -1704,6 +1704,7 @@ dispatcher.add_handler(MYCARDS_HANDLER)
 dispatcher.add_handler(increase_handler)
 dispatcher.add_handler(pop_handler)
 dispatcher.add_handler(game_handler)
+dispatcher.add_handler(help_handler)
 dispatcher.add_handler(sex_HANDLER)
 
 
