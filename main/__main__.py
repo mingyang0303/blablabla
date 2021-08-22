@@ -776,7 +776,7 @@ def add(update , context):
     msg = update.message.text.split()[1]
     user_name = update.message.from_user.first_name
     to = update.message.reply_to_message.from_user.first_name
-    user_id = update.message.reply_to_message.from_user.id
+    to_id = update.message.reply_to_message.from_user.id
     user_id = update.message.from_user.id
 
     a = context.bot.get_chat_member(chat_id=update.effective_chat.id, user_id=update.effective_user.id).status
@@ -785,7 +785,7 @@ def add(update , context):
     msg = int(msg)
 
     if user_id in owners:
-         DB.add_diamonds(user_id, msg)
+         DB.add_diamonds(to_id, msg)
          update.message.reply_text(f'{user_name} 奖励 {msg}魔法石💎给 {to}\n'
                                f'{user_name} gift {msg} diamonds to {to}')
 
