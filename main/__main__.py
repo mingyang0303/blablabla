@@ -1409,6 +1409,7 @@ def help(update , context):
 def cls(update , context):
     cd = context.chat_data
     context.bot.delete_message(chat_id = update.effective_chat.id, message_id = cd['message'].message_id)
+    return THIRD
     
 def bk(update , context):
     cd = context.chat_data
