@@ -1507,7 +1507,7 @@ def dr(update , context):
                     '\n'
                     '*card slots*\n'
                     'please write /draw card slot name\n'
-                    'bot have been set to sleep 6 sec after every draw to avoid spam.\n'
+                    'bot have been set to sleep 6 sec after every draw to avoid spam\n'
                     'every draw cost 5 diamonds\n'
                     'draw in pm if you want smoother experience', reply_markup=reply_markup, parse_mode = ParseMode.MARKDOWN_V2)
     return THIRD
