@@ -22,7 +22,7 @@ ONE , TWO , THREE , FIRST , SECOND,  *_ = range(50)
 #callback data
 
 
-S_START , S_INCREASE ,S_POP , FIRST , SECOND , *_ = range(1000)
+S_START , S_INCREASE ,S_POP , FIRST , SECOND ,THIRD *_ = range(1000)
 owners = [163494588,652962567,1027794428,801509492,935241907]
 
 updater = Updater(token='1736686159:AAFG0jC4qEHE5ahhc_F7kZY-LMH5UR1lxAM', use_context=True)
@@ -706,7 +706,8 @@ def draw(update ,context):
      if user_exp >= user_level*500:
          DB.add_exp(user_id,-user_exp)
          DB.add_level(user_id)
-         context.bot.send_message(chat_id=update.effective_chat.id, text=f'{user} 升级到了 level : {user_level + 1}\n type /inventory again to refresh'
+         DB.add_diamonds(user_id , 5)
+         context.bot.send_message(chat_id=update.effective_chat.id, text=f'{user} 升级到了 level : {user_level + 1}\n 魔法石 +5 \nDiamonds +5\n\n type /inventory again to refresh'
                                                                          f'\n再按一次 /inventory 刷新')
 
 
@@ -1029,9 +1030,18 @@ def game(update: Update, context: CallbackContext):
         [InlineKeyboardButton("取消\ncancel", callback_data=str('cancel'))]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
-    update.message.reply_text(f"*{f}* 邀请 *{t}* 来个游戏\n"
+    if tid == context.bot.id:
+       update.message.reply_text('不能和机器人玩啊\n'
+                                  'You cant play with me bruh, reply to a human')
+       return ConversationHandler.END
+    if tid == fid:
+       update.message.reply_text('你傻的吗？跟自己玩？\n'
+                                      'whats wrong with you wanting to play with yourself??')
+       return ConversationHandler.END
+    if tid != fid:
+       update.message.reply_text(f"*{f}* 邀请 *{t}* 来个游戏\n"
                               f"*{f}* invite *{t}* to a game", reply_markup=reply_markup, parse_mode = ParseMode.MARKDOWN_V2)
-    return FIRST
+       return FIRST
 
 def cancel(update , context):
     cd = context.chat_data
@@ -1380,6 +1390,142 @@ def res(update: Update, context: CallbackContext):
             return ConversationHandler.END
 
         return FIRST
+      
+def help(update , context):
+    cd = context.chat_data
+    query = update.callback_query
+    keyboard = [
+        [InlineKeyboardButton('Give', callback_data='give'),InlineKeyboardButton('Draw', callback_data='start')],
+        [InlineKeyboardButton('Increase', callback_data='increase'), InlineKeyboardButton('Inventory', callback_data='inventory')],
+        [InlineKeyboardButton('Mycards', callback_data='mycards'), InlineKeyboardButton('Game', callback_data='game')],
+        [InlineKeyboardButton('Support', callback_data='support'), InlineKeyboardButton('Group', callback_data='group')],
+        [InlineKeyboardButton('Channel', callback_data='channel')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    update.message.reply_text('以下是可以帮到你的信息，请在使用前阅读，谢谢合作\n\n'
+                              'Below are explantion of the bot , please take a momment to read , thank you.',reply_markup=reply_markup)
+    return THIRD
+
+def bk(update , context):
+    cd = context.chat_data
+    query = update.callback_query
+    keyboard = [
+        [InlineKeyboardButton('Give', callback_data='give'),InlineKeyboardButton('Draw', callback_data='start')],
+        [InlineKeyboardButton('Increase', callback_data='increase'), InlineKeyboardButton('Inventory', callback_data='inventory')],
+        [InlineKeyboardButton('Mycards', callback_data='mycards'), InlineKeyboardButton('Game', callback_data='game')],
+        [InlineKeyboardButton('Support', callback_data='support'), InlineKeyboardButton('Group', callback_data='group')],
+        [InlineKeyboardButton('Channel', callback_data='channel')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    query.edit_message_text('以下是可以帮到你的信息，请在使用前阅读，谢谢合作\n\n'
+                              'Below are explantion of the bot , please take a moment to read , thank you.',reply_markup=reply_markup)
+    return THIRD
+def st(update , context):
+    query = update.callback_query
+    keyboard = [
+        [InlineKeyboardButton('Back\n回去', callback_data='back')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    query.edit_message_text('先启动机器人 /starts 后你的数据才会被记录\n'
+                    'start the bot first with /starts so that your data will be recorded', reply_markup=reply_markup)
+    return THIRD
+def gi(update , context):
+    query = update.callback_query
+    keyboard = [
+        [InlineKeyboardButton('Back\n回去', callback_data='back')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    query.edit_message_text('把你的金币给其他人\n'
+                    '- 不能给机器人或者自己，没效的\n'
+                    '- 不能写负数\n'
+                    '- 不能写除了数字以外的东西\n\n'
+                    'give your gold to other people for some reason\n'
+                    '- cant give to bot or yourself\n'
+                    '- cant write negative number\n'
+                    '- cant write non interger ', reply_markup=reply_markup)
+    return THIRD
+def inv(update , context):
+    query = update.callback_query
+    keyboard = [
+        [InlineKeyboardButton('Back\n回去', callback_data='back')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    query.edit_message_text('查看你的个人信息\n\n'
+                    'check your personal statistics', reply_markup=reply_markup)
+    return THIRD
+def grp(update , context):
+    query = update.callback_query
+    keyboard = [
+        [InlineKeyboardButton('Back\n回去', callback_data='back')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    query.edit_message_text('欢迎来这个群玩\n\n'
+                    'come and join here to play\n\n'
+                    '@Game_Gamez', reply_markup=reply_markup)
+    return THIRD
+def spt(update , context):
+    query = update.callback_query
+    keyboard = [
+        [InlineKeyboardButton('Back\n回去', callback_data='back')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    query.edit_message_text('想要通报任何bug和问题，或者想来看机器人测试的话可以来这里\n\n'
+                    'if you found any bug or issue with the bot , please report it here to our support group'
+                    ',or if you want to see the testing phase of the bot also can.\n\n'
+                    'https://t.me/joinchat/GGlHykJBL40zZWI1', reply_markup=reply_markup)
+    return THIRD
+def mc(update , context):
+    query = update.callback_query
+    keyboard = [
+        [InlineKeyboardButton('Back\n回去', callback_data='back')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    query.edit_message_text('来查看你的卡片或者炫耀\n\n'
+                    'to check what cards you have or to flex', reply_markup=reply_markup)
+    return THIRD
+def dr(update , context):
+    query = update.callback_query
+    keyboard = [
+        [InlineKeyboardButton('Back\n回去', callback_data='back')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    query.edit_message_text('*抽卡机*\n'
+                    '◊ 请写 /draw 卡池名字'
+                    '◊ 每次要等6秒后才可以再使用以避免炸群\n'
+                    '◊ 每次抽卡花费 5 魔法石\n'
+                    '◊ 要比较顺的抽卡体验请到私聊抽哦\n'
+                    '\n'
+                    '*card slots*\n'
+                    'please write /draw card slot name\n'
+                    'bot have been set to sleep 6 sec after every draw to avoid spam.\n'
+                    'every draw cost 5 diamonds\n'
+                    'draw in pm if you want smoother experience', reply_markup=reply_markup, parse_mode = ParseMode.MARKDOWN_V2)
+    return THIRD
+def gm(update , context):
+    query = update.callback_query
+    keyboard = [
+        [InlineKeyboardButton('Back\n回去', callback_data='back')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    query.edit_message_text('回复一个的信息以邀请他来玩游戏\n'
+                    '这个游戏类似于猜拳: 水>火>木\n'
+                    '游戏以双方3分开始计算，赢者扣0分，输家扣1分\n'
+                    '平局双方扣1分，其中一个人分数到零游戏结束\n\n'
+                    'Reply to someone to begin the game\n'
+                    '- Each player have 3 life point, if one of the player life point drop to 0 the other player wins\n'
+                            '- Choose one of the elements water, fire, and earth to attach the player.\n'
+                            '- (Water > Fire >Earth)\nYou will get 100 Gold and 100 EXP when you win. The loser get nothing.', reply_markup=reply_markup)
+    return THIRD
+def ch(update , context):
+    query = update.callback_query
+    keyboard = [
+        [InlineKeyboardButton('Back\n回去', callback_data='back')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    query.edit_message_text('加入频道以获得机器人最新消息谢谢\n'
+                    'Join Channel to be updated with latest news'
+                    '\n\nhttps://t.me/botsupportgourp', reply_markup=reply_markup)
+    return THIRD
 
 def sex(update , context):
     user = update.message.from_user.first_name
@@ -1456,6 +1602,28 @@ CallbackQueryHandler(res, pattern='^' + str('fire') + '$'),
 CallbackQueryHandler(res, pattern='^' + str('wood') + '$')
 
             ],
+        },
+        fallbacks=[],
+
+    allow_reentry=True,
+    per_user=False
+    )
+help_handler = ConversationHandler(
+        entry_points=[CommandHandler('help', help)],
+        states={
+            THIRD: [
+                CallbackQueryHandler(st, pattern='^' + str('start') + '$'),
+                CallbackQueryHandler(gi, pattern='^' + str('give') + '$'),
+                CallbackQueryHandler(inv, pattern='^' + str('inventory') + '$'),
+                CallbackQueryHandler(grp, pattern='^' + str('group') + '$'),
+                CallbackQueryHandler(spt, pattern='^' + str('support') + '$'),
+                CallbackQueryHandler(mc, pattern='^' + str('mycards') + '$'),
+                CallbackQueryHandler(dr, pattern='^' + str('draw') + '$'),
+                CallbackQueryHandler(gm, pattern='^' + str('game') + '$'),
+                CallbackQueryHandler(bk, pattern='^' + str('back') + '$'),
+                CallbackQueryHandler(ch, pattern='^' + str('channel') + '$')
+
+            ]
         },
         fallbacks=[],
 
