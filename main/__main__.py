@@ -1402,7 +1402,7 @@ def help(update , context):
         [InlineKeyboardButton('Close', callback_data='close')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
-    update.message.reply_text('以下是可以帮到你的信息，请在使用前阅读，谢谢合作\n\n'
+    cd['message'] = update.message.reply_text('以下是可以帮到你的信息，请在使用前阅读，谢谢合作\n\n'
                               'Below are explantion of the bot , please take a momment to read , thank you.',reply_markup=reply_markup)
     return THIRD
   
@@ -1422,7 +1422,7 @@ def bk(update , context):
         [InlineKeyboardButton('Close', callback_data='close')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
-    query.edit_message_text('以下是可以帮到你的信息，请在使用前阅读，谢谢合作\n\n'
+    cd['message'] = query.edit_message_text('以下是可以帮到你的信息，请在使用前阅读，谢谢合作\n\n'
                               'Below are explantion of the bot , please take a moment to read , thank you.',reply_markup=reply_markup)
     return THIRD
 def st(update , context):
