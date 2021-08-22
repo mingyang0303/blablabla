@@ -676,7 +676,7 @@ def draw(update ,context):
     user_bagslot = DB.get_user_value(user_id, "bagslot")
     user_maxbagslot = DB.get_user_value(user_id, "maxbagslot")
     if user_diamonds ==None:
-        update.message.reply_text('先启动/start')
+        update.message.reply_text('先启动\n /starts')
         return -1
     if user_diamonds < 5:
         update.message.reply_text('不够魔法石💎\nNot Enough Diamonds💎')
@@ -701,6 +701,7 @@ def draw(update ,context):
                     f'◈背包空间/bag slots : <b>{user_bagslot+1}/{user_maxbagslot}</b>📦\n\n\n'
                     f'<i><b>**卡片以加入背包/Card added to bag**</b></i>', parse_mode=ParseMode.HTML
         )
+     context.bot.send_message(chat_id=update.message.chat.id, text = f"[点击这里，推荐来这里抽卡/Click here](https://t.me/Game_Gamez)", parse_mode =ParseMode.MARKDOWN_V2) 
      DB.add_user_card(user_id,bb,eng)
      DB.add_exp(user_id, 500)
      if user_exp >= user_level*500:
@@ -723,15 +724,15 @@ def draw(update ,context):
                                   '◆　。。。。。。', parse_mode=ParseMode.HTML)
 
 
-def start(update , context):
+def starts(update , context):
     user_name = update.effective_user.first_name
     user = update.effective_user
     username = update.effective_user.name
     user_id = update.effective_user.id
     DB.add_user(user_id)
-    update.message.reply_text(f'♢ 欢迎 ♢ \n<b>{user_name}</b>\n<b>ID :</b> <code>{user_id}</code>'
-                              f'\n<b>USERNAME : {username}</b>\n\n\n'
-                              f'<b>您的资料已开始记录在数据库</b>', parse_mode =ParseMode.HTML)
+    update.message.reply_text(f'♢ 欢迎 ♢ \n*{user_name}*\n*ID :* {user_id}'
+                              f'\n*USERNAME : {username}*\n'
+                              f'*您的资料已开始记录在数据库*\n\n[点击这里/Click here](https://t.me/Game_Gamez)', parse_mode =ParseMode.MARKDOWN_V2)
     logger.info("User %s started the conversation.", user.first_name)
 
 
@@ -776,7 +777,7 @@ def add(update , context):
     msg = update.message.text.split()[1]
     user_name = update.message.from_user.first_name
     to = update.message.reply_to_message.from_user.first_name
-    user_id = update.message.reply_to_message.from_user.id
+    to_id = update.message.reply_to_message.from_user.id
     user_id = update.message.from_user.id
 
     a = context.bot.get_chat_member(chat_id=update.effective_chat.id, user_id=update.effective_user.id).status
@@ -785,7 +786,7 @@ def add(update , context):
     msg = int(msg)
 
     if user_id in owners:
-         DB.add_diamonds(user_id, msg)
+         DB.add_diamonds(to_id, msg)
          update.message.reply_text(f'{user_name} 奖励 {msg}魔法石💎给 {to}\n'
                                f'{user_name} gift {msg} diamonds to {to}')
 
@@ -1515,7 +1516,7 @@ CHECK_HANDLER = CommandHandler('check', check)
 INVENTORY_HANDLER = CommandHandler('inventory', inventory)
 DRAW_HANDLER = CommandHandler('draw', draw)
 SLOT_HANDLER = CommandHandler('slot', slot)
-START_HANDLER = CommandHandler('start', start)
+START_HANDLER = CommandHandler('starts', starts)
 CREDIT_HANDLER = CommandHandler('credit', credit)
 ADD_HANDLER = CommandHandler('add', add)
 GIVE_HANDLER = CommandHandler('give', give)
