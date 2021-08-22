@@ -22,7 +22,7 @@ ONE , TWO , THREE , FIRST , SECOND,  *_ = range(50)
 #callback data
 
 
-S_START , S_INCREASE ,S_POP , FIRST , SECOND ,THIRD *_ = range(1000)
+S_START , S_INCREASE ,S_POP , FIRST , SECOND ,THIRD, *_ = range(1000)
 owners = [163494588,652962567,1027794428,801509492,935241907]
 
 updater = Updater(token='1736686159:AAFG0jC4qEHE5ahhc_F7kZY-LMH5UR1lxAM', use_context=True)
