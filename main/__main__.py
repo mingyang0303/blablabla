@@ -701,7 +701,6 @@ def draw(update ,context):
                     f'◈背包空间/bag slots : <b>{user_bagslot+1}/{user_maxbagslot}</b>📦\n\n\n'
                     f'<i><b>**卡片以加入背包/Card added to bag**</b></i>', parse_mode=ParseMode.HTML
         )
-     context.bot.send_message(chat_id=update.message.chat.id, text = f"[点击这里，推荐来这里抽卡/Click here](https://t.me/Game_Gamez)", parse_mode =ParseMode.MARKDOWN_V2) 
      DB.add_user_card(user_id,bb,eng)
      DB.add_exp(user_id, 500)
      if user_exp >= user_level*500:
