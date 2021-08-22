@@ -676,7 +676,7 @@ def draw(update ,context):
     user_bagslot = DB.get_user_value(user_id, "bagslot")
     user_maxbagslot = DB.get_user_value(user_id, "maxbagslot")
     if user_diamonds ==None:
-        update.message.reply_text('先启动/start')
+        update.message.reply_text('先启动\n /starts')
         return -1
     if user_diamonds < 5:
         update.message.reply_text('不够魔法石💎\nNot Enough Diamonds💎')
