@@ -686,7 +686,7 @@ def draw(update ,context):
         return -1
 
 
-    if msg == '古币' or msg == 'gubi' or msg == 古幣:
+    if msg == '古币' or msg == 'gubi' or msg == '古幣':
      DB.add_diamonds(user_id, -5)
      DB.add_slot(user_id)
      a = update.message.reply_text(f'3')
