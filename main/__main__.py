@@ -716,7 +716,7 @@ def check(update , context):
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     if ch_name == None:
-        update.message.reply_text('Not available')
+        update.message.reply_text('failed : 角色还没加入资料库')
         return ConversationHandler.END
     update.message.reply_text(f'<b>{ch_lead}</b>', reply_markup=reply_markup, parse_mode = ParseMode.HTML)
     return CHECK
@@ -811,46 +811,6 @@ def tr_ch(update , context):
     query.message.edit_text(f'<b>{chi_lead}</b>', reply_markup=reply_markup,
                               parse_mode=ParseMode.HTML)
     return CHECK
-
-def check(update , context):
-
-    msg = update.message.text
-    msg = msg.split()[-1]
-    user = update.effective_user.name
-    bot = context.bot
-    pic = filter(msg)
-    des = text(msg)
-    '''if msg == "蚩尤":
-     bot.send_photo(
-        chat_id=update.message.chat.id,
-        photo='AgACAgUAAx0CTuGbpwADHGEKA9aw3sJu4WBTURW9CpuLpnipAAJIrTEbJgpQVPuzcpBXJ8cTAQADAgADcwADIAQ',
-        caption=f'白痴油', parse_mode=ParseMode.HTML
-    )
-    elif msg == '姬臣':
-        bot.send_photo(
-            chat_id=update.message.chat.id,
-            photo='AgACAgUAAx0CTuGbpwADVGEKB1OjZ3tE-TA2VezvHhnThX_rAAJMrTEbJgpQVBtS5-8WRB_VAQADAgADcwADIAQ',
-            caption=f'<b>name : 姬臣</b>\n'
-                    f'<b>HP : 5624</b>\n'
-                    f'<b>DMG : 1987</b>\n'
-                    f'<b>HEAL : 246</b>\n', parse_mode=ParseMode.HTML)
-    elif msg == '英格丽':
-        bot.send_photo(
-            chat_id=update.message.chat.id,
-            photo='AgACAgUAAx0CTuGbpwADmWEKCgABF8hOHQ1vFRC6xKrLr5IMkAACVq0xGyYKUFTOb-Y6BY4LMQEAAwIAA3MAAyAE',
-            caption=f'<b>name : 英格丽</b>\n'
-                    f'<b>HP : 3034</b>\n'
-                    f'<b>DMG : 1907</b>\n'
-                    f'<b>HEAL : 450</b>\n', parse_mode=ParseMode.HTML)'''
-    if msg in char:
-        bot.send_photo(
-            chat_id=update.message.chat.id,
-            photo=f'{pic}',
-            caption=f'{user}的:\n\n{des}', parse_mode=ParseMode.HTML
-        )
-
-    else:
-     update.message.reply_text('failed : 角色还没加入资料库')
 
 def draw(update ,context):
     msg = update.message.text.split()[-1]
