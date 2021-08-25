@@ -1645,7 +1645,7 @@ help_handler = ConversationHandler(
         fallbacks=[],
 
     allow_reentry=True,
-    per_user=False
+    per_user=True
     )
 
 ver_chats = [] # Fetch a list of aproved group IDs from the database
