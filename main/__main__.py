@@ -661,7 +661,7 @@ checker = [
     },
   {'chi_name':'撒旦',
 'chif_name':'撒旦',
-'eng_name':'Satan',
+'eng_name':'satan',
 'chi_act':'追魂之幽 ‧ 魔暴 CD8\n\n'
 '  I.引爆場上所有風化符石及凍結符石\n'
 ' II.將所有符石添加為魔族符石\n'
