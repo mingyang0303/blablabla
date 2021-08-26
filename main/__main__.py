@@ -592,8 +592,8 @@ ancts = [{'name': '德王顯仁・敖廣',
 }]
 
 checker = [
-    {'chi_name' : 'test',
-     'chif_name': '切西亚',
+    {'chi_name' : '切西亚',
+     'chif_name': '切西亞',
      'eng_name': 'Chessia',
      'chi_lead': '透幻烈燄 \n\nI. 火屬性攻擊力 4.8 倍, 生命力及回復力 1.3 倍 '
                 '\nII. 消除符石的種類愈多，火屬性攻擊力額外提升愈多：\n⇒ 消除 2 種 1.5 倍\n⇒ 消除 4 種可達至最大 2.1 倍',
@@ -666,6 +666,16 @@ def biodata_ch_name(x):
   for key in dict:
    if dict[key] == x:
        return dict['chi_name']
+def biodata_chf_name(x):
+ for dict in checker:
+  for key in dict:
+   if dict[key] == x:
+       return dict['chif_name']
+def biodata_en_name(x):
+ for dict in checker:
+  for key in dict:
+   if dict[key] == x:
+       return dict['eng_name']
 def biodata_ch_lead(x):
  for dict in checker:
   for key in dict:
@@ -703,6 +713,8 @@ def check(update , context):
     query = update.callback_query
     user = update.effective_user.name
     ch_name = cd['chi_name'] = biodata_ch_name(msg)
+    chf_name = cd['chif_name'] = biodata_chf_name(msg)
+    en_name = cd['en_name'] = biodata_en_name(msg)
     ch_lead = cd['chi_lead'] = biodata_ch_lead(msg)
     ch_act = cd['chi_act'] = biodata_ch_act(msg)
     ch_team = cd['chi_team'] = biodata_ch_team(msg)
@@ -716,6 +728,12 @@ def check(update , context):
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     if ch_name == None:
+        update.message.reply_text('failed : 角色还没加入资料库')
+        return ConversationHandler.END
+    if chf_name == None:
+        update.message.reply_text('failed : 角色还没加入资料库')
+        return ConversationHandler.END
+    if en_name == None:
         update.message.reply_text('failed : 角色还没加入资料库')
         return ConversationHandler.END
     update.message.reply_text(f'<b>{ch_lead}</b>', reply_markup=reply_markup, parse_mode = ParseMode.HTML)
