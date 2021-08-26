@@ -591,7 +591,7 @@ ancts = [{'name': '德王顯仁・敖廣',
 'star': '★ ★ ★ ★ ★ ★ ★ ☆ ☆'
 }]
 
-checker = [
+'''checker = [
     {'chi_name' : '切西亚',
      'chif_name': '切西亞',
      'eng_name': 'chessia',
@@ -863,7 +863,7 @@ def tr_ch(update , context):
     reply_markup = InlineKeyboardMarkup(keyboard)
     query.message.edit_text(f'<b>{chi_lead}</b>', reply_markup=reply_markup,
                               parse_mode=ParseMode.HTML)
-    return CHECK
+    return CHECK'''
 
 def draw(update ,context):
     msg = update.message.text.split()[-1]
@@ -1812,7 +1812,7 @@ pop_handler = ConversationHandler(
     per_user=False
 
 )
-check_handler = ConversationHandler(
+'''check_handler = ConversationHandler(
         entry_points=[CommandHandler('check', check)],
         states={
             CHECK: [
@@ -1832,7 +1832,7 @@ check_handler = ConversationHandler(
 
     allow_reentry=True,
     per_user=True
-    )
+    )'''
 
 game_handler = ConversationHandler(
         entry_points=[CommandHandler('game', game)],
@@ -1942,7 +1942,7 @@ MYCARDS_HANDLER = CommandHandler('mycards', mycards)
 sex_HANDLER = CommandHandler('sex', sex)
 
 dispatcher.add_handler(refute_handler)
-dispatcher.add_handler(check_handler)
+
 dispatcher.add_handler(DRAW_HANDLER)
 dispatcher.add_handler(INVENTORY_HANDLER)
 dispatcher.add_handler(SLOT_HANDLER)
