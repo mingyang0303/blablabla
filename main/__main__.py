@@ -1667,7 +1667,7 @@ def spt(update , context):
     query.edit_message_text('想要通报任何bug和问题，或者想来看机器人测试的话可以来这里\n\n'
                     'if you found any bug or issue with the bot , please report it here to our support group'
                     ',or if you want to see the testing phase of the bot also can.\n\n'
-                    'https://t.me/joinchat/GGlHykJBL40zZWI1', reply_markup=reply_markup)
+                    'https://t.me/joinchat/T5T8DXtuPdk4Y2Q1', reply_markup=reply_markup)
     return THIRD
 def mc(update , context):
     query = update.callback_query
