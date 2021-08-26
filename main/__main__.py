@@ -657,7 +657,7 @@ ancts = [{'name': '德王顯仁・敖廣',
 'IV. When 7* Monster of "The Fallen Halos - Power Release" attacks and Heart Runestones are not dissolved, impose a Mark on an enemy for 3 Rounds (only the first batch of Runestones dissolved will be counted) (dissovling Runestones is necessary). For each enemy with the Mark defeated, Active Skill CD(s) of 7* Monsters of "The Fallen Halos - Power Release" -1.\n'
 'V. When 4 or more Combos are made, Team Attack x 2.4 additionally.\n'
 'Condition:\n'
-'Both the Leader and Ally are "Spacial Distortion - Abraham".',
+'Both the Leader and Ally are "Spacial Distortion - Abraham".'
     },
   {'chi_name':'撒旦',
 'chif_name':'撒旦',
@@ -692,7 +692,83 @@ ancts = [{'name': '德王顯仁・敖廣',
 'Dark Runestones also possess the effect of Heart Runestones.\n\n'
 'By dissolving Dark Runestones, turn Dark Runestones into Demon Runestones in the next Round.\n\n'
 'Condition:\n'
-'Both the Leader and Ally are "Beyond Salvation - Satan".'}
+'Both the Leader and Ally are "Beyond Salvation - Satan".'
+},
+{'chi_name':'吕布',
+'chif_name':'呂布',
+'eng_name':'lubu',
+'chi_act':'玄靈滅絕 ‧ 暗流之擊 CD5 \n\n'
+' i.將光及心符石\n'
+'⇒ 轉化為暗人族強化符石 \n'
+'1 回合內\n'
+'II. 首批消除 1 組暗符石的數量愈多\n'
+'⇒ 連擊 (Combo) 數目增加愈多\n'
+'⇒ 消除 1 組 10 粒暗符石\n'
+'可增加最多 10 連擊 (Combo)',
+'eng_act':'Overwhelming Flow of Darkness CD5 \n\n'
+'I. Turn Light and Heart Runestones into Enchanted Dark Human Runestones.\n'
+'II. For 1 Round, the more the Dark Runestones dissolved in a group in the first batch, the more the Combo count increases, to the max Combo count +10 for a group of 10 Dark Runestones dissolved.',
+'chi_lead':'队长技能名字\n\n'
+'虓虎之勇 ‧ 殺伐\n'
+'I. 暗屬性攻擊力 5 倍\n'
+'II. 暗屬性人類生命力及回復力 1.4 倍\n'
+'III. 單體攻擊轉化為全體攻擊\n'
+'IV. 必然延長移動符石時間 1 秒\n'
+'V. 每消除 1 組 ≥5 粒符石時\n'
+'⇒ 暗屬性攻擊力提升\n'
+'⇒ 消除 3 組可達至最大 2.8 倍',
+'eng_lead':'Slaughter of Roaring Tiger\n\n'
+'I. Dark Attack x 5.\n'
+'II. Dark Human HP & Recovery x 1.4.\n'
+'III. Single Attack becomes Full Attack.\n'
+'IV. Extend Runestone-moving time regardlessly by 1 second.\n'
+'V. By dissolving a group of 5 or more Runestones,\n'
+'⇒ Dark Attack increases additionally, to the max x 2.8 for 3 groups.',
+'chi_team':'队伍技能：\n\n'
+'I. 進入關卡後，\n'
+'「義軍」成員的技能 CD 減少 2\n'
+'II. 「義軍」成員的攻擊\n'
+'⇒ 無視敵人防禦力\n\n'
+'發動條件：\n'
+'以潛能解放「義軍」角色作隊長，\n'
+'且隊伍中有 ≥3 個「義軍」成員\n\n'
+'組合技能：懾魂魅靈 ‧ 屠殺流\n\n'
+'I. 將場上的符石轉化為\n'
+'⇒ 固定數量及位置的\n'
+'「暗及心」人族強化符石\n'
+'1 回合內\n'
+'II. 全隊攻擊力 3 倍\n'
+'III. 首批消除 1 組暗符石的數量愈多\n'
+'⇒ 連擊 (Combo) 數目增加愈多\n'
+'⇒ 消除 1 組 15 粒暗符石\n'
+'可增加最多 15 連擊 (Combo)\n'
+'IV. 發動技能的「月華穹 ‧ 貂蟬」\n'
+'⇒ 其當前技能 CD 減少 4\n'
+'發動條件：\n'
+'以「驍猛狂者 ‧ 呂布」及「月華穹 ‧ 貂蟬」作成員
+'(召喚獸等級達 50 或以上)\n',
+'eng_team':'Team Skill:\n'
+'The more the Runestones dissolved in a group, the higher the Team Attack, to the max x 2.5 additionally for a group of 10 Runestones dissolved.\n'
+'Condition:\n'
+'Both the Leader and Ally are Monsters of "Rebels".\n\n'
+'Team Skill:\n'
+'Turn the bottom row of Runestones into Dark Runestones at the end of each Round (Dissolving Runestones is necessary).\n'
+'Condition:\n'
+'Both the Leader and Ally are "Belligerent Mania - Lü Bu", with "Love of Fidelity - Diaochan" as a Team Member.\n\n'
+'Team Skill:\n\n'
+'I.Active Skill CDs of "Rebel Army" Members -2 after entering a Stage.\n'
+'II. Damage of "Rebel Army" Members will be dealt regardless of Defense.\n'
+'Condition:\n'
+'The Leader is a 7* Monster of "Rebel Army".\n'
+'There are 3 or more Members of "Rebel Army" in the Team.\n\n'
+'Combine Skill: Captivating Beauty - Massacre\n'
+'I. Turn Runestones into Enchanted Dark Human Runestones and Enchanted Heart Human\n' 'Runestones of fixed numbers and fixed positions.\n'
+'For 1 Round:\n'
+'II. Team Attack x 3.\n'
+'III. The more the Dark Runestones dissolved in a group in the first batch, the more the Combo count increases, to the max Combo count +15 for a group of 15 Dark Runestones dissolved.\n'
+'IV. Love of Fidelity - Diaochan\'s current Skill CD -4 upon the activation of its Active Skill.\n'
+'Condition:\n'
+'There are "Belligerent Mania - Lü Bu" and "Love of Fidelity - Diaochan" in the Team (the Monsters must reach Lv. 50 or above).\n'}
 ]
 
 def biodata_ch_name(x):
