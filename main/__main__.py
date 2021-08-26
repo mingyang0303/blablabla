@@ -658,7 +658,41 @@ checker = [
 'V. When 4 or more Combos are made, Team Attack x 2.4 additionally.\n'
 'Condition:\n'
 'Both the Leader and Ally are "Spacial Distortion - Abraham".',
-    }
+    },
+  {'chi_name':'撒旦',
+'chif_name':'撒旦',
+'eng_name':'Satan',
+'chi_act':'追魂之幽 ‧ 魔暴 CD8\n\n'
+'  I.引爆場上所有風化符石及凍結符石\n'
+' II.將所有符石添加為魔族符石\n'
+'III. 1 回合內，暗屬性攻擊力 2 倍，自身攻擊力額外提升 3 倍',
+'eng_act':'Soul-hunting Gloominess - EX CD8\n\n'
+'  I. Explode all Weathered Runestones and Frozen Runestones.\n'
+' II. Modify all Runestones to become Demon Runestones.\n'
+'III. For 1 Round, Dark Attack x 2; the Monster\'s Attack x 3 additionally.',
+'chi_lead':'血祭斷魂劍\n\n'
+' I. 暗屬性攻擊力 6 倍、生命力及回復力 1.3 倍\n'
+'II. 消除 ≥3 種符石及自身發動攻擊時\n'
+'⇒ 個人追打自身攻擊力 5 倍的暗屬性攻擊 1 次',
+'eng_lead':'Sword in Blood\n\n'
+' I. Dark Attack x 6; HP & Recovery x 1.3.\n'
+'II. By dissolving 3 or more types of Runestones, an extra Dark Attack as much as 5x the Monster\'s Attack will be launched when the Monster attacks',
+'chi_team':'隊伍技能：\n\n'
+'7 星「墮天」系列角色對敵人發動攻擊 (需消除符石) 及沒有首批消除心符石時，該敵人於下回合被附上「墮天印記」，持續 3 回合。\n\n'
+'每擊斃 1 隻附有「墮天印記」的敵人 (需消除符石)，7 星「墮天」系列角色的主動技能 CD 減少 1\n\n'
+'隊長的隊長技能「血祭斷魂劍」變為「血祭斷魂劍 ‧ 裂心」，當中於每回合移動並消除符石後，引爆所有心符石，直至場上沒有心符石\n\n'
+'暗符石兼具心符石效果\n\n'
+'消除暗符石時，下回合將暗符石轉化為魔族符石\n\n'
+'發動條件：\n'
+'以至高罪咎 ‧ 撒旦作隊長及戰友',
+'eng_team':'Team Skill:\n\n'
+'When 7* Monster of "The Fallen Halos - Power Release" attacks and Heart Runestones are not dissolved, impose a Mark on an enemy for 3 Rounds (only the first batch of Runestones dissolved will be counted) (dissovling Runestones is necessary).\n\n'
+'For each enemy with the Mark defeated, Active Skill CD(s) of 7* Monsters of "The Fallen Halos - Power Release" -1.\n\n'
+'Change the Leader Skill of the Leader from "Sword in Blood" to "Sword in Blood - Heart-cracking". Upon the completion of moving and dissolving Runestones each Round, all Heart Runestones will explode until there is no more Heart Runestone on the screen.\n\n'
+'Dark Runestones also possess the effect of Heart Runestones.\n\n'
+'By dissolving Dark Runestones, turn Dark Runestones into Demon Runestones in the next Round.\n\n'
+'Condition:\n'
+'Both the Leader and Ally are "Beyond Salvation - Satan".'}
 ]
 
 def biodata_ch_name(x):
