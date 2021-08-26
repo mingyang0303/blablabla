@@ -674,7 +674,7 @@ def biodata_chf_name(x):
 def biodata_en_name(x):
  for dict in checker:
   for key in dict:
-   if dict[key] == x.lower():
+   if dict[key] == x:
        return dict['eng_name']
 def biodata_ch_lead(x):
  for dict in checker:
@@ -710,6 +710,7 @@ def check(update , context):
     bot = context.bot
     cd = context.chat_data
     msg = update.message.text.split()[1]
+    msg = msg.lower()
     query = update.callback_query
     user = update.effective_user.name
     ch_name = cd['chi_name'] = biodata_ch_name(msg)
