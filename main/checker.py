@@ -286,8 +286,7 @@ def tr_ch(update , context):
     query.message.edit_text(f'<b>{chi_lead}</b>', reply_markup=reply_markup,
                               parse_mode=ParseMode.HTML)
     return CHECK
-
-  check_handler = ConversationHandler(
+check_handler = ConversationHandler(
         entry_points=[CommandHandler('check', check)],
         states={
             CHECK: [
@@ -309,7 +308,7 @@ def tr_ch(update , context):
     per_user=True
     )
   
-  dispatcher.add_handler(check_handler)
+dispatcher.add_handler(check_handler)
   
 logger = logging.getLogger()
 updater.start_polling()
