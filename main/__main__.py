@@ -2041,5 +2041,5 @@ for x, y in zip(cmdStrings, cmdFuncs):
 
 logger = logging.getLogger()
 
-updater.start_polling()
+updater.start_polling(clean = True)
 
