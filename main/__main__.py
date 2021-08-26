@@ -792,7 +792,7 @@ def eng_team(update , context):
     en_team = cd['eng_team']
     keyboard = [
         [InlineKeyboardButton('Ability', callback_data='eng_act'),
-         InlineKeyboardButton('Leader', callback_data='eng_leader'),
+         InlineKeyboardButton('Leader', callback_data='eng_lead'),
          InlineKeyboardButton('Translate\nCH', callback_data='translate_ch')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
@@ -1769,7 +1769,9 @@ check_handler = ConversationHandler(
                 CallbackQueryHandler(tr_en, pattern='^' + str('translate_en') + '$'),
                 CallbackQueryHandler(tr_ch, pattern='^' + str('translate_ch') + '$'),
                 CallbackQueryHandler(eng_act, pattern='^' + str('eng_act') + '$'),
-                CallbackQueryHandler(eng_team, pattern='^' + str('eng_team') + '$')
+                CallbackQueryHandler(eng_team, pattern='^' + str('eng_team') + '$'), 
+                CallbackQueryHandler(tr_en, pattern='^' + str('eng_lead') + '$')
+
 
             ]
         },
