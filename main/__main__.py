@@ -1166,6 +1166,10 @@ def end_pop(update , context):
     return S_POP
 
 def game(update: Update, context: CallbackContext):
+    if not update.message.reply_to_message:
+             update.message.reply_text('reply to someone')
+             return ConversationHandler.END
+
     cd = context.chat_data
     cd['fighter'] = update.effective_user.first_name
     cd['to'] = update.message.reply_to_message.from_user.first_name
