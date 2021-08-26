@@ -600,8 +600,8 @@ checker = [
      'eng_lead': 'Illusory Blaze\n\nI. Fire Attack x 4.8; HP & Recovery x 1.3.\n'
                 'II. The more types of Runestones dissolved, the higher the Fire Attack increases additionally:'
                 '\nFire Attack x 1.5 for 2 types of Runestones dissolved, to the max x 2.1 for 4 types',
-     'chi_act': '三原靈冕化陣 ‧ 神燄\n\n將所有符石隨機轉化為⇒ 「水、火、木及心」強化符石\n⓵ 同時火符石出現率上升\n⓶ 將火符石以火神族強化符石代替',
-     'eng_act':'Tricolor Circle - Blood & Blaze EX\n\nRandomly turn all Runestones into Enchanted Water, Enchanted Fire, Enchanted Earth and Enchanted Heart Runestones.'
+     'chi_act': '三原靈冕化陣 ‧ 神燄 CD6\n\n將所有符石隨機轉化為⇒ 「水、火、木及心」強化符石\n⓵ 同時火符石出現率上升\n⓶ 將火符石以火神族強化符石代替',
+     'eng_act':'Tricolor Circle - Blood & Blaze EX CD6\n\nRandomly turn all Runestones into Enchanted Water, Enchanted Fire, Enchanted Earth and Enchanted Heart Runestones.'
                '\n⓵ Increase the Occurrence rate of Fire Runestones.'
                '\n⓶ Fire Runestones will become Enchanted God Runestones.',
      'chi_team':'隊伍技能 : \n\nI隊長的隊長技能「透幻烈燄」變為「透幻烈燄 ‧ 裂心」於每回合移動符石後，引爆所有心符石，直至場上沒有心符石\n'
@@ -620,12 +620,12 @@ checker = [
     {'chi_name':'亚伯汗',
 'chif_name': '亞伯汗',
 'eng_name':'abraham',
-'chi_act': '深海连环\n\n'
+'chi_act': '深海连环 CD6\n\n'
 '1 回合内\n'
 'I. 延长移动符石时间至 12 秒\n'
 'II. 消除符石的组数愈多时，全队攻击力愈高\n'
 '⇒ 消除 10 组可达至最大 2.5 倍',
-'eng_act': 'Chains of Deep Sea\n\n'
+'eng_act': 'Chains of Deep Sea CD6\n\n'
 'For 1 Round:\n'
 'I. Extend Runestone-moving time to 12 seconds\n'
 'II. The more the groups of Runestones dissolved, the higher the Team Attack\n'
