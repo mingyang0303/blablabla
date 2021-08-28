@@ -6,7 +6,7 @@ from telegram.ext import Updater, CallbackQueryHandler, CallbackContext , Filter
 
 S_START , S_INCREASE ,S_POP , FIRST , SECOND ,THIRD,CHECK, *_ = range(1000)
 owners = [163494588,652962567,1027794428,801509492,935241907]
-
+dispatcher = updater.dispatcher
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 
