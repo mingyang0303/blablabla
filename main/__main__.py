@@ -22,12 +22,6 @@ ONE , TWO , THREE , FIRST , SECOND,  *_ = range(50)
 S_START , S_INCREASE ,S_POP , FIRST , SECOND ,THIRD,CHECK, *_ = range(1000)
 owners = [163494588,652962567,1027794428,801509492,935241907]
 
-updater = Updater(token='1736686159:AAFG0jC4qEHE5ahhc_F7kZY-LMH5UR1lxAM', use_context=True)
-dispatcher = updater.dispatcher
-
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    level=logging.INFO)
-
 ancts = [{'name': '德王顯仁・敖廣',
   'eng': 'Valor of the East Sea - Ao Guang',
   'link': 'https://telegra.ph/file/9c4fd13aded44c1176bea.jpg',
@@ -2035,8 +2029,4 @@ cmdStrings = ['inventory','slot', 'draw', 'starts','credit','give','add','mycard
 cmdFuncs = [inventory, slot, draw, starts , credit , give , add , mycards , sex, game , button , pop , increase]
 for x, y in zip(cmdStrings, cmdFuncs):
     dispatcher.add_handler(CommandHandler(x, y, filters = approved_chat_filter))
-
-logger = logging.getLogger()
-
-updater.start_polling(drop_pending_updates = True)
 
