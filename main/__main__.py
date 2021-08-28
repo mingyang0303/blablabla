@@ -4,7 +4,7 @@ from telegram.ext import CommandHandler, InlineQueryHandler, ConversationHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update, ParseMode
 from telegram.ext import Updater, CallbackQueryHandler, CallbackContext , Filters
 import random
-from main import checker
+from main import checker, dispatcher
 import json
 import os
 from telegram.ext.dispatcher import run_async
