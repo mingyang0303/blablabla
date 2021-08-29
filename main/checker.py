@@ -185,7 +185,7 @@ checker = [
 'There are "Belligerent Mania - Lü Bu" and "Love of Fidelity - Diaochan" in the Team (the Monsters must reach Lv. 50 or above).'},
 {'chi_name':'曹操', 
 'chif_name':'曹操', 
-'eng_name':'cao cao',
+'eng_name':'cao_cao',
 'chi_act':'星火延展．強 CD6\n\n'
 'I. 將 8 個 固定位置 的符石\n'
 '⇒ 轉化為火強化符石\n'
@@ -261,7 +261,7 @@ checker = [
 'There are 3 or more Members of "Red Army" in the Team.'},
      {'chi_name':'关羽', 
 'chif_name':'關羽', 
-'eng_name':'guan yu',
+'eng_name':'guan_yu',
 'chi_act':'三原流水刃 ‧ 強 CD 5\n\n'
 'I. 將光符石轉化為水強化符石\n'
 'II. 將暗符石轉化為火強化符石\n'
