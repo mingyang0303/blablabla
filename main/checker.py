@@ -258,7 +258,7 @@ checker = [
 'Boss Skill "Sticky Runestones" will be nullified.\n'
 'Condition:\n'
 'The Leader is a 7* Monster of "Red Army".\n'
-'There are 3 or more Members of "Red Army" in the Team.',
+'There are 3 or more Members of "Red Army" in the Team.'},
      {'chi_name':'关羽', 
 'chif_name':'關羽', 
 'eng_name':'guan yu',
