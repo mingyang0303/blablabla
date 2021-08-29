@@ -348,7 +348,7 @@ checker = [
 'IV. 全隊追打光屬性攻擊 2 次\n'
 '發動條件：\n'
 '以「驍銳武聖 ‧ 關羽」及「革導皇命 ‧ 劉備」作成員(召喚獸等級達 50 或以上)',
-'chi_team':'Team Skill:\n\n'
+'eng_team':'Team Skill:\n\n'
 'Change the Leader Skill of the Leader from "Final Vow of Fraternity" to "Final Vow of Fraternity - EX".\n\n'
 'When the Team consists of only Water, Fire and Earth Monsters:\n'
 'I. Water Runestones also possess 50% effects of other Attributive Runestones.\n'
