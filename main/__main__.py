@@ -2009,7 +2009,7 @@ sex_HANDLER = CommandHandler('sex', sex)
 
 dispatcher.add_handler(refute_handler)
 
-dispatcher.add_handler(DRAW_HANDLER)
+dispatcher.add_handler(DRAW_HANDLER, run_async =True)
 dispatcher.add_handler(INVENTORY_HANDLER)
 dispatcher.add_handler(SLOT_HANDLER)
 dispatcher.add_handler(START_HANDLER)
