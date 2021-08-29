@@ -636,7 +636,7 @@ def draw(update ,context):
          DB.add_level(user_id)
          DB.add_diamonds(user_id , 5)
          context.bot.send_message(chat_id=update.effective_chat.id, text=f'{user} 升级到了 level : {user_level + 1}\n 魔法石 +5 \nDiamonds +5\n\n type /inventory again to refresh'
-                                                                         f'\n再按一次 /inventory) 
+                                                                         f'\n再按一次 /inventory') 
     else:
         update.message.reply_text('没这个卡池/或者还没加入\n\n'
                                   '目前卡池 : \n'
