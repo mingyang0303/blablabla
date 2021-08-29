@@ -197,7 +197,7 @@ checker = [
 'I. Turn 8 Runestones at fixed positions into Enchanted Fire Runestones.\n'
 'For 1 Round:\n'
 'II. Extend Runestone-moving time to 10 seconds.\n'
-'III. By dissolving ≥4 groups of Fire Runestones, Team Attack x 2 additionally.'
+'III. By dissolving ≥4 groups of Fire Runestones, Team Attack x 2 additionally.',
 'chi_lead':'殘妒之熾燄\n\n'
 'I. 魔族及「紅軍」成員攻擊力 5 倍，\n'
 '生命力及回復力 1.4 倍\n'
@@ -272,7 +272,7 @@ checker = [
 'I. Turn Light Runestones into Enchanted Water Runestones.\n'
 'II. Turn Dark Runestones into Enchanted Fire Runestones.\n'
 'III. Turn Heart Runestones into Enchanted Earth Runestones.\n'
-'IV. For 1 Round, Water Runestones also possess 50% effect of Heart Runestones.'
+'IV. For 1 Round, Water Runestones also possess 50% effect of Heart Runestones.',
 'chi_lead':'結義盟誓\n\n'
 '隊伍中只有水、火及木屬性成員時：\n'
 'I. 水符石兼具 50% 其他屬性符石效果\n'
