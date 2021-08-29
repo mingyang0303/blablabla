@@ -205,7 +205,7 @@ checker = [
 'III. 消除火符石的組數愈多\n'
 '⇒ 火屬性及「紅軍」成員攻擊力提升愈多\n'
 '⇒ 4 組可達至最大 3.5 倍',
-'eng_lead';'Flames of Brutal Tyrant - EX\n\n'
+'eng_lead':'Flames of Brutal Tyrant - EX\n\n'
 'I. Attack of Demons & "Red Army" Members x 5; HP & Recovery x 1.4.\n'
 'II. Extend Runestone-moving time regardlessly by 1 second.\n'
 'III. The more the groups of Fire Runestones dissolved,\n'
