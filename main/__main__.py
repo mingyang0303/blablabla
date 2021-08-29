@@ -1641,7 +1641,7 @@ def refute(update, context):
 
 refute_handler = CommandHandler('unapprove', refute, filters=Filters.user(user_id=owners))
 INVENTORY_HANDLER = CommandHandler('inventory', inventory)
-DRAW_HANDLER = CommandHandler('draw', draw)
+DRAW_HANDLER = CommandHandler('draw', draw, run_async=True)
 SLOT_HANDLER = CommandHandler('slot', slot)
 START_HANDLER = CommandHandler('starts', starts)
 CREDIT_HANDLER = CommandHandler('credit', credit)
@@ -1652,7 +1652,7 @@ sex_HANDLER = CommandHandler('sex', sex)
 
 dispatcher.add_handler(refute_handler)
 
-dispatcher.add_handler(DRAW_HANDLER, run_async =True)
+dispatcher.add_handler(DRAW_HANDLER)
 dispatcher.add_handler(INVENTORY_HANDLER)
 dispatcher.add_handler(SLOT_HANDLER)
 dispatcher.add_handler(START_HANDLER)
