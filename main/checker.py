@@ -185,7 +185,7 @@ checker = [
 'There are "Belligerent Mania - Lü Bu" and "Love of Fidelity - Diaochan" in the Team (the Monsters must reach Lv. 50 or above).'},
 {'chi_name':'曹操', 
 'chif_name':'曹操', 
-'eng_name':'cao_cao',
+'eng_name':'caocao',
 'chi_act':'星火延展．強 CD6\n\n'
 'I. 將 8 個 固定位置 的符石\n'
 '⇒ 轉化為火強化符石\n'
@@ -261,7 +261,7 @@ checker = [
 'There are 3 or more Members of "Red Army" in the Team.'},
      {'chi_name':'关羽', 
 'chif_name':'關羽', 
-'eng_name':'guan_yu',
+'eng_name':'guanyu',
 'chi_act':'三原流水刃 ‧ 強 CD 5\n\n'
 'I. 將光符石轉化為水強化符石\n'
 'II. 將暗符石轉化為火強化符石\n'
@@ -395,8 +395,168 @@ checker = [
 'III. Water, Fire and Earth Runestones also possess 50% effect of Heart Runestones.\n'
 'IV. The Team launches 2 extra Light attacks.\n'
 'Condition:\n'
-'There are "Valorous Legend - Guan Yu" and "Fate of Revolution - Liu Bei" in the Team (the Monsters must reach Lv. 50 or above).'}
-     
+'There are "Valorous Legend - Guan Yu" and "Fate of Revolution - Liu Bei" in the Team (the Monsters must reach Lv. 50 or above).'},
+     {'chi_name':'月读', 
+'chif_name':'月讀', 
+'eng_name':'tsukuyomi',
+'chi_act':'凝时之念 ‧ 神  CD6\n\n'
+'I. 延长移动符石时间至 10 秒\n'
+'II. 于移动符石时间内，\n'
+'可任意移动符石而不会发动消除\n'
+'III. 敌方全体的防御力减至 0\n'
+'(效果会在关闭此技能或死亡后消失)\n\n'
+'此技能可随时关闭，关闭时：\n'
+'⓵ 将所有符石添加为神族符石\n'
+'⓶ 将暗符石转化为神族强化符石',
+'eng_act':'Time-freezing Notion - EX  CD6\n\n'
+'I. Extend Runestone-moving time to 10 seconds.\n'
+'II. Unlimited Runestone movement without dissolving within Runestone-moving time.\n'
+'III. Enemies\' Defense will be reduced to 0. The Skill stays in play until deactivation or defeated.\n\n'
+'This Skill can be deactivated anytime. Upon deactivation of the Skill:\n'
+'⓵ Modify all Runestones to become God Runestones.\n'
+'⓶ Turn Dark Runestones into Enchanted God Runestones.'，
+'chi_lead':'魅之花海 ‧ 盛\n\n'
+'I. 暗属性攻击力 6 倍，生命力及回复力 1.2 倍\n'
+'II. 回合结束时，\n'
+'随机将 3 粒暗强化符石四周的符石\n'
+'⇒ 转化为暗神族符石\n'
+'III. 消除神族符石时\n'
+'⇒ 暗属性攻击力额外 2.5 倍',
+'eng_lead':'Floral Sea of Shadow - EX\n\n'
+'I. Dark Attack x 6; HP & Recovery x 1.2.\n'
+'II. At the end of each Round,\n'
+'turn Runestones around 3 random Enchanted Dark Runestones into Dark God Runestones.\n'
+'III. By dissolving God Runestones,\n'
+'⇒ Dark Attack x 2.5 additionally.'，
+'chi_team':'队伍技能：\n\n'
+'消除符石前场上有种族符石\n'
+'⇒ 该种族成员攻击力 2.5 倍\n'
+'发动条件：\n'
+'以相同的潜解“大和”系列角色\n'
+'作队长及战友\n\n'
+'队伍技能：\n'
+'I. 首批消除 1 组暗符石的数量愈多\n'
+'⇒ 连击 (Combo) 数量增加愈多\n'
+'II. 首批消除 1 组 ≥12 粒暗符石\n'
+'⇒ 暗属性成员的攻击\n'
+'无视“指定形状盾”敌技\n'
+'发动条件：\n'
+'以“寂寥偶戏 ‧ 月读“作队长及战友.',
+'eng_team':'Team Skill:\n\n'
+'When there are Race Runestones before dissolving Runestones, Attack of that Race x 2.5.\n'
+'Condition:\n'
+'The Leader and Ally are the same Monster of “Yamato - Power Release”.\n\n'
+'Team Skill:\n'
+'I. The more Dark Runestones dissolved in a group in the first batch, the higher the Combo count.\n'
+'II. When a group of ≥12 Dark Runestones is dissolved in the first batch, Damage of Dark Members will be dealt regardless of Puzzle Shield.\n'
+'Condition:\n'
+'The Leader and Ally are “Lone Puppeteer - Tsukuyomi”.'},
+    {'chi_name':'天照',
+'chif_name':'天照',
+'eng_name':'amaterasu',
+'chi_act':'神权八咫镜 ‧ 强 CD10\n\n'
+'I. 将所有符石转化为神族强化符石\n'
+'2 回合内\n'
+'II. 吸收该回合敌人首次攻击伤害\n'
+'III. 以所吸收攻击力的 1000 倍\n'
+'⇒ 对其进行火属性反击\n'
+'(此伤害无视防御力及“强化突破”敌技',
+'eng_act':'Mighty Eight Hand Mirror - EX CD10\n\n'
+'I. Turn all Runestones into Enchanted God Runestones.\n'
+'For 2 Rounds,\n'
+'II. Absorb the first Attack of the first attacking enemy in the Round.\n'
+'III. Deal a Fire Damage as much as 1000x the absorbed Attack to it, regardless of Defense and Enchanted Runestone Shield.'
+'chi_lead':'焰神咒术．强\n\n'
+'I. 火属性及神族攻击力 6.5 倍\n'
+'II. 神族生命力及回复力 1.5 倍\n'
+'III. 火符石兼具 50% 其他符石效果\n'
+'IV. 消除 1 种符石 ≥8 粒时\n'
+'⇒ 火属性及神族攻击力额外 2.5 倍\n'
+'V. 消除 1 种符石 ≥15 粒时\n'
+'⇒ 火属性及神族攻击力额外 3 倍',
+'eng_lead':'Spell of Flames & Gods - EX\n\n'
+'I. Fire Attack and God Attack x 6.5.\n'
+'II. God HP & Recovery x 1.5.\n'
+'III. Fire Runestones also possess 50% effect of other Runestones.\n'
+'IV. If ≥8 Runestones of one type are dissolved, Fire & God Attack x 2.5 additionally.\n'
+'V. If ≥15 Runestones of one type are dissolved, Fire & God Attack x 3 additionally.',
+'chi_team':'队伍技能：\n\n'
+'消除符石前场上有种族符石\n'
+'⇒ 该种族成员攻击力 2.5 倍\n'
+'发动条件：\n'
+'以相同的潜解“大和”系列角色\n'
+'作队长及战友\n\n'
+'队伍技能：\n'
+'I. 队中主动技能 ≥CD 10 的成员\n'
+'⇒ 进入关卡后，技能 CD 减少 10\n'
+'II. 每次发动龙刻脉动后\n'
+'(只适用于首 2 次)\n'
+'⇒ 火属性神族成员技能 CD 减少 10\n')
+'III. 下回合开始时，\n'
+'将火符石转化为神族符石\n'
+'发动条件：\n'
+'以“馨阳晴爽 ‧ 天照”作队长及战友.',
+'eng_team':'Team Skill:\n\n'
+'When there are Race Runestones before dissolving Runestones, Attack of that Race x 2.5.\n'
+'Condition:\n'
+'The Leader and Ally are the same Monster of “Yamato - Power Release”.\n\n'
+'Team Skill:\n'
+'I. Monsters with Active Skill CD ≥10,\n'
+'⇒ Active Skill CD -10 after entering a Stage.\n'
+'II. Every time a Dragonic Compulsion is activated (only applicable for the first 2 times),\n'
+'⇒ Active Skill CD of Fire Gods -10.\n'
+'III. Turn Fire Runestones into God at the beginning of next Round.\n'
+'Condition:\n'
+'The Leader and Ally are “Radiant Sunshine - Amaterasu”.'},
+     {'chi_name':'伊邪那岐',
+'chif_name':'伊邪那岐',
+'eng_name':'izanagi',
+'chi_act':'靈木無量 ‧ 靈動 CD8\n\n'
+'I. 將場上所有符石轉化為\n'
+'⇒ 固定數量及位置 的\n'
+'「心及木神族」強化符石\n'
+'1 回合內\n'
+'II. 木及心符石\n'
+'首批 2 粒相連即可發動消除',
+'eng_act':'Immense Power of Earth Spirits - EX CD8\n'
+'I. Turn all Runestones into Enchanted Heart Runestones and Enchanted Earth God\n' 'Runestones of fixed numbers and fixed positions.\n'
+'For 1 Round,\n'
+'II. Earth and Heart Runestones can be dissolved by aligning 2 or more of them in the first batch.',
+'chi_lead':'藤木之靈 ‧ 延\n\n'
+'I. 木屬性攻擊力 6.5 倍，\n'
+' 生命力及回復力 1.2 倍\n'
+'II. 心符石兼具 50% 木符石效果\n'
+'III. 延長移動符石時間 1.5 秒\n'
+'IV. 同時消除木及心符石時\n'
+'⇒ 木屬性攻擊力額外 2 倍',
+'eng_lead':'Spirits of Vines - EX\n\n'
+'I. Earth Attack x 6.5; HP & Recovery x 1.2.\n'
+'II. Heart Runestones also possess 50% effect of Earth Runestones.\n'
+'III. Extend Runestone-moving time by 1.5 seconds.\n'
+'IV. If Earth and Heart Runestones are dissolved in the same Round,\n'
+'⇒ Earth Attack x 2 additionally.’，
+'chi_team':'隊伍技能：\n\n'
+'消除符石前場上有種族符石\n'
+'⇒ 該種族成員攻擊力 2.5 倍\n'
+'發動條件：\n'
+'以相同的潛解「大和」系列角色作隊長及戰友\n\n'
+'隊伍技能：\n'
+'I. 消除木符石時，回合結束時：\n'
+'將最底 1 橫行的符石轉化為\n'
+'⇒「木及心」神族強化符石各 3 粒\n'
+'II. 首批消除 ≥4 組木或心符石時\n'
+'⇒ 木屬性攻擊力 2 倍\n'
+'發動條件：\n'
+'以「顧眄相伴 ‧ 伊邪那岐」作隊長及戰友.',
+'eng_team':'Team Skill:\n\n'
+'When there are Race Runestones before dissolving Runestones, Attack of that Race x 2.5.\n'
+'Condition:\n'
+'The Leader and Ally are the same Monster of “Yamato - Power Release”.\n\n'
+'Team Skill:\n'
+'I. By dissolving Earth Runestones, turn the bottom row into 3 Enchanted Earth God Runestones and 3 Enchanted Heart God Runestones after the Round.\n'
+'II. When ≥4 groups of Earth or Heart Runestones are dissolved in the first batch, Earth Attack x 2.\n'
+'Condition:\n'
+'The Leader and Ally are “Resilient Love - Izanagi”.'}
 ]
 
 def biodata_ch_name(x):
