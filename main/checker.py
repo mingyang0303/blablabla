@@ -427,7 +427,7 @@ checker = [
 'II. At the end of each Round,\n'
 'turn Runestones around 3 random Enchanted Dark Runestones into Dark God Runestones.\n'
 'III. By dissolving God Runestones,\n'
-'⇒ Dark Attack x 2.5 additionally.'，
+'⇒ Dark Attack x 2.5 additionally.',
 'chi_team':'队伍技能：\n\n'
 '消除符石前场上有种族符石\n'
 '⇒ 该种族成员攻击力 2.5 倍\n'
@@ -465,7 +465,7 @@ checker = [
 'I. Turn all Runestones into Enchanted God Runestones.\n'
 'For 2 Rounds,\n'
 'II. Absorb the first Attack of the first attacking enemy in the Round.\n'
-'III. Deal a Fire Damage as much as 1000x the absorbed Attack to it, regardless of Defense and Enchanted Runestone Shield.'
+'III. Deal a Fire Damage as much as 1000x the absorbed Attack to it, regardless of Defense and Enchanted Runestone Shield.',
 'chi_lead':'焰神咒术．强\n\n'
 'I. 火属性及神族攻击力 6.5 倍\n'
 'II. 神族生命力及回复力 1.5 倍\n'
@@ -534,7 +534,7 @@ checker = [
 'II. Heart Runestones also possess 50% effect of Earth Runestones.\n'
 'III. Extend Runestone-moving time by 1.5 seconds.\n'
 'IV. If Earth and Heart Runestones are dissolved in the same Round,\n'
-'⇒ Earth Attack x 2 additionally.’，
+'⇒ Earth Attack x 2 additionally.’,
 'chi_team':'隊伍技能：\n\n'
 '消除符石前場上有種族符石\n'
 '⇒ 該種族成員攻擊力 2.5 倍\n'
