@@ -414,7 +414,7 @@ checker = [
 'III. Enemies\' Defense will be reduced to 0. The Skill stays in play until deactivation or defeated.\n\n'
 'This Skill can be deactivated anytime. Upon deactivation of the Skill:\n'
 '⓵ Modify all Runestones to become God Runestones.\n'
-'⓶ Turn Dark Runestones into Enchanted God Runestones.'，
+'⓶ Turn Dark Runestones into Enchanted God Runestones.',
 'chi_lead':'魅之花海 ‧ 盛\n\n'
 'I. 暗属性攻击力 6 倍，生命力及回复力 1.2 倍\n'
 'II. 回合结束时，\n'
