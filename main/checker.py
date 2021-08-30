@@ -534,7 +534,7 @@ checker = [
 'II. Heart Runestones also possess 50% effect of Earth Runestones.\n'
 'III. Extend Runestone-moving time by 1.5 seconds.\n'
 'IV. If Earth and Heart Runestones are dissolved in the same Round,\n'
-'⇒ Earth Attack x 2 additionally.’,
+'⇒ Earth Attack x 2 additionally.',
 'chi_team':'隊伍技能：\n\n'
 '消除符石前場上有種族符石\n'
 '⇒ 該種族成員攻擊力 2.5 倍\n'
