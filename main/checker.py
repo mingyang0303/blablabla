@@ -557,7 +557,7 @@ checker = [
 'II. When ≥4 groups of Earth or Heart Runestones are dissolved in the first batch, Earth Attack x 2.\n'
 'Condition:\n'
 'The Leader and Ally are “Resilient Love - Izanagi”.'},
-    {'chi_name':'亚瑟'，
+    {'chi_name':'亚瑟',
 'chif_name':'亞瑟',
 'eng_name':'arthur',
 'chi_act':'王之剑 CD7\n\n'
