@@ -653,8 +653,30 @@ checker = [
 'Team Skill:\n'
 'Active Skill CD of "Nohime the Alluring Beauty" -2.\n'
 'Condition:\n'
-'Both the Leader and Ally are "Nobunaga the Blazing Fervour", with "Nohime the Alluring Beauty" as a Team Member.'}
-    
+'Both the Leader and Ally are "Nobunaga the Blazing Fervour", with "Nohime the Alluring Beauty" as a Team Member.'},
+    {'chi_name':'丰臣秀吉',
+'chif_name':'豐臣秀吉',
+'eng_name':'Hideyoshi',
+'chi_act':' 藤棘術 CD3\n\n'
+'隨機將 4 至 7 粒符石轉化為木強化符石(光及暗符石優先轉換)',
+'eng_act':'Spell of Pricking Thorns CD3\n\n'
+'Turn 4 to 7 random Runestones into Enchanted Earth Runestones (Light and Dark Runestones rank first in priority).',
+'chi_lead':'木葉之森\n\n'
+'I. 消除 6 粒木符石時\n'
+'⇒ 木屬性人類攻擊力 3.75 倍\n'
+'II. 消除的木符石數量愈多\n'
+'⇒ 木屬性人類攻擊力愈高\n'
+'⇒ 消除 15 粒木符石可達至最大 6 倍',
+'eng_lead':'Leafy Forest\n\n'
+'By dissolving 6 Earth Runestones, Earth Human Attack x 3.75; the more Earth Runestones dissolved, the higher the Attack, to the max x 6 for 15 Earth Runestones.',
+'chi_team':'隊伍技能：\n\n'
+'扇頁浮金．豐臣秀吉及忌心妒者．明智光秀的主動技能 CD 減少 2\n'
+'發動條件：\n'
+'以扇頁浮金．豐臣秀吉作隊長及戰友',
+'eng_team':'Team Skill:\n\n'
+'Active Skill CDs of "Hideyoshi the Insatiable Greed" and "Akechi the Bloodthirsty Blade" -2.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Hideyoshi the Insatiable Greed".'}
 ]
 
 def biodata_ch_name(x):
