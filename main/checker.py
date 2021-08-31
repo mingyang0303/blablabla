@@ -656,7 +656,7 @@ checker = [
 'Both the Leader and Ally are "Nobunaga the Blazing Fervour", with "Nohime the Alluring Beauty" as a Team Member.'},
     {'chi_name':'丰臣秀吉',
 'chif_name':'豐臣秀吉',
-'eng_name':'Hideyoshi',
+'eng_name':'hideyoshi',
 'chi_act':' 藤棘術 CD3\n\n'
 '隨機將 4 至 7 粒符石轉化為木強化符石(光及暗符石優先轉換)',
 'eng_act':'Spell of Pricking Thorns CD3\n\n'
