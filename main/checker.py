@@ -677,7 +677,7 @@ checker = [
 'Active Skill CDs of "Hideyoshi the Insatiable Greed" and "Akechi the Bloodthirsty Blade" -2.\n'
 'Condition:\n'
 'Both the Leader and Ally are "Hideyoshi the Insatiable Greed".'},
-    {'chi_name:'本多忠胜',
+    {'chi_name':'本多忠胜',
 'chif_name':'本多忠勝',
 'eng_name':'honda',
 'chi_act':'百戰不摧 CD8\n\n'
