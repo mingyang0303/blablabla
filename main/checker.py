@@ -596,7 +596,7 @@ checker = [
 '水符石轉化為暗強化符石，下回合開始時，將本回合所消除強化符石的數量等值的符石轉化為暗強化符石 (水及光符石優先轉換)\n\n'
 '銳劍出鞘 CD5\n'
 '每回合自身攻擊力持續提升，最大 4 倍，直至自身沒有發動攻擊',
-'eng_name':'Dark Power of Blade CD5\n'
+'eng_act':'Dark Power of Blade CD5\n'
 'Turn Water Runestones into Enchanted Dark Runestones. At the beginning of next Round, turn Runestones into Enchanted Dark Runestones of a number same as that of the Enchanted Runestones dissolved in this Round (Water and Light Runestones rank first in priority).\n\n'
 'Sword Unsheathing CD5\n'
 'The Monster\'s Attack continues to increase every Round, to the max x 4, until no Attack is launched by the Monster.',
