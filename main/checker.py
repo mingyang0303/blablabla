@@ -588,7 +588,73 @@ checker = [
 'Team Skill:\n'
 'Active Skill CD of the first "Constantine the Master of Celebration" from the left -3.\n'
 'Condition:\n'
-'There are "Knight of Virtuousness - Arthur" and "Constantine the Master of Celebration" in the Team.'}
+'There are "Knight of Virtuousness - Arthur" and "Constantine the Master of Celebration" in the Team.'},
+    {'chi_name':'兰斯洛特',
+'chif_name':'蘭斯洛特',
+'eng_name':'lancelot',
+'chi_act':'暗黑之劍氣 CD5\n'
+'水符石轉化為暗強化符石，下回合開始時，將本回合所消除強化符石的數量等值的符石轉化為暗強化符石 (水及光符石優先轉換)\n\n'
+'銳劍出鞘 CD5\n'
+'每回合自身攻擊力持續提升，最大 4 倍，直至自身沒有發動攻擊',
+'eng_name':'Dark Power of Blade CD5\n'
+'Turn Water Runestones into Enchanted Dark Runestones. At the beginning of next Round, turn Runestones into Enchanted Dark Runestones of a number same as that of the Enchanted Runestones dissolved in this Round (Water and Light Runestones rank first in priority).\n\n'
+'Sword Unsheathing CD5\n'
+'The Monster\'s Attack continues to increase every Round, to the max x 4, until no Attack is launched by the Monster.',
+'chi_lead':'騎士之盟\n'
+'隊伍中只有火、木及暗屬性成員時：\n'
+'I. 全隊攻擊力 4 倍\n'
+'II. 消除心符石時\n'
+'⇒ 全隊攻擊力有 50% 機率額外 2 倍\n'
+'(機率可以疊加)',
+'eng_lead':'Alliance of Knights\n\n'
+'When the Team consists of only Fire, Earth and Dark Monsters, Team Attack x 4 and if Heart Runestones are dissolved, there will be a 50 chance of gaining an extra of x 2 (the probability can be summed up)',
+'chi_team':'沒有隊伍技能',
+'eng_team':'None'},
+    'chi_name':'梅林',
+'chif_name':'梅林',
+'eng_name':'merlin',
+'chi_act':'治癒之賦 ‧ 化擊 CD6\n\n'
+'1 回合內，隊伍成員的屬性愈多，回復力愈高，最大 3.5 倍；當隊伍中所有成員的回復力基值相同時，所有成員追打 1 次暗屬性傷害，並將全隊對敵方造成傷害的 5% 轉化為生命力 (不計算主動及隊長技傷害)',
+'eng_act':'Recovery Talent - Attack Conversion CD6\n\n'
+'For 1 Round, the more the Attributes of Monsters in the Team, the higher the Recovery, to the max x 3.5. When all Members have the same Recovery basic value, one extra Dark Attack will be launched by each Member; 5% of Damage dealt to enemies will be converted to HP Recovery (Damage dealt by Active and Leader Skills will not trigger the effect). ',
+'chi_lead':'暗黑回復魔法\n\n'
+'I. 妖精類攻擊力及回復力 4 倍\n'
+'II. 回合結束時，將心符石轉化為心強化符石',
+'eng_lead':'Dark Magic of Recovery\n\n'
+'Elf Attack & Recovery x 4. Turn Heart Runestones into Enchanted Heart Runestones after each Round.',
+'chi_team':'沒有隊伍技能',
+'eng_team':'None'},
+    {'chi_name':'织田信长',
+'chif_name':'織田信長',
+'eng_name':'nobunaga',
+'chi_act':'森涛尽噬 ‧ 赤火 CD6\n\n'
+'1 回合内，全队攻击力 1.3 倍；将火符石转化为火强化符石，并引爆场上所有水、木及心符石，以掉落火、光及暗强化符石',
+'eng_act':'Waves & Forests Burnt Down CD6\n\n'
+'Team Attack x 1.3 for 1 Round. Turn Fire Runestones into Enchanted Fire Runestones. Explode all Water, Earth and Heart Runestones to generate Enchanted Fire, Enchanted Light and Enchanted Dark Runestones.',
+'chi_lead':'焰刃袭\n\n'
+'I. 火属性“人类、龙类”攻击力 4.5 倍\n'
+'II. 延长移动符石时间 1 秒\n'
+'III. 消除 ≥12 粒火符石时\n'
+'⇒ 全队攻击力额外 1.5 倍',
+'eng_lead':'Raid of Flaming Blade\n\n'
+'Fire Human and Fire Dragon Attack x 4.5. Extend Runestone-moving time by 1 second. By dissolving 12 or more Fire Runestones, Team Attack x 1.5 additionally.',
+'chi_team':'队伍技能：\n\n'
+'光及暗符石兼具火符石效果\n'
+'发动条件：\n'
+'以烽火武心．织田信长作队长及战友\n\n'
+'队伍技能：\n'
+'华丝潋滟．浓姬的主动技能 CD 减少 2\n'
+'发动条件：\n'
+'以烽火武心．织田信长作队长及战友，并以华丝潋滟．浓姬作队员',
+'eng_team':'Team Skill:\n\n'
+'Light and Dark Runestones also possess the effect of Fire Runestones.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Nobunaga the Blazing Fervour".\n\n'
+'Team Skill:\n'
+'Active Skill CD of "Nohime the Alluring Beauty" -2.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Nobunaga the Blazing Fervour", with "Nohime the Alluring Beauty" as a Team Member.'}
+    
 ]
 
 def biodata_ch_name(x):
