@@ -610,7 +610,7 @@ checker = [
 'When the Team consists of only Fire, Earth and Dark Monsters, Team Attack x 4 and if Heart Runestones are dissolved, there will be a 50 chance of gaining an extra of x 2 (the probability can be summed up)',
 'chi_team':'沒有隊伍技能',
 'eng_team':'None'},
-    'chi_name':'梅林',
+    {'chi_name':'梅林',
 'chif_name':'梅林',
 'eng_name':'merlin',
 'chi_act':'治癒之賦 ‧ 化擊 CD6\n\n'
@@ -676,7 +676,32 @@ checker = [
 'eng_team':'Team Skill:\n\n'
 'Active Skill CDs of "Hideyoshi the Insatiable Greed" and "Akechi the Bloodthirsty Blade" -2.\n'
 'Condition:\n'
-'Both the Leader and Ally are "Hideyoshi the Insatiable Greed".'}
+'Both the Leader and Ally are "Hideyoshi the Insatiable Greed".'},
+    {'chi_name:'本多忠胜',
+'chif_name':'本多忠勝',
+'eng_name':'honda',
+'chi_act':'百戰不摧 CD8\n\n'
+'1 回合內，將我方所受傷害直接轉化為我方生命力。若該回合敵人沒有發動攻擊，下回合全隊攻擊力 2 倍',
+'eng_act':'Dauntless in Battles CD8\n\n'
+'Damage received will be converted to HP Recovery for 1 Round. If no Damage is received upon the Round of Skill activation, Team Attack x 2 in.',
+'chi_lead':'巨力之腕\n\n'
+'I. 隊伍中只有 2 種屬性成員時\n'
+'⇒ 全隊攻擊力 2.5 倍\n'
+'II. 若隊伍中有 ≥4 個人類成員\n'
+'⇒ 全隊攻擊力額外 2 倍',
+'eng_lead':'Fist of Immense Strength\n\n'
+'When there are only 2 Attributes in the Team, Team Attack x 2.5. If there are 4 or more Humans in the Team, Team Attack x 2 additionally.',
+'chi_team':'隊伍技能：\n\n'
+'水符石兼具光符石效果，同時光符石兼具水符石效果\n'
+'消除 4 連擊 (Combo) 或以上時，減少 35% 所受傷害\n'
+'發動條件：\n'
+'以豪拳斷罪．本多忠勝作隊長，並以九天應元 ‧ 聞仲、齊恆天帥‧ 姜子牙、僭逆王徒‧ 孫權、戀眷朝暮‧ 大喬與小喬或豪拳斷罪．本多忠勝作戰友',
+'eng_team':'Team Skill:\n\n'
+'Water Runestones also possess the effect of Light Runestones; Light Runestones also possess the effect of Water Runestones.\n'
+'If 4 or more Combos are made, Damage received -35%.\n'
+'Condition:\n'
+'The Leader is "Honda the Fist of Savagery", and the Ally is "Wen Zhong the Sagacious Welkinite", "Jiang Ziya, High Marshal of Empyrean", "Sun Quan the Lord of Veiled Ability", Genuine Sentiments - Qiao Sisters" or "Honda the Fist of Savagery".\n'
+'The Team consists of only Water and Light Monsters.'}
 ]
 
 def biodata_ch_name(x):
