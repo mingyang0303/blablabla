@@ -714,8 +714,7 @@ checker = [
 'IV. 魔族成员伤害 \n'
 '⇒ 可克制木属性目标'
 'V. 若队中有 ≥2 个魔族成员 \n'
-'⇒ 连击 (Ex. Combo、Combo)时攻击力提升 40%
-(效果会在关闭此技能或死亡后消失) \n\n'
+'⇒ 连击 (Ex. Combo、Combo)时攻击力提升 40% (效果会在关闭此技能或死亡后消失) \n\n'
 '此技能可随时关闭，关闭时：\n'
 '⓵ 自身每有 1 个金果 \n'
 '⇒ 该回合 + 3 Combo (最多 + 12 Combo) \n'
@@ -728,8 +727,7 @@ checker = [
 'III. Extend Runestone-moving time regardlessly by 1.5 seconds. \n'
 'IV. Damage of Demons can overpower Earth enemies. \n'
 'V. If there are ≥2 Demons in the Team, \n'
-'⇒ Attack bonus +40% for Ex.Combo or Combo made.
-(the Skill stays in play until deactivation or defeated) \n'
+'⇒ Attack bonus +40% for Ex.Combo or Combo made. (the Skill stays in play until deactivation or defeated) \n'
 'This Skill can be deactivated anytime. Upon deactivation of the Skill: \n'
 '⓵ For every Golden Fruit the Monster has, \n'
 '⇒ Combo count +3 this Round (max +12). \n'
