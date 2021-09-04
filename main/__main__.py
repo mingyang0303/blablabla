@@ -1468,7 +1468,7 @@ def ch(update , context):
     query.edit_message_text('加入频道以获得机器人最新消息谢谢\n'
                     'Join Channel to be updated with latest news'
                     '\n\nhttps://t.me/botsupportgourp', reply_markup=reply_markup)
-     return THIRD
+    return THIRD
 def ck(update , context):
     query = update.callback_query
     keyboard = [
