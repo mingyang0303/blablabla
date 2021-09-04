@@ -1325,7 +1325,7 @@ def help(update , context):
         [InlineKeyboardButton('Increase \n扩充背包', callback_data='increase'), InlineKeyboardButton('Inventory \n个人资产', callback_data='inventory')],
         [InlineKeyboardButton('Mycards \n拥有的卡', callback_data='mycards'), InlineKeyboardButton('Game \n小游戏', callback_data='game')],
         [InlineKeyboardButton('Support \n支援', callback_data='support'), InlineKeyboardButton('Group \n群组', callback_data='group')],
-        [InlineKeyboardButton('Channel \n频道', callback_data='channel'), InlineKeyboardButton("Check \n查找", callback_data = "Check")],
+        [InlineKeyboardButton('Channel \n频道', callback_data='channel'), InlineKeyboardButton("Check \n查找", callback_data = "check")],
         [InlineKeyboardButton('Close \n关闭', callback_data='close')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
@@ -1346,7 +1346,7 @@ def bk(update , context):
         [InlineKeyboardButton('Increase \n扩充背包', callback_data='increase'), InlineKeyboardButton('Inventory \n个人资产', callback_data='inventory')],
         [InlineKeyboardButton('Mycards \n拥有的卡', callback_data='mycards'), InlineKeyboardButton('Game \n小游戏', callback_data='game')],
         [InlineKeyboardButton('Support \n支援', callback_data='support'), InlineKeyboardButton('Group \n群组', callback_data='group')],
-        [InlineKeyboardButton('Channel \n频道', callback_data='channel'), InlineKeyboardButton("Check \n查找", callback_data = "Check")],
+        [InlineKeyboardButton('Channel \n频道', callback_data='channel'), InlineKeyboardButton("Check \n查找", callback_data = "check")],
         [InlineKeyboardButton('Close \n关闭', callback_data='close')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
@@ -1597,7 +1597,8 @@ help_handler = ConversationHandler(
                 CallbackQueryHandler(bk, pattern='^' + str('back') + '$'),
                 CallbackQueryHandler(ch, pattern='^' + str('channel') + '$'), 
                 CallbackQueryHandler(inc, pattern='^' + str('increase') + '$'),
-                CallbackQueryHandler(cls, pattern='^' + str('close') + '$')
+                CallbackQueryHandler(cls, pattern='^' + str('close') + '$'), 
+                CallbackQueryHandler(ck, pattern='^' + str('check') + '$') 
 
             ]
         },
