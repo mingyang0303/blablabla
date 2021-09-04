@@ -878,7 +878,7 @@ def end_increase(update , context):
 
 def pop(update , context):
     user = update.effective_user.first_name
-    msg = update.message.text 
+    msg = update.message_text 
     user_id = update.effective_user.id
     query = update.callback_query
     cd = context.chat_data
@@ -1321,11 +1321,11 @@ def help(update , context):
     cd = context.chat_data
     query = update.callback_query
     keyboard = [
-        [InlineKeyboardButton('Give', callback_data='give'),InlineKeyboardButton('Draw', callback_data='draw')],
-        [InlineKeyboardButton('Increase', callback_data='increase'), InlineKeyboardButton('Inventory', callback_data='inventory')],
-        [InlineKeyboardButton('Mycards', callback_data='mycards'), InlineKeyboardButton('Game', callback_data='game')],
-        [InlineKeyboardButton('Support', callback_data='support'), InlineKeyboardButton('Group', callback_data='group'),InlineKeyboardButton('Channel', callback_data='channel')],
-        [InlineKeyboardButton('Close', callback_data='close')]
+        [InlineKeyboardButton('Give \n给金币', callback_data='give'),InlineKeyboardButton('Draw \n抽卡', callback_data='draw')],
+        [InlineKeyboardButton('Increase \n扩充背包', callback_data='increase'), InlineKeyboardButton('Inventory \n个人资产', callback_data='inventory')],
+        [InlineKeyboardButton('Mycards \n拥有的卡', callback_data='mycards'), InlineKeyboardButton('Game \n小游戏', callback_data='game')],
+        [InlineKeyboardButton('Support \n支援', callback_data='support'), InlineKeyboardButton('Group \n群组', callback_data='group'),InlineKeyboardButton('Channel \n频道', callback_data='channel')],
+        [InlineKeyboardButton('Close \n关闭', callback_data='close')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     cd['message'] = update.message.reply_text('以下是可以帮到你的信息，请在使用前阅读，谢谢合作\n\n'
@@ -1341,11 +1341,11 @@ def bk(update , context):
     cd = context.chat_data
     query = update.callback_query
     keyboard = [
-        [InlineKeyboardButton('Give', callback_data='give'),InlineKeyboardButton('Draw', callback_data='draw')],
-        [InlineKeyboardButton('Increase', callback_data='increase'), InlineKeyboardButton('Inventory', callback_data='inventory')],
-        [InlineKeyboardButton('Mycards', callback_data='mycards'), InlineKeyboardButton('Game', callback_data='game')],
-        [InlineKeyboardButton('Support', callback_data='support'), InlineKeyboardButton('Group', callback_data='group'),InlineKeyboardButton('Channel', callback_data='channel')],
-        [InlineKeyboardButton('Close', callback_data='close')]
+        [InlineKeyboardButton('Give \n给金币', callback_data='give'),InlineKeyboardButton('Draw \n抽卡', callback_data='draw')],
+        [InlineKeyboardButton('Increase \n扩充背包', callback_data='increase'), InlineKeyboardButton('Inventory \n个人资产', callback_data='inventory')],
+        [InlineKeyboardButton('Mycards \n拥有的卡', callback_data='mycards'), InlineKeyboardButton('Game \n小游戏', callback_data='game')],
+        [InlineKeyboardButton('Support \n支援', callback_data='support'), InlineKeyboardButton('Group \n群组', callback_data='group'),InlineKeyboardButton('Channel \n频道', callback_data='channel')],
+        [InlineKeyboardButton('Close \n关闭', callback_data='close')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     cd['message'] = query.edit_message_text('以下是可以帮到你的信息，请在使用前阅读，谢谢合作\n\n'
