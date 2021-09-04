@@ -878,7 +878,7 @@ def end_increase(update , context):
 
 def pop(update , context):
     user = update.effective_user.first_name
-    msg = update.message.text 
+    msg = update.message
     user_id = update.effective_user.id
     query = update.callback_query
     cd = context.chat_data
