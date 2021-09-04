@@ -899,6 +899,7 @@ def pop(update , context):
                               f'*Claim* {b} diamond',
                               reply_markup=reply_markup, parse_mode=ParseMode.MARKDOWN_V2)
      context.bot.delete_message(chat_id = update.effective_chat.id, message_id = msg.message_id)
+  
     else:
       update.message.reply_text('not authorized')
     return S_POP
