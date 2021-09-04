@@ -878,6 +878,7 @@ def end_increase(update , context):
 
 def pop(update , context):
     user = update.effective_user.first_name
+    msg = update.message_text 
     user_id = update.effective_user.id
     query = update.callback_query
     cd = context.chat_data
@@ -892,11 +893,12 @@ def pop(update , context):
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     a = context.bot.get_chat_member(chat_id=update.effective_chat.id, user_id=update.effective_user.id).status
-
+    
     if user_id in owners:
      update.message.reply_text(f'*领取* {b} 魔法石 💎\n'
                               f'*Claim* {b} diamond',
                               reply_markup=reply_markup, parse_mode=ParseMode.MARKDOWN_V2)
+     context.bot.delete_message(chat_id = update.effective_chat.id, message_id = msg.message_id)
     else:
       update.message.reply_text('not authorized')
     return S_POP
