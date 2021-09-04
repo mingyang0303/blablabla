@@ -1324,7 +1324,8 @@ def help(update , context):
         [InlineKeyboardButton('Give \n给金币', callback_data='give'),InlineKeyboardButton('Draw \n抽卡', callback_data='draw')],
         [InlineKeyboardButton('Increase \n扩充背包', callback_data='increase'), InlineKeyboardButton('Inventory \n个人资产', callback_data='inventory')],
         [InlineKeyboardButton('Mycards \n拥有的卡', callback_data='mycards'), InlineKeyboardButton('Game \n小游戏', callback_data='game')],
-        [InlineKeyboardButton('Support \n支援', callback_data='support'), InlineKeyboardButton('Group \n群组', callback_data='group'),InlineKeyboardButton('Channel \n频道', callback_data='channel')],
+        [InlineKeyboardButton('Support \n支援', callback_data='support'), InlineKeyboardButton('Group \n群组', callback_data='group')],
+        [InlineKeyboardButton('Channel \n频道', callback_data='channel'), InlineKeyboardButton("Check \n查找", callback_data = "Check")],
         [InlineKeyboardButton('Close \n关闭', callback_data='close')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
@@ -1344,7 +1345,8 @@ def bk(update , context):
         [InlineKeyboardButton('Give \n给金币', callback_data='give'),InlineKeyboardButton('Draw \n抽卡', callback_data='draw')],
         [InlineKeyboardButton('Increase \n扩充背包', callback_data='increase'), InlineKeyboardButton('Inventory \n个人资产', callback_data='inventory')],
         [InlineKeyboardButton('Mycards \n拥有的卡', callback_data='mycards'), InlineKeyboardButton('Game \n小游戏', callback_data='game')],
-        [InlineKeyboardButton('Support \n支援', callback_data='support'), InlineKeyboardButton('Group \n群组', callback_data='group'),InlineKeyboardButton('Channel \n频道', callback_data='channel')],
+        [InlineKeyboardButton('Support \n支援', callback_data='support'), InlineKeyboardButton('Group \n群组', callback_data='group')],
+        [InlineKeyboardButton('Channel \n频道', callback_data='channel'), InlineKeyboardButton("Check \n查找", callback_data = "Check")],
         [InlineKeyboardButton('Close \n关闭', callback_data='close')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
@@ -1466,6 +1468,17 @@ def ch(update , context):
     query.edit_message_text('加入频道以获得机器人最新消息谢谢\n'
                     'Join Channel to be updated with latest news'
                     '\n\nhttps://t.me/botsupportgourp', reply_markup=reply_markup)
+     return THIRD
+def ck(update , context):
+    query = update.callback_query
+    keyboard = [
+        [InlineKeyboardButton('Back\n回去', callback_data='back')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    query.edit_message_text('查找资讯\n'
+                    'find something info\n'
+                    '例如：/check 切西亚 \n'
+                    'E.g：/check chessia', reply_markup=reply_markup)
     return THIRD
 
 def sex(update , context):
