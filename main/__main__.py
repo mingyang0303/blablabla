@@ -1533,7 +1533,7 @@ def swap_page(update, context):
      if len(finS)<10:
       query.answer("没了\nCan't go furthur") 
       return None
-    if query.data == "previous" and page>1:
+    if query.data == "previous":
      page-=1
      query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
                               f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
