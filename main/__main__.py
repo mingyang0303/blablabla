@@ -1501,7 +1501,7 @@ def mycards(update , context):
     cd["cards"] = finS
     for chink, engk in zip(cards, cards_en):
         for chinj, engj in zip(chink, engk):
-            finS += str(b) + ' ' + str(c) + ' ' + str(chinj) + '\n' + str(engj) + '\n\n'
+            finS.append(str(b) + ' ' + str(c) + ' ' + str(chinj) + '\n' + str(engj) + '\n\n')
             b += 1
     update.message.reply_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
                               f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
@@ -1581,8 +1581,7 @@ mycards_handler = ConversationHandler(
             SHOW: [
                 CallbackQueryHandler(swap_page, pattern='^' + str('next') + '$'), 
                 CallbackQueryHandler(swap_page, pattern='^' + str('previous') + '$')
-              
-
+  
             ]
         },
         fallbacks=[],
@@ -1695,7 +1694,6 @@ START_HANDLER = CommandHandler('starts', starts)
 CREDIT_HANDLER = CommandHandler('credit', credit)
 ADD_HANDLER = CommandHandler('add', add)
 GIVE_HANDLER = CommandHandler('give', give)
-MYCARDS_HANDLER = CommandHandler('mycards', mycards)
 sex_HANDLER = CommandHandler('sex', sex)
 
 dispatcher.add_handler(refute_handler)
@@ -1708,7 +1706,7 @@ dispatcher.add_handler(ADD_HANDLER)
 dispatcher.add_handler(button_handler)
 dispatcher.add_handler(CREDIT_HANDLER)
 dispatcher.add_handler(GIVE_HANDLER)
-dispatcher.add_handler(MYCARDS_HANDLER)
+dispatcher.add_handler(mycards_handler)
 dispatcher.add_handler(increase_handler)
 dispatcher.add_handler(pop_handler)
 dispatcher.add_handler(game_handler)
