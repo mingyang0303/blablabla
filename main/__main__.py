@@ -1511,24 +1511,26 @@ def mycards(update , context):
 def swap_page(update, context):
     query = update.callback_query
     cd = context.chat_data 
+    user = cd["user"]
+    user_id = cd["id"] 
     page = cd["page"] 
     finS = cd["cards"] 
     keyboard = [
                [InlineKeyboardButton("Next\n下一页", callback_data ="next"),InlineKeyboardButton("Previous\n前一页", callback_data ="previous")]
             ] 
     reply_markup = InlineKeyboardMarkup(keyboard)
-    if page ==1:
+    if callback_data == "previous" and page ==1:
      query.answer("You're on first page\n你现在在第一页好吗", show_alert = True)
      return None
     if callback_data == "next":
      page+=1
-     update.message.reply_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
+     query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
                               f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
                               , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
      return SHOW
     if callback_data == "previous":
      page-=1
-     update.message.reply_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
+     query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
                               f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
                               , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
      return SHOW
