@@ -1536,6 +1536,9 @@ def swap_page(update, context):
       query.answer("没了\nCan't go furthur", show_alert = True) 
       return None
     if query.data == "previous":
+     if page <=1:
+      query.answer("You're on first page \n现在在第一页好吗")
+      return None
      page-=1
      query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
                               f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
