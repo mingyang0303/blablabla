@@ -1519,16 +1519,16 @@ def swap_page(update, context):
                [InlineKeyboardButton("Next\n下一页", callback_data ="next"),InlineKeyboardButton("Previous\n前一页", callback_data ="previous")]
             ] 
     reply_markup = InlineKeyboardMarkup(keyboard)
-    if callback_data == "previous" and page ==1:
+    if query.data == "previous" and page ==1:
      query.answer("You're on first page\n你现在在第一页好吗", show_alert = True)
      return None
-    if callback_data == "next":
+    if query.data == "next":
      page+=1
      query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
                               f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
                               , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
      return SHOW
-    if callback_data == "previous":
+    if query.data == "previous":
      page-=1
      query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
                               f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
