@@ -1523,12 +1523,17 @@ def swap_page(update, context):
      query.answer("You're on first page\n你现在在第一页好吗", show_alert = True)
      return None
     if query.data == "next":
-     page+=1
-     query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
+     if len(finS)>=10:
+      page+=1
+      query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
                               f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
                               , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
-     return SHOW
-    if query.data == "previous":
+   
+      return SHOW
+     if len(finS)<10:
+      query.answer("没了\nCan't go furthur") 
+      return None
+    if query.data == "previous" and page>1:
      page-=1
      query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
                               f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
