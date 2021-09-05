@@ -702,6 +702,64 @@ checker = [
 'Condition:\n'
 'The Leader is "Honda the Fist of Savagery", and the Ally is "Wen Zhong the Sagacious Welkinite", "Jiang Ziya, High Marshal of Empyrean", "Sun Quan the Lord of Veiled Ability", Genuine Sentiments - Qiao Sisters" or "Honda the Fist of Savagery".\n'
 'The Team consists of only Water and Light Monsters.'},
+   {'chi_name':'蛇夫座',
+'chif_name':'蛇夫座',
+'eng_name':'ophiuchus',
+'chi_act':'蛇影灵动 CD8\n\n'
+'15 秒内，可任意移动符石而不会发动消除。若队伍中只有神族及妖精类成员时，1 回合内全队攻击力 2 倍',
+'eng_act':'Shadows of Snake Spirits CD8\n\n'
+'Unlimited Runestone movement in 15 seconds without dissolving. If the Team consists of only Gods and Elves, Team Attack x 2 for 1 Round.',
+'chi_lead':'神魅猎杀势\n\n'
+'队伍中只有神族及妖精类成员时\n'
+'⇒ 全队攻击力 4.5 倍及生命力 1.3 倍',
+'eng_lead':'Aggressive Gods & Elves\n\n'
+'When the Team consists of only Gods and Elves:\n'
+'⇒ Team Attack x 4.5 and HP x 1.3.',
+'chi_team':'队伍技能：\n\n'
+'I. 队长及战友的队长技“神魅猎杀势”⇒ 变为“神魅猎杀势・突破”：队伍中只有神族及妖精类成员时\n'
+'① 全队攻击力 4.5 倍及生命力 1.3 倍\n'
+'② 将移动符石时触碰的符石\n'
+'⇒ 转化为强化符石\n'
+'③ 移动的步数愈多\n'
+'⇒ 全队攻击力提升愈多\n'
+'⇒ 移动 50 步攻击力可提升至最大 3 倍\n'
+'II. 必然延长移动符石时间 1 秒\n'
+'III. 队伍中每个妖精类成员\n'
+'⇒ 必然增加移动符石时间 2 秒\n'
+'发动条件：\n'
+'宿命扭转 ‧ 蛇夫座斯克勒作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'Change the Leader Skill of the Leader and Ally from "Aggressive Gods & Elves" to "Aggressive Gods & Elves - EX". When the Team consists of only Gods and Elves:\n'
+'① Team Attack x 4.5 and HP x 1.3.\n'
+'② Turn all Runestones touched while moving into Enchanted Runestones.\n'
+'③ The more the steps moved while moving Runestones, the higher the Team Attack, to the max x 3 additionally for 50 steps.\n'
+'II. Extend Runestone-moving time regardlessly by 1 second.\n'
+'III. For every Elf present in the Team, extend Runestone-moving time regardlessly by 2 more seconds.'},
+    {'chi_name':'仙女座',
+'chif_name':'仙女座',
+'eng_name':'Andromeda',
+'chi_act':'幻影流星 CD5\n\n'
+'消除屬性符石時，個人追打與消除符石屬性相同的攻擊各 1 次。效果持續至沒有消除 3 種或以上的屬性符石',
+'eng_act':'Shade of Shooting Stars CD5\n\n'
+'By dissolving Attributive Runestones, the Monster launches an extra Attack of that Attribute The Skill stays in play until not 3 or more Attributes of Runestones are dissolved in the Round.',
+'chi_lead':'流水之誘惑\n\n'
+'I. 水屬性攻擊力 2 倍、生命力及回復力 1.3 倍\n'
+'II. 妖精攻擊力額外 5 倍\n'
+'III. 消除 ≥4 種符石時\n'
+'⇒ 該回合減少 25% 所受傷害',
+'eng_lead':'Alluring Beauty of the Sea - EX\n\n'
+'I. Water Attack x 2; HP & Recovery x 1.3.\n'
+'II. Elf Attack x 5 additionally.\n'
+'III. By dissolving 4 or more types of Runestones,\n'
+'⇒ Damage received -25%.',
+'chi_team':'隊伍技能：\n\n'
+'連擊 (Combo) 時攻擊力提升 25%\n'
+'發動條件：\n'
+'以綺香誘惑 ‧ 仙女座安德洛作隊長',
+'eng_team':'Team Skill:\n'
+'Attack bonus for Combo increases by 25%.\n'
+'Condition:\n'
+'The Leader is "Sultry Fragrance - Andromeda".'},
     {'chi_name':'夏娃',
 'chif_name':'夏娃',
 'eng_name':'eve',
