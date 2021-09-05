@@ -1524,7 +1524,7 @@ def swap_page(update, context):
     reply_markup = InlineKeyboardMarkup(keyboard)
   
     if query.data == "next":
-     if len(finS)>=10:
+     if len(finS)>=page*10:
       page+=1
       #context.bot.send_message(chat_id = update.effective_chat.id, text = f"currently on page {page}") 
       query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
@@ -1537,7 +1537,7 @@ def swap_page(update, context):
       return None
     if query.data == "previous":
      if page <=1:
-      query.answer("You're on first page \n现在在第一页好吗")
+      query.answer("You're on first page \n现在在第一页好吗", show_alert = True)
       return None
      page-=1
      query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
