@@ -1490,21 +1490,21 @@ def mycards(update , context):
     cards = DB.get_user_card(user_id, 'card_name')
     cards_en = DB.get_user_card_eng(user_id, 'eng')
     keyboard = [
-               [InlineKeyboardButton("Next\n下一页", callback_data ="next"),InlineKeyboardButton("Previos\n前一页", callback_data ="previous")]
+               [InlineKeyboardButton("Next\n下一页", callback_data ="next"),InlineKeyboardButton("Previous\n前一页", callback_data ="previous")]
             ] 
     reply_markup = InlineKeyboardMarkup(keyboard)
     b = 1
     c = "."
     page = 1
     cd["page"] = page
-    finS = ''
+    finS = []
     cd["cards"] = finS
     for chink, engk in zip(cards, cards_en):
         for chinj, engj in zip(chink, engk):
             finS += str(b) + ' ' + str(c) + ' ' + str(chinj) + '\n' + str(engj) + '\n\n'
             b += 1
     update.message.reply_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
-                              f'{finS[(page-1)*(10-1):page*(10-1)]}'
+                              f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
                               , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
     
     return SHOW
@@ -1514,7 +1514,7 @@ def swap_page(update, context):
     page = cd["page"] 
     finS = cd["cards"] 
     keyboard = [
-               [InlineKeyboardButton("Next\n下一页", callback_data ="next"),InlineKeyboardButton("Previos\n前一页", callback_data ="previous")]
+               [InlineKeyboardButton("Next\n下一页", callback_data ="next"),InlineKeyboardButton("Previous\n前一页", callback_data ="previous")]
             ] 
     reply_markup = InlineKeyboardMarkup(keyboard)
     if page ==1:
@@ -1523,13 +1523,13 @@ def swap_page(update, context):
     if callback_data == "next":
      page+=1
      update.message.reply_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
-                              f'{finS[(page-1)*(10-1):page*(10-1)]}'
+                              f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
                               , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
      return SHOW
     if callback_data == "previous":
      page-=1
      update.message.reply_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
-                              f'{finS[(page-1)*(10-1):page*(10-1)]}'
+                              f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
                               , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
      return SHOW
 
