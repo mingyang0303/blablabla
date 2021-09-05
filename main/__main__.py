@@ -1518,6 +1518,8 @@ def swap_page(update, context):
     keyboard = [
                [InlineKeyboardButton("Next\n下一页", callback_data ="next"),InlineKeyboardButton("Previous\n前一页", callback_data ="previous")]
             ] 
+    if update.callback_query.from_user.id!= user_id:
+     query.answer("Not Authorised", show_alert = True)
     reply_markup = InlineKeyboardMarkup(keyboard)
     if query.data == "previous" and page ==1:
      query.answer("You're on first page\n你现在在第一页好吗", show_alert = True)
@@ -1531,7 +1533,7 @@ def swap_page(update, context):
    
       return SHOW
      if len(finS)<10:
-      query.answer("没了\nCan't go furthur") 
+      query.answer("没了\nCan't go furthur", show_alert = True) 
       return None
     if query.data == "previous":
      page-=1
