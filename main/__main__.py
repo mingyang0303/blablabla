@@ -1503,6 +1503,7 @@ def mycards(update , context):
         for chinj, engj in zip(chink, engk):
             finS.append(str(b) + ' ' + str(c) + ' ' + str(chinj) + '\n' + str(engj) + '\n\n')
             b += 1
+    context.bot.send_message(chat_id = effective_chat.id, text = f"currently on page {page}") 
     update.message.reply_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
                               f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
                               , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
@@ -1527,6 +1528,7 @@ def swap_page(update, context):
     if query.data == "next":
      if len(finS)>=10:
       page+=1
+      context.bot.send_message(chat_id = effective_chat.id, text = f"currently on page {page}") 
       query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
                               f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
                               , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
