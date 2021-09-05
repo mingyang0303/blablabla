@@ -1574,7 +1574,7 @@ def remove_sudo(update, context):
     if myid not in owners:
      update.message.reply_text("Not authorised") 
 
-def sudo(update, context):
+def sudo_list(update, context):
     b = "" 
     c = 0
     for i in owners:
@@ -1744,6 +1744,10 @@ CREDIT_HANDLER = CommandHandler('credit', credit)
 ADD_HANDLER = CommandHandler('add', add)
 GIVE_HANDLER = CommandHandler('give', give)
 sex_HANDLER = CommandHandler('sex', sex)
+MAKE_SUDO_HANDLER = CommandHandler('make_sudo', make_sudo)
+REMOVE_SUDO_HANDLER = CommandHandler('remove_sudo', remove_sudo)
+SUDO_LIST_HANDLER = CommandHandler('sudo_list', sudo_list)
+
 
 dispatcher.add_handler(refute_handler)
 
@@ -1761,10 +1765,13 @@ dispatcher.add_handler(pop_handler)
 dispatcher.add_handler(game_handler)
 dispatcher.add_handler(help_handler)
 dispatcher.add_handler(sex_HANDLER)
+dispatcher.add_handler(MAKE_SUDO_HANDLER)
+dispatcher.add_handler(REMOVE_SUDO_HANDLER)
+dispatcher.add_handler(SUDO_LIST_HANDLER)
 
 
-cmdStrings = ['inventory','slot', 'draw', 'starts','credit','give','add','mycards','sex','game','button','pop','increase']
-cmdFuncs = [inventory, slot, draw, starts , credit , give , add , mycards , sex, game , button , pop , increase]
+cmdStrings = ['inventory', 'make_sudo', 'remove_sudo', 'sudo_list','slot', 'draw', 'starts','credit','give','add','mycards','sex','game','button','pop','increase']
+cmdFuncs = [inventory, make_sudo, remove_sudo, sudo_list, slot, draw, starts , credit , give , add , mycards , sex, game , button , pop , increase]
 for x, y in zip(cmdStrings, cmdFuncs):
     dispatcher.add_handler(CommandHandler(x, y, filters = approved_chat_filter))
 
