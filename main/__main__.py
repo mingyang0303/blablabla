@@ -1545,6 +1545,43 @@ def swap_page(update, context):
                               , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
      return SHOW
 
+def make_sudo(update, context):
+    
+    id = update.message.reply_to_message.from_user.id
+    toname = update.message.reply_to_message.from_user.first_name
+    name = update.effective_user.first_name
+    myid = update.effective_user.id
+    if myid in owners:
+     if id not in owners:
+      owners.append(id)
+      update.message.reply_text(f"{name} make you sudo user, now you can use\n\n- /add \n- /pop\n\n您现在有资格使用 \add 和 \pop") 
+     if id in owners:
+      update.message.reply_text("f{toname} is already sudo user, {toname} 已经是管理员") 
+    if myid not in owners:
+     update.message.reply_text("Not authorised") 
+
+def remove_sudo(update, context):
+    id = update.message.reply_to_message.from_user.id
+    toname = update.message.reply_to_message.from_user.first_name
+    name = update.effective_user.first_name
+    myid = update.effective_user.id
+    if myid in owners:
+     if id in owners:
+      owners.remove(id)
+      update.message.reply_text(f"sorry {toname} you're fired\n\n抱歉{toname}，您被取消资格了") 
+     if id not in owners:
+      update.message.reply_text("This guy is not sudo \n这位{toname}不是管理要我怎么降级他") 
+    if myid not in owners:
+     update.message.reply_text("Not authorised") 
+
+def sudo(update, context):
+    b = "" 
+    c = 0
+    for i in owners:
+     b += str(c+1) +"." + str(a[c]) + "\n\n"
+     c+=1
+    context.bot.send_message(chat_id = update.effective_chat.id, text = f"Sudo of the bot\n管理员\n\n*{b}*", parse_mode=ParseMode.MARKDOWN_V2) 
+
 button_handler = ConversationHandler(
     entry_points=[CommandHandler('button', button)],
     states={
