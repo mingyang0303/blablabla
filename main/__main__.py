@@ -19,7 +19,7 @@ DB.setup()
 #state
 ONE , TWO , THREE , FIRST , SECOND,  *_ = range(50)
 #callback data
-S_START , S_INCREASE ,S_POP , FIRST , SECOND ,THIRD,CHECK, *_ = range(1000)
+S_START , S_INCREASE ,S_POP , FIRST , SECOND ,THIRD,CHECK, SHOW, *_ = range(1000)
 owners = [163494588,652962567,1027794428,801509492,935241907]
 
 ancts = [{'name': '德王顯仁・敖廣',
@@ -825,22 +825,6 @@ def credit(update , context):
                               f'\n*Assistant* : BearBear\n[ID: 1027794428](tg://user?id=1027794428)\n'
                               f'\n\n_〔机器人是由以上工作人员的贡献\n任何问题和bug请通知谢谢〕_', parse_mode = ParseMode.MARKDOWN_V2)
 
-def mycards(update , context):
-    user = update.effective_user.first_name
-    user_id = update.effective_user.id
-    query = update.callback_query
-    cards = DB.get_user_card(user_id, 'card_name')
-    cards_en = DB.get_user_card_eng(user_id, 'eng')
-    b = 1
-    c = "."
-    finS = ''
-    for chink, engk in zip(cards, cards_en):
-        for chinj, engj in zip(chink, engk):
-            finS += str(b) + ' ' + str(c) + ' ' + str(chinj) + '\n' + str(engj) + '\n\n'
-            b += 1
-    update.message.reply_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
-                              f'{finS}'
-                              , parse_mode = ParseMode.HTML)
 
 def increase(update , context):
     user = update.effective_user.first_name
@@ -1496,6 +1480,59 @@ def sex(update , context):
     if query.data == 'run':
         query.edit_text(f'{to} being forced to joined')
 
+def mycards(update , context):
+    cd = context.chat_data 
+    user = update.effective_user.first_name
+    user_id = update.effective_user.id
+    cd["user"] = user
+    cd["id"] = user_id
+    query = update.callback_query
+    cards = DB.get_user_card(user_id, 'card_name')
+    cards_en = DB.get_user_card_eng(user_id, 'eng')
+    keyboard = [
+               [InlineKeyboardButton("Next\n下一页", callback_data ="next"),InlineKeyboardButton("Previos\n前一页", callback_data ="previous")]
+            ] 
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    b = 1
+    c = "."
+    page = 1
+    cd["page"] = page
+    finS = ''
+    cd["cards"] = finS
+    for chink, engk in zip(cards, cards_en):
+        for chinj, engj in zip(chink, engk):
+            finS += str(b) + ' ' + str(c) + ' ' + str(chinj) + '\n' + str(engj) + '\n\n'
+            b += 1
+    update.message.reply_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
+                              f'{finS[(page-1)*(10-1):page*(10-1)]}'
+                              , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
+    
+    return SHOW
+def swap_page(update, context):
+    query = update.callback_query
+    cd = context.chat_data 
+    page = cd["page"] 
+    finS = cd["cards"] 
+    keyboard = [
+               [InlineKeyboardButton("Next\n下一页", callback_data ="next"),InlineKeyboardButton("Previos\n前一页", callback_data ="previous")]
+            ] 
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    if page ==1:
+     query.answer("You're on first page\n你现在在第一页好吗", show_alert = True)
+     return None
+    if callback_data == "next":
+     page+=1
+     update.message.reply_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
+                              f'{finS[(page-1)*(10-1):page*(10-1)]}'
+                              , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
+     return SHOW
+    if callback_data == "previous":
+     page-=1
+     update.message.reply_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
+                              f'{finS[(page-1)*(10-1):page*(10-1)]}'
+                              , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
+     return SHOW
+
 button_handler = ConversationHandler(
     entry_points=[CommandHandler('button', button)],
     states={
@@ -1538,19 +1575,13 @@ pop_handler = ConversationHandler(
     per_user=False
 
 )
-'''check_handler = ConversationHandler(
-        entry_points=[CommandHandler('check', check)],
+mycards_handler = ConversationHandler(
+        entry_points=[CommandHandler('mycards', mycards)],
         states={
-            CHECK: [
-                CallbackQueryHandler(chi_act, pattern='^' + str('chi_act') + '$'),
-                CallbackQueryHandler(chi_lead, pattern='^' + str('chi_lead') + '$'),
-                CallbackQueryHandler(chi_team, pattern='^' + str('chi_team') + '$'),
-                CallbackQueryHandler(tr_en, pattern='^' + str('translate_en') + '$'),
-                CallbackQueryHandler(tr_ch, pattern='^' + str('translate_ch') + '$'),
-                CallbackQueryHandler(eng_act, pattern='^' + str('eng_act') + '$'),
-                CallbackQueryHandler(eng_team, pattern='^' + str('eng_team') + '$'), 
-                CallbackQueryHandler(tr_en, pattern='^' + str('eng_lead') + '$')
-
+            SHOW: [
+                CallbackQueryHandler(swap_page, pattern='^' + str('next') + '$'), 
+                CallbackQueryHandler(swap_page, pattern='^' + str('previous') + '$')
+              
 
             ]
         },
@@ -1558,7 +1589,7 @@ pop_handler = ConversationHandler(
 
     allow_reentry=True,
     per_user=True
-    )'''
+   ) 
 
 game_handler = ConversationHandler(
         entry_points=[CommandHandler('game', game)],
