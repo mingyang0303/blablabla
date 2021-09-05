@@ -818,7 +818,7 @@ checker = [
     {'chi_name':'巴力',
 'chif_name':'巴力',
 'eng_name':'baal',
-'chi_name':'魔鬼的代号 CD 7 \n\n'
+'chi_act':'魔鬼的代号 CD 7 \n\n'
 'I. 对敌方全体造成 \n'
 '⇒ 6,666 万无属性伤害(此伤害无视敌人防御力、“强化突破”、“攻前盾”) \n'
 '1 回合内 \n'
