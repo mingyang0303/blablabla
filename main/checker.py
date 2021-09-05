@@ -834,7 +834,7 @@ checker = [
 'III. Damage of “Absolute Authoritarian - Baal” will be dealt regardless of Runestone Combo Nullifying and Combo Seal. \n'
 'IV. If the Leader is “Absolute Authoritarian - Baal”, \n'
 '⇒ refresh the protective shield. ',
-'chi_name':'御天之志 \n\n'
+'chi_lead':'御天之志 \n\n'
 'I. 自身属性攻击力 6 倍、生命力及回复力 1.8 倍 \n'
 'II. 每经过一层 (Wave) \n'
 '⇒ 全队攻击力额外提升 \n'
