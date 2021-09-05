@@ -1514,7 +1514,6 @@ def swap_page(update, context):
     cd = context.chat_data 
     user = cd["user"]
     user_id = cd["id"] 
-    page = cd["page"] 
     finS = cd["cards"] 
     keyboard = [
                [InlineKeyboardButton("Next\n下一页", callback_data ="next"),InlineKeyboardButton("Previous\n前一页", callback_data ="previous")]
@@ -1525,7 +1524,7 @@ def swap_page(update, context):
   
     if query.data == "next":
      if len(finS)>=page*10:
-      page+=1
+      cd["page"]+=1
       #context.bot.send_message(chat_id = update.effective_chat.id, text = f"currently on page {page}") 
       query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
                               f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
@@ -1539,7 +1538,7 @@ def swap_page(update, context):
      if page <=1:
       query.answer("You're on first page \n现在在第一页好吗", show_alert = True)
       return None
-     page-=1
+     cd["page"]-=1 
      query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
                               f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
                               , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
