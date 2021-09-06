@@ -1067,7 +1067,38 @@ checker = [
 'I. Turn the column of Runestones below the first "Sin Atoner - Medea" from the left into Fire Human Runestones at the end of each Round. \n'
 'II. Change the Active Skill of "Sin Atoner - Medea" from "Blood-stained Morale" to "Blood-stained Morale - EX". The effect of Damage received x 1.5 will be removed. \n\n'
 'Condition: \n'
-'Both the Leader and Ally are "General Meow - Hongling", with "Sin Atoner - Medea" as a Team Member. '}
+'Both the Leader and Ally are "General Meow - Hongling", with "Sin Atoner - Medea" as a Team Member. '}，
+{'chi_name':'弗丽嘉',
+'chif_name':'弗麗嘉',
+'eng_name':'frigg',
+'chi_act':'天地之掌 CD6 \n\n'
+'队长需为神族才可发动此技能： \n'
+'1 回合内，敌方全体转为自身克制的属性；效果期间全队攻击力 1.8 倍及必然延长移动符石时间 2 秒。若队长为北欧神系列角色，回合结束时，自身技能 CD 减少 5 ',
+'eng_act':'Palm of the World CD6 \n\n' 
+'This Skill can be activated only when the Leader is God.  \n'
+'For 1 Round, change the Attribute of all enemies into the Monster\'s Counter Attribute; when the effect is in play, Team Attack x 1.8; extend Runestone-moving time regardlessly by 2 seconds. If the Leader is a Monster of "Norse Gods", the Monster's current Skill CD -5 at the end of the Round. ',
+'chi_lead':'神界之念 \n\n'
+'I. 全队攻击力 5 倍 \n'
+'II. 队伍中有 5 种属性成员时 \n'
+'⇒ 全队攻击力及回复力额外 2 倍 ',
+'eng_lead':'The Norse Notion \n\n'
+'When the Team consists of only Gods, Team Attack x 5; when there are 5 Attributes in the Team, Team Attack & Recovery x 2 additionally.',
+'chi_team':'队伍技能： \n'
+'永恒碑纹 ‧ 主神奥丁、众生天命 ‧ 主神奥丁及弗丽嘉转换为队长的属性 \n\n'
+'发动条件： \n'
+'以相同属性的 8 星究极北欧神系列角色作队长及战友 \n\n'
+'队伍技能： \n'
+'弗丽嘉自身的生命力提升 2 倍 \n\n'
+'发动条件： \n'
+'以相同属性的 8 星究极北欧神系列角色作队长及战友，并以弗丽嘉作队员',
+'eng_team':'Team Skill: \n'
+'Attribute of "Gungnir of Runes - Odin the Allfather", "Odin the Fated Savior of All" and "Frigg" will synchronize with that of the Leader. \n\n'
+'Condition: \n'
+'The Leader and Ally are 8* Monsters of "Norse Gods" of the same Attribute. \n\n'
+'Team Skill: \n'
+'HP of "Frigg" x 2 additionally. \n\n'
+'Condition: \n'
+'The Leader and Ally are 8* Monsters of "Norse Gods" of the same Attribute, with "Frigg" as a Team Member. '}    
 ]
 
 def biodata_ch_name(x):
