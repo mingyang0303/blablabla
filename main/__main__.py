@@ -1470,7 +1470,7 @@ def ch(update , context):
     return THIRD
 def ck(update , context):
     query = update.callback_query
-    query.answer()query.answer()
+    query.answer() 
     keyboard = [
         [InlineKeyboardButton('Back\n回去', callback_data='back')]
     ]
