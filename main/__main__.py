@@ -1305,6 +1305,7 @@ def res(update: Update, context: CallbackContext):
 def help(update , context):
     cd = context.chat_data
     query = update.callback_query
+    query.answer()
     keyboard = [
         [InlineKeyboardButton('Give \n给金币', callback_data='give'),InlineKeyboardButton('Draw \n抽卡', callback_data='draw')],
         [InlineKeyboardButton('Increase \n扩充背包', callback_data='increase'), InlineKeyboardButton('Inventory \n个人资产', callback_data='inventory')],
@@ -1319,6 +1320,8 @@ def help(update , context):
     return THIRD
   
 def cls(update , context):
+    query = update.callback_query
+    query.answer() 
     cd = context.chat_data
     context.bot.delete_message(chat_id = update.effective_chat.id, message_id = cd['message'].message_id)
     return THIRD
@@ -1326,6 +1329,7 @@ def cls(update , context):
 def bk(update , context):
     cd = context.chat_data
     query = update.callback_query
+    query.answer()
     keyboard = [
         [InlineKeyboardButton('Give \n给金币', callback_data='give'),InlineKeyboardButton('Draw \n抽卡', callback_data='draw')],
         [InlineKeyboardButton('Increase \n扩充背包', callback_data='increase'), InlineKeyboardButton('Inventory \n个人资产', callback_data='inventory')],
@@ -1340,6 +1344,7 @@ def bk(update , context):
     return THIRD
 def st(update , context):
     query = update.callback_query
+    query.answer()
     keyboard = [
         [InlineKeyboardButton('Back\n回去', callback_data='back')]
     ]
@@ -1349,6 +1354,7 @@ def st(update , context):
     return THIRD
 def inc(update , context):
     query = update.callback_query
+    query.answer()
     keyboard = [
         [InlineKeyboardButton('Back\n回去', callback_data='back')]
     ]
@@ -1359,6 +1365,7 @@ def inc(update , context):
 
 def gi(update , context):
     query = update.callback_query
+    query.answer()
     keyboard = [
         [InlineKeyboardButton('Back\n回去', callback_data='back')]
     ]
@@ -1374,6 +1381,7 @@ def gi(update , context):
     return THIRD
 def inv(update , context):
     query = update.callback_query
+    query.answer()
     keyboard = [
         [InlineKeyboardButton('Back\n回去', callback_data='back')]
     ]
@@ -1383,6 +1391,7 @@ def inv(update , context):
     return THIRD
 def grp(update , context):
     query = update.callback_query
+    query.answer()
     keyboard = [
         [InlineKeyboardButton('Back\n回去', callback_data='back')]
     ]
@@ -1393,6 +1402,7 @@ def grp(update , context):
     return THIRD
 def spt(update , context):
     query = update.callback_query
+    query.answer()
     keyboard = [
         [InlineKeyboardButton('Back\n回去', callback_data='back')]
     ]
@@ -1404,6 +1414,7 @@ def spt(update , context):
     return THIRD
 def mc(update , context):
     query = update.callback_query
+    query.answer()
     keyboard = [
         [InlineKeyboardButton('Back\n回去', callback_data='back')]
     ]
@@ -1413,6 +1424,7 @@ def mc(update , context):
     return THIRD
 def dr(update , context):
     query = update.callback_query
+    query.answer()
     keyboard = [
         [InlineKeyboardButton('Back\n回去', callback_data='back')]
     ]
@@ -1431,6 +1443,7 @@ def dr(update , context):
     return THIRD
 def gm(update , context):
     query = update.callback_query
+    query.answer()
     keyboard = [
         [InlineKeyboardButton('Back\n回去', callback_data='back')]
     ]
@@ -1446,6 +1459,7 @@ def gm(update , context):
     return THIRD
 def ch(update , context):
     query = update.callback_query
+    query.answer()
     keyboard = [
         [InlineKeyboardButton('Back\n回去', callback_data='back')]
     ]
@@ -1456,6 +1470,7 @@ def ch(update , context):
     return THIRD
 def ck(update , context):
     query = update.callback_query
+    query.answer()query.answer()
     keyboard = [
         [InlineKeyboardButton('Back\n回去', callback_data='back')]
     ]
