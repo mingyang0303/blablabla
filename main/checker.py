@@ -737,7 +737,7 @@ checker = [
 'III. For every Elf present in the Team, extend Runestone-moving time regardlessly by 2 more seconds.'},
     {'chi_name':'仙女座',
 'chif_name':'仙女座',
-'eng_name':'Andromeda',
+'eng_name':'andromeda',
 'chi_act':'幻影流星 CD5\n\n'
 '消除屬性符石時，個人追打與消除符石屬性相同的攻擊各 1 次。效果持續至沒有消除 3 種或以上的屬性符石',
 'eng_act':'Shade of Shooting Stars CD5\n\n'
