@@ -1527,7 +1527,7 @@ def swap_page(update, context):
       cd["page"]+=1
       #context.bot.send_message(chat_id = update.effective_chat.id, text = f"currently on page {page}") 
       query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
-                              f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
+                              f'{"".join(finS[(cd["page"]-1)*(10-1):cd["page"]*(10-1)])}'
                               , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
    
       return SHOW
@@ -1540,7 +1540,7 @@ def swap_page(update, context):
       return None
      cd["page"]-=1 
      query.message.edit_text(f'<u><b>{user} \'s</b> Bag(背包里的卡)</u>\n\n'
-                              f'{"".join(finS[(page-1)*(10-1):page*(10-1)])}'
+                              f'{"".join(finS[(cd["page"]-1)*(10-1):cd["page"]*(10-1)])}'
                               , parse_mode = ParseMode.HTML, reply_markup =reply_markup)
      return SHOW
 
