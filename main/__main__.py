@@ -1806,7 +1806,7 @@ sex_HANDLER = CommandHandler('sex', sex)
 MAKE_SUDO_HANDLER = CommandHandler('make_sudo', make_sudo)
 REMOVE_SUDO_HANDLER = CommandHandler('remove_sudo', remove_sudo)
 SUDO_LIST_HANDLER = CommandHandler('sudo_list', sudo_list)
-GIFT_HANDLER = ConversationHandler('gift' gift)
+GIFT_HANDLER = CommandHandler('gift' gift)
 
 dispatcher.add_handler(refute_handler)
 
