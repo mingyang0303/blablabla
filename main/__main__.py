@@ -957,6 +957,7 @@ def game(update: Update, context: CallbackContext):
 def cancel(update , context):
     cd = context.chat_data
     query = update.callback_query
+    query.answer()
     f = cd['fighter']
     t = cd['to']
     fid = cd['fighterid']
@@ -977,6 +978,7 @@ def accept(update: Update, context: CallbackContext):
     fid = cd['fighterid']
     tid = cd['toid']
     query = update.callback_query
+    query.answer()
     keyboard = [
         [
             InlineKeyboardButton("💧水", callback_data=str('water')),
@@ -1003,6 +1005,7 @@ def decline(update: Update, context: CallbackContext):
     fid = cd['fighterid']
     tid = cd['toid']
     query = update.callback_query
+    query.answer()
     if update.callback_query.from_user.id != tid:
         query.answer('不能使用\ncannot use')
         return None
