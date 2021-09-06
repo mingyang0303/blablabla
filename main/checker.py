@@ -1021,7 +1021,53 @@ checker = [
 'IV. If the Leader is “Absolute Authoritarian - Baal”, \n'
 '⇒ refresh the protective shield. \n'
 'Condition: \n'
-'There are "Absolute Authoritarian - Baal" and "Innocent Temptation - Eve" in the Team (the Monsters must reach Lv. 50 or above). '}
+'There are "Absolute Authoritarian - Baal" and "Innocent Temptation - Eve" in the Team (the Monsters must reach Lv. 50 or above). '},
+    {'chi_name':'虹伶',
+'chif_name':'虹伶',
+'eng_name':'hongling',
+'chi_act':'燃解心锁 CD8 \n\n'
+'I. 解除火属性成员被封锁的技能 (此技能无视封锁技能) \n'
+'2 回合内 \n'
+'II. 心符石的掉落率降至 0，并将原有几率增加至火符石的掉落率 \n'
+'III. 所有符石兼具 50% 火符石效果',
+'eng_act':'Fiery Heart Unlocked CD8 \n\n'
+'I. Release the locked Skills of all Fire Members (this Skill will not be locked). \n'
+'For 2 Rounds \n'
+'II. Drop rate of Heart Runestones will be transferred to that of Fire Runestones. \n'
+'III. All Runestones also possess 50% effect of Fire Runestones. \n',
+'chi_lead':'虹女之焰 \n\n'
+'I. 全队攻击力 3.2 倍 \n'
+'II. 队伍中火属性成员愈多 \n'
+'⇒ 火属性攻击力及回复力额外提升愈多\n'
+'⇒ 6 个可达至最大 2.8 倍',
+'eng_lead':'Rings of Flames \n\n'
+'Team Attack x 3.2. The more the Fire Members in the Team, the higher the Fire Attack & Recovery, to the max x 2.8 for 6 Fire Members.',
+'chi_team':'队伍技能： \n'
+'I. 将移动符石时触碰的火符石转化为火人族强化符石 \n'
+'II. 火属性成员的生命力提升 1500 点 \n'
+'III. 无视“燃烧”敌技 \n'
+'IV. 火符石兼具 50% 心符石效果 \n'
+'V. 必然延长移动符石时间 2 秒 \n\n'
+'发动条件： \n'
+'以喵喵大将军 ‧ 虹伶作队长及战友 \n\n'
+'队伍技能： \n'
+'I. 于回合结束时，最左方的“罪与责之承诺 ‧ 美狄亚”直行的符石转化为火人族符石 \n'
+'II. “罪与责之承诺 ‧ 美狄亚”的主动技能“喋血战意”变为“喋血战意・虹”，移除“受到的伤害提升 1.5 倍”的效果 \n\n'
+'发动条件： \n'
+'以“喵喵大将军 ‧ 虹伶”作队长及战友，并以“罪与责之承诺 ‧ 美狄亚”作队员 \n',
+'eng_team':'Team Skill: \n'
+'I. Turn all Fire Runestones touched while moving into Enchanted Human Runestones. \n'
+'II. Monster\'s HP of each Fire Member +1500 additionally. \n'
+'III. Boss Skill "Burning" will be nullified. \n'
+'IV. Fire Runestones also possess 50% effect of Heart Runestones. \n'
+'V. Extend Runestone-moving time regardlessly by 2 seconds. \n\n'
+'Condition: \n'
+'Both the Leader and Ally are "General Meow - Hongling". \n\n'
+'Team Skill: \n'
+'I. Turn the column of Runestones below the first "Sin Atoner - Medea" from the left into Fire Human Runestones at the end of each Round. \n'
+'II. Change the Active Skill of "Sin Atoner - Medea" from "Blood-stained Morale" to "Blood-stained Morale - EX". The effect of Damage received x 1.5 will be removed. \n\n'
+'Condition: \n'
+'Both the Leader and Ally are "General Meow - Hongling", with "Sin Atoner - Medea" as a Team Member. '}
 ]
 
 def biodata_ch_name(x):
