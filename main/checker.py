@@ -1076,7 +1076,7 @@ checker = [
 '1 回合内，敌方全体转为自身克制的属性；效果期间全队攻击力 1.8 倍及必然延长移动符石时间 2 秒。若队长为北欧神系列角色，回合结束时，自身技能 CD 减少 5 ',
 'eng_act':'Palm of the World CD6 \n\n' 
 'This Skill can be activated only when the Leader is God.  \n'
-'For 1 Round, change the Attribute of all enemies into the Monster\'s Counter Attribute; when the effect is in play, Team Attack x 1.8; extend Runestone-moving time regardlessly by 2 seconds. If the Leader is a Monster of "Norse Gods", the Monster's current Skill CD -5 at the end of the Round. ',
+'For 1 Round, change the Attribute of all enemies into the Monster\'s Counter Attribute; when the effect is in play, Team Attack x 1.8; extend Runestone-moving time regardlessly by 2 seconds. If the Leader is a Monster of "Norse Gods", the Monster\'s current Skill CD -5 at the end of the Round. ',
 'chi_lead':'神界之念 \n\n'
 'I. 全队攻击力 5 倍 \n'
 'II. 队伍中有 5 种属性成员时 \n'
