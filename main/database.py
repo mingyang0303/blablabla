@@ -127,6 +127,11 @@ def add_diamonds(user_id : int , diamonds : int):
     cur.execute(stmt, (diamonds,user_id))
     conn.commit()
 
+def minus_diamonds(user_id : int , diamonds : int):
+    stmt = f"UPDATE Usr SET diamonds = diamonds - %s WHERE user_id = %s;"
+    cur.execute(stmt, (diamonds,user_id))
+    conn.commit()
+
 def add_slot(user_id : int):
     stmt = f"UPDATE Usr SET bagslot = bagslot + 1 WHERE user_id = %s;"
     cur.execute(stmt, (user_id,))
