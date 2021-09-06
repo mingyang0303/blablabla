@@ -789,7 +789,7 @@ def gift(update , context):
         return -1
 
     DB.add_diamonds(to_id, msg)
-    DB.minus_diamonds(id, msg)
+    DB.minus_diamonds(from_id, msg)
     update.message.reply_text(f'{user}支付{msg} 魔法石💎给 {to}\n'
                               f'{user} sent {msg} Diamonds 💎 to {to}')
 
