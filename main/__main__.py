@@ -1577,7 +1577,7 @@ def sudo_list(update, context):
     b = "" 
     c = 0
     for i in owners:
-     b += str(c+1) +"." + str(a[c]) + "\n\n"
+     b += str(c+1) +"." + str(i[c]) + "\n\n"
      c+=1
     context.bot.send_message(chat_id = update.effective_chat.id, text = f"Sudo of the bot\n管理员\n\n*{b}*", parse_mode=ParseMode.MARKDOWN_V2) 
 
