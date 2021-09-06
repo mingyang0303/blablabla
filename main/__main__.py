@@ -754,6 +754,45 @@ def give(update , context):
     update.message.reply_text(f'{user}支付{msg} 金币🟡给 {to}\n'
                               f'{user} sent {msg} gold🟡 to {to}')
 
+def gift(update , context):
+    if not update.message.reply_to_message:
+             update.message.reply_text('reply to someone')
+             return
+    user = update.message.from_user.first_name
+    to = update.message.reply_to_message.from_user.first_name
+    to_id = update.message.reply_to_message.from_user.id
+    from_id = update.message.from_user.id
+    from_gold = DB.get_user_value(from_id, "diamonds")
+    try:
+     msg = update.message.text.split(None,1)[1]
+     msg = int(msg)
+     if from_gold<=0:
+        update.message.reply_text('魔法石数量错误/Invalid Amount')
+        return -1
+     if from_gold< int(msg):
+        update.message.reply_text('您不够魔法石来支付这笔款/Not Enough diamonds for Payment')
+        return -1
+     if msg <=0:
+        update.message.reply_text('错误/ Error')
+        return -1
+    except TypeError:
+        update.message.reply_text('这是数字吗？/ is this number?')
+        return -1
+    except IndexError:
+        update.message.reply_text('这是数字吗？/ is this number?')
+        return -1
+    except ValueError:
+        update.message.reply_text('这是数字吗？/ is this number?')
+        return -1
+    except AttributeError:
+        update.message.reply_text('回复人/ reply to someone')
+        return -1
+
+    DB.add_diamonds(to_id, msg)
+    DB.add_diamonds(id, -msg)
+    update.message.reply_text(f'{user}支付{msg} 魔法石💎给 {to}\n'
+                              f'{user} sent {msg} Diamonds 💎 to {to}')
+
 
 def button(update, context):  # query = None means?
     user = update.effective_user.first_name
@@ -1767,7 +1806,7 @@ sex_HANDLER = CommandHandler('sex', sex)
 MAKE_SUDO_HANDLER = CommandHandler('make_sudo', make_sudo)
 REMOVE_SUDO_HANDLER = CommandHandler('remove_sudo', remove_sudo)
 SUDO_LIST_HANDLER = CommandHandler('sudo_list', sudo_list)
-
+GIFT_HANDLER = ConversationHandler('gift' gift)
 
 dispatcher.add_handler(refute_handler)
 
@@ -1788,6 +1827,7 @@ dispatcher.add_handler(sex_HANDLER)
 dispatcher.add_handler(MAKE_SUDO_HANDLER)
 dispatcher.add_handler(REMOVE_SUDO_HANDLER)
 dispatcher.add_handler(SUDO_LIST_HANDLER)
+dispatcher.add_handler(GIFT_HANDLER)
 
 
 cmdStrings = ['inventory', 'make_sudo', 'remove_sudo', 'sudo_list','slot', 'draw', 'starts','credit','give','add','mycards','sex','game','button','pop','increase']
