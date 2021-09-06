@@ -1305,7 +1305,6 @@ def res(update: Update, context: CallbackContext):
 def help(update , context):
     cd = context.chat_data
     query = update.callback_query
-    query.answer()
     keyboard = [
         [InlineKeyboardButton('Give \n给金币', callback_data='give'),InlineKeyboardButton('Draw \n抽卡', callback_data='draw')],
         [InlineKeyboardButton('Increase \n扩充背包', callback_data='increase'), InlineKeyboardButton('Inventory \n个人资产', callback_data='inventory')],
