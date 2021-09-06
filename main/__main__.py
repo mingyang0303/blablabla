@@ -1554,8 +1554,10 @@ def make_sudo(update, context):
      if id not in owners:
       owners.append(id)
       update.message.reply_text(f"{name} make you sudo user, now you can use\n\n- /add \n- /pop\n\n您现在有资格使用 \add 和 \pop") 
+      return -1
      if id in owners:
       update.message.reply_text(f"{toname} is already sudo user, {toname} 已经是管理员") 
+      return -1
     if myid not in owners:
      update.message.reply_text("Not authorised") 
 
@@ -1568,8 +1570,10 @@ def remove_sudo(update, context):
      if id in owners:
       owners.remove(id)
       update.message.reply_text(f"sorry {toname} you're fired\n\n抱歉{toname}，您被取消资格了") 
+      return -1
      if id not in owners:
       update.message.reply_text(f"This guy is not sudo \n这位{toname}不是管理要我怎么降级他") 
+      return -1
     if myid not in owners:
      update.message.reply_text("Not authorised") 
 
