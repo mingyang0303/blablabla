@@ -1830,8 +1830,8 @@ dispatcher.add_handler(SUDO_LIST_HANDLER)
 dispatcher.add_handler(GIFT_HANDLER)
 
 
-cmdStrings = ['inventory', 'make_sudo', 'remove_sudo', 'sudo_list','slot', 'draw', 'starts','credit','give','add','mycards','sex','game','button','pop','increase']
-cmdFuncs = [inventory, make_sudo, remove_sudo, sudo_list, slot, draw, starts , credit , give , add , mycards , sex, game , button , pop , increase]
+cmdStrings = ['inventory','gift', 'make_sudo', 'remove_sudo', 'sudo_list','slot', 'draw', 'starts','credit','give','add','mycards','sex','game','button','pop','increase']
+cmdFuncs = [inventory,gift, make_sudo, remove_sudo, sudo_list, slot, draw, starts , credit , give , add , mycards , sex, game , button , pop , increase]
 for x, y in zip(cmdStrings, cmdFuncs):
     dispatcher.add_handler(CommandHandler(x, y, filters = approved_chat_filter))
 
