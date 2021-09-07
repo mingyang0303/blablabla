@@ -193,7 +193,7 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
           context.bot.send_message(chat_id = update.effective_chat.id , text = 'comparing hp if either is 0')
-            if cd['fromhp'] > cd['tohp']:
+          if cd['fromhp'] > cd['tohp']:
                 DB.add_gold(fid, 100)
                 DB.add_exp(fid , 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
