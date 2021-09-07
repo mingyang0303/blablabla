@@ -1110,7 +1110,7 @@ checker = [
 'III. 木属性及妖精类成员攻击力 2 倍 \n'
 'IV. 木属性及妖精类成员的攻击 \n'
 '⇒ 无视“三属盾”及“五属盾”敌技',
-'eng_act':'Melodic Tunes of Runes CD7 \n\n',
+'eng_act':'Melodic Tunes of Runes CD7 \n\n'
 'I. Unlimited Runestone movement in 12 seconds without dissolving. \n'
 'For 1 Round: \n'
 'II. Turn the Runestones touched while moving at first into Enchanted Earth Elf Runestones. \n'
