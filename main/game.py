@@ -211,7 +211,8 @@ def res(update: Update, context: CallbackContext):
                                         f'EXP + 100')
                 context.bot.send_message(chat_id = update.effective_chat.id , text = 'before END')
              
-          elif cd['tohp'] == cd['fromhp']:
+          else:
+                context.bot.send_message(chat_id = update.effective_chat.id , text = f" inviter hp : {cd['fromhp']}\n invitee hp : {cd['tohp']}")
                 DB.add_gold(tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f" Draw !!\n")
