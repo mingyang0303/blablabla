@@ -209,11 +209,13 @@ def res(update: Update, context: CallbackContext):
                                         f"{t} win !!\n"
                                         f'{t}金币🟡Gold + 100\n'
                                         f'EXP + 100')
+                context.bot.send_message(chat_id = update.effective_chat.id , text = 'before END')
              
           elif cd['tohp'] == cd['fromhp']:
                 DB.add_gold(tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f" Draw !!\n")
+                context.bot.send_message(chat_id = update.effective_chat.id , text = 'before END')
           return ConversationHandler.END
           
         return FIRST  
