@@ -204,7 +204,7 @@ def res(update: Update, context: CallbackContext):
                                         f"{f} win !!\n"
                                         f'{f}金币🟡Gold + 100\n'
                                         f'EXP + 100')
-             return ConversationHandler.END
+             
             elif cd['tohp'] > cd['fromhp']:
                 DB.add_gold(tid, 100)
                 DB.add_exp(tid, 100)
@@ -212,12 +212,12 @@ def res(update: Update, context: CallbackContext):
                                         f"{t} win !!\n"
                                         f'{t}金币🟡Gold + 100\n'
                                         f'EXP + 100')
-             return ConversationHandler.END
+             
             elif cd['tohp'] == cd['fromhp']:
                 DB.add_gold(tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f" Draw !!\n")
-             return ConversationHandler.END
+            return ConversationHandler.END
           
         return FIRST  
      
