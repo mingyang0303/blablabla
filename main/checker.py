@@ -1124,7 +1124,7 @@ checker = [
 'When the Team consists of only Elves: \n'
 'I. Team Attack x 4.5; HP & Recovery x 1.3. \n'
 'II. All Attributive Runestones also possess 50% effect of Heart Runestones. ',
-'chi_team':'队伍技能： \n\n'
+'chi_team':'队伍技能： \n'
 '奏响世界之音 ‧ 莎娜”的生命力、攻击力、回复力增加 1000 点 \n\n'
 '发动条件： \n'
 '以“奏响世界之音 ‧ 莎娜”作成员，且队中只有妖精类成员',
