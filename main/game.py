@@ -403,7 +403,7 @@ def res(update: Update, context: CallbackContext):
                                         f'EXP + 100')
             return ConversationHandler.END
 
-         return FIRST
+        return FIRST
       
 game_handler = ConversationHandler(
         entry_points=[CommandHandler('game', game)],
