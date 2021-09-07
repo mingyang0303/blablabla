@@ -428,5 +428,6 @@ CallbackQueryHandler(res, pattern='^' + str('wood') + '$')
     allow_reentry=True,
     per_user=False
     )
+logging.basicConfig( format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 dispatcher.add_handler(game_handler)
