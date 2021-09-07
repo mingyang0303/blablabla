@@ -1102,7 +1102,7 @@ checker = [
     {'chi_name':'莎娜',
 'chif_name':'莎娜',
 'eng_name':'zana',
-'chi_act':'元素的音韵 CD7 \n\n',
+'chi_act':'元素的音韵 CD7 \n\n'
 'I. 12 秒内，可任意移动符石而不会发动消除 \n'
 '1 回合内 \n'
 'II. 将首次移动符石时触碰的符石 \n'
