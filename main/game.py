@@ -181,6 +181,8 @@ def res(update: Update, context: CallbackContext):
     if update.callback_query.from_user.id != tid:
         query.answer('player 1 not ur turn')
         return None
+      
+      
     if cd['choice1'] == cd['choice2']:
         cd['fromhp'] -= 1
         cd['tohp'] -= 1
@@ -212,9 +214,18 @@ def res(update: Update, context: CallbackContext):
                 DB.add_gold(tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f" Draw !!\n")
-
             return ConversationHandler.END
-        return FIRST
+          
+        return FIRST  
+      
+        if cd['fromhp'] == 0 and cd['tohp'] == 0:
+          query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
+                                        f" Draw !!\n")
+          return ConversationHandler.END
+          
+
+            
+        
 
     elif cd['choice1'] == 'water' and cd['choice2'] == 'fire':
         cd['fromhp'] -= 0
