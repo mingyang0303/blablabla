@@ -194,6 +194,10 @@ def res(update: Update, context: CallbackContext):
              f"*{f}* choose one elemental\n"
              f"*{f}* 选一个攻击属性"
                                 f'{t}', parse_mode=ParseMode.MARKDOWN_V2, reply_markup= reply_markup)
+        if cd['fromhp'] == 0 and cd['tohp'] == 0:
+          query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
+                                        f" Draw !!\n")
+          return ConversationHandler.END
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
@@ -217,16 +221,7 @@ def res(update: Update, context: CallbackContext):
             return ConversationHandler.END
           
         return FIRST  
-      
-        if cd['fromhp'] == 0 and cd['tohp'] == 0:
-          query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
-                                        f" Draw !!\n")
-          return ConversationHandler.END
-          
-
-            
-        
-
+     
     elif cd['choice1'] == 'water' and cd['choice2'] == 'fire':
         cd['fromhp'] -= 0
         cd['tohp'] -= 1
