@@ -1098,7 +1098,40 @@ checker = [
 'Team Skill: \n'
 'HP of "Frigg" x 2 additionally. \n\n'
 'Condition: \n'
-'The Leader and Ally are 8* Monsters of "Norse Gods" of the same Attribute, with "Frigg" as a Team Member. '}    
+'The Leader and Ally are 8* Monsters of "Norse Gods" of the same Attribute, with "Frigg" as a Team Member. '},
+    {'chi_name':'莎娜',
+'chif_name':'莎娜',
+'eng_name':'zana',
+'chi_act':'元素的音韵 CD7 \n\n',
+'I. 12 秒内，可任意移动符石而不会发动消除 \n'
+'1 回合内 \n'
+'II. 将首次移动符石时触碰的符石 \n'
+'⇒ 转化为木妖族强化符石 \n'
+'III. 木属性及妖精类成员攻击力 2 倍 \n'
+'IV. 木属性及妖精类成员的攻击 \n'
+'⇒ 无视“三属盾”及“五属盾”敌技 ',
+'eng_act':'Melodic Tunes of Runes CD7 \n\n',
+'I. Unlimited Runestone movement in 12 seconds without dissolving. \n'
+'For 1 Round: \n'
+'II. Turn the Runestones touched while moving at first into Enchanted Earth Elf Runestones. \n'
+'III. Earth Attack & Elf Attack x 2. \n'
+'IV. Earth & Elf Damage will be dealt regardless of Trio Elemental Shield and Quintet Elemental Shield.',
+'chi_lead':'妖灵之音 \n\n'
+'I. 全队攻击力 4.5 倍、生命力及回复力 1.3 倍 \n'
+'II. 所有属性符石 \n'
+'⇒ 兼具 50% 心符石效果 ',
+'eng_lead':'Melodies of Elfish Spirits \n\n'
+'When the Team consists of only Elves: \n'
+'I. Team Attack x 4.5; HP & Recovery x 1.3. \n'
+'II. All Attributive Runestones also possess 50% effect of Heart Runestones. ',
+'chi_team':'队伍技能： \n\n'
+'奏响世界之音 ‧ 莎娜”的生命力、攻击力、回复力增加 1000 点 \n\n'
+'发动条件： \n'
+'以“奏响世界之音 ‧ 莎娜”作成员，且队中只有妖精类成员',
+'eng_team':'Team Skill: \n'
+'HP, Attack & Recovery of "Resonance of the World - Zana" +1000. \n\n'
+'Condition: \n'
+'The Team consists of only Elves, with "Resonance of the World - Zana" as a Team Member. '}
 ]
 
 def biodata_ch_name(x):
