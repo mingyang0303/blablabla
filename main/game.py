@@ -196,7 +196,7 @@ def res(update: Update, context: CallbackContext):
              f"*{f}* 选一个攻击属性"
                                 f'{t}', parse_mode=ParseMode.MARKDOWN_V2, reply_markup= reply_markup)
 
-         if cd['fromhp'] == 0 or cd['tohp'] == 0:
+        if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
                 DB.add_gold(fid, 100)
                 DB.add_exp(fid , 100)
@@ -219,7 +219,7 @@ def res(update: Update, context: CallbackContext):
                                         f" Draw !!\n")
              return ConversationHandler.END
           
-         return FIRST  
+        return FIRST  
      
     elif cd['choice1'] == 'water' and cd['choice2'] == 'fire':
         cd['fromhp'] -= 0
@@ -233,7 +233,7 @@ def res(update: Update, context: CallbackContext):
              f"*{f}* 选一个攻击属性"
                                 , parse_mode=ParseMode.MARKDOWN_V2,reply_markup= reply_markup)
 
-         if cd['fromhp'] == 0 or cd['tohp'] == 0:
+        if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
                 DB.add_gold(fid, 100)
                 DB.add_exp(fid, 100)
@@ -251,7 +251,7 @@ def res(update: Update, context: CallbackContext):
                                         f'EXP + 100')
              return ConversationHandler.END
 
-         return FIRST
+        return FIRST
 
     elif cd['choice1'] == 'fire' and cd['choice2'] == 'water':
         cd['fromhp'] -= 1
@@ -265,7 +265,7 @@ def res(update: Update, context: CallbackContext):
              f"*{f}* 选一个攻击属性"
                                 , parse_mode=ParseMode.MARKDOWN_V2,reply_markup= reply_markup)
 
-         if cd['fromhp'] == 0 or cd['tohp'] == 0:
+        if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
                 DB.add_gold( fid, 100)
                 DB.add_exp( fid, 100)
@@ -283,7 +283,7 @@ def res(update: Update, context: CallbackContext):
                                         f'EXP + 100')
             return ConversationHandler.END
 
-         return FIRST
+        return FIRST
 
     elif cd['choice1'] == 'water' and cd['choice2'] == 'wood':
         cd['fromhp'] -= 1
@@ -297,7 +297,7 @@ def res(update: Update, context: CallbackContext):
              f"*{f}* 选一个攻击属性"
                                 , parse_mode=ParseMode.MARKDOWN_V2,reply_markup= reply_markup)
 
-         if cd['fromhp'] == 0 or cd['tohp'] == 0:
+        if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
                 DB.add_gold(fid, 100)
                 DB.add_exp(fid, 100)
@@ -314,7 +314,7 @@ def res(update: Update, context: CallbackContext):
                                         f'EXP + 100')
             return ConversationHandler.END
 
-         return FIRST
+        return FIRST
 
     elif cd['choice1'] == 'wood' and cd['choice2'] == 'water':
         cd['fromhp'] -= 0
@@ -328,7 +328,7 @@ def res(update: Update, context: CallbackContext):
              f"*{f}* 选一个攻击属性"
                                 , parse_mode=ParseMode.MARKDOWN_V2,reply_markup= reply_markup)
 
-         if cd['fromhp'] == 0 or cd['tohp'] == 0:
+        if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
                 DB.add_gold(fid, 100)
                 DB.add_exp(fid, 100)
@@ -345,7 +345,7 @@ def res(update: Update, context: CallbackContext):
                                         f'EXP + 100')
             return ConversationHandler.END
 
-         return FIRST
+        return FIRST
 
     elif cd['choice1'] == 'wood' and cd['choice2'] == 'fire':
         cd['fromhp'] -= 1
@@ -359,7 +359,7 @@ def res(update: Update, context: CallbackContext):
              f"*{f}* 选一个攻击属性"
                                 , parse_mode=ParseMode.MARKDOWN_V2,reply_markup= reply_markup)
 
-         if cd['fromhp'] == 0 or cd['tohp'] == 0:
+        if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
                 DB.add_gold(fid, 100)
                 DB.add_exp(fid, 100)
@@ -376,7 +376,7 @@ def res(update: Update, context: CallbackContext):
                                         f'EXP + 100')
             return ConversationHandler.END
 
-         return FIRST
+        return FIRST
 
     elif cd['choice1'] == 'fire' and cd['choice2'] == 'wood':
         cd['fromhp'] -= 0
@@ -390,7 +390,7 @@ def res(update: Update, context: CallbackContext):
              f"*{f}* 选一个攻击属性"
                                 , parse_mode=ParseMode.MARKDOWN_V2,reply_markup= reply_markup)
 
-         if cd['fromhp'] == 0 or cd['tohp'] == 0:
+        if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
                 DB.add_gold(fid, 100)
                 DB.add_exp(fid, 100)
@@ -403,7 +403,7 @@ def res(update: Update, context: CallbackContext):
                                         f'EXP + 100')
             return ConversationHandler.END
 
-          return FIRST
+         return FIRST
       
 game_handler = ConversationHandler(
         entry_points=[CommandHandler('game', game)],
