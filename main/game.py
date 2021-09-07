@@ -165,20 +165,14 @@ def res(update: Update, context: CallbackContext):
     if update.callback_query.from_user.id != tid:
         query.answer('player 2 not ur turn')
         return None
-    a = ''
-    b = ''
-    if cd['choice1'] == 'water':
-        a = '💧'
-    if cd['choice1'] == 'fire':
-        a = '🔥'
-    if cd['choice1'] == 'wood':
-        a = '🍀'
-    if cd['choice2'] == 'water':
-        b = '💧'
-    if cd['choice2'] == 'fire':
-        b = '🔥'
-    if cd['choice2'] == 'wood':
-        b = '🍀'
+    elements = {
+            "water": "💧",
+            "wood": "☘️",
+             "fire": "🔥"
+                        }
+
+    a = elements[cd['choice1']]
+    b = elements[cd['choice2']]
     if update.callback_query.from_user.id != tid:
         query.answer('player 1 not ur turn')
         return None
@@ -187,6 +181,7 @@ def res(update: Update, context: CallbackContext):
     if cd['choice1'] == cd['choice2']:
         cd['fromhp'] -= 1
         cd['tohp'] -= 1
+        context.bot.send_message(chat_id = update.effective_chat.id , text = 'comparing choice before comparing hp')
         query.message.edit_text(f'*{f}* chose {fchose}{a} and *{t}* chose {tchose}{b}\n'
                                 f'*{f}* 使用 {a} 和 *{t}* 使用 {b}\n'
                                 f'_its a Draw_\n\n'
@@ -197,6 +192,7 @@ def res(update: Update, context: CallbackContext):
                                 f'{t}', parse_mode=ParseMode.MARKDOWN_V2, reply_markup= reply_markup)
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
+          context.bot.send_message(chat_id = update.effective_chat.id , text = 'comparing hp if either is 0')
             if cd['fromhp'] > cd['tohp']:
                 DB.add_gold(fid, 100)
                 DB.add_exp(fid , 100)
@@ -204,6 +200,7 @@ def res(update: Update, context: CallbackContext):
                                         f"{f} win !!\n"
                                         f'{f}金币🟡Gold + 100\n'
                                         f'EXP + 100')
+                context.bot.send_message(chat_id = update.effective_chat.id , text = 'before END')
              
             elif cd['tohp'] > cd['fromhp']:
                 DB.add_gold(tid, 100)
