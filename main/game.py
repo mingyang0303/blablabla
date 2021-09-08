@@ -5,11 +5,9 @@ from telegram import InlineQueryResultArticle, InputTextMessageContent
 from telegram.ext import CommandHandler, InlineQueryHandler, ConversationHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update, ParseMode
 from telegram.ext import Updater, CallbackQueryHandler, CallbackContext , Filters
+from main import database as DB
 
 S_START , S_INCREASE ,S_POP , FIRST , SECOND ,THIRD,CHECK, *_ = range(1000)
-DB_PATH=os.environ['DATABASE_URL']
-DB.init(DB_PATH)
-DB.setup()
 
 def game(update: Update, context: CallbackContext):
     if not update.message.reply_to_message:
