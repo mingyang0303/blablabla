@@ -7,6 +7,9 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update, ParseMo
 from telegram.ext import Updater, CallbackQueryHandler, CallbackContext , Filters
 
 S_START , S_INCREASE ,S_POP , FIRST , SECOND ,THIRD,CHECK, *_ = range(1000)
+DB_PATH=os.environ['DATABASE_URL']
+DB.init(DB_PATH)
+DB.setup()
 
 def game(update: Update, context: CallbackContext):
     if not update.message.reply_to_message:
