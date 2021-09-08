@@ -1,4 +1,3 @@
-  
 import logging
 from main import dispatcher 
 from telegram import InlineQueryResultArticle, InputTextMessageContent
@@ -182,7 +181,6 @@ def res(update: Update, context: CallbackContext):
     if cd['choice1'] == cd['choice2']:
         cd['fromhp'] -= 1
         cd['tohp'] -= 1
-        context.bot.send_message(chat_id = update.effective_chat.id , text = 'comparing choice before comparing hp')
         query.message.edit_text(f'*{f}* chose {fchose}{a} and *{t}* chose {tchose}{b}\n'
                                 f'*{f}* 使用 {a} 和 *{t}* 使用 {b}\n'
                                 f'_its a Draw_\n\n'
@@ -193,7 +191,6 @@ def res(update: Update, context: CallbackContext):
                                 f'{t}', parse_mode=ParseMode.MARKDOWN_V2, reply_markup= reply_markup)
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
-          context.bot.send_message(chat_id = update.effective_chat.id , text = 'comparing hp if either is 0')
           if cd['fromhp'] > cd['tohp']:
                 DB.add_gold(fid, 100)
                 DB.add_exp(fid , 100)
@@ -201,8 +198,7 @@ def res(update: Update, context: CallbackContext):
                                         f"{f} win !!\n"
                                         f'{f}金币🟡Gold + 100\n'
                                         f'EXP + 100')
-                context.bot.send_message(chat_id = update.effective_chat.id , text = 'before END')
-             
+                
           elif cd['tohp'] > cd['fromhp']:
                 DB.add_gold(tid, 100)
                 DB.add_exp(tid, 100)
@@ -210,14 +206,13 @@ def res(update: Update, context: CallbackContext):
                                         f"{t} win !!\n"
                                         f'{t}金币🟡Gold + 100\n'
                                         f'EXP + 100')
-                context.bot.send_message(chat_id = update.effective_chat.id , text = 'before END')
-             
+                
           else:
                 context.bot.send_message(chat_id = update.effective_chat.id , text = f" inviter hp : {cd['fromhp']}\n invitee hp : {cd['tohp']}")
                 DB.add_gold(tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f" Draw !!\n")
-                context.bot.send_message(chat_id = update.effective_chat.id , text = 'before END')
+                
           return ConversationHandler.END
           
         return FIRST  
