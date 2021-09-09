@@ -208,8 +208,7 @@ def res(update: Update, context: CallbackContext):
                                         f'EXP + 100')
                 
           else:
-                context.bot.send_message(chat_id = update.effective_chat.id , text = f" inviter hp : {cd['fromhp']}\n invitee hp : {cd['tohp']}")
-                DB.add_diamonds(tid, 1)
+                
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f" Draw !!\n")
                 
