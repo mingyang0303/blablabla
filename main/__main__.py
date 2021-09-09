@@ -907,7 +907,7 @@ def pop(update , context):
     cd = context.chat_data
     random.seed(time.time())
     b = cd['a'] = random.randint(1,5)
-    query.answer()
+    #query.answer()
     owner = 163494588
 
     keyboard = [
