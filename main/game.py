@@ -192,24 +192,24 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
           if cd['fromhp'] > cd['tohp']:
-                DB.add_diamond(fid, 1)
+                DB.add_diamonds(fid, 1)
                 DB.add_exp(fid , 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{f} win !!\n"
-                                        f'{f}魔法石💎diamond + 100\n'
+                                        f'{f}魔法石💎diamond + 1\n'
                                         f'EXP + 100')
                 
           elif cd['tohp'] > cd['fromhp']:
-                DB.add_diamond(tid, 1)
+                DB.add_diamonds(tid, 1)
                 DB.add_exp(tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{t} win !!\n"
-                                        f'{t}魔法石💎diamond + 100\n'
+                                        f'{t}魔法石💎diamond + 1\n'
                                         f'EXP + 100')
                 
           else:
                 context.bot.send_message(chat_id = update.effective_chat.id , text = f" inviter hp : {cd['fromhp']}\n invitee hp : {cd['tohp']}")
-                DB.add_gold(tid, 100)
+                DB.add_diamonds(tid, 1)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f" Draw !!\n")
                 
@@ -231,19 +231,19 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
-                DB.add_diamond(fid, 1)
+                DB.add_diamonds(fid, 1)
                 DB.add_exp(fid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{f} win !!\n"
-                                        f'{f}魔法石💎diamond + 100\n'
+                                        f'{f}魔法石💎diamond + 1\n'
                                         f'EXP + 100')
              
             elif cd['tohp'] > cd['fromhp']:
-                DB.add_diamond( tid, 1)
+                DB.add_diamonds( tid, 1)
                 DB.add_exp( tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{t} win !!\n"
-                                        f'{t}魔法石💎diamond + 100\n'
+                                        f'{t}魔法石💎diamond + 1\n'
                                         f'EXP + 100')
             return ConversationHandler.END
 
@@ -263,19 +263,19 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
-                DB.add_diamond( fid, 1)
+                DB.add_diamonds( fid, 1)
                 DB.add_exp( fid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{f} win !!\n"
-                                        f'{f}魔法石💎diamond + 100\n'
+                                        f'{f}魔法石💎diamond + 1\n'
                                         f'EXP + 100')
 
             elif cd['tohp'] > cd['fromhp']:
-                DB.add_gold(tid, 100)
+                DB.add_diamonds(tid, 1)
                 DB.add_exp(tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{t} win !!\n"
-                                        f'{t}金币🟡Gold + 100\n'
+                                        f'{t}魔法石💎diamond + 1\n'
                                         f'EXP + 100')
             return ConversationHandler.END
 
@@ -295,18 +295,18 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
-                DB.add_diamond(fid, 1)
+                DB.add_diamonds(fid, 1)
                 DB.add_exp(fid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{f} win !!\n"
-                                        f'{f}魔法石💎diamond + 100\n'
+                                        f'{f}魔法石💎diamond + 1\n'
                                         f'EXP + 100')
             elif cd['tohp'] > cd['fromhp']:
-                DB.add_diamond(tid, 1)
+                DB.add_diamonds(tid, 1)
                 DB.add_exp(tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{t} win !!\n"
-                                        f'{t}魔法石💎diamond + 100\n'
+                                        f'{t}魔法石💎diamond + 1\n'
                                         f'EXP + 100')
             return ConversationHandler.END
 
@@ -326,18 +326,18 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
-                DB.add_diamond(fid, 1)
+                DB.add_diamonds(fid, 1)
                 DB.add_exp(fid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{f} win !!\n"
-                                        f'{f}魔法石💎diamond + 100\n'
+                                        f'{f}魔法石💎diamond + 1\n'
                                         f'EXP + 100')
             elif cd['tohp'] > cd['fromhp']:
-                DB.add_diamond(tid, 1)
+                DB.add_diamonds(tid, 1)
                 DB.add_exp(tid , 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{t} win !!\n"
-                                        f'{t}魔法石💎diamond + 100\n'
+                                        f'{t}魔法石💎diamond + 1\n'
                                         f'EXP + 100')
             return ConversationHandler.END
 
@@ -357,18 +357,18 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
-                DB.add_gold(fid, 100)
+                DB.add_diamonds(fid, 1)
                 DB.add_exp(fid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{f} win !!"
-                                        f'{f}金币🟡Gold + 100\n'
+                                        f'{f}魔法石💎diamond + 1\n'
                                         f'EXP + 100')
             elif cd['tohp'] > cd['fromhp']:
                 DB.add_gold(tid, 100)
                 DB.add_exp(tid, 100)
                 query.message.edit_text(f"{f} ❤️Hp : {cd['fromhp']}\n{t} ❤️Hp: {cd['tohp']}\n\n"
                                         f"{t} win !!"
-                                        f'{t}金币🟡Gold + 100\n'
+                                        f'{t}魔法石💎diamond + 1\n'
                                         f'EXP + 100')
             return ConversationHandler.END
 
@@ -388,14 +388,14 @@ def res(update: Update, context: CallbackContext):
 
         if cd['fromhp'] == 0 or cd['tohp'] == 0:
             if cd['fromhp'] > cd['tohp']:
-                DB.add_diamond(fid, 1)
+                DB.add_diamonds(fid, 1)
                 DB.add_exp(fid, 100)
-                query.message.edit_text(f'{f}魔法石💎diamond + 100\n'
+                query.message.edit_text(f'{f}魔法石💎diamond + 1\n'
                                         f'EXP + 100')
             elif cd['tohp'] > cd['fromhp']:
-                DB.add_diamond(tid, 1)
+                DB.add_diamonds(tid, 1)
                 DB.add_exp(tid, 100)
-                query.message.edit_text(f'{t}魔法石💎diamond + 100\n'
+                query.message.edit_text(f'{t}魔法石💎diamond + 1\n'
                                         f'EXP + 100')
             return ConversationHandler.END
 
