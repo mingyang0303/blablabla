@@ -19,7 +19,7 @@ DB.setup()
 #state
 ONE , TWO , THREE , FIRST , SECOND,  *_ = range(50)
 #callback data
-S_START , S_INCREASE ,S_POP , FIRST , SECOND ,THIRD,CHECK, SHOW, *_ = range(1000)
+S_START , S_INCREASE ,S_POP , SS_POP, FIRST , SECOND ,THIRD,CHECK, SHOW, *_ = range(1000)
 owners = [163494588,652962567,1027794428,801509492,935241907]
 
 ancts = [{'name': '德王顯仁・敖廣',
@@ -953,6 +953,62 @@ def end_pop(update , context):
     DB.add_exp(user_id , 250)
 
     return ConversationHandler.END
+  
+  
+def bigpop(update , context):
+    user = update.effective_user.first_name
+    msg = update.message
+    user_id = update.effective_user.id
+    query = update.callback_query
+    cd = context.chat_data
+    random.seed(time.time())
+    b = cd['a'] = random.randint(5,15)
+    #query.answer()
+    owner = 163494588
+
+    keyboard = [
+        [InlineKeyboardButton('领取\nclaim', callback_data='claim')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+
+    a = context.bot.get_chat_member(chat_id=update.effective_chat.id, user_id=update.effective_user.id).status
+    
+    if user_id in owners:
+     update.message.reply_text(f'*领取* {b} 魔法石 💎\n'
+                              f'*Claim* {b} diamond',
+                              reply_markup=reply_markup, parse_mode=ParseMode.MARKDOWN_V2)
+     context.bot.delete_message(chat_id = update.effective_chat.id, message_id = msg.message_id)
+  
+    else:
+      update.message.reply_text('not authorized')
+    return SS_POP
+
+def end_bigpop(update , context):
+    user = update.effective_user.first_name
+    user_id = update.effective_user.id
+    query = update.callback_query
+    user_exp = DB.get_user_value(user_id, "exp")
+    user_level = DB.get_user_value(user_id, "level")
+    query.answer()
+    cd = context.chat_data
+    name = update.callback_query.from_user.first_name
+    user_id = update.callback_query.from_user.id
+    b = cd['a']
+
+    
+    query.message.edit_text(f'*{name}*成功领取*{b}*粒魔法石\n'
+                                f'*{name}* claimed *{b}* diamonds\n'
+                                f'EXP : 250\n\n'
+                                f'其他人哈哈哈哈垃圾', parse_mode = ParseMode.MARKDOWN_V2)
+    if user_exp >= user_level * 500:
+            DB.add_exp(user_id, -user_exp)
+            DB.add_level(user_id)
+            context.bot.send_message(chat_id = update.effective_chat.id  , text = f'{name} 升级到了 level : {user_level+1}\n type /inventory again to refresh'
+                                                                         f'\n再按一次 /inventory 刷新')
+    DB.add_diamonds(user_id, b)
+    DB.add_exp(user_id , 250)
+
+    return ConversationHandler.END
       
 def help(update , context):
     cd = context.chat_data
@@ -1325,6 +1381,21 @@ pop_handler = ConversationHandler(
     per_user=False
 
 )
+
+bigpop_handler = ConversationHandler(
+    entry_points=[CommandHandler('bigpop', bigpop)],
+    states={
+        SS_POP:
+            [
+                CallbackQueryHandler(end_bigpop, pattern="^claim$")
+            ]
+    },
+    fallbacks=[],
+    allow_reentry=True,
+    per_user=False
+
+)
+
 mycards_handler = ConversationHandler(
         entry_points=[CommandHandler('mycards', mycards)],
         states={
@@ -1442,6 +1513,7 @@ dispatcher.add_handler(GIVE_HANDLER)
 dispatcher.add_handler(mycards_handler)
 dispatcher.add_handler(increase_handler)
 dispatcher.add_handler(pop_handler)
+dispatcher.add_handler(bigpop_handler)
 dispatcher.add_handler(help_handler)
 dispatcher.add_handler(sex_HANDLER)
 dispatcher.add_handler(MAKE_SUDO_HANDLER)
@@ -1451,8 +1523,8 @@ dispatcher.add_handler(GIFT_HANDLER)
 dispatcher.add_handler(BET_HANDLER)
 
 
-cmdStrings = ['inventory','gift','bet', 'make_sudo', 'remove_sudo', 'sudo_list','slot', 'draw', 'starts','credit','give','add','mycards','sex','button','pop','increase']
-cmdFuncs = [inventory,gift, bet, make_sudo, remove_sudo, sudo_list, slot, draw, starts , credit , give , add , mycards , sex , button , pop , increase]
+cmdStrings = ['inventory','gift','bigpop,''bet', 'make_sudo', 'remove_sudo', 'sudo_list','slot', 'draw', 'starts','credit','give','add','mycards','sex','button','pop','increase']
+cmdFuncs = [inventory,gift, bet, make_sudo, bigpop,remove_sudo, sudo_list, slot, draw, starts , credit , give , add , mycards , sex , button , pop , increase]
 for x, y in zip(cmdStrings, cmdFuncs):
     dispatcher.add_handler(CommandHandler(x, y, filters = approved_chat_filter))
 
