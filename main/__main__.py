@@ -1251,6 +1251,37 @@ def sudo_list(update, context):
      c+=1
     context.bot.send_message(chat_id = update.effective_chat.id, text = f"*Sudo of the bot\n管理员*\n\n*{b}*", parse_mode=ParseMode.MARKDOWN_V2) 
 
+def bet(update, context):
+    msg = update.message.text.split(None,1)[1]
+    msg = int(msg)
+    id = update.effective_user.id
+    name = update.effective_user.first_name
+    from_gold = DB.get_user_value(from_id, "diamonds")
+    if from_gold<=0:
+        return -1
+    if from_gold< int(msg):
+        return -1
+    if msg <=0:
+        return -1
+    except TypeError:
+        return -1
+    except IndexError:
+        return -1
+    except ValueError:
+        return -1
+    except AttributeError:
+        return -1
+    a = random.randint(1,2)
+    if a == 1:
+     msgs = msg*2
+     update.message.reply_text(f"{name}! You bet {msg}💎 and won {msgs}💎\n{name}! 你赌了{msg}💎, 然后赢了{msgs}💎")
+     DB.add_diamonds(id,msgs)
+    else:
+     msgs = msg*0
+     update.message.reply_text(f"{name}! You bet {msg}💎 and loss {msg}💎\n{name}! 你赌了{msg}💎, 然后输了{msg}💎")
+     DB.add_diamonds(id,-msgs)
+    
+
 button_handler = ConversationHandler(
     entry_points=[CommandHandler('button', button)],
     states={
