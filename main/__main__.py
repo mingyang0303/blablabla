@@ -1254,7 +1254,7 @@ def sudo_list(update, context):
 def bet(update, context):
     id = update.effective_user.id
     name = update.effective_user.first_name
-    from_gold = DB.get_user_value(from_id, "diamonds")
+    from_gold = DB.get_user_value(id, "diamonds")
     try:
      msg = update.message.text.split(None,1)[1]
      msg = int(msg)
