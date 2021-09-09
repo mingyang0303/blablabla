@@ -1276,11 +1276,11 @@ def bet(update, context):
     if a == 1:
      msgs = msg*2
      update.message.reply_text(f"{name}! You bet {msg}💎 and won {msgs}💎\n{name}! 你赌了{msg}💎, 然后赢了{msgs}💎")
-     DB.add_diamonds(id,msgs)
+     DB.add_diamonds(id,msg)
     else:
      msgs = msg*0
      update.message.reply_text(f"{name}! You bet {msg}💎 and loss {msg}💎\n{name}! 你赌了{msg}💎, 然后输了{msg}💎")
-     DB.add_diamonds(id,-msgs)
+     DB.add_diamonds(id,-msg)
     
 
 button_handler = ConversationHandler(
