@@ -1252,16 +1252,17 @@ def sudo_list(update, context):
     context.bot.send_message(chat_id = update.effective_chat.id, text = f"*Sudo of the bot\n管理员*\n\n*{b}*", parse_mode=ParseMode.MARKDOWN_V2) 
 
 def bet(update, context):
-    msg = update.message.text.split(None,1)[1]
-    msg = int(msg)
     id = update.effective_user.id
     name = update.effective_user.first_name
     from_gold = DB.get_user_value(from_id, "diamonds")
-    if from_gold<=0:
+    try:
+     msg = update.message.text.split(None,1)[1]
+     msg = int(msg)
+     if from_gold<=0:
         return -1
-    if from_gold< int(msg):
+     if from_gold< int(msg):
         return -1
-    if msg <=0:
+     if msg <=0:
         return -1
     except TypeError:
         return -1
