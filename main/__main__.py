@@ -944,7 +944,7 @@ def end_pop(update , context):
                                 f'*{name}* claimed *{b}* diamonds\n'
                                 f'EXP : 250\n\n'
                                 f'其他人哈哈哈哈垃圾', parse_mode = ParseMode.MARKDOWN_V2)
-     if user_exp >= user_level * 500:
+    if user_exp >= user_level * 500:
             DB.add_exp(user_id, -user_exp)
             DB.add_level(user_id)
             context.bot.send_message(chat_id = update.effective_chat.id  , text = f'{name} 升级到了 level : {user_level+1}\n type /inventory again to refresh'
