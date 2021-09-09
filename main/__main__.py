@@ -1426,6 +1426,7 @@ MAKE_SUDO_HANDLER = CommandHandler('make_sudo', make_sudo)
 REMOVE_SUDO_HANDLER = CommandHandler('remove_sudo', remove_sudo)
 SUDO_LIST_HANDLER = CommandHandler('sudo_list', sudo_list)
 GIFT_HANDLER = CommandHandler('gift', gift)
+BET_HANDLER = CommandHandler('bet', bet)
 
 dispatcher.add_handler(refute_handler)
 
@@ -1446,10 +1447,11 @@ dispatcher.add_handler(MAKE_SUDO_HANDLER)
 dispatcher.add_handler(REMOVE_SUDO_HANDLER)
 dispatcher.add_handler(SUDO_LIST_HANDLER)
 dispatcher.add_handler(GIFT_HANDLER)
+dispatcher.add_handler(BET_HANDLER)
 
 
-cmdStrings = ['inventory','gift', 'make_sudo', 'remove_sudo', 'sudo_list','slot', 'draw', 'starts','credit','give','add','mycards','sex','button','pop','increase']
-cmdFuncs = [inventory,gift, make_sudo, remove_sudo, sudo_list, slot, draw, starts , credit , give , add , mycards , sex , button , pop , increase]
+cmdStrings = ['inventory','gift','bet', 'make_sudo', 'remove_sudo', 'sudo_list','slot', 'draw', 'starts','credit','give','add','mycards','sex','button','pop','increase']
+cmdFuncs = [inventory,gift, bet, make_sudo, remove_sudo, sudo_list, slot, draw, starts , credit , give , add , mycards , sex , button , pop , increase]
 for x, y in zip(cmdStrings, cmdFuncs):
     dispatcher.add_handler(CommandHandler(x, y, filters = approved_chat_filter))
 
