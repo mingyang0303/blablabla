@@ -907,7 +907,7 @@ def pop(update , context):
     cd = context.chat_data
     random.seed(time.time())
     b = cd['a'] = random.randint(1,5)
-    # query.answer()
+    query.answer()
     owner = 163494588
 
     keyboard = [
@@ -933,7 +933,7 @@ def end_pop(update , context):
     query = update.callback_query
     user_exp = DB.get_user_value(user_id, "exp")
     user_level = DB.get_user_value(user_id, "level")
-    # query.answer()
+    query.answer()
     cd = context.chat_data
     name = update.callback_query.from_user.first_name
     user_id = update.callback_query.from_user.id
