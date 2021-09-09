@@ -952,7 +952,7 @@ def end_pop(update , context):
         DB.add_diamonds(user_id, b)
         DB.add_exp(user_id , 250)
 
-    return S_POP
+    return ConversationHandler.END
       
 def help(update , context):
     cd = context.chat_data
@@ -1317,7 +1317,7 @@ pop_handler = ConversationHandler(
     states={
         S_POP:
             [
-                CallbackQueryHandler(end_pop, pattern=".")
+                CallbackQueryHandler(end_pop, pattern="^claim$")
             ]
     },
     fallbacks=[],
