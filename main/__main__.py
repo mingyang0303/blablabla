@@ -939,18 +939,18 @@ def end_pop(update , context):
     user_id = update.callback_query.from_user.id
     b = cd['a']
 
-    if query.data =='claim':
-        query.message.edit_text(f'*{name}*成功领取*{b}*粒魔法石\n'
+    
+    query.message.edit_text(f'*{name}*成功领取*{b}*粒魔法石\n'
                                 f'*{name}* claimed *{b}* diamonds\n'
                                 f'EXP : 250\n\n'
                                 f'其他人哈哈哈哈垃圾', parse_mode = ParseMode.MARKDOWN_V2)
-        if user_exp >= user_level * 500:
+     if user_exp >= user_level * 500:
             DB.add_exp(user_id, -user_exp)
             DB.add_level(user_id)
             context.bot.send_message(chat_id = update.effective_chat.id  , text = f'{name} 升级到了 level : {user_level+1}\n type /inventory again to refresh'
                                                                          f'\n再按一次 /inventory 刷新')
-        DB.add_diamonds(user_id, b)
-        DB.add_exp(user_id , 250)
+    DB.add_diamonds(user_id, b)
+    DB.add_exp(user_id , 250)
 
     return ConversationHandler.END
       
