@@ -1273,7 +1273,7 @@ def make_sudo(update, context):
     if myid in owners:
      if id not in owners:
       owners.append(id)
-      update.message.reply_text(f"{name} make you sudo user, now you can use\n\n- /add \n- /pop\n -bigpop \n\n您现在有资格使用 /add , /pop和 /bigpop") 
+      update.message.reply_text(f"{name} make you sudo user, now you can use\n\n- /add \n- /pop\n -/bigpop \n\n您现在有资格使用 /add , /pop 和 /bigpop") 
       return -1
      if id in owners:
       update.message.reply_text(f"{toname} is already sudo user, {toname} 已经是管理员") 
