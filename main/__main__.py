@@ -942,8 +942,7 @@ def end_pop(update , context):
     
     query.message.edit_text(f'*{name}*成功领取*{b}*粒魔法石\n'
                                 f'*{name}* claimed *{b}* diamonds\n'
-                                f'EXP : 250\n\n'
-                                f'其他人哈哈哈哈垃圾', parse_mode = ParseMode.MARKDOWN_V2)
+                                f'EXP : 250\n\n', parse_mode = ParseMode.MARKDOWN_V2)
     if user_exp >= user_level * 500:
             DB.add_exp(user_id, -user_exp)
             DB.add_level(user_id)
@@ -998,8 +997,7 @@ def end_bigpop(update , context):
     
     query.message.edit_text(f'*{name}*成功领取*{b}*粒魔法石\n'
                                 f'*{name}* claimed *{b}* diamonds\n'
-                                f'EXP : 250\n\n'
-                                f'其他人哈哈哈哈垃圾', parse_mode = ParseMode.MARKDOWN_V2)
+                                f'EXP : 250\n\n', parse_mode = ParseMode.MARKDOWN_V2)
     if user_exp >= user_level * 500:
             DB.add_exp(user_id, -user_exp)
             DB.add_level(user_id)
