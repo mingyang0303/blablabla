@@ -762,7 +762,7 @@ checker = [
 'The Leader is "Sultry Fragrance - Andromeda".'},
     {'chi_name':'水夏娃',
 'chif_name':'水夏娃',
-'eng_name':'watereve',
+'eng_name':'water eve',
 'chi_act':'金果诱毒 CD6 \n\n'
 'I. 每回合所有“澜漫勾惑 ‧ 夏娃” \n'
 '⇒ 增加 1 个金果 \n'
