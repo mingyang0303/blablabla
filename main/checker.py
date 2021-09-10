@@ -760,9 +760,9 @@ checker = [
 'Attack bonus for Combo increases by 25%.\n'
 'Condition:\n'
 'The Leader is "Sultry Fragrance - Andromeda".'},
-    {'chi_name':'夏娃',
-'chif_name':'夏娃',
-'eng_name':'eve',
+    {'chi_name':'水夏娃',
+'chif_name':'水夏娃',
+'eng_name':'watereve',
 'chi_act':'金果诱毒 CD6 \n\n'
 'I. 每回合所有“澜漫勾惑 ‧ 夏娃” \n'
 '⇒ 增加 1 个金果 \n'
