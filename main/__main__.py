@@ -1311,7 +1311,7 @@ def bet(update, context):
     from_gold = DB.get_user_value(id, "diamonds")
     Chat = update.effective_chat
     if update.effective_chat.type != Chat.PRIVATE:
-     update.message.reply_text("use in pm" \n "请私聊机器人")
+     update.message.reply_text("use in pm \n 请私聊机器人")
      return -1
     try:
      msg = update.message.text.split(None,1)[1]
