@@ -1171,7 +1171,38 @@ checker = [
 'II. For other Dragons, \n'
 '⇒ Active Skill CD -1 after entering a Stage. \n\n'
 'Condition: \n'
-'The Team consists of only Dragons, with "Noble Fire of the Lost - Bahamut" in the Team. '}
+'The Team consists of only Dragons, with "Noble Fire of the Lost - Bahamut" in the Team. '},
+    {'chi_name':'贝西摩斯',
+'chif_name':'貝西摩斯',
+'eng_name':'behemoth',
+'chi_act':'深淵領域 CD6 \n\n'
+'I. 1 回合內，獸類攻擊力及回復力 2.3 倍 \n'
+'II. 隨機將 23 粒符石轉化為 \n'
+'⇒「水、火、木」非強化符石各 5 粒 \n'
+'⇒「光、暗」非強化符石各 4 粒 \n'
+'III. 消除 23 粒或以上符石時 \n'
+'⇒ 自身主動技能 CD 減少 5 \n',
+'eng_act':'Regions of Pilgrimage CD6 \n\n'
+'For 1 Round: \n'
+'I. Beast Attack & Recovery x 2.3.\n'
+'II. Turn 23 random Runestones into non-Enchanted Runestones of 5 Attributes \n'
+'(5 for Water, Fire and Earth; 4 for Light and Dark). \n'
+'III. By dissolving ≥23 Runestones, the Character\'s Skill CD -5.',
+'chi_lead':'野獸之怒 \n\n'
+'獸類攻擊力 2 倍',
+'eng_lead':'Anger of Beasts \n\n'
+'Beast Attack x 2 ',
+'chi_team':'队伍技能： \n'
+'I. 「墜落殺戮 ‧ 貝西摩斯」的生命力、攻擊力、回復力 1.5 倍 \n'
+'II. 進入關卡後，獸類成員的主動技能 CD 減少 2 \n\n'
+'发动条件： \n'
+'以「墜落殺戮 ‧ 貝西摩斯」作成員，且隊伍中只有獸類成員',
+'eng_team':'Team Skill: \n'
+'I. HP, Attack & Recovery of "Fallen Massacre - Behemoth" x 1.5 additionally.", \n'
+'II. After entering a stage, Active Skill CD(s) of Beast(s) -2. \n\n'
+'Condition: \n'
+'There is "Fallen Massacre - Behemoth" in the Team.\n'
+'The Team consists of only Beasts. '}
 ]
 
 def biodata_ch_name(x):
