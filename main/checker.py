@@ -1134,7 +1134,7 @@ checker = [
 'The Team consists of only Elves, with "Resonance of the World - Zana" as a Team Member. '},
     {'chi_name':'巴哈姆特',
 'chif_name':'巴哈姆特',
-'eng_name':'Bahamut',
+'eng_name':'bahamut',
 'chi_act':'龙之逆鳞 CD6 \n\n'
 'I. 解除龙类成员被封锁的技能 \n'
 '(此技能无视封锁技能) \n'
