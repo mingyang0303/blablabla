@@ -1131,7 +1131,47 @@ checker = [
 'eng_team':'Team Skill: \n'
 'HP, Attack & Recovery of "Resonance of the World - Zana" +1000. \n\n'
 'Condition: \n'
-'The Team consists of only Elves, with "Resonance of the World - Zana" as a Team Member. '}
+'The Team consists of only Elves, with "Resonance of the World - Zana" as a Team Member. '},
+    {'chi_name':'巴哈姆特',
+'chif_name':'巴哈姆特',
+'eng_name':'Bahamut',
+'chi_act':'龙之逆鳞 CD6 \n\n'
+'I. 解除龙类成员被封锁的技能 \n'
+'(此技能无视封锁技能) \n'
+'1 回合内 \n'
+'II. 龙类攻击力 2.5 倍 \n'
+'III.“燃烧”敌技的伤害 \n'
+'⇒ 转化为我方生命力 \n'
+'IV. 消除龙族符石时 \n'
+'⇒ 龙类成员的攻击无视“固定连击盾” \n',
+'eng_act':'Reverse of Dragon Scales CD6 \n\n'
+'I. Release the locked Skills of all Dragons. \n'
+'(This Skill will not be locked.) \n'
+'For 1 Round: \n'
+'II. Dragon Attack x 2.5. \n'
+'III. Damage received from Boss Skill "Burning" will be converted to HP. \n'
+'IV. By dissolving Dragon Runestones, \n'
+'⇒ Damage of Dragons will be dealt regardless of Fixed Combo Shield \n',
+'chi_lead':'龙之怒 \n\n'
+'龙类攻击力 2 倍 ',
+'eng_lead':'Anger of Dragons \n\n'
+'Dragon Attack x 2 ',
+'chi_team':'队伍技能： \n'
+'I. “迷失者的圣炎 ‧ 巴哈姆特” \n'
+'⇒ 生命力及攻击力 2 倍 \n'
+'⇒ 进入关卡后，技能 CD 减少 6 \n'
+'II. “巴哈姆特”以外的龙类成员 \n'
+'⇒ 进入关卡后，技能 CD 减少 1 \n\n'
+'发动条件： \n'
+'以“迷失者的圣炎 ‧ 巴哈姆特”作成员及队伍中只有龙类成员 ',
+'eng_team':'Team Skill: \n'
+'I. For "Noble Fire of the Lost - Bahamut", \n'
+'⇒ HP & Attack x 2 additionally. \n'
+'⇒ Active Skill CD -6 after entering a Stage. \n'
+'II. For other Dragons, \n'
+'⇒ Active Skill CD -1 after entering a Stage. \n\n'
+'Condition: \n'
+'The Team consists of only Dragons, with "Noble Fire of the Lost - Bahamut" in the Team. '}
 ]
 
 def biodata_ch_name(x):
