@@ -1455,8 +1455,6 @@ SUDO_LIST_HANDLER = CommandHandler('sudo_list', sudo_list)
 GIFT_HANDLER = CommandHandler('gift', gift)
 BET_HANDLER = CommandHandler('bet', bet)
 
-dispatcher.add_handler(refute_handler)
-
 dispatcher.add_handler(DRAW_HANDLER)
 dispatcher.add_handler(INVENTORY_HANDLER)
 dispatcher.add_handler(SLOT_HANDLER)
