@@ -1440,54 +1440,7 @@ help_handler = ConversationHandler(
     per_user=True
     )
 
-ver_chats = [] # Fetch a list of aproved group IDs from the database
-approved_chat_filter = Filters.chat(chat_id = ver_chats)
-def verify(update, context):
-    obtained_id = update.message.chat.id
 
-    # IMPORTANT STEP, Re-Fetch!
-    verchats = []  # ReFetch a list of aproved group IDs from the database instead of using the previously fetched results (from line 7)
-
-    if obtained_id not in verchats:
-        # Update the Filters
-        obtained_idSet = {obtained_id}
-        approved_chat_filter.add_chat_ids(chat_id=obtained_idSet)
-
-        # Update the Database
-        # Database.VerChats.add(obtained_id) or something like this, whatever...
-
-        update.message.reply_text("Chat approved!")
-    else:
-        update.message.reply_markdown("This chat is already approved!")
-
-
-verify_handler = CommandHandler('approve', verify, filters=Filters.user(user_id=owners))
-dispatcher.add_handler(verify_handler)
-
-
-# ========= UN-APPROVE COMMAND =========
-def refute(update, context):
-    obtained_id = update.message.chat.id
-
-    # IMPORTANT STEP, Re-Fetch!
-    verchats = []  # ReFetch a list of aproved group IDs from the database instead of using the previously fetched results (from line 7)
-
-    if obtained_id in verchats:
-        # Update the Filters
-        obtained_idSet = {obtained_id}
-        approved_chat_filter.remove_chat_ids(chat_id=obtained_idSet)
-
-        # Update the Database
-        # Database.VerChats.remove(obtained_id) or something like this, whatever...
-
-        update.message.reply_text("Chat un-approved!")
-    else:
-        update.message.reply_markdown("This chat is not approved yet, can't un-approve!")
-
-
-
-
-refute_handler = CommandHandler('unapprove', refute, filters=Filters.user(user_id=owners))
 INVENTORY_HANDLER = CommandHandler('inventory', inventory)
 DRAW_HANDLER = CommandHandler('draw', draw, run_async=True)
 SLOT_HANDLER = CommandHandler('slot', slot)
@@ -1525,8 +1478,4 @@ dispatcher.add_handler(GIFT_HANDLER)
 dispatcher.add_handler(BET_HANDLER)
 
 
-cmdStrings = ['inventory','gift','bigpop,''bet', 'make_sudo', 'remove_sudo', 'sudo_list','slot', 'draw', 'starts','credit','give','add','mycards','sex','button','pop','increase']
-cmdFuncs = [inventory,gift, bet, make_sudo, bigpop,remove_sudo, sudo_list, slot, draw, starts , credit , give , add , mycards , sex , button , pop , increase]
-for x, y in zip(cmdStrings, cmdFuncs):
-    dispatcher.add_handler(CommandHandler(x, y, filters = approved_chat_filter))
 
