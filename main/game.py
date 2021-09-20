@@ -421,8 +421,9 @@ CallbackQueryHandler(res, pattern='^' + str('wood') + '$')
         fallbacks=[],
 
     allow_reentry=True,
-    per_user=False
+    per_user=False,
+    run_async=True
     )
 logging.basicConfig( format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-dispatcher.add_handler(game_handler, run_async=True)
+dispatcher.add_handler(game_handler)
