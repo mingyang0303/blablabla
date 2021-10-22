@@ -65,13 +65,16 @@ def add_column():
 
 def get_name(user_id: int, items: str):
     stmt = f"SELECT name FROM Usr WHERE user_id=%s;"
-    try:
-     cur.execute(stmt)
-     r = cur.fetchall()
-    except TypeError:
-     r = None
-    finally:
-     return r
+    #try:
+    # cur.execute(stmt)
+    # r = cur.fetchall()
+   # except TypeError:
+   #  r = None
+  #  finally:
+     #return r
+    cur.execute(stmt)
+    r = cur.fetchall()
+    return r
 
 def add_user_card(user_id , card_name , eng):
   stmt = """INSERT INTO Card (user_id , card_name, eng)
