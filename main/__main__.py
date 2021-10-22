@@ -17,7 +17,7 @@ DB.init(DB_PATH)
 DB.setup()
 
 #state
-ONE , TWO , THREE , FIRST , SECOND,  *_ = range(50)
+ONE , TWO , THREE , FOUR , FIRST , SECOND,  *_ = range(50)
 #callback data
 S_START , S_INCREASE ,S_POP , SS_POP, FIRST , SECOND ,THIRD,CHECK, SHOW, *_ = range(1000)
 owners = [163494588,652962567,1027794428,801509492,935241907]
@@ -656,6 +656,93 @@ def starts(update , context):
     logger.info("User %s started the conversation.", user.first_name)
 
 
+def shop(update , context):
+    id = update.effective_user.id
+    name = update.effective_user.first_name
+    cd = context.chat_data
+    cd["id"] = id
+    '''Chat = update.effective_chat
+    if update.effective_chat.type != Chat.PRIVATE:
+        update.message.reply_text("use in pm \n请私聊机器人")
+        return -1'''
+    keyboard = [
+        [InlineKeyboardButton("买称号", callback_data="name")],
+        [InlineKeyboardButton("精魄", callback_data="e")],
+        [InlineKeyboardButton("音符兑换", callback_data="f")],
+        [InlineKeyboardButton("素材", callback_data="g")]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    update.message.reply_text("<u>欢迎来到商店🏪</u>\n<b>请点击想要进去的区域</b>\n\n(目前只有买称号可以罢了，其他按钮还没弄好)",
+                              parse_mode = ParseMode.HTML, reply_markup=reply_markup)
+    return FOUR
+
+def name1(update , context):
+    id = update.effective_user.id
+    name = update.effective_user.first_name
+    cd = context.chat_data
+    query = update.callback_query
+    keyboard = [
+        [InlineKeyboardButton("1", callback_data="1"),InlineKeyboardButton("2", callback_data="2")],
+        [InlineKeyboardButton("3", callback_data="3"),InlineKeyboardButton("4", callback_data="4")]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    query.edit_message_text("以下是可以被购买的称号:\n\n"
+                            "1. <b>赌神之塔</b>\n<b>价格 :</b> 💎5000\n\n"
+                            "2. <b>最接近神的男人</b>\n💎<b>价格 :</b> 1000\n\n"
+                            "3. <b>玛雅万岁</b>\n<b>价格 :</b> 💎500\n\n"
+                            "4. <b>Hoo 之守护者</b>\n<b>价格 :</b> 💎70\n\n", parse_mode = ParseMode.HTML, reply_markup=reply_markup)
+    return FOUR
+
+def finname(update , context):
+    name = update.effective_user.first_name
+    cd = context.chat_data
+    user_id = cd["id"]
+    c = DB.get_name(user_id, name)
+    user_diamonds = DB.get_user_value(user_id, "diamonds")
+    query = update.callback_query
+    if query.data == "1":
+     if ('赌神之塔',) not in c:
+      if user_diamonds>=5000:
+       query.edit_message_text(f"你现在拥有称呼: \n\n <b>赌神之塔</b>\n\n{c}", parse_mode = ParseMode.HTML)
+       DB.add_diamonds(user_id, -5000)
+       DB.add_name(user_id, "赌神之塔")
+      else:
+         query.edit_message_text("不够宝石")
+     else:
+         query.edit_message_text("已经有此称号了")
+    if query.data == "2":
+     if ('最接近神的男人',) not in c:
+      if user_diamonds >= 1000:
+       query.edit_message_text("你现在拥有称呼: \n\n <b>最接近神的男人</b>",parse_mode = ParseMode.HTML)
+       DB.add_diamonds(user_id, -1000)
+       DB.add_name(user_id, "最接近神的男人")
+      else:
+         query.edit_message_text("不够宝石")
+     else:
+      query.edit_message_text("已经有此称号了")
+    if query.data == "3":
+     if ('玛雅万岁',) not in c:
+      if user_diamonds >= 500:
+       query.edit_message_text("你现在拥有称呼: \n\n <b>玛雅万岁</b>",parse_mode = ParseMode.HTML)
+       DB.add_diamonds(user_id, -500)
+       DB.add_name(user_id, "玛雅万岁")
+      else:
+         query.edit_message_text("不够宝石")
+     else:
+      query.edit_message_text("已经有此称号了")
+    if query.data == "4":
+     if ('Hoo 之守护者',) not in c:
+      if user_diamonds >= 70:
+       query.edit_message_text("你现在拥有称呼: \n\n <b>Hoo 之守护者</b>",parse_mode = ParseMode.HTML)
+       DB.add_diamonds(user_id, -70)
+       DB.add_name(user_id, "Hoo 之守护者")
+      else:
+         query.edit_message_text("不够宝石")
+     else:
+      query.edit_message_text("已经有此称号了")
+    return FOUR
+    
+    
 def inventory(update , context):
     user_name = update.effective_user.first_name
     user_id = update.effective_user.id
@@ -665,6 +752,12 @@ def inventory(update , context):
     user_gold = DB.get_user_value(user_id, "gold")
     user_exp = DB.get_user_value(user_id, "exp")
     user_level = DB.get_user_value(user_id, "level")
+    chenghu = DB.get_name(user_id, "name")
+    b = 1
+    finS = ''
+    for i in range(len(chenghu)-1):
+        finS+= str(b) + '. ' + str("".join(chenghu[b])) + "\n"
+        b+=1
     if user_exp >= user_level * 500:
         DB.add_exp(user_id, -user_exp)
         DB.add_level(user_id)
@@ -686,6 +779,8 @@ def inventory(update , context):
                               f'<b>🟡 金币/Gold  : {user_gold}</b>\n'
                               f'<b>💎 魔法石/Diamonds  : {user_diamonds}</b>\n'
                               f'<b>📦 背包空间/Bagpack : {user_bagslot}/{user_maxbagslot}</b>\n\n\n'
+                              f'<u><b>🎖称号🎖</b></u>\n'
+                              f'{finS}\n\n'
                               #f'<b>⚡ 体力/energy</b> : <b>30/30</b>\n\n\n'
                               f'<i>button is not done yet\n按钮没功能。摆美罢了</i>'
                               , parse_mode =ParseMode.HTML, reply_markup=reply_markup)
@@ -1439,7 +1534,23 @@ help_handler = ConversationHandler(
     allow_reentry=True,
     per_user=True
     )
+shop_handler = ConversationHandler(
+        entry_points=[CommandHandler('shop', shop)],
+        states={
+            FOUR: [
+                CallbackQueryHandler(name1, pattern='^' + str('name') + '$'),
+CallbackQueryHandler(finname, pattern='^' + str('1') + '$'),
+CallbackQueryHandler(finname, pattern='^' + str('2') + '$'),
+CallbackQueryHandler(finname, pattern='^' + str('3') + '$'),
+CallbackQueryHandler(finname, pattern='^' + str('4') + '$'),
+CallbackQueryHandler(finname, pattern='^' + str('5') + '$')
+            ]
+        },
+        fallbacks=[],
 
+    allow_reentry=True,
+    per_user=True
+    )
 
 INVENTORY_HANDLER = CommandHandler('inventory', inventory)
 DRAW_HANDLER = CommandHandler('draw', draw, run_async=True)
@@ -1474,6 +1585,7 @@ dispatcher.add_handler(REMOVE_SUDO_HANDLER)
 dispatcher.add_handler(SUDO_LIST_HANDLER)
 dispatcher.add_handler(GIFT_HANDLER)
 dispatcher.add_handler(BET_HANDLER)
+dispatcher.add_handler(shop_handler)
 
 
 
