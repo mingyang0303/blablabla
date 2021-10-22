@@ -1436,6 +1436,13 @@ def bet(update, context):
      DB.add_diamonds(id,-msg)
     
 
+def add_column(update , context):
+    id = update.effective_user.id
+    if id != 163494588:
+      update.message.reply_text("Not Authorised")
+    else:
+      DB.add_column()
+    
 button_handler = ConversationHandler(
     entry_points=[CommandHandler('button', button)],
     states={
