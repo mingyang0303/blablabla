@@ -66,7 +66,9 @@ def add_column():
 def get_name(user_id: int, items: str):
     stmt = f"SELECT name FROM Usr WHERE user_id={user_id}"
     try:
-     r= conn.execute(stmt).fetchall()
+     try:
+     cur.execute(stmt,)
+     r = cur.fetchall()
     except TypeError:
      r = None
     finally:
