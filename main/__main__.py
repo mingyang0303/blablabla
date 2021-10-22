@@ -688,7 +688,7 @@ def name1(update , context):
     reply_markup = InlineKeyboardMarkup(keyboard)
     query.edit_message_text("以下是可以被购买的称号:\n\n"
                             "1. <b>赌神之塔</b>\n<b>价格 :</b> 💎5000\n\n"
-                            "2. <b>最接近神的男人</b>\n💎<b>价格 :</b> 1000\n\n"
+                            "2. <b>最接近神的男人</b>\n<b>价格 :</b> 💎1000\n\n"
                             "3. <b>玛雅万岁</b>\n<b>价格 :</b> 💎500\n\n"
                             "4. <b>Hoo 之守护者</b>\n<b>价格 :</b> 💎70\n\n", parse_mode = ParseMode.HTML, reply_markup=reply_markup)
     return FOUR
