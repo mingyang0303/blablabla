@@ -1572,6 +1572,7 @@ REMOVE_SUDO_HANDLER = CommandHandler('remove_sudo', remove_sudo)
 SUDO_LIST_HANDLER = CommandHandler('sudo_list', sudo_list)
 GIFT_HANDLER = CommandHandler('gift', gift)
 BET_HANDLER = CommandHandler('bet', bet)
+ADD_COLUMN_HANDLER = CommandHandler('add_column', add_column)
 
 dispatcher.add_handler(DRAW_HANDLER)
 dispatcher.add_handler(INVENTORY_HANDLER)
@@ -1592,6 +1593,7 @@ dispatcher.add_handler(REMOVE_SUDO_HANDLER)
 dispatcher.add_handler(SUDO_LIST_HANDLER)
 dispatcher.add_handler(GIFT_HANDLER)
 dispatcher.add_handler(BET_HANDLER)
+dispatcher.add_handler(ADD_COLUMN_HANDLER)
 dispatcher.add_handler(shop_handler)
 
 
