@@ -57,6 +57,12 @@ VALUES (
   conn.commit()
   return conn
 
+def add_column():
+  stmt = """ALTER TABLE User ADD COLUMN IF NOT EXISTS name TEXT;;
+)"""
+  conn.execute(stmt,)
+  conn.commit()
+
 def add_user_card(user_id , card_name , eng):
   stmt = """INSERT INTO Card (user_id , card_name, eng)
 VALUES (
