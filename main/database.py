@@ -64,10 +64,10 @@ def add_column():
   conn.commit()
 
 def get_name(user_id: int, items: str):
-    stmt = f"SELECT name FROM Usr WHERE user_id={user_id}"
+    stmt = f"SELECT name FROM Usr WHERE user_id=%s;"
     try:
      try:
-     cur.execute(stmt,)
+     cur.execute(stmt)
      r = cur.fetchall()
     except TypeError:
      r = None
