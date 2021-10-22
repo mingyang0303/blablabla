@@ -1442,6 +1442,7 @@ def add_column(update , context):
       update.message.reply_text("Not Authorised")
     else:
       DB.add_column()
+      update.message.reply_text("done") 
     
 button_handler = ConversationHandler(
     entry_points=[CommandHandler('button', button)],
