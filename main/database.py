@@ -60,7 +60,7 @@ VALUES (
 def add_column():
   stmt = """ALTER TABLE Usr ADD COLUMN IF NOT EXISTS name TEXT;
 )"""
-  cur.execute(stmt)
+  cur.execute(stmt,)
   conn.commit()
 
 def get_name(user_id: int, items: str):
@@ -72,7 +72,7 @@ def get_name(user_id: int, items: str):
    #  r = None
   #  finally:
      #return r
-    cur.execute(stmt)
+    cur.execute(stmt,)
     r = cur.fetchall()
     return r
 
