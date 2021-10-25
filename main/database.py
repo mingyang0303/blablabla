@@ -58,7 +58,7 @@ VALUES (
   return conn
 
 def add_column():
-  stmt = """ALTER TABLE Usr ADD COLUMN IF NOT EXISTS name TEXT;
+  stmt = """ALTER TABLE Usr ADD COLUMN name TEXT;
 )"""
   cur.execute(stmt,)
   conn.commit()
