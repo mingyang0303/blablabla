@@ -72,7 +72,7 @@ def get_name(user_id: int, items: str):
    #  r = None
   #  finally:
      #return r
-    cur.execute(stmt,user_id)
+    cur.execute(stmt,(user_id,))
     r = cur.fetchall()
     return r
 
