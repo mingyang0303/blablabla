@@ -76,6 +76,15 @@ def get_name(user_id: int, items: str):
     r = cur.fetchall()
     return r
 
+def add_name(conn, user_id , name):
+    stmt = """INSERT INTO User (user_id , name)
+    VALUES (
+      %s,
+      %s
+    );"""
+    cur.execute(stmt, (user_id,name))
+    conn.commit()
+
 def add_user_card(user_id , card_name , eng):
   stmt = """INSERT INTO Card (user_id , card_name, eng)
 VALUES (
