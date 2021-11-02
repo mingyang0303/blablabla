@@ -772,6 +772,7 @@ def inventory(update , context):
     ]
 
     reply_markup = InlineKeyboardMarkup(keyboard)
+    context.bot.send_message(chat_id = update.effective_chat.id , text = f{chenghu})
     update.message.reply_text(f'<b>{user_name}\'s Inventory</b>\n'
                               f'ID : <code>{user_id}</code>\n\n'
                               f'<b>🧬 等级/Level : {user_level} </b>\n'
