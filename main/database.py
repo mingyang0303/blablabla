@@ -83,11 +83,8 @@ def get_name(user_id: int, items: str):
     return r
 
 def add_name(conn, user_id , name):
-    stmt = """INSERT INTO User (user_id , name)
-    VALUES (
-      %s,
-      %s
-    );"""
+    stmt = """UPDATE Usr SET name = %s WHERE user_id = %s"""
+
     cur.execute(stmt, (user_id,name))
     conn.commit()
 
