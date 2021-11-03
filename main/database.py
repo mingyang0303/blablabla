@@ -58,7 +58,7 @@ VALUES (
   return conn
 
 def add_column():
-  stmt = """ALTER TABLE Usr ADD COLUMN name TEXT;
+  stmt = """ALTER TABLE Usr ADD COLUMN name text ARRAY[100];
 """
   cur.execute(stmt,)
   conn.commit()
