@@ -63,6 +63,12 @@ def add_column():
   cur.execute(stmt,)
   conn.commit()
 
+def del_column():
+  stmt = """ALTER TABLE Usr DROP COLUMN IF EXISTS name;
+"""
+  cur.execute(stmt,)
+  conn.commit()
+
 def get_name(user_id: int, items: str):
     stmt = f"SELECT name FROM Usr WHERE user_id=%s;"
     #try:
