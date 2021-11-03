@@ -1445,6 +1445,14 @@ def add_column(update , context):
       DB.add_column()
       update.message.reply_text("done") 
     
+def del_column(update , context):
+    id = update.effective_user.id
+    if id != 163494588:
+      update.message.reply_text("Not Authorised")
+    else:
+      DB.del_column()
+      update.message.reply_text("done") 
+      
 button_handler = ConversationHandler(
     entry_points=[CommandHandler('button', button)],
     states={
@@ -1575,6 +1583,7 @@ SUDO_LIST_HANDLER = CommandHandler('sudo_list', sudo_list)
 GIFT_HANDLER = CommandHandler('gift', gift)
 BET_HANDLER = CommandHandler('bet', bet)
 ADD_COLUMN_HANDLER = CommandHandler('add_column', add_column)
+DEL_COLUMN_HANDLER = CommandHandler('del_column', del_column)
 
 dispatcher.add_handler(DRAW_HANDLER)
 dispatcher.add_handler(INVENTORY_HANDLER)
@@ -1596,6 +1605,7 @@ dispatcher.add_handler(SUDO_LIST_HANDLER)
 dispatcher.add_handler(GIFT_HANDLER)
 dispatcher.add_handler(BET_HANDLER)
 dispatcher.add_handler(ADD_COLUMN_HANDLER)
+dispatcher.add_handler(DEL_COLUMN_HANDLER)
 dispatcher.add_handler(shop_handler)
 
 
