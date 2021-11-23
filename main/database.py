@@ -81,10 +81,10 @@ def get_name(user_id: int, items: str):
     cur.execute(stmt,(user_id,))
     r = cur.fetchone() 
     return r
-def add_name(user_id , name):
+def add_name(name, user_id):
     stmt = """UPDATE Usr SET name = array_append(name,%s) WHERE user_id = %s"""
 
-    cur.execute(stmt, (user_id,name))
+    cur.execute(stmt, (name,user_id))
     conn.commit()
 
 def add_user_card(user_id , card_name , eng):
