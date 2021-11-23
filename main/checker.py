@@ -760,6 +760,8 @@ checker = [
 'Attack bonus for Combo increases by 25%.\n'
 'Condition:\n'
 'The Leader is "Sultry Fragrance - Andromeda".'},
+    
+    
     {'chi_name':'水夏娃',
 'chif_name':'水夏娃',
 'eng_name':'watereve',
