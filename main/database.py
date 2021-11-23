@@ -81,7 +81,7 @@ def get_name(user_id: int, items: str):
     cur.execute(stmt,(user_id,))
     r = cur.fetchone() 
     return r
-def add_name(conn, user_id , name):
+def add_name(user_id , name):
     stmt = """UPDATE Usr SET name = array_append(name,%s) WHERE user_id = %s"""
 
     cur.execute(stmt, (user_id,name))
