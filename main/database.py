@@ -82,10 +82,18 @@ def get_name(user_id: int, items: str):
     r = cur.fetchone() 
     return r
 def add_name(name, user_id):
-    stmt = """UPDATE Usr SET name = array_append(name,%s) WHERE user_id = %s"""
+    stmt = """UPDATE Usr SET name = array_append(%s) WHERE user_id = %s"""
 
     cur.execute(stmt, (name,user_id))
     conn.commit()
+    
+'''def add_name(user_id : int , card_name : str):
+    stmt = f"UPDATE Card card_name = card_name + %s WHERE user_id =%s;"
+    
+    stmt = """UPDATE Usr SET name = array_append(name,%s) WHERE user_id = %s"""
+    
+    cur.execute(stmt, (card_name,user_id))
+    conn.commit()'''
 
 def add_user_card(user_id , card_name , eng):
   stmt = """INSERT INTO Card (user_id , card_name, eng)
