@@ -5,7 +5,6 @@ from telegram.ext import CommandHandler, InlineQueryHandler, ConversationHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update, ParseMode
 from telegram.ext import Updater, CallbackQueryHandler, CallbackContext , Filters
 
-S_START , S_INCREASE ,S_POP , FIRST , SECOND ,THIRD,CHECK, *_ = range(1000)
 
 checker = [
     {'chi_name' : '切西亚',
@@ -718,7 +717,7 @@ checker = [
 '發動條件：\n'
 '以「幻域真我．梅林」作隊長及戰友\n\n'
 '隊伍技能：\n'
-'所有成員的回復力基值跟隨回復力基值最高的成員\n'\n'
+'所有成員的回復力基值跟隨回復力基值最高的成員\n\n'
 '發動條件：\n'
 '以「幻域真我．梅林」及 ≥3 個妖精類作成員',
 'eng_team':'None'},
