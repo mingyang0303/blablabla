@@ -632,37 +632,95 @@ checker = [
     {'chi_name':'兰斯洛特',
 'chif_name':'蘭斯洛特',
 'eng_name':'lancelot',
-'chi_act':'暗黑之劍氣 CD5\n'
-'水符石轉化為暗強化符石，下回合開始時，將本回合所消除強化符石的數量等值的符石轉化為暗強化符石 (水及光符石優先轉換)\n\n'
-'銳劍出鞘 CD5\n'
-'每回合自身攻擊力持續提升，最大 4 倍，直至自身沒有發動攻擊',
+'chi_act':'暗黑之劍氣 ‧ 魔息 CD5\n'
+'I. 引爆水符石\n'
+'⇒ 掉落暗強化符石\n'
+'II. 引爆光符石\n'
+'⇒ 掉落心強化符石\n'
+'III. 回合結束時，將本回合所消除強化符石的數量等值的符石轉化為\n'
+'⇒ 暗魔族強化符石\n'
+'(水及光符石優先轉換)\n\n'
+'銳劍出鞘 ‧ 破攻  CD5\n'
+'I. 每回合自身攻擊力持續提升\n'
+'⇒ 最大 5 倍\n'
+'II. 自身無視「攻前盾」\n'
+'效果持續至自身沒有發動攻擊',
 'eng_act':'Dark Power of Blade CD5\n'
 'Turn Water Runestones into Enchanted Dark Runestones. At the beginning of next Round, turn Runestones into Enchanted Dark Runestones of a number same as that of the Enchanted Runestones dissolved in this Round (Water and Light Runestones rank first in priority).\n\n'
 'Sword Unsheathing CD5\n'
 'The Monster\'s Attack continues to increase every Round, to the max x 4, until no Attack is launched by the Monster.',
 'chi_lead':'騎士之盟\n'
 '隊伍中只有火、木及暗屬性成員時：\n'
-'I. 全隊攻擊力 4 倍\n'
+'I. 全隊攻擊力 6.5 倍、\n'
+'生命力及回復力 1.3 倍\n'
 'II. 消除心符石時\n'
-'⇒ 全隊攻擊力有 50% 機率額外 2 倍\n'
-'(機率可以疊加)',
+'⇒ 全隊攻擊力額外 2.5 倍\n'
+'III. 消除強化符石時\n'
+'⇒ 自身攻擊力額外 1.5 倍\n',
 'eng_lead':'Alliance of Knights\n\n'
 'When the Team consists of only Fire, Earth and Dark Monsters, Team Attack x 4 and if Heart Runestones are dissolved, there will be a 50 chance of gaining an extra of x 2 (the probability can be summed up)',
-'chi_team':'沒有隊伍技能',
+'chi_team':'隊伍技能：\n\n'
+'I. 必然延長移動符石時間 3 秒\n'
+'II. 火、木、暗符石互相兼具效果\n'
+'III. 火、木、暗符石兼具\n'
+'⇒ 25% 心符石效果\n'
+'IV. 心符石兼具\n'
+'⇒ 火、木、暗符石效果\n'
+'V. 消除 ≥4 種符石\n'
+'⇒ 所有成員追打被克屬性攻擊 1 次\n'
+'VI. 將移動符石時觸碰的火、木、暗符石\n'
+'⇒ 轉化為強化符石\n'
+'VII. 同時消除火、木及暗符石\n'
+'⇒「逐光暗徒．蘭斯洛特」\n'
+'無視「三屬盾」及「五屬盾」\n\n'
+'發動條件：\n'
+'以「逐光暗徒．蘭斯洛特」作隊長及戰友',
 'eng_team':'None'},
     {'chi_name':'梅林',
 'chif_name':'梅林',
 'eng_name':'merlin',
-'chi_act':'治癒之賦 ‧ 化擊 CD6\n\n'
-'1 回合內，隊伍成員的屬性愈多，回復力愈高，最大 3.5 倍；當隊伍中所有成員的回復力基值相同時，所有成員追打 1 次暗屬性傷害，並將全隊對敵方造成傷害的 5% 轉化為生命力 (不計算主動及隊長技傷害)',
+'chi_act':'	治癒之賦 ‧ 五屬追擊 CD6\n\n'
+'1 回合內\n'
+'I. 隊伍成員的屬性愈多\n'
+'⇒ 全隊攻擊力及回復力愈高\n'
+'最大 3.5 倍\n'
+'II. 當隊中所有成員的回復力基值相同\n'
+'⓵ 個人追打五屬攻擊各 1 次\n'
+'⓶ 所有成員追打暗屬性攻擊 1 次\n'
+'⓷ 全隊對敵方造成攻擊傷害的 5%\n'
+'⇒ 轉化為生命力',
 'eng_act':'Recovery Talent - Attack Conversion CD6\n\n'
 'For 1 Round, the more the Attributes of Monsters in the Team, the higher the Recovery, to the max x 3.5. When all Members have the same Recovery basic value, one extra Dark Attack will be launched by each Member; 5% of Damage dealt to enemies will be converted to HP Recovery (Damage dealt by Active and Leader Skills will not trigger the effect). ',
-'chi_lead':'暗黑回復魔法\n\n'
-'I. 妖精類攻擊力及回復力 4 倍\n'
-'II. 回合結束時，將心符石轉化為心強化符石',
+'chi_lead':'暗黑回復魔法 ‧ 魅\n\n'
+'I. 妖精類攻擊力及回復力 6.5 倍、生命力 1.5 倍\n'
+'II. 每直行首批消除 1 組 ≥4 粒符石\n'
+'⇒ 該直行產生 1 粒心強化符石\n'
+'III. 回合結束時\n'
+'⇒ 將心符石轉化為妖族強化符石\n',
 'eng_lead':'Dark Magic of Recovery\n\n'
 'Elf Attack & Recovery x 4. Turn Heart Runestones into Enchanted Heart Runestones after each Round.',
-'chi_team':'沒有隊伍技能',
+'chi_team':'隊伍技能：\n\n'
+'I. 必然延長移動符石時間 3 秒\n'
+'II. 心符石兼具 300% 屬性符石效果\n'
+'III. 每有 1 直行首批消除\n'
+'1 組 ≥4 粒符石\n'
+'⇒ 全隊攻擊力提升\n'
+'⇒ 6 直行可達至最大 7 倍\n'
+'IV. 直行首批消除 1 組 ≥4 粒符石\n'
+'⇒ 該直行產生 2 粒心強化符石\n'
+'(主動技能 - 結界術 ‧ 玄光、結界術 ‧ 幽冥將不能發動)\n'
+'V. 觸碰心符石時\n'
+'⇒ 解除其電擊、凍結、弱化、化血、石化符石狀態\n'
+'⇒ 添加為妖族符石\n'
+'VI. 無視「黏腐」敵技\n'
+'VII. 消除心符石時\n'
+'⇒ 減少 50% 所受傷害\n\n'
+'發動條件：\n'
+'以「幻域真我．梅林」作隊長及戰友\n\n'
+'隊伍技能：\n'
+'所有成員的回復力基值跟隨回復力基值最高的成員\n'\n'
+'發動條件：\n'
+'以「幻域真我．梅林」及 ≥3 個妖精類作成員',
 'eng_team':'None'},
     {'chi_name':'织田信长',
 'chif_name':'織田信長',
