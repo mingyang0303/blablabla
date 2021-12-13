@@ -633,7 +633,7 @@ def draw(update ,context):
     star = aa[0]['star']
     eng = aa[0]['eng']
 
-    hero = random.choice(my_hero,(0.01,0.045,0.045,0.18,0.18,0.18,0.18,0.18,),k=1) 
+    hero = random.choices(my_hero,(0.01,0.045,0.045,0.18,0.18,0.18,0.18,0.18,),k=1) 
     heropic = hero[0]['heropic']
     herostar = hero[0]['herostar']
     heroname = hero[0]['heroname']
