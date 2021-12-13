@@ -598,6 +598,14 @@ def draw(update ,context):
     pic = aa[0]['link']
     star = aa[0]['star']
     eng = aa[0]['eng']
+
+    hero = random.choice(my_hero,(0.1,0.1,),k=1) 
+    heropic = hero[0]['link']
+    herostar = hero[0]['star']
+    heroname = hero[0]['name']
+    heroeng = hero[0]['eng']
+    
+
     user_exp = DB.get_user_value(user_id, "exp")
     user_level = DB.get_user_value(user_id, "level")
     user_diamonds = DB.get_user_value(user_id, "diamonds")
@@ -637,6 +645,31 @@ def draw(update ,context):
          DB.add_diamonds(user_id , 5)
          context.bot.send_message(chat_id=update.effective_chat.id, text=f'{user} 升级到了 level : {user_level + 1}\n 魔法石 +5 \nDiamonds +5\n\n type /inventory again to refresh'
                                                                          f'\n再按一次 /inventory') 
+ 
+    if msg == '我英' or msg == 'myhero':
+     DB.add_diamonds(user_id, -5)
+     DB.add_slot(user_id)
+     a = update.message.reply_text(f'3')
+     a.edit_text('2')
+     a.edit_text('1')
+     context.bot.delete_message(chat_id =update.effective_chat.id , message_id = a.message_id)
+     context.bot.send_photo(chat_id=update.message.chat.id,
+            photo=f'{heropic}',
+            caption=f'{user} 你拿到/You Got : \n\n<b>{heroname}</b>'
+                    f'\n{heroeng}\n\n稀有度/Rarity : \n{herostar}\n\n'
+                    f'◈剩余魔法石/Diamond left : <b>{user_diamonds-5}</b> 💎\n'
+                    f'◈背包空间/bag slots : <b>{user_bagslot+1}/{user_maxbagslot}</b>📦\n\n\n'
+                    f'<i><b>**卡片以加入背包/Card added to bag**</b></i>', parse_mode=ParseMode.HTML
+        )
+     DB.add_user_card(user_id,heroname,heroeng)
+     DB.add_exp(user_id, 500)
+     if user_exp >= user_level*500:
+         DB.add_exp(user_id,-user_exp)
+         DB.add_level(user_id)
+         DB.add_diamonds(user_id , 5)
+         context.bot.send_message(chat_id=update.effective_chat.id, text=f'{user} 升级到了 level : {user_level + 1}\n 魔法石 +5 \nDiamonds +5\n\n type /inventory again to refresh'
+                            
+     
     else:
         update.message.reply_text('没这个卡池/或者还没加入\n\n'
                                   '目前卡池 : \n'
