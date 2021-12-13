@@ -680,7 +680,7 @@ def draw(update ,context):
          context.bot.send_message(chat_id=update.effective_chat.id, text=f'{user} 升级到了 level : {user_level + 1}\n 魔法石 +5 \nDiamonds +5\n\n type /inventory again to refresh'
                                                                          f'\n再按一次 /inventory') 
  
-    if msg == '我英' or msg == 'myhero':
+    elif msg == '我英' or msg == 'myhero':
      DB.add_diamonds(user_id, -5)
      DB.add_slot(user_id)
      a = update.message.reply_text(f'3')
