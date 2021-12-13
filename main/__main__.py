@@ -582,6 +582,40 @@ ancts = [{'name': '德王顯仁・敖廣',
 'star': '★ ★ ★ ★ ★ ★ ★ ☆ ☆'
 }]
 
+my_hero = [
+{'heroname': '綠谷出久',
+'heroeng': 'Midoriya Izuku',
+'heropic': 'https://telegra.ph/file/941400195a0a69e52e50a.jpg',
+'herostar': '★ ★ ★ ★ ★ ★ ☆ ☆ ☆'},
+{'heroname': '爆豪勝己',
+'heroeng': 'Bakugo Katsuki',
+'heropic': 'https://telegra.ph/file/06acfd23cd90d1046c192.jpg',
+'herostar': '★ ★ ★ ★ ★ ★ ☆ ☆ ☆'},
+{'heroname': '轟焦凍',
+'heroeng': 'Todoroli Shoto',
+'heropic': 'https://telegra.ph/file/cb7a798294d81ff21076e.jpg',
+'herostar': '★ ★ ★ ★ ★ ★ ☆ ☆ ☆'},
+{'heroname': '蛙吹梅雨',
+'heroeng': 'Asui Tsuyu',
+'heropic': 'https://telegra.ph/file/3a020708800371fdbc23f.jpg',
+'herostar': '★ ★ ★ ★ ★ ★ ☆ ☆ ☆'},
+{'heroname': '切島銳兒郎',
+'heroeng': ' Kirishima Eijirou',
+'heropic': 'https://telegra.ph/file/03fe8e76ea1b870aa2245.jpg',
+'herostar': '★ ★ ★ ★ ★ ★ ☆ ☆ ☆'},
+{'heroname': '麗日御茶子',
+'heroeng': 'Uraraka Ochako',
+'heropic': 'https://telegra.ph/file/1290e2b4b540ffd956ab6.jpg',
+'herostar': '★ ★ ★ ★ ★ ★ ☆ ☆ ☆'},
+{'heroname': '飯田天哉',
+'heroeng': 'Lida Tenya',
+'heropic': 'https://telegra.ph/file/32098a70501394c69a56a.jpg',
+'herostar': '★ ★ ★ ★ ★ ★ ☆ ☆ ☆'},
+{'heroname': '心操人使',
+'heroeng': 'Shinso Hitoshi',
+'heropic': 'https://telegra.ph/file/60dd02600c66f9c67fdde.jpg',
+'herostar': '★ ★ ★ ★ ★ ★ ☆ ☆ ☆'}
+]
 
 def draw(update ,context):
     msg = update.message.text.split()[-1]
@@ -599,7 +633,7 @@ def draw(update ,context):
     star = aa[0]['star']
     eng = aa[0]['eng']
 
-    hero = random.choice(my_hero,(0.1,0.1,),k=1) 
+    hero = random.choice(my_hero,(0.01,0.045,0.045,0,18,0,18,0,18,0,18,0,18,),k=1) 
     heropic = hero[0]['link']
     herostar = hero[0]['star']
     heroname = hero[0]['name']
