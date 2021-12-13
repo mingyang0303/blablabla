@@ -592,7 +592,7 @@ my_hero = [
 'heropic': 'https://telegra.ph/file/06acfd23cd90d1046c192.jpg',
 'herostar': '★ ★ ★ ★ ★ ★ ☆ ☆ ☆'},
 {'heroname': '轟焦凍',
-'heroeng': 'Todoroli Shoto',
+'heroeng': 'Todoroki Shoto',
 'heropic': 'https://telegra.ph/file/cb7a798294d81ff21076e.jpg',
 'herostar': '★ ★ ★ ★ ★ ★ ☆ ☆ ☆'},
 {'heroname': '蛙吹梅雨',
