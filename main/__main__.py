@@ -634,10 +634,10 @@ def draw(update ,context):
     eng = aa[0]['eng']
 
     hero = random.choice(my_hero,(0.01,0.045,0.045,0,18,0,18,0,18,0,18,0,18,),k=1) 
-    heropic = hero[0]['link']
-    herostar = hero[0]['star']
-    heroname = hero[0]['name']
-    heroeng = hero[0]['eng']
+    heropic = hero[0]['heropic']
+    herostar = hero[0]['herostar']
+    heroname = hero[0]['heroname']
+    heroeng = hero[0]['heroeng']
     
 
     user_exp = DB.get_user_value(user_id, "exp")
