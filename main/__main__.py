@@ -824,8 +824,8 @@ def inventory(update , context):
     context.bot.send_message(chat_id = update.effective_chat.id , text = f'{chenghu}')
     b = 1
     finS = ''
-    for i in range(len(chenghu)-1):
-        finS+= str(b) + '. ' + str("".join(chenghu[b])) + "\n"
+    for i in chenghu:
+        finS+= str(b) + '. ' + str("".join(i) + "\n"
         b+=1
     if user_exp >= user_level * 500:
         DB.add_exp(user_id, -user_exp)
