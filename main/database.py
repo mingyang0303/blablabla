@@ -58,7 +58,7 @@ VALUES (
   return conn
 
 def add_column():
-  stmt = """ALTER TABLE Usr ADD COLUMN name text ARRAY[100];
+  stmt = """ALTER TABLE Usr ADD COLUMN name text;
 """
   cur.execute(stmt,)
   conn.commit()
@@ -71,15 +71,8 @@ def del_column():
 
 def get_name(user_id: int, items: str):
     stmt = f"SELECT name FROM Usr WHERE user_id=%s;"
-    #try:
-    # cur.execute(stmt)
-    # r = cur.fetchall()
-   # except TypeError:
-   #  r = None
-  #  finally:
-     #return r
     cur.execute(stmt,(user_id,))
-    r = cur.fetchone() 
+    r = cur.fetchall()
     return r
 def add_name(name, user_id):
     stmt = """UPDATE Usr SET name = array_append(%s) WHERE user_id = %s"""
