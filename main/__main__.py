@@ -765,6 +765,7 @@ def finname(update , context):
     cd = context.chat_data
     user_id = cd["id"]
     c = DB.get_name(user_id, name)
+    
     user_diamonds = DB.get_user_value(user_id, "diamonds")
     query = update.callback_query
     if query.data == "1":
@@ -772,7 +773,7 @@ def finname(update , context):
       if user_diamonds>=5000:
        query.edit_message_text(f"你现在拥有称呼: \n\n <b>赌神之塔</b>\n\n{c}", parse_mode = ParseMode.HTML)
        DB.add_diamonds(user_id, -5000)
-       DB.add_name(user_id, "赌神之塔")
+       DB.add_name("赌神之塔", user_id)
       else:
          query.edit_message_text("不够宝石")
      else:
@@ -782,7 +783,7 @@ def finname(update , context):
       if user_diamonds >= 1000:
        query.edit_message_text("你现在拥有称呼: \n\n <b>最接近神的男人</b>",parse_mode = ParseMode.HTML)
        DB.add_diamonds(user_id, -1000)
-       DB.add_name(user_id, "最接近神的男人")
+       DB.add_name("最接近神的男人", user_id)
       else:
          query.edit_message_text("不够宝石")
      else:
@@ -792,7 +793,7 @@ def finname(update , context):
       if user_diamonds >= 500:
        query.edit_message_text("你现在拥有称呼: \n\n <b>玛雅万岁</b>",parse_mode = ParseMode.HTML)
        DB.add_diamonds(user_id, -500)
-       DB.add_name(user_id, "玛雅万岁")
+       DB.add_name("玛雅万岁", user_id)
       else:
          query.edit_message_text("不够宝石")
      else:
@@ -802,7 +803,7 @@ def finname(update , context):
       if user_diamonds >= 70:
        query.edit_message_text("你现在拥有称呼: \n\n <b>Hoo 之守护者</b>",parse_mode = ParseMode.HTML)
        DB.add_diamonds(user_id, -70)
-       DB.add_name(user_id, "Hoo 之守护者")
+       DB.add_name("Hoo 之守护者", user_id)
       else:
          query.edit_message_text("不够宝石")
      else:
@@ -820,6 +821,7 @@ def inventory(update , context):
     user_exp = DB.get_user_value(user_id, "exp")
     user_level = DB.get_user_value(user_id, "level")
     chenghu = DB.get_name(user_id, "name")
+    print(chenghu)
     b = 1
     finS = ''
     for i in range(len(chenghu)-1):
