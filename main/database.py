@@ -99,12 +99,12 @@ def get_name(user_id: int, items: str):
     conn.commit()'''
 
 def add_name(user_id , card_name):
-  stmt = """INSERT INTO Uname (user_id , card_name)
+  stmt = """INSERT INTO Uname (user_id , name)
 VALUES (
   %s,
   %s
 );"""
-  cur.execute(stmt, (user_id, card_name))
+  cur.execute(stmt, (user_id, name))
   conn.commit()
 
 
