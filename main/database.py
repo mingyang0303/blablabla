@@ -98,7 +98,7 @@ def get_name(user_id: int, items: str):
     cur.execute(stmt, (card_name,user_id))
     conn.commit()'''
 
-def add_name(user_id , card_name):
+def add_name(user_id , name):
   stmt = """INSERT INTO Uname (user_id , name)
 VALUES (
   %s,
