@@ -75,7 +75,7 @@ def get_name(user_id: int, items: str):
     r = cur.fetchall()
     return r
 def add_name(name, user_id):
-    stmt = """UPDATE Usr SET name = array_append(%s) WHERE user_id = %s"""
+    stmt = """UPDATE Usr SET name = name +%s WHERE user_id = %s"""
 
     cur.execute(stmt, (name,user_id))
     conn.commit()
