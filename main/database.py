@@ -60,15 +60,15 @@ VALUES (
 
 
 def add_column():
-  stmt = """ALTER TABLE Usr ADD COLUMN name text;
+  stmt = """ALTER TABLE Usr ADD COLUMN name VARCHAR;
 """
-  cur.execute(stmt,)
+  cur.execute(stmt)
   conn.commit()
 
 def del_column():
   stmt = """ALTER TABLE Usr DROP COLUMN IF EXISTS name;
 """
-  cur.execute(stmt,)
+  cur.execute(stmt)
   conn.commit()
 
 def get_name(user_id: int, items: str):
