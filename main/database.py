@@ -77,14 +77,10 @@ def get_name(user_id: int, items: str):
     r = cur.fetchall()
     return r
 
-def add_name(name , user_id):
-  stmt = """INSERT INTO Usr (name , user_id)
-VALUES (
-  %s,
-  %s
-);"""
-  cur.execute(stmt, (name , user_id))
-  conn.commit()
+def add_name(user_id : int , card_name : str):
+    stmt = f"UPDATE Usr name = name + %s WHERE user_id =%s;"
+    cur.execute(stmt, (name,user_id))
+    conn.commit()
     
 '''def add_name(user_id : int , card_name : str):
     stmt = f"UPDATE Card card_name = card_name + %s WHERE user_id =%s;"
