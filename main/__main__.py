@@ -803,9 +803,7 @@ def finname(update , context):
       if user_diamonds >= 70:
        query.edit_message_text("你现在拥有称呼: \n\n <b>Hoo 之守护者</b>",parse_mode = ParseMode.HTML)
        DB.add_diamonds(user_id, -70)
-       context.bot.send_message(chat_id = update.effective_chat.id , text = f'{user_id}')
        DB.add_name(user_id , "Hoo 之守护者")
-       context.bot.send_message(chat_id = update.effective_chat.id , text = 'done2')
       else:
          query.edit_message_text("不够宝石")
      else:
@@ -823,7 +821,7 @@ def inventory(update , context):
     user_exp = DB.get_user_value(user_id, "exp")
     user_level = DB.get_user_value(user_id, "level")
     chenghu = DB.get_name(user_id, "name")
-    print(chenghu)
+    context.bot.send_message(chat_id = update.effective_chat.id , text = f'{chenghu}')
     b = 1
     finS = ''
     for i in range(len(chenghu)-1):
