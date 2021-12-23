@@ -803,8 +803,8 @@ def finname(update , context):
       if user_diamonds >= 70:
        query.edit_message_text("你现在拥有称呼: \n\n <b>Hoo 之守护者</b>",parse_mode = ParseMode.HTML)
        DB.add_diamonds(user_id, -70)
-       context.bot.send_message(chat_id = update.effective_chat.id , text = 'done1')
-       DB.add_name("Hoo 之守护者", user_id)
+       context.bot.send_message(chat_id = update.effective_chat.id , text = f'{user_id}')
+       DB.add_name(user_id , "Hoo 之守护者")
        context.bot.send_message(chat_id = update.effective_chat.id , text = 'done2')
       else:
          query.edit_message_text("不够宝石")
