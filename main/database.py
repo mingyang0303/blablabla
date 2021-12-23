@@ -40,6 +40,14 @@ def setup():
                     );
             """)
     conn.commit()
+    cur.execute("""CREATE TABLE IF NOT EXISTS Uname
+                (
+                      user_id integer not null,
+                      name text
+
+                );
+        """)
+    conn.commit()
 
 def add_user(user_id):
   stmt = """INSERT INTO Usr (user_id, is_admin, diamonds, bagslot , maxbagslot , gold, exp , level)
@@ -77,10 +85,10 @@ def get_name(user_id: int, items: str):
     r = cur.fetchall()
     return r
 
-def add_name(user_id : int , card_name : str):
+'''def add_name(user_id : int , card_name : str):
     stmt = f"UPDATE Usr name = name + %s WHERE user_id =%s;"
     cur.execute(stmt, (name,user_id))
-    conn.commit()
+    conn.commit()'''
     
 '''def add_name(user_id : int , card_name : str):
     stmt = f"UPDATE Card card_name = card_name + %s WHERE user_id =%s;"
@@ -89,6 +97,16 @@ def add_name(user_id : int , card_name : str):
     
     cur.execute(stmt, (card_name,user_id))
     conn.commit()'''
+
+def add_name(user_id , card_name):
+  stmt = """INSERT INTO Uname (user_id , card_name)
+VALUES (
+  %s,
+  %s
+);"""
+  cur.execute(stmt, (user_id, card_name))
+  conn.commit()
+
 
 def add_user_card(user_id , card_name , eng):
   stmt = """INSERT INTO Card (user_id , card_name, eng)
