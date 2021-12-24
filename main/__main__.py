@@ -825,7 +825,7 @@ def inventory(update , context):
     b = 1 
     finS = ''
     for i in chenghu:
-     finS+= str(b) + '. ' + str("".join(i) + "\n"
+     finS+= str(b) + '. ' + str("".join(i))+ "\n"
      b+=1
     if user_exp >= user_level * 500:
         DB.add_exp(user_id, -user_exp)
