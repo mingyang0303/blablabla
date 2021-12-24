@@ -821,7 +821,7 @@ def inventory(update , context):
     user_exp = DB.get_user_value(user_id, "exp")
     user_level = DB.get_user_value(user_id, "level")
     chenghu = DB.get_name(user_id, "name")
-    context.bot.send_message(chat_id = update.effective_chat.id , text = f'{chenghu}')
+    #context.bot.send_message(chat_id = update.effective_chat.id , text = f'{chenghu}')
     b = 1 
     finS = ''
     for i in chenghu:
