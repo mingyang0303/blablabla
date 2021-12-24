@@ -773,7 +773,7 @@ def finname(update , context):
       if user_diamonds>=5000:
        query.edit_message_text(f"你现在拥有称呼: \n\n <b>赌神之塔</b>\n\n{c}", parse_mode = ParseMode.HTML)
        DB.add_diamonds(user_id, -5000)
-       DB.add_name("赌神之塔", user_id)
+       DB.add_name(user_id, "赌神之塔")
       else:
          query.edit_message_text("不够宝石")
      else:
@@ -783,7 +783,7 @@ def finname(update , context):
       if user_diamonds >= 1000:
        query.edit_message_text("你现在拥有称呼: \n\n <b>最接近神的男人</b>",parse_mode = ParseMode.HTML)
        DB.add_diamonds(user_id, -1000)
-       DB.add_name("最接近神的男人", user_id)
+       DB.add_name(user_id, "最接近神的男人")
       else:
          query.edit_message_text("不够宝石")
      else:
@@ -793,7 +793,7 @@ def finname(update , context):
       if user_diamonds >= 500:
        query.edit_message_text("你现在拥有称呼: \n\n <b>玛雅万岁</b>",parse_mode = ParseMode.HTML)
        DB.add_diamonds(user_id, -500)
-       DB.add_name("玛雅万岁", user_id)
+       DB.add_name(user_id, "玛雅万岁")
       else:
          query.edit_message_text("不够宝石")
      else:
