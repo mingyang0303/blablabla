@@ -860,24 +860,31 @@ checker = [
 'The Leader is "Sultry Fragrance - Andromeda".'},
     
     
-    {'chi_name':'水夏娃',
+{'chi_name':'水夏娃',
 'chif_name':'水夏娃',
 'eng_name':'watereve',
-'chi_act':'金果诱毒 CD6 \n\n'
+'chi_act’:’金果誘毒  CD 6 \n\n'
 'I. 每回合所有“澜漫勾惑 ‧ 夏娃” \n'
-'⇒ 增加 1 个金果 \n'
-'II. 若队长及战友均为“魔性原罪 · 夏娃”时 \n'
-'⇒ 每回合所有“魔性原罪 · 夏娃”增加 1 个禁果 \n'
-'III. 必延 1.5 秒 \n'
-'IV. 魔族成员伤害 \n'
-'⇒ 可克制木属性目标'
-'V. 若队中有 ≥2 个魔族成员 \n'
-'⇒ 连击 (Ex. Combo、Combo)时攻击力提升 40% (效果会在关闭此技能或死亡后消失) \n\n'
+'⇒ 增加 1 个金果\n\n'
+'II. 若队长及战友均为“魔性原罪 · 夏娃”时\n'
+'⇒ 每回合所有“魔性原罪 · 夏娃”\n'
+'增加 1 个禁果\n\n'
+'III. 必延 2 秒\n\n'
+'IV. 魔族成员伤害\n'
+'⇒ 可克制水及木属性目标\n\n'
+'V. 若队中有 ≥2 个魔族或水属性成员\n'
+'⓵ 连击 (Ex. Combo、Combo)时攻击力提升 40%\n'
+'⓶ 回合结束时，将最底 1 横行符石\n'
+'⇒ 添加为魔族符石\n'
+'(效果会在关闭此技能或死亡后消失)\n\n'
 '此技能可随时关闭，关闭时：\n'
-'⓵ 自身每有 1 个金果 \n'
-'⇒ 该回合 + 3 Combo (最多 + 12 Combo) \n'
-'⓶ 若自身有 4 个金果 \n'
-'⇒ 该回合所有成员的攻击无视“攻前盾” \n',
+'⓵ 自身每有 1 个金果\n'
+'⇒ 该回合 + 3 Combo\n'
+'(最多 + 12 Combo)\n'
+'⓶ 若自身有 4 个金果\n'
+'⇒ 该回合所有成员\n'
+'⇒ 无视“攻前盾”\n'
+'⇒当前技能 CD -2',
 'eng_act':'Fruit of Poison CD6 \n\n'
 'I. Golden Fruit of All “Innocent Temptation - Eve” +1 each Round. \n'
 'II. If the Leader & Ally are “Origin of All Sins - Eve”, \n'
