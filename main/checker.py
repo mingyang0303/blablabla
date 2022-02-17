@@ -863,7 +863,7 @@ checker = [
 {'chi_name':'水夏娃',
 'chif_name':'水夏娃',
 'eng_name':'watereve',
-'chi_act’:’金果誘毒  CD 6 \n\n'
+'chi_act':'金果誘毒  CD 6 \n\n'
 'I. 每回合所有“澜漫勾惑 ‧ 夏娃” \n'
 '⇒ 增加 1 个金果\n\n'
 'II. 若队长及战友均为“魔性原罪 · 夏娃”时\n'
