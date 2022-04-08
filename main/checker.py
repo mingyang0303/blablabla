@@ -955,7 +955,7 @@ checker = [
      '⇒ 轉化為強化符石 \n\n'
      '發動條件： \n'
      '以「流光祈護 ‧ 妍希」及「瀟灑雅學 ‧ 妍希」作隊長及戰友',
-     'eng_name':'God\'s Bow  CD 8 \n\n'
+     'eng_act':'God\'s Bow  CD 8 \n\n'
      'I. God\'s attack power and recovery power 1.6 times \n'
      'II. At the beginning of each round, turn Light and Dark Runestones \n'
      '⇒ into God\'s Enchanted Runestones  \n'
