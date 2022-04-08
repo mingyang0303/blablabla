@@ -1040,11 +1040,51 @@ checker = [
     
     
     
-    
-    
-    
-    
-    
+    {'chi_name':'暗妍希',
+     'chif_name':'暗妍希',
+     'eng_name':'darkyanxi',
+     'chi_act':'神之幻術  CD 5 \n\n'
+     'I. 將水符石轉化為光神族強化符石 \n'
+     'II. 將火符石轉化為暗神族強化符石 \n'
+     'III. 將木符石轉化為心神族強化符石 \n'
+     'IV. 1 回合內，神族成員的攻擊 \n'
+     '⇒ 無視「攻前盾」 \n'
+     '⇒ 無視敵人的防禦力 \n',
+     'chi_lead':'夜月之魅 \n\n'
+     'I. 神族攻擊力 4.5 倍 \n'
+     'II. 隊伍中只有光及暗屬性成員時 \n'
+     '⇒ 全隊攻擊力額外 2.5 倍 \n'
+     '⇒ 暗及心符石兼具暗符石效果 \n'
+     '⇒ 消除強化符石時，減少 20% 所受傷害 \n',
+     'chi_team':'隊伍技能 \n\n'
+     'I. 神族成員 \n'
+     '⇒「生命力及回復力」基值 1.3 倍 \n'
+     'II. 隊長及戰友進場 CD -5 \n'
+     'III. 每回合隨機將 1 粒水、火、木、光及暗符石 \n'
+     '⇒ 轉化為強化符石 \n\n'
+     '發動條件： \n'
+     '以「流光祈護 ‧ 妍希」及「瀟灑雅學 ‧ 妍希」作隊長及戰友',
+     'eng_act':'God\'s Illusion  CD 5 \n\n'
+     'I. Turn Water Runestones into Enchanted Light God Runestones \n'
+     'II. Turn Fire Runestones into Enchanted Dark God Runestones \n'
+     'III. Turn Wood Runestones into Enchanted Heart God Runestones  \n'
+     'IV. For 1 Round, God member\'s attack \n'
+     '⇒ Ignore "Front Shield" \n'
+     '⇒ Ignore the enemy\'s defense  \n',
+     'eng_lead':'Charm of the Night Moon\n\n'
+     'I. God Attack x 4.5 \n'
+     'II. When there are only Light and Dark attribute members in the team \n'
+     '⇒ Team Attack x 2.5 \n'
+     '⇒ Dark and Heart Runestones also have the effect of Dark Runestones \n'
+     '⇒ When dissolving Enchanted Runestones, the damage suffered is reduced by 20% harm',
+     'eng_team':'Team Skills:\n'
+     'I. Protoss members \n'
+     '⇒ 1.3 times the base value of "Vitality and Recovery" \n'
+     'II. Leaders and comrades enter the battlefield CD -5 \n'
+     'III. Randomly turn 1Water, Fire, Wood, Light and Dark Runestones\n'
+     '⇒ into Enhancing Runestones \n\n'
+     'Conditions: \n'
+     '"Prayer of Light - Yenxi" and "Nice and Elegant Learning - Yenxi" as the leader and comrade-in-arms \n'},
     
     {'chi_name':'光妍希',
      'chif_name':'光妍希',
@@ -1095,8 +1135,7 @@ checker = [
      '⇒ into Enhancing Runestones \n\n'
      'Conditions: \n'
      '"Prayer of Light - Yenxi" and "Nice and Elegant Learning - Yenxi" as the leader and comrade-in-arms \n'},
-     
-     
+    
 {'chi_name':'水夏娃',
 'chif_name':'水夏娃',
 'eng_name':'watereve',
