@@ -925,15 +925,6 @@ checker = [
 'eng_act':'Elimination of Opposition CD6\n\n'
 'Team Attack x 1.3 for 1 Round. Explode all Runestones which are not of the enemy\'s Weakness Attribute to generate Runestones which are not of the enemy\'s Attribute. If the Team consists of only Elves, Combo count +8 for 1 Round.',
 
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'noen',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
-
 'chi_lead':'妖娆之蓝\n\n'
 'I. 水属性及妖精类攻击力 4.5 倍\n'
 'II. 消除 ≥2 组水符石时\n'
