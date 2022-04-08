@@ -976,7 +976,7 @@ checker = [
      'III. Randomly turn 1Water, Fire, Wood, Light and Dark Runestones \n\n'
      '⇒ into Enhancing Runestones \n'
      'activation conditions: \n'
-     '"Prayer of Light - Yenxi" and "Nice and Elegant Learning - Yenxi" as the leader and comrade-in-arms \n'
+     '"Prayer of Light - Yenxi" and "Nice and Elegant Learning - Yenxi" as the leader and comrade-in-arms \n',
      
      
 {'chi_name':'水夏娃',
