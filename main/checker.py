@@ -858,53 +858,11 @@ checker = [
 'Attack bonus for Combo increases by 25%.\n'
 'Condition:\n'
 'The Leader is "Sultry Fragrance - Andromeda".'},
-    {'chi_name':'天猫座'
-'chif_name':'天貓座'
-'eng_name':'lynx'
-
-'chi_act':'天降夜露 CD7\n\n'
-'1 回合内\n'
-'I. 移动符石后首批掉落的符石必定为暗符石\n'
-'II. 无视“固定连击盾”\n'
-'III. 若队长及战友均为兽类成员\n'
-'⇒ 自身 CD - 2',
-
-'eng_act':'Drops of Daybreak Dew CD7\n\n'
-'For 1 Round:\n'
-'I. The first batch of Runestones to be dropped will be Dark Runestones.\n'
-'II. Damage will be dealt regardless of Fixed Combo Shield.\n'
-'III. If the Leader and Ally are Beasts,\n'
-'⇒ Skill CD of the Monster -2.',
-
-'chi_lead':'紫魅断魂 ‧ 强\n\n'
-'I. 队伍中只有兽类成员时：\n'
-'⇒ 全队攻击力 5 倍及生命力 1.2 倍\n'
-'II. 每消除 ≥3 种符石时 (不计重复)\n'
-'⇒ 掉落 1 粒暗兽族强化符石',
-
-'eng_lead':'Purple Shadow of Assassination - EX\n\n'
-'When the Team consists of only Beasts, \n'
-'Team Attack x 5 & HP x 1.2. \n'
-'By dissolving 3 types of Runestones (each type will be counted once only), \n'
-'1 Enchanted Dark Beast Runestone will be generated.',
-
-'chi_team':'队伍技能：\n\n'
-'每掉落 1 粒暗符石，回复 5 %生命力\n'
-'发动条件：\n'
-'以危命猎杀 ‧ 天猫座琳叩斯作队长及战友\n\n'
-'队伍技能：\n'
-'进入关卡后，所有成员的主动技能 CD 减少 2\n'
-'发动条件：\n'
-'以危命猎杀 ‧ 天猫座琳叩斯作队长及战友，且队伍中只有暗属性兽类成员',
-
-'eng_team':'Team Skill:\n\n'
-'◆ Recover 5% HP for each Dark Runestone dropped.\n'
-'Condition:\n'
-'Both the Leader and Ally are Fatal Hunter - Lynx.\n\n'
-'Team Skill:\n'
-'◆ After entering a stage, Active Skill CDs of all Members -2.\n'
-'Condition:\n'
-'Both the Leader and Ally are Fatal Hunter - Lynx, with only Dark Beasts in the Team.'},
+    
+    
+    
+    
+    
     
     
     
