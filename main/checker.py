@@ -973,9 +973,9 @@ checker = [
      'I. Protoss members \n'
      '⇒ 1.3 times the base value of "Vitality and Recovery" \n'
      'II. Leaders and comrades enter the battlefield CD -5 \n'
-     'III. Randomly turn 1Water, Fire, Wood, Light and Dark Runestones \n\n'
-     '⇒ into Enhancing Runestones \n'
-     'activation conditions: \n'
+     'III. Randomly turn 1Water, Fire, Wood, Light and Dark Runestones\n'
+     '⇒ into Enhancing Runestones 、n\n'
+     'Conditions: \n'
      '"Prayer of Light - Yenxi" and "Nice and Elegant Learning - Yenxi" as the leader and comrade-in-arms \n'},
      
      
