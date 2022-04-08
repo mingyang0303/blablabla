@@ -904,7 +904,7 @@ checker = [
 'Team Skill:\n'
 '◆ After entering a stage, Active Skill CDs of all Members -2.\n'
 'Condition:\n'
-'Both the Leader and Ally are Fatal Hunter - Lynx, with only Dark Beasts in the Team.',}
+'Both the Leader and Ally are Fatal Hunter - Lynx, with only Dark Beasts in the Team.'},
     
     
     
