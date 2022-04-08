@@ -916,6 +916,69 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are Fatal Hunter - Lynx, with only Dark Beasts in the Team.'},
     
+    {'chi_name':' 矢车菊',
+'chif_name':' 矢車菊',
+'eng_name':'cornflower',
+
+'chi_act':'逆我尽灭 CD6\n\n'
+'1 回合内，全队攻击力 1.3 倍，并引爆场上所有非克制敌人属性的属性符石，以掉落敌人属性以外的符石；若队伍中只有妖精类成员时，1 回合内，连击 (Combo) 数目增加 8',
+'eng_act':'Elimination of Opposition CD6\n\n'
+'Team Attack x 1.3 for 1 Round. Explode all Runestones which are not of the enemy\'s Weakness Attribute to generate Runestones which are not of the enemy\'s Attribute. If the Team consists of only Elves, Combo count +8 for 1 Round.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'noen',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'妖娆之蓝\n\n'
+'I. 水属性及妖精类攻击力 4.5 倍\n'
+'II. 消除 ≥2 组水符石时\n'
+'⇒ 攻击力提升至 5 倍\n'
+'III. 消除心符石时\n'
+'⇒ 水属性及妖精类攻击力额外 1.5 倍\n'
+'IV. 首批没有消除水符石时\n'
+'⇒ 减少 35% 所受伤害',
+
+'eng_lead':'Coils of Elfish Indigo\n\n'
+'Elf Attack & Water Attack x 4.5.\n' 
+'When 2 or more groups of Water Runestones are dissolved, \n'
+'the Attack multiplier increases to x 5. \n'
+'When Heart Runestones are dissolved, \n'
+'Elf Attack & Water Attack x 1.5 additionally. \n'
+'When Water Runestones are not dissolved, \n'
+'Damage received -35% (only the first batch of Runestones dissolved will be counted).',
+
+'chi_team':'队伍技能：\n\n'
+'以回血溢出值作全体攻击，最大 10 倍\n'
+'发动条件：\n'
+'以噩耗元素噬者 ‧ 迪亚布罗作队长，并以 3 个或以上的 5 星或 6 星妖女系列、 6 星或 7 星玩具精灵系列的召唤兽、精灵使 ‧ 乌特博丽公主或 6 星妖娆花梦系列召唤兽作成员 (不可重复)\n\n'
+'队伍技能：\n\n'
+'当前生命力全满时，下一次所受伤害不会使你死亡 (同 1 回合只会发动 1 次)\n'
+'发动条件：\n'
+'以 6 星妖娆花梦系列召唤兽作队长及战友，队伍中有 3 个或以上 6 星的妖娆花梦系列召唤兽及只有妖精类成员\n\n'
+'队伍技能：\n'
+'将每个成员回复力基值的 2 倍\n'
+'⇒ 各自加入自身攻击力基值\n'
+'发动条件：\n'
+'以绽放荣耀 ‧ 矢车菊作队长及战友',
+
+'eng_team':'Team Skill:\n\n'
+'◆ Recovery surplus will become a Full Attack, the largest Damage that could be dealt is 10 times of Recovery\n\n'
+'Condition:\n'
+'The Leader is Diablo, Nightmare Guttler of Elements, with 3 or more Elfish Perennials series 6 star, Sprites series 5 or 6 star, Toy Pixies series 6 or 7 star, or Elf Summoner - Princess Woodburyin the Team (identical Characters will only be counted as one).\n\n'
+'Team Skill:\n'
+'◆ When HP is full, the next Damage received will not lead to your defeat (one activation each Round).\n'
+'Condition:\n'
+'Both the Leader and Ally are Elfish Perennials series 6 star, with only Elves and 3 or more Elfish Perennials series 6 star in the Team.\n\n'
+'Team Skill:\n'
+'◆ Add 2x Recovery basic value of each Monster into its own Attack basic value.\n'
+'Condition:\n'
+'Both the Leader and Ally are Rekindled Honor - Cornflower.'},
+    
     
     
     
