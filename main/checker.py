@@ -916,8 +916,8 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are Fatal Hunter - Lynx, with only Dark Beasts in the Team.'},
     
-    {'chi_name':' 矢车菊',
-'chif_name':' 矢車菊',
+    {'chi_name':'矢车菊',
+'chif_name':'矢車菊',
 'eng_name':'cornflower',
 
 'chi_act':'逆我尽灭 CD6\n\n'
