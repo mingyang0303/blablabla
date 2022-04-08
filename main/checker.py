@@ -876,6 +876,15 @@ checker = [
 'II. Damage will be dealt regardless of Fixed Combo Shield.\n'
 'III. If the Leader and Ally are Beasts,\n'
 '⇒ Skill CD of the Monster -2.',
+ 
+ 'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
 
 'chi_lead':'紫魅断魂 ‧ 强\n\n'
 'I. 队伍中只有兽类成员时：\n'
