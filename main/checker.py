@@ -970,7 +970,7 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are Rekindled Honor - Cornflower.'},
     
-    'chi_name':'樱',
+    {'chi_name':'樱',
 'chif_name':'櫻',
 'eng_name':'Sakura',
 
