@@ -970,6 +970,70 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are Rekindled Honor - Cornflower.'},
     
+    'chi_name':'樱',
+'chif_name':'櫻',
+'eng_name':'Sakura',
+
+'chi_act':'幻樱花海 ‧ 魅 CD6\n\n'
+'将火及心符石添加为妖族符石。根据本回合的连击 (Combo) 数目，下回合开始时将火及心以外的符石，转化为该数目等值的火强化符石',
+'eng_act':'	Floral Sea of Sakura - EX CD6\n\n'
+'Modify Fire and Heart Runestones to become Elf Runestones. Upon the Round of activation, the number of Combos made in the Round will be recorded. At the beginning of next Round, turn non-Fire and non-Heart Runestones into Enchanted Fire Runestones of a number same as the recorded number of Combos made.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'noen',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'粉樱花雨\n\n'
+'I. 妖精类攻击力 1.8 倍\n'
+'II. 火及心符石兼具 25%\n'
+'其他属性符石效果 (可叠加)\n'
+'III. 2 粒火或心符石相连，即可发动消除\n'
+'IV. 所有符石掉落率不受其他技能影响(包括改变掉落符石属性的技能)\n'
+'V. 队伍回复力愈高，\n'
+'全队攻击力额外提升愈多：\n'
+'⇒ 队伍回复力达 3000 额外 2 倍\n'
+'⇒ 4000 可达至最大 2.5 倍',
+
+'eng_lead':'Floral Rain of Sakura - EX\n\n'
+'I. Elf Attack x 1.8.\n'
+'II. Fire and Heart Runestones also possess 25% effect of all Attributive Runestones (effects can be superimposed).\n'
+'III. Fire and Heart Runestones can be dissolved by aligning 2 or more of them.\n'
+'Drop rate of all Runestones will not be affected by Amelioration or Skills (including those altering the Attribute of dropping Runestones).\n'
+'IV. The higher the Team Recovery, the higher the Team Attack,\n'
+'⇒ starting from x 2 additionally for 3000 Team Recovery,\n'
+'⇒ to the max x 2.5 additionally for 4000 Team Recovery.',
+
+'chi_team':'队伍技能：\n\n'
+'以回血溢出值作全体攻击，最大 10 倍\n'
+'发动条件：\n'
+'以噩耗元素噬者 ‧ 迪亚布罗作队长，并以 3 个或以上的 5 星或 6 星妖女系列、 6 星或 7 星玩具精灵系列的召唤兽、精灵使 ‧ 乌特博丽公主或 6 星妖娆花梦系列召唤兽作成员 (不可重复)\n\n'
+'队伍技能：\n'
+'当前生命力全满时，下一次所受伤害不会使你死亡 (同 1 回合只会发动 1 次)\n'
+'发动条件：\n'
+'以 6 星妖娆花梦系列召唤兽作队长及战友，队伍中有 3 个或以上 6 星的妖娆花梦系列召唤兽及只有妖精类成员\n\n'
+'队伍技能：\n'
+'每首批消除 1 组水、火或木符石将掉落 4 粒火强化符石；每首批消除 1 组光、暗或心符石，将掉落 4 粒心强化符石；每累计消除 10 粒火或心符石，将掉落 1 粒火妖族强化符石\n'
+'发动条件：\n'
+'以闭锁心蕾 ‧ 樱作队长及战友',
+
+'eng_team':'Team Skill:\n\n'
+'◆ Recovery surplus will become a Full Attack, the largest Damage that could be dealt is 10 times of Recovery\n'
+'Condition:\n'
+'The Leader is Diablo, Nightmare Guttler of Elements, with 3 or more Elfish Perennials series 6 star, Sprites series 5 or 6 star, Toy Pixies series 6 or 7 star, or Elf Summoner - Princess Woodbury in the Team (identical Characters will only be counted as one).\n\n'
+'Team Skill:\n'
+'◆ When HP is full, the next Damage received will not lead to your defeat (one activation each Round).\n'
+'Condition:\n'
+'Both the Leader and Ally are Elfish Perennials series 6 star, with only Elves and 3 or more Elfish Perennials series 6 star in the Team.\n\n'
+'Team Skill:\n'
+'◆ 4 Enchanted Fire Runestones will be generated for every group of Water, Fire or Earth Runestones dissolved (only the first batch of Runestones dissolved will be counted). 4 Enchanted Heart Runestones will be generated for every group of Light, Dark or Heart Runestones dissolved (only the first batch of Runestones dissolved will be counted). 1 Fire Elf Runestone will be generated for every 10 Fire or Heart Runestones dissolved cumulatively.\n'
+'Condition:\n'
+'Both the Leader and Ally are Shrunk Petals - Sakura.'},
+    
     
     
     
