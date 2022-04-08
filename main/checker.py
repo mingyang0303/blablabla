@@ -952,13 +952,13 @@ checker = [
      '⇒「生命力及回復力」基值 1.3 倍 \n'
      'II. 隊長及戰友進場 CD -5 \n'
      'III. 每回合隨機將 1 粒水、火、木、光及暗符石 \n'
-     '⇒ 轉化為強化符石 \n \n'
-     '發動條件： \n\n'
+     '⇒ 轉化為強化符石 \n\n'
+     '發動條件： \n'
      '以「流光祈護 ‧ 妍希」及「瀟灑雅學 ‧ 妍希」作隊長及戰友',
      'eng_name':'God\'s Bow  CD 8 \n\n'
      'I. God\'s attack power and recovery power 1.6 times \n'
      'II. At the beginning of each round, turn Light and Dark Runestones \n'
-     '⇒ into God\'s Enchanted Runestones 
+     '⇒ into God\'s Enchanted Runestones  \n'
      '(the effect will disappear when the skill is turned offor after death) . \n'
      ' III. When the skill is turned off, all additional Effect \n'
      '⇒ For every effect dispelled  \n'
