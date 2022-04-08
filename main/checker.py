@@ -138,7 +138,7 @@ checker = [
 'IV. Extend Runestone-moving time regardlessly by 1 second.\n'
 'V. By dissolving a group of 5 or more Runestones,\n'
 '⇒ Dark Attack increases additionally, to the max x 2.8 for 3 groups.',
-'chi_team':'队伍技能：\n\n'
+'chi_team':'队伍技能：\n'
 'I. 進入關卡後，\n'
 '「義軍」成員的技能 CD 減少 2\n'
 'II. 「義軍」成員的攻擊\n'
@@ -480,7 +480,7 @@ checker = [
 'III. Fire Runestones also possess 50% effect of other Runestones.\n'
 'IV. If ≥8 Runestones of one type are dissolved, Fire & God Attack x 2.5 additionally.\n'
 'V. If ≥15 Runestones of one type are dissolved, Fire & God Attack x 3 additionally.',
-'chi_team':'队伍技能：\n\n'
+'chi_team':'队伍技能：\n'
 '消除符石前场上有种族符石\n'
 '⇒ 该种族成员攻击力 2.5 倍\n'
 '发动条件：\n'
@@ -592,7 +592,7 @@ checker = [
 '⇒ 最多可增加 4 Combo',
 'eng_lead':'Sword in the Lake\n\n'
 'When the Team consists of only Light Humans, Team Attack x 3; all Runestones also possess 15% effects of Light Runestones.',
-'chi_team':'队伍技能：\n\n'
+'chi_team':'队伍技能：\n'
 'I. 必然延長移動符石時間 5 秒\n'
 'II. 觸碰電擊符石時仍可移動符石\n'
 'III. 無視「黏腐」敵技\n'
@@ -736,7 +736,7 @@ checker = [
 '⇒ 全队攻击力额外 1.5 倍',
 'eng_lead':'Raid of Flaming Blade\n\n'
 'Fire Human and Fire Dragon Attack x 4.5. Extend Runestone-moving time by 1 second. By dissolving 12 or more Fire Runestones, Team Attack x 1.5 additionally.',
-'chi_team':'队伍技能：\n\n'
+'chi_team':'队伍技能：\n'
 '光及暗符石兼具火符石效果\n'
 '发动条件：\n'
 '以烽火武心．织田信长作队长及战友\n\n'
@@ -813,7 +813,7 @@ checker = [
 'eng_lead':'Aggressive Gods & Elves\n\n'
 'When the Team consists of only Gods and Elves:\n'
 '⇒ Team Attack x 4.5 and HP x 1.3.',
-'chi_team':'队伍技能：\n\n'
+'chi_team':'队伍技能：\n'
 'I. 队长及战友的队长技“神魅猎杀势”⇒ 变为“神魅猎杀势・突破”：队伍中只有神族及妖精类成员时\n'
 '① 全队攻击力 4.5 倍及生命力 1.3 倍\n'
 '② 将移动符石时触碰的符石\n'
@@ -898,7 +898,7 @@ checker = [
 'By dissolving 3 types of Runestones (each type will be counted once only), \n'
 '1 Enchanted Dark Beast Runestone will be generated.',
 
-'chi_team':'队伍技能：\n\n'
+'chi_team':'队伍技能：\n'
 '每掉落 1 粒暗符石，回复 5 %生命力\n'
 '发动条件：\n'
 '以危命猎杀 ‧ 天猫座琳叩斯作队长及战友\n\n'
@@ -943,11 +943,11 @@ checker = [
 'When Water Runestones are not dissolved, \n'
 'Damage received -35% (only the first batch of Runestones dissolved will be counted).',
 
-'chi_team':'队伍技能：\n\n'
+'chi_team':'队伍技能：\n'
 '以回血溢出值作全体攻击，最大 10 倍\n'
 '发动条件：\n'
 '以噩耗元素噬者 ‧ 迪亚布罗作队长，并以 3 个或以上的 5 星或 6 星妖女系列、 6 星或 7 星玩具精灵系列的召唤兽、精灵使 ‧ 乌特博丽公主或 6 星妖娆花梦系列召唤兽作成员 (不可重复)\n\n'
-'队伍技能：\n\n'
+'队伍技能：\n'
 '当前生命力全满时，下一次所受伤害不会使你死亡 (同 1 回合只会发动 1 次)\n'
 '发动条件：\n'
 '以 6 星妖娆花梦系列召唤兽作队长及战友，队伍中有 3 个或以上 6 星的妖娆花梦系列召唤兽及只有妖精类成员\n\n'
@@ -1008,7 +1008,7 @@ checker = [
 '⇒ starting from x 2 additionally for 3000 Team Recovery,\n'
 '⇒ to the max x 2.5 additionally for 4000 Team Recovery.',
 
-'chi_team':'队伍技能：\n\n'
+'chi_team':'队伍技能：\n'
 '以回血溢出值作全体攻击，最大 10 倍\n'
 '发动条件：\n'
 '以噩耗元素噬者 ‧ 迪亚布罗作队长，并以 3 个或以上的 5 星或 6 星妖女系列、 6 星或 7 星玩具精灵系列的召唤兽、精灵使 ‧ 乌特博丽公主或 6 星妖娆花梦系列召唤兽作成员 (不可重复)\n\n'
@@ -1056,7 +1056,7 @@ checker = [
      '⇒ 全隊攻擊力額外 2.5 倍 \n'
      '⇒ 暗及心符石兼具暗符石效果 \n'
      '⇒ 消除強化符石時，減少 20% 所受傷害 \n',
-     'chi_team':'隊伍技能 \n\n'
+     'chi_team':'隊伍技能 \n'
      'I. 神族成員 \n'
      '⇒「生命力及回復力」基值 1.3 倍 \n'
      'II. 隊長及戰友進場 CD -5 \n'
@@ -1105,7 +1105,7 @@ checker = [
      '⇒ 全隊攻擊力額外 2.5 倍 \n'
      '⇒ 光及心符石兼具暗符石效果 \n'
      '⇒ 消除強化符石時，減少 20% 所受傷害 \n',
-     'chi_team':'隊伍技能 \n\n'
+     'chi_team':'隊伍技能 \n'
      'I. 神族成員 \n'
      '⇒「生命力及回復力」基值 1.3 倍 \n'
      'II. 隊長及戰友進場 CD -5 \n'
