@@ -1034,6 +1034,57 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are Shrunk Petals - Sakura.'},
     
+    {'chi_name':'蔷薇',
+'chif_name':'薔薇',
+'eng_name':'rose',
+
+'chi_act':'如一之灵 CD6\n\n'
+'点选 1 横行的符石，并将该横行的符石转化为心强化符石；1 回合内，妖精类攻击力 2 倍',
+'eng_act':'Spirits in a Row CD\n\n'
+'Tap and turn a row of Runestones into Enchanted Heart Runestones. Elf Attack x 2 for 1 Round.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'魅艳之刺\n\n'
+'I. 妖精类攻击力 4.5 倍\n'
+'II. 心符石兼具 25% 所有属性符石效果(可叠加)',
+'eng_lead':'Ornamental Thorns of Elves\n\n'
+'Elf Attack x 4.5. Heart Runestones also possess 25% effect of all Attributive Runestones (effects can be superimposed).',
+
+'chi_team':'队伍技能：\n\n'
+'以回血溢出值作全体攻击，最大 10 倍\n'
+'发动条件：\n'
+'以噩耗元素噬者 ‧ 迪亚布罗作队长，并以 3 个或以上的 5 星或 6 星妖女系列、 6 星或 7 星玩具精灵系列的召唤兽、精灵使 ‧ 乌特博丽公主或 6 星妖娆花梦系列召唤兽作成员 (不可重复)\n\n'
+'队伍技能：\n'
+'当前生命力全满时，下一次所受伤害不会使你死亡 (同 1 回合只会发动 1 次)\n'
+'发动条件：\n'
+'以 6 星妖娆花梦系列召唤兽作队长及战友，队伍中有 3 个或以上 6 星的妖娆花梦系列召唤兽及只有妖精类成员\n\n'
+'队伍技能：\n'
+'妖精类成员对最后成功攻击我方的敌人属性的目标攻击力提升 1.5 倍\n\n'
+'队长的队长技能“魅艳之刺”变为“魅艳之刺 ‧ 强”：妖精类攻击力 4.5 倍，心符石兼具 75% 所有属性符石效果 (可叠加)；每消除 1 横行内的所有符石时 (只计算首批消除的符石)，必定掉落 5 粒心符石\n'
+'发动条件：\n'
+'以恋慕弥漫 ‧ 蔷薇作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ Recovery surplus will become a Full Attack, the largest Damage that could be dealt is 10 times of Recovery\n'
+'Condition:\n'
+'The Leader is Diablo, Nightmare Guttler of Elements, with 3 or more Elfish Perennials series 6 star, Sprites series 5 or 6 star, Toy Pixies series 6 or 7 star or Elf Summoner - Princess Woodbury in the Team (identical Characters will only be counted as one).\n\n'
+'Team Skill:\n'
+'◆ When HP is full, the next Damage received will not lead to your defeat (one activation each Round).\n'
+'Condition:\n'
+'Both the Leader and Ally are Elfish Perennials (series) ( 6* ), with only Elves and 3 or more Elfish Perennials (series) ( 6* ) in the Team.\n\n'
+'Team Skill:\n'
+'◆ Elf Attack on enemies of Attribute from which the Summoner received the last Damage x 1.5 additionally.\n'
+'◆ Change the Leader Skill of the Leader from "Ornamental Thorns of Elves" to "Ornamental Thorns of Elves - EX": Elf Attack x 4.5. Heart Runestones also possess 75% effect of all Attributive Runestones (effects can be superimposed). By dissolving all Runestones in a row, 5 Heart Runestones will be generated (only the first batch of Runestones dissolved will be counted).\n'
+'Condition:\n'
+'Both the Leader and Ally are Lovey Dovey Romancist - Rose.'},
+    
     
     
     
