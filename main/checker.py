@@ -858,9 +858,9 @@ checker = [
 'Attack bonus for Combo increases by 25%.\n'
 'Condition:\n'
 'The Leader is "Sultry Fragrance - Andromeda".'},
-    {'chi_name':天猫座'
-'chif_name':天貓座'
-'eng_name':lynx'
+    {'chi_name':'天猫座'
+'chif_name':'天貓座'
+'eng_name':'lynx'
 
 'chi_act':'天降夜露 CD7\n\n'
 '1 回合内\n'
@@ -875,15 +875,6 @@ checker = [
 'II. Damage will be dealt regardless of Fixed Combo Shield.\n'
 'III. If the Leader and Ally are Beasts,\n'
 '⇒ Skill CD of the Monster -2.',
-
-'chi_trans1':'none',
-'eng_trans1':'none',
-'chi_tact1':'none',
-'eng_tact1':'none',
-'chi_trans2':'none',
-'eng_trans2':'noen',
-'chi_tact2':'none',
-'eng_tact2':'none',
 
 'chi_lead':'紫魅断魂 ‧ 强\n\n'
 'I. 队伍中只有兽类成员时：\n'
