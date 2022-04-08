@@ -928,9 +928,57 @@ checker = [
     
     
     
-    
-    
-    
+    {'chi_name':'光妍希',
+     'chif_name':'光妍希',
+     'eng_name':'lightyanxi',
+     'chi_act':'神之弓  CD 8 \n\n'
+     'I. 神族攻擊力及回復力 1.6 倍 \n'
+     'II. 每回合開始時，將光及暗符石 \n'
+     '⇒ 轉化為神族強化符石 \n'
+     '(效果會在關閉此技能或死亡後消失) \n'
+     '技能關閉時 \n'
+     'III. 消除所有附加效果 \n'
+     '⇒ 每消除 1 個效果 \n'
+     '⇒ 神族成員的技能 CD 減少 2 \n'
+     'IV. 引爆場上所有符石',
+     'chi_lead':'夜月之輝 \n\n'
+     'I. 神族攻擊力 4.5 倍 \n'
+     'II. 隊伍中只有光及暗屬性成員時 \n'
+     '⇒ 全隊攻擊力額外 2.5 倍 \n'
+     '⇒ 光及心符石兼具暗符石效果 \n'
+     '⇒ 消除強化符石時，減少 20% 所受傷害 \n',
+     'chi_team':'隊伍技能 \n\n'
+     'I. 神族成員 \n'
+     '⇒「生命力及回復力」基值 1.3 倍 \n'
+     'II. 隊長及戰友進場 CD -5 \n'
+     'III. 每回合隨機將 1 粒水、火、木、光及暗符石 \n'
+     '⇒ 轉化為強化符石 \n \n'
+     '發動條件： \n\n'
+     '以「流光祈護 ‧ 妍希」及「瀟灑雅學 ‧ 妍希」作隊長及戰友',
+     'eng_name':'God\'s Bow  CD 8 \n\n'
+     'I. God\'s attack power and recovery power 1.6 times \n'
+     'II. At the beginning of each round, turn Light and Dark Runestones \n'
+     '⇒ into God\'s Enchanted Runestones 
+     '(the effect will disappear when the skill is turned offor after death) . \n'
+     ' III. When the skill is turned off, all additional Effect \n'
+     '⇒ For every effect dispelled  \n'
+     '⇒ God member\'s skill CD is reduced by 2 IV. Detonate all runestones on the field',
+     'eng_lead':'Brightness of the Night Moon\n\n'
+     'I. God Attack x 4.5 \n'
+     'II. When there are only Light and Dark attribute members in the team \n'
+     '⇒ Team Attack x 2.5 \n'
+     '⇒ Light and Heart Runestones also have the effect of Dark Runestones \n'
+     '⇒ When dissolving Enchanted Runestones, the damage suffered is reduced by 20% harm',
+     'eng_team':'Team Skills:\n'
+     'I. Protoss members \n'
+     '⇒ 1.3 times the base value of "Vitality and Recovery" \n'
+     'II. Leaders and comrades enter the battlefield CD -5 \n'
+     'III. Randomly turn 1Water, Fire, Wood, Light and Dark Runestones \n\n'
+     '⇒ into Enhancing Runestones \n'
+     'activation conditions: \n'
+     '"Prayer of Light - Yenxi" and "Nice and Elegant Learning - Yenxi" as the leader and comrade-in-arms \n'
+     
+     
 {'chi_name':'水夏娃',
 'chif_name':'水夏娃',
 'eng_name':'watereve',
