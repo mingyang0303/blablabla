@@ -972,7 +972,7 @@ checker = [
     
     {'chi_name':'樱',
 'chif_name':'櫻',
-'eng_name':'Sakura',
+'eng_name':'sakura',
 
 'chi_act':'幻樱花海 ‧ 魅 CD6\n\n'
 '将火及心符石添加为妖族符石。根据本回合的连击 (Combo) 数目，下回合开始时将火及心以外的符石，转化为该数目等值的火强化符石',
