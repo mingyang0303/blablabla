@@ -1323,6 +1323,166 @@ checker = [
 '◆ Fire Runestones also possess the effect of other Attributive Runestones.\n'
 'Condition:\n'
 'The Leader is Tyranny of Dominance - Cao Cao, with 3 or more Characters of "Red Army" in the Team.'},
+    
+    {'chi_name':'孙策',
+'chif_name':'孫策',
+'eng_name':'sunce',
+
+'chi_act':'骁雄之攻 ‧ 剿除 CD8\n\n'
+'I. 引爆所有风化、电击符石\n'
+'II. 将水符石转化为\n'
+'⇒ 水人族强化符石\n'
+'1 回合内\n'
+'III. 可任意移动符石而不会发动消除\n'
+'IV. 连击 (Combo) 数目愈高\n'
+'⇒ 自身攻击力愈高\n'
+'⇒ 10 连击 (Combo) 可达至最大 15 倍',
+'eng_act':'Strike of the Warlord - EX CD8\n\n'
+'I. Explode all Weathered and Electrified Runestones.\n'
+'II. Turn Water Runestones into Enchanted Human Runestones.\n'
+'For 1 Round:\n'
+'III. Unlimited Runestone movement without dissolving.\n'
+'IV. The more Combos made, the higher the Monster\'s Attack, to the max x 15 for 10 Combos.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'霸者盛势 ‧ 无上控压\n\n'
+'I. 必然延长移动符石时间 1 秒\n'
+'II. 队伍中只有水属性人类时：\n'
+'全队攻击力 6 倍、生命力及回复力 1.3 倍\n'
+'⓵每消除 1 组符石\n'
+'⇒ 额外计算多 1 连击 (Combo)\n'
+'⓶首批消除 ≥2 组 ≥4 粒符石\n'
+'⇒ 全队攻击力额外 2.25 倍\n'
+'⓷ 属性符石需 ≥4 粒相连才可发动消除\n'
+'⓸心符石 ≥2 粒相连即可发动消除',
+'eng_lead':'Greatness of the Warlord - Ultimate\n\n'
+'I. Extend Runestone-moving time regardlessly by 1 second.\n'
+'II. When the Team consists of only Water Humans:\n'
+'⓵ Team Attack x 6; HP & Recovery x 1.3.\n'
+'⓶ Total Combo count +1 for every group of Runestones dissolved\n'
+'⓷ By dissolving ≥2 groups of ≥4 Runestones in the first batch, Team Attack x 2.25 additionally.\n'
+'⓸ Attributive Runestones can only be dissolved by grouping 4 or more of them.\n'
+'⓹ Heart Runestones can be dissolved by aligning 2 or more of them.',
+
+'chi_team':'队伍技能：\n\n'
+'每首批消除 1 粒“蓝军”区域内的符石\n'
+'⇒ 提升“蓝军”成员攻击力\n'
+'⇒ 首批消除 10 粒可达至最大 3 倍\n'
+'发动条件：\n'
+'以潜能解放“蓝军”角色作队长，且队伍中有 ≥3 个“蓝军”成员\n\n'
+'队伍技能：\n'
+'“蓝军”成员\n'
+'⇒“生命力、攻击力及回复力”基值 1.3 倍\n'
+'发动条件：\n'
+'以潜能解放“蓝军”角色作队长，且队伍中有 ≥3 个“蓝军”成员\n\n'
+'队伍技能：\n'
+'其他符石兼具 50% 水符石效果\n'
+'发动条件：\n'
+'以“不屈鸿志 ‧ 孙策”作队长及战友'
+'eng_team':'Team Skill:\n'
+'◆ By dissolving a Runestone in the "Blue Army" region in the first batch,\n'
+'⇒ Attack of "Blue Army" Members increases additionally,\n'
+'⇒ to the max x 3 for 10 Runestones dissolved.\n'
+'◆ HP, Attack & Recovery basic value of "Blue Army" Members x 1.3 additionally.\n'
+'Condition:\n'
+'The Leader is "Blue Army" 7 star, with 3 or more Characters of "Blue Army" in the Team.\n\n'
+'Team Skill:\n'
+'◆ Other Runestones also possess 50% effect of Water Runestones.\n'
+'Condition:\n'
+'Both the Leader and Ally are Unbending Aspiration - Sun Ce.'},
+    
+    {'chi_name':'祝融',
+'chif_name':'祝融',
+'eng_name':'zhurong',
+
+'chi_act':'骁勇之力 ‧ 霸 CD5\n\n'
+'I. 每消除 3 种符石\n'
+'⇒ 可累积 1 点“蛮力”\n'
+'⇒ 最多可累积 10 点\n'
+'1 回合内\n'
+'II. 根据累积“蛮力”\n'
+'⇒ 提升自身攻击力\n'
+'⇒ 最多可提升至 10 倍\n'
+'III. 每有 1 点“蛮力”\n'
+'⇒ 转化 3 粒人族强化符石\n'
+'⇒ 最多可转化 30 粒\n'
+'IV. 若“蛮力”累积至 10 点\n'
+'⓵ 自身攻击无视“指定形状盾”敌技\n'
+'⓶ 自身攻击无视敌人防御力\n\n'
+'发动技能后蛮力减少一半',
+'eng_act':'Force of the Heroine - EX CD5\n\n'
+'I. 1 force point can be obtained for every 3 types of Runestones dissolved, to the max 10 force points in accumulation.\n'
+'For 1 Round:\n'
+'II. The more the force points accumulated, the higher the Monster\'s Attack, to the max x 10.\n'
+'III. For each force point, turn 3 Runestones into Enchanted Human Runestones, to the max 30 Runestones.\n'
+'IV. When the Monster has 10 force points upon Skill activation, the Monster\'s Damage will be dealt regardless of Puzzle Shield and enemies\' Defense.\n\n'
+'Force points -50% after Skill activation.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'巾帼之炽焰\n\n'
+'I. 队伍中有 ≥3 种属性成员时：\n'
+'⓵ 全队攻击力 3.5 倍\n'
+'⓶ 火符石兼具 50% 其他符石效果\n'
+'II. 队伍中有 ≥3 个人类成员时：\n'
+'⓵ 人类攻击力 3.5 倍、\n'
+'生命力及回复力 1.3 倍',
+'eng_lead':'Flames of the Heroine - EX\n\n'
+'I. When there are 3 or more Attributes in the Team:\n'
+'⓵ Team Attack x 3.5.\n'
+'⓶ Fire Runestones also possess 50% effect of other Runestones.\n'
+'II. When there are 3 or more Humans in the Team:\n'
+'⓵ Human Attack x 3.5; HP & Recovery x 1.3.',
+
+'chi_team':'队伍技能：\n\n'
+'消除 1 组符石的数目愈多\n'
+'⇒ 全队攻击力提升愈多\n'
+'⇒ 消除 1 组 10 粒可提升至最大 2.5 倍\n'
+'发动条件：\n'
+'以“义军”角色作队长及战友\n\n'
+'I. 进入关卡后，“义军”成员的技能 CD 减少 2\n'
+'II. “义军”成员的攻击\n'
+'⇒ 无视敌人防御力\n'
+'发动条件：\n'
+'以潜能解放“义军”角色作队长，且队伍中有 ≥3 个“义军”成员\n'
+'队中每有 1 个人类成员，首批消除火符石，于回合结束时\n'
+'⇒ 将 1 粒符石转化为火人族强化符石(光及暗符石优先转换)\n'
+'⇒ 最多可转化 6 粒\n'
+'发动条件：\n'
+'以“葬殇修罗 ‧ 祝融”作队长及战友\n\n'
+'“崇高炎护 ‧ 孟获”的技能 CD 减少 3\n'
+'发动条件：\n'
+'以“葬殇修罗 ‧ 祝融”及“崇高炎护 ‧ 孟获”作成员',
+'eng_team':'Team Skill:\n\n'
+'◆ The more the Runestones dissolved in a group, the higher the Team Attack, to the max x 2.5 additionally for a group of 10 Runestones dissolved.\n'
+'Condition:\n'
+'The Leader and Ally are "Rebel Army".\n\n'
+'◆ Active Skill CDs of "Rebel Army" Members -2 after entering a Stage.\n'
+'◆ Damage of "Rebel Army" Members will be dealt regardless of Defense.\n'
+'Condition:\n'
+'The Leader is "Rebel Army", with 3 or more Characters of "Rebel Army" in the Team.\n\n'
+'◆ By dissolving Fire Runestones in the first batch, turn 1 Runestone into Enchanted Fire Human Runestones at the end of the Round for every Human present in the Team, to the max 6 Runestones to be turned (Light and Dark Runestones rank first in priority).\n'
+'Condition:\n'
+'Both the Leader and Ally are "Reaper of Wrath - Zhurong".\n\n'
+'◆ Active Skill CD of "Afire Love - Meng Huo" -3.\n'
+'Condition:\n'
+'There are "Reaper of Wrath - Zhurong" and "Afire Love - Meng Huo" in the Team.'},
+
 
     
     
