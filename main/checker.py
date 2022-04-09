@@ -1386,7 +1386,7 @@ checker = [
 '队伍技能：\n'
 '其他符石兼具 50% 水符石效果\n'
 '发动条件：\n'
-'以“不屈鸿志 ‧ 孙策”作队长及战友'
+'以“不屈鸿志 ‧ 孙策”作队长及战友',
 'eng_team':'Team Skill:\n'
 '◆ By dissolving a Runestone in the "Blue Army" region in the first batch,\n'
 '⇒ Attack of "Blue Army" Members increases additionally,\n'
