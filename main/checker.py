@@ -606,7 +606,7 @@ checker = [
 'When there are only Light Humans and [Knights of the Round Table] in the team: \n'
 'I. Team Attack 7 times,HP and Recovery 1.8 times \n'
 'II. Other Runestones have both \n'    
-'⇒ 50% of Light and Heart Runestones
+'⇒ 50% of Light and Heart Runestones\n'
 'III. When all 1 type of Runestones are dissolved on the field \n'
 '⇒ the team\'s attack power is increased by 1.35 times \n'
 'IV. For each group of Runestones dissolved other than Light \n'
