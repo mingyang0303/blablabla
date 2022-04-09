@@ -576,8 +576,20 @@ checker = [
 'IV. 同時消除水、火及木符石\n'
 '⓵ 全隊攻擊力 2.5 倍\n'
 '⓶ 全隊無視「攻前盾」\n',
-'eng_act':'Legendary Sword of the King CD7\n\n'
-'For 1 Round, by dissolving Water Runestones, Damage received -60%; by dissolving Fire Runestones, Damage will be dealt regardless of enemies\' Defense; by dissolving Earth Runestones, recover 15000 HP. If Water, Fire and Earth Runestones are dissolved in the same Round, Team Attack x 2.',
+'eng_act':'King\'s Sword - Execution CD7\n\n'
+'Turn all Runestones into Enchanted Runestones of "Light, Fire, Wood, Water, Darkness, Heart" running straight. \n\n'
+'King\'s Sword - Murder CD7\n\n'
+'For 1 Round \n'
+'I. When water runestones are dissolved \n'
+'⇒ 85% of damage taken \n'
+'II. When fire runestones are dissolved \n'
+'⓵ The whole team ignores the enemy\'s defense \n'
+'⓶ Individual pursuit fire attack twice \n'
+'III. When wood runestones are dissolved \n'
+'⇒ 100,000 Point HP \n'
+'IV. Dissolve Water, Fire and Wood Runestones at the same time \n'
+'⓵ Team Attack Power 2.5 times \n'
+'⓶ All team ignores "Attack Front Shield"',
 'chi_lead':'聖劍絕殺\n\n'
 '隊中只有光屬性人類及【圓桌騎士】成員時：\n'
 'I. 全隊攻擊力 7 倍、\n'
@@ -590,8 +602,16 @@ checker = [
 'IV. 每消除 1 組光以外的符石\n'
 '⇒ 額外計算多 1 Combo\n'
 '⇒ 最多可增加 4 Combo',
-'eng_lead':'Sword in the Lake\n\n'
-'When the Team consists of only Light Humans, Team Attack x 3; all Runestones also possess 15% effects of Light Runestones.',
+'eng_lead':'holy sword lore\n\n'
+'When there are only Light Humans and [Knights of the Round Table] in the team: \n'
+'I. Team Attack 7 times,HP and Recovery 1.8 times \n'
+'II. Other Runestones have both \n'    
+'⇒ 50% of Light and Heart Runestones
+'III. When all 1 type of Runestones are dissolved on the field \n'
+'⇒ the team\'s attack power is increased by 1.35 times \n'
+'IV. For each group of Runestones dissolved other than Light \n'
+'⇒ 1 extra Combo is calculated \n'
+'⇒ Up to 4 Combos can be added',
 'chi_team':'队伍技能：\n'
 'I. 必然延長移動符石時間 5 秒\n'
 'II. 觸碰電擊符石時仍可移動符石\n'
@@ -620,15 +640,28 @@ checker = [
 '⇒ 全隊攻擊力額外 2.5 倍\n\n'
 '發動條件：\n'
 '以「榮聲披身 ‧ 亞瑟」作隊長及戰友',
-'eng_team':'When 4 or more groups of Runestones are dissolved, turn 3 Runestones in 1 random corner into Light Runestones after the Round.\n'
-'Change the Leader Skill of the Leader from "Sword in the Lake"to "Sword in the Lake - Light-cracking" Upon the completion of moving and dissolving Runestones each Round, all Light Runestones will explode until there is no more Light Runestone on the screen. The more Light Runestones exploded, the higher the Team Attack, to the max x 2 additionally for 5 Light Runestones (no superimposing).\n'
-'Light Attack x 1.5 additionally.\n'
-'Conditon:\n'
-'Both the Leader and Ally are "Knight of Virtuousness - Arthur".\n\n'
-'Team Skill:\n'
-'Active Skill CD of the first "Constantine the Master of Celebration" from the left -3.\n'
+'eng_team':'Team Skills: \n'
+'◆ Extend Runestone-moving time regardlessly by 5 seconds.\n'
+'◆ Runestone movement will not be stopped when an Electrified Runestone is touched.\n'
+'◆ Boss Skills "Sticky" and "Burning" will be nullified.\n'
+'◆ Each Member of 【Knights of the Round Table】:\n'
+'⓵ Synchronizes its Attribute with that of the Leader.\n'
+'⓶ Skill CD -1.\n'
+'⓷ Launches an extra attack of its original Attribute as much as 50% of its Attack.\n'
+'◆ By dissolving a group of ≥5 Runestones in the shape of【十】 in the first batch,\n'
+'⇒ stun all enemies to inactivate them for 1 Round (once only within the Wave).\n'
+'◆ At the end of the Round,\n'
+'turn 3 Runestones in a corner into Enchanted Light Human Runestones.\n'
+'(Attributive Runestones rank first in priority)\n'
+'◆ Upon the completion of moving and dissolving Runestones,\n'
+'⇒ explode all Light Runestones until there is no more Light Runestone.\n'
+'◆ If Light Runestones are exploded,\n'
+'⇒ Team Attack x 2.5.\n'
+'◆ By dissolving Human Runestones,
+'⇒ Team Attack x 2.5 additionally.\n\n'
 'Condition:\n'
-'There are "Knight of Virtuousness - Arthur" and "Constantine the Master of Celebration" in the Team.'},
+'Both the Leader and Ally are Illustrious Laurels - Arthur'},
+
     {'chi_name':'兰斯洛特',
 'chif_name':'蘭斯洛特',
 'eng_name':'lancelot',
