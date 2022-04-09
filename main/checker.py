@@ -1190,6 +1190,146 @@ checker = [
 '⇒Extend Runestone-moving time regardlessly by 2 seconds.\n'
 'Condition:\n'
 'Both the Leader and Ally Dream Gobbler - Ghroth.'},
+    
+    {'chi_name':'阿撒托斯',
+'chif_name':'阿撒托斯',
+'eng_name':'azathoth',
+
+'chi_act':'灭绝之噬 CD8\n\n'
+'引爆场上所有符石，以掉落所属队伍栏直行龙类成员属性的符石，龙类以外成员队伍栏直行的符石则随机掉落',
+'eng_act':'Extensive Elimination CD8\n\n'
+'Explode all Runestones to generate Enchanted Dragon Runestones of the Attribute of the Dragons in the column(s).\n'
+'For columns below non-Dragon, Runestones will be dropped randomly.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'暗龙暴 ‧ 强\n\n'
+'I. 龙类生命力 1.6 倍及攻击力 7 倍\n'
+'II. 每首批消除 1 连击 (Combo)\n'
+'⇒ 自身直行掉落 1 粒暗强化符石\n'
+'III. 消除 ≥10 粒暗符石时\n'
+'⇒ 全队攻击力额外 3.2 倍',
+'eng_lead':'Violence of Dark Dragons - EX\n\n'
+'I. Dragon HP x 1.6; Dragon Attack x 7.\n'
+'II. For each Combo made in the first batch,\n'
+'⇒ 1 Enchanted Dark Runestone will be generated in the column below the Monster.\n'
+'III. If ≥10 Dark Runestones are dissolved in the Round, Team Attack x 3.2 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 进入关卡后，\n'
+'暗属性龙类成员技能 CD -6\n'
+'II. 每首批消除 10 粒符石时\n'
+'⇒ 于发动攻击前对全体敌人\n'
+'造成 100 万暗属性伤害\n'
+'⇒ 首批消除 30 粒符石可造成最多 300 万暗属性伤害\n'
+'III. 将敌方所受此攻击伤害的 1%\n'
+'⇒ 转化为我方生命力(只适用于未被击毙的敌人)。\n'
+'IV. 每击毙 1 个敌人\n'
+'⇒ 回复自身总生命力 50%\n'
+'延长移动符石时间 1 秒，\n'
+'队伍成员属性愈多，\n'
+'延长移动符石时间愈多，\n'
+'最多可延长 3 秒\n'
+'发动条件：\n'
+'以因果破坏 ‧ 阿撒托斯作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ After entering a Stage, Skill CD of Dark Dragon(s) -6.\n'
+'◆ For every 10 Runestones dissolved in the first batch,\n'
+'⇒ deal 1,000,000 Dark Damage to all enemies before attacks,\n'
+'⇒ to the max 3,000,000 for 30 Runestones dissolved.\n'
+'◆ 1% of Damage dealt will be converted to HP Recovery (only Damage dealt to undefeated enemies will be counted).\n'
+'◆ Recover 50% HP for each enemy defeated.\n'
+'◆ Extend Runestone-moving time by 1 second. The more the Attributes in the Team, the more the Runestone-moving time will be extended, to the max 3 seconds.\n'
+'Condition:\n'
+'Both the Leader and Ally are Fiend of Destruction - Azathoth.\n'},
+    
+    {'chi_name':'夏侯惇',
+'chif_name':'夏侯惇',
+'eng_name':'xiahoudun',
+
+'chi_act':'反杀之狠戾 CD6\n\n'
+'I. 自身攻击力 3 倍\n'
+'II. 人类及魔族成员\n'
+'⇒ 以 50% 自身攻击力追打 1 次\n'
+'III. 每当敌人发动攻击\n'
+'⇒ 下回合人类及魔族成员额外追打 1 次\n'
+'效果持续至首批消除 6 种符石',
+'eng_act':'Super Counter Striker CD6\n\n'
+'I. The Monster\'s Attack x 3.\n'
+'II. Each of Humans and Demons in the Team launches an extra attack as much as 50% of its attack.\n'
+'III. When the enemy attacks, Humans and Demons will launch one more extra attack next Round.\n'
+'The effects stay in play until Runestones of 6 types are dissolved in the first batch.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'酷冷之杀意 ‧ 溢\n\n'
+'队伍中只有火、木及暗属性成员时：\n'
+'I. 全队攻击力 5 倍\n'
+'II. 任意消除火、木或暗符石达 ≥9 粒\n'
+'⇒ 全队攻击力额外 2 倍\n'
+'III. 同时消除火、木及暗符石\n'
+'⇒ 所受伤害减少 40%',
+'eng_lead':'Coldness of Combativeness\n\n'
+'When the Team includes only Fire, Earth and Dark Members:\n'
+'I. Team Attack x 5.\n'
+'II. By dissolving ≥9 Fire, Earth or Dark Runestones in total,\n'
+'⇒ Team Attack x 2 additionally.\n'
+'III. If Fire, Earth and Dark Runestones are dissolved in the same Round,\n'
+'⇒ Damage received -40%.',
+
+'chi_team':'队伍技能：\n\n'
+'每首批消除 1 粒“红军”区域内的符石\n'
+'⇒ 提升“红军”成员攻击力\n'
+'⇒ 首批消除 10 粒可达至最大 3 倍\n'
+'发动条件：\n'
+'以潜能解放“红军”角色作队长，且队伍中有 ≥3 个“红军”成员\n\n'
+'火符石兼具其他属性符石效果\n'
+'发动条件：\n'
+'以“霸业魔政 ‧ 曹操”作队长及战友；且队伍中有 ≥3 个“红军”成员\n\n'
+'I. 锁定 9 个固定位置，消除固定位置内的所有符石时：\n'
+'⓵ 该回合全队攻击力 1.5 倍\n'
+'⓶ 回合结束时，\n'
+'将锁定位置的符石转化为\n'
+'⇒“火、木、暗”强化符石各 3 粒\n\n'
+'II. 火、木、暗符石互相兼具效果\n'
+'发动条件：\n'
+'以“魔瞳狂枪 ‧ 夏侯惇”作队长及战友\n'
+'队伍技能：\n'
+'无视“黏腐”敌技\n'
+'发动条件：\n'
+'以潜能解放“红军”角色作队长，且队伍中有 ≥3 个“红军”成员',
+'eng_team':'Team Skill:\n\n'
+'◆ By dissolving a Runestone in the "Red Army" region in the first batch,\n'
+'⇒ Attack of "Red Army" Members increases additionally,\n'
+'⇒ to the max x 3 for 10 Runestones dissolved.\n'
+'◆ Boss Skill "Sticky Land" will be nullified.\n'
+'Condition:\n'
+'The Leader is "Red Army" 7 star, with 3 or more Characters of "Red Army" in the Team.\n\n'
+'Team Skill:\n'
+'◆ Fire Runestones also possess the effect of other Attributive Runestones.\n'
+'Condition:\n'
+'The Leader is Tyranny of Dominance - Cao Cao, with 3 or more Characters of "Red Army" in the Team.'},
+
+    
+    
+    
+    
+    
+    
 
     
     
