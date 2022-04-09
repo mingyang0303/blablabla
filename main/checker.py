@@ -1643,6 +1643,148 @@ checker = [
 'Condition:\n'
 'The Leader and Ally are "Supreme Lotus - He Xian gu" and "Mischievous Wit - Lü Dongbin" (interchangeable).'},
 
+    {'chi_name':'梵天',
+'chif_name':'梵天',
+'eng_name':'brahma',
+
+'chi_act':' 力量的肇始 CD6\n\n'
+'将黑白符石变回原来色调；1 回合内，必然延长移动符石时间 6 秒；自身攻击力 6 倍；连击 (Combo) 数目增加 6',
+'eng_act':'Beginning of Power CD6\n\n'
+'Clear the negative effect of "B&W Zone". For 1 Round, extend Runestone-moving time regardlessly by 6 seconds; the Monster\'s Attack x 6; Combo count +6.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'元素创念 ‧ 强\n\n'
+'队伍中只有神族成员时\n'
+'I. 全队攻击力 5 倍、生命力及回复力 1.3 倍\n'
+'II. 首批掉落“没有首批消除”的其中 1 种属性符石 (剩余数量最少优先)\n'
+'III. 消除 5 种属性符石时\n'
+'⇒ 全队攻击力额外 1.5 倍',
+'eng_lead':'Creation of Elements - EX\n\n'
+'When the Team consists of only Gods:\n'
+'I. Team Attack x 5, HP & Recovery x 1.3.\n'
+'II. If not Runestones of all 5 Attributes are dissolved, the first batch of Runestones to be dropped will be Runestones of an undissolved Attribute (the Attributive Runestones that are the least in number rank first in priority) (only the first batch of Runestones dissolved will be counted).\n'
+'III. If Runestones of all 5 Attributes are dissolved, Team Attack x 1.5 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 每回合移动符石时触碰的首 6 粒符石\n'
+'⇒ 转化为神族强化符石\n'
+'II. 每首批消除 1 粒神族符石\n'
+'⇒ 产生 2 粒火神族强化符石\n'
+'⇒ 最多 15 粒\n'
+'III. 每消除 1 粒火强化符石\n'
+'⇒ 回复 5% 总生命力\n'
+'⇒ 最多可回复 100% (不会溢补)\n'
+'IV. 心符石兼具 50% 所有属性符石效果\n'
+'发动条件：\n'
+'以唯识无境 ‧ 梵天作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ Turn the first 6 Runestones touched while moving into Enchanted God Runestones.\n'
+'◆ 2 Enchanted Fire God Runestones will be generated for each God Runestone dissolved, to the max 15 Runestones to be generated (only the first batch of Runestones dissolved will be counted).\n'
+'◆ 5% of total HP will be recovered for each Enchanted Fire Runestone dissolved, to the max 100% HP (no overhealing).\n'
+'◆ Heart Runestones also possess 50% effect of all Attributive Runestones.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Chittamatra - Brahma".'},
+    
+    {'chi_name':'毗湿奴',
+'chif_name':'毗濕奴'.
+'eng_name':'vishnu',
+
+'chi_act':'化厄之念 CD5\n\n'
+'将黑白符石变回原来色调,1 回合内，减少 50% 所受伤害,消除神族符石愈多，全队攻击力提升愈多，5 粒可提升至最大 2 倍',
+'eng_act':'Notion of Salvation CD5\n\n'
+'Clear the negative effect of "B&W Zone". For 1 Round, Damage received -50%; the more the God Runestones dissolved, the higher the Team Attack, to the max x 2 for 5 Runestones.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'幻惑护生\n\n'
+'队伍中只有神族成员时：\n'
+'I. 全队攻击力 4 倍及回复力 1.5 倍\n'
+'II. 同时消除光及暗符石时\n'
+'⇒ 全队攻击力 1.5 倍\n'
+'⇒ 减少 20% 所受伤害\n'
+'III. 消除神族符石时\n'
+'⇒ 全队攻击力额外 1.5 倍',
+'eng_lead':'Supreme Protection\n\n'
+'When the Team consists of only Gods:\n'
+'I. Team Attack x 4 and Recovery x 1.5.\n'
+'II. By dissolving Light and Dark Runestones in the same Round,\n'
+'⇒ Team Attack x 1.5 additionally and Damage received -20%.\n'
+'III. By dissolving God Runestones,\n'
+'⇒ Team Attack x 1.5 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 每回合移动符石时触碰的首 5 粒符石转化为神族强化符石\n'
+'II. 光符石兼具暗符石效果\n'
+'III. 暗符石兼具光符石效果\n'
+'IV. 每首批消除 1 组水、火或木符石\n'
+'⇒ 左方 3 直行将首批掉落共 3 粒暗神族符石\n'
+'⇒ 右方 3 直行将首批掉落共 3 粒光神族符石\n'
+'⇒ 左右 2 方各可掉落最多 9 粒\n'
+'发动条件：\n'
+'以持戒苦行 ‧ 毗湿奴作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ Turn the first 5 Runestones touched while moving into Enchanted God Runestones.\n'
+'◆ Light Runestones also possess the effect of Dark Runestones.\n'
+'◆ Dark Runestones also possess the effect of Light Runestones.\n'
+'◆ For each group of Water, Fire or Earth Runestones dissolved (only the first batch of Runestones dissolved will be counted),\n'
+'⇒ 3 Dark God Runestones will be dropped in the first batch of Runestones in the 3 columns on the left, and 3 Light God Runestones in the 3 columns on the right, to the max 9 Runestones to be dropped for each side.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Ascetic Mind - Vishnu".'},
+
+{'chi_name':'湿婆',
+'chif_name':'濕婆',
+'eng_name':'shiva',
+
+'chi_act':'混沌再生 CD5\n\n'
+'将黑白符石变回原来色调；点选 2 直行的符石并引爆，以掉落水神族强化符石',
+'eng_act':'Reform of Chaos\n\n'
+'Clear the negative effect of "B&W Zone". Tap and explode 2 columns of Runestones to generate Enchanted Water God Runestones.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'神妖灭世 ‧ 强\n\n'
+'队伍中只有神族或妖精类成员时\n'
+'I. 全队攻击力 6 倍\n'
+'II. 必然延长移动符石时间 1 秒\n'
+'III. 消除神族或妖族符石时\n'
+'⇒ 全队攻击力额外 1.5 倍',
+'eng_lead':'Destructive Power of Gods & Elves - EX\n\n'
+'When the Team consists of only Gods and Elves:\n'
+'I. Team Attack x 6.\n'
+'II. Extend Runestone-moving time regardlessly by 1 second.\n'
+'III. By dissolving God or Elf Runestones, Team Attack x 1.5 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'每回合移动符石时触碰的首 5 粒符石转化为神族强化符石，而与神族符石种类相同的符石兼具 50% 水符石效果。每消除 1 粒神族符石，可减少 10% 所受伤害，最多可减少 50%\n'
+'发动条件：\n'
+'以大自在天 ‧ 湿婆作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ Turn the first 5 Runestones touched while moving into Enchanted God Runestones each Round. Types of God Runestones also possess 50% effect of Water Runestones. Damage received -10% for each God Runestones dissolved, to the max -50%.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Maheśvara - Shiva".'},
+
     
     
     
