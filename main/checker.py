@@ -1085,6 +1085,113 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are Lovey Dovey Romancist - Rose.'},
     
+    {'chi_name':'道罗斯',
+'chif_name':'道羅斯',
+'eng_name':' daoloth',
+
+'chi_act':'力量之源 CD6\n\n'
+'1 回合内，自身攻击力 4 倍，连击 (Combo) 数目增加 6，队伍中每个龙类、兽类或妖精类成员将额外增加 1 连击 (Combo)，最多可额外增加 6 连击 (Combo)',
+'eng_act':'	Source of Power CD6\n\n'
+'For 1 Round, the Monster\'s Attack x 4, Combo count +6, for each Dragon, Beast or Elf present in the Team, Combo count +1 additionally, to the max +6.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'创造之能 ‧ 强\n\n'
+'I. 光属性“龙类、兽类及妖精类”\n'
+'生命力 1.8 倍及攻击力 6.5 倍\n'
+'II. 延长移动符石时间 1 秒\n'
+'III. 消除 1 组 5 粒符石攻击力额外 4 倍，\n'
+'消除 1 组符石的数目愈多，\n'
+'⇒ 攻击力额外提升愈多\n'
+'⇒ 消除 1 组 8 粒符石可提升至最大 4.6 倍',
+'eng_lead':'Power of Creation - EX\n\n'
+'I. Light Dragon, Light Beast & Light Elf Attack x 6.5; HP x 1.8.\n'
+'II. Extend Runestone-moving time by 1 second.\n'
+'III. If a group of ≥5 Runestones is dissolved, Attack increases additionally and proportionally.\n'
+'⇒ Attack x 4 if a group of 5 Runestones are dissolved,\n'
+'⇒ to the max x 4.6 for a group of 8 Runestones dissolved.',
+
+'chi_team':'队伍技能：\n\n'
+'每回合移动符石时触碰的首 5 粒符石转化为光强化符石\n'
+'发动条件：\n'
+'以悖论创造 ‧ 道罗斯作队长及战友\n\n'
+'队伍技能：\n'
+'龙类及兽类成员\n'
+'⇒ 增加 600 点回复力基值\n'
+'发动条件：\n'
+'以悖论创造 ‧ 道罗斯作队长及战友，\n'
+'且队中只有光属性龙类\n'
+'光属性兽类或光属性妖精类成员',
+'eng_team':'Team Skill:\n\n'
+'◆ Turn the first 5 Runestones touched while moving into Enchanted Light Runestones each Round.\n'
+'Condition:\n'
+'Both the Leader and Ally are Demiurge of Antinomy - Daoloth.\n\n'
+'Team Skill:\n'
+'◆ Dragon & Beast Recovery basic value +600.\n'
+'Condition:\n'
+'Both the Leader and Ally are Demiurge of Antinomy - Daoloth, with only Light Beasts, Light Elves, or Light Dragons in the Team.'},
+    
+    {'chi_name':'格赫罗斯',
+'chif_name':'格赫羅斯',
+'eng_name':'ghroth',
+
+'chi_act':'梦中结界 CD10\n\n'
+'1 回合内，2 粒符石相连，即可发动消除，效果持续至消除 1 种符石达 30 粒',
+'eng_act':'Dimensions of Dreams CD10\n\n'
+'For 1 Round, Runestones can be dissolved by aligning 2 or more of them, until 30 Runestones of one type are dissolved.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'吞噬之欲\n\n'
+'I. 魔族、龙类及兽类攻击力 4 倍\n'
+'II. 心符石兼具 50% 所有属性符石效果 (可叠加)',
+'eng_lead':'Ravening Desire\n\n'
+'Demon, Dragon & Beast Attack x 4; Heart Runestones also possess 50% effect of all Attributive Runestones (effects can be superimposed).',
+
+'chi_team':'队伍技能：\n\n'
+'I. 每消除 1 组符石时\n'
+'⇒ 全队攻击力提升 0.15 倍\n'
+'⇒ 消除 8 组可提升至最大 2.2 倍\n'
+'队中 6 星“宇宙序章”系列成员愈多\n'
+'⇒ 所获得的效果愈多：\n\n'
+'≥2 只：\n'
+'队中最左方的 2 只\n'
+'疯癫梦界度 ‧ 格赫罗斯的攻击力基值跟随攻击力基值最高的成员\n\n'
+'≥3 只：\n'
+'魔族、龙类及兽类成员\n'
+'⇒生命力、攻击力及回复力基值 1.5 倍\n\n'
+'≥4 只：\n'
+'必然延长移动符石时间 2 秒\n'
+'发动条件：\n'
+'以疯癫梦界度 ‧ 格赫罗斯作队长及战友',
+'eng_team':'Team Skill\n\n'
+'◆ For each group of Runestones dissolved, Team Attack increases by x 0.15 additionally, to the max x 2.2 for 8 groups of Runestones dissolved.\n'
+'◆ The more 6 star Characters of Prologue of the Universe in the Team,\n'
+'⇒ the more of the following effects will be triggered:\n\n'
+'≥2 Characters:\n'
+'⇒Attack basic value of the first two Dream Gobbler - Ghroth from the left will synchronize with that of the Member that has the highest Attack basic value\n\n'
+'≥3 Characters:\n'
+'⇒Demon, Dragon & Beast HP, Attack & Recovery x 1.5 additionally\n\n'
+'≥4 Characters:\n'
+'⇒Extend Runestone-moving time regardlessly by 2 seconds.\n'
+'Condition:\n'
+'Both the Leader and Ally Dream Gobbler - Ghroth.'},
+
+    
     
     
     
