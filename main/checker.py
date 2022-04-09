@@ -1482,7 +1482,166 @@ checker = [
 '◆ Active Skill CD of "Afire Love - Meng Huo" -3.\n'
 'Condition:\n'
 'There are "Reaper of Wrath - Zhurong" and "Afire Love - Meng Huo" in the Team.'},
+    
+    {'chi_name':'吕洞宾',
+'chif_name':'呂洞賓',
+'eng_name':'ludongbin',
 
+'chi_act':'幽魂八卦阵 CD6\n\n'
+'点选元素法阵上的 1 粒符石，并将该种符石引爆，以掉落暗神族强化符石。1 回合内，暗符石兼具 50% 其他属性符石效果',
+'eng_act':'Trigram of Gloom CD6\n\n'
+'By tapping a Runestone on the Magic Circle of Elements, Runestones of that type will be exploded to generate Enchanted Dark God Runestones. For 1 Round, Dark Runestones also possess 50% effect of other Attributive Runestones.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'冥神 ‧ 符箓\n\n'
+'I. 暗属性及神族攻击力 3.4 倍\n'
+'II. 消除 3 粒符石\n'
+'⇒ 暗属性及神族攻击力额外 1.3 倍\n'
+'⇒ 消除 15 粒可提升至最大 2.5 倍',
+'eng_lead':'Godly Charm of Gloom\n\n'
+'Dark Attack & God Attack x 3.4, if 3 Runestones are dissolved, Attack x 1.3 additionally; the more Runestones dissolved, the higher the Attack increases additionally, to the max x 2.5 for 15 Runestones dissolved.',
+
+'chi_team':'队伍技能：\n\n'
+'“八仙”系列召唤兽对妖精类及魔族目标攻击力提升 2 倍\n'
+'发动条件：\n'
+'队伍中有八仙系列召唤兽作成员\n\n'
+'必然延长移动符石时间 2 秒。\n'
+'每消除 1 组队伍成员属性符石，额外计算多 1 连击 (Ex. Combo)，最多可额外增加 10 连击 (Ex. Combo)\n'
+'发动条件：\n'
+'以菡萏香销 ‧ 何仙姑及剑气御神 ‧ 吕洞宾作队长或战友',
+'eng_team':'Team Skill:\n'
+'◆ Damage dealt to Elves and Demons by Monsters of "The Eight Xian" x 2 additionally.\n'
+'Condition:\n'
+'There is Characters of "The Eight Xian" (series) in the Team.\n\n'
+'◆ 1 Ex. Combo count for each group of Runestones of Members\' Attributes dissolved, to the max 10 Ex. Combo count.\n'
+'◆ Extend Runestone-moving time regardlessly by 2 seconds.\n'
+'Condition:\n'
+'The Leader and Ally are  "Supreme Lotus - He Xian\'gu" and "Mischievous Wit - Lü Dongbin" (interchangeable).'},
+    
+    {'chi_name':'铁拐李',
+'chif_name':'鐵拐李',
+'eng_name':'litieguai',
+
+'chi_act':'穿魂之力 ‧ 机械 CD6\n\n'
+'木属性及机械族攻击力 1.8 倍，若发动技能时自身行动值达至 100%，攻击力提升至 2.2 倍；队伍中若有 3 个或以上机械族成员，必然延长移动符石时间 3 秒。效果会在进入下一层数 (Wave) 时消失',
+'eng_act':'Soul-penetrating Power CD6\n\n'
+'Earth Attack & Machina Attack x 1.8, if the Monster\'s Fuel is 100% upon Skill activation, the Attack multiplier increases to x 2.2. If there are 3 or more Machinas in the Team, extend Runestone-moving time regardlessly by 3 seconds. The Skill stays in play within the Wave.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'夺魄之森\n\n'
+'I. “妖精类及魔族”以外的木属性成员攻击力 4 倍\n'
+'II. 消除属性符石时\n'
+'⇒ 所有成员对该属性目标攻击力 1.5 倍',
+'eng_lead':'Harvester of Soul Pieces\n\n'
+'Earth non-Elf & Earth non-Demon Attack x 4. Damage dealt to enemies of the Attributes of Runestones dissolved x 1.5.',
+
+'chi_team':'队伍技能：\n\n'
+'“八仙”系列召唤兽对妖精类及魔族目标攻击力提升 2 倍\n'
+'发动条件：\n'
+'队伍中有八仙系列召唤兽作成员\n\n'
+'场上有附加效果时，“血植异足 ‧ 铁拐李”的攻击力提升 2 倍。\n'
+'每首批消除 1 组符石，于该回合结束时，将 1 粒符石 (木属性以外多于 3 粒的属性符石优先转换) 转化为木符石，最多可转 6 粒\n'
+'发动条件：\n'
+'以血植异足 ‧ 铁拐李作队长及战友\n\n'
+'【机械动力】\n'
+'I. 每首批消除 1 粒自身属性符石\n'
+'⇒ 自身行动值提升 2%\n'
+'II. 每首批消除 1 粒心符石\n'
+'⇒ 自身行动值提升 1%\n'
+'III. 行动值愈高\n'
+'⇒ 自身攻击力提升愈多\n'
+'⇒ 最大提升至 2 倍。\n'
+'IV. 当所有机械族成员的行动值达至 50% 或以上时\n'
+'⇒ 机械族成员属性的符石效果提升\n'
+'⇒ 每个机械族成员可提升 10% 效果\n'
+'⇒ 最高 60%\n'
+'V. 当所有机械族成员的行动值达至 100% 时\n'
+'⇒ 机械族成员每回合\n'
+'以 25% 自身攻击力随机追打自身属性或自身克制属性的攻击 1 至 2 次\n'
+'发动条件：\n'
+'队伍中有 ≥2 个【机械族】成员',
+'eng_team':'Team Skill:\n\n'
+'◆ Damage dealt to Elves and Demons by Monsters of "The Eight Xian" x 2 additionally.\n'
+'Condition:\n'
+'There is Characters of "The Eight Xian" (series) in the Team.\n\n'
+'◆ When there is an additional effect in play, Attack of "Bionic Immortal - Li Tieguai" x 2. For every group of Runestones dissolved, turn a Runestone into Earth Runestone at the end of the Round, to the max 6 Runestones to be turned (only the first batch of Runestones dissolved will be counted) (non-Earth Attributive Runestones in a number of more than 3 rank first in priority).\n'
+'Condition:\n'
+'Both the Leader and Ally are "Bionic Immortal - Li Tieguai".\n\n'
+'◆ 【Machina Dynamics】\n'
+'⓵ For each Runestone of the Character\'s Attribute dissolved in the first batch,\n'
+'⇒ the Character\'s Fuel +2%.\n'
+'⓶ For each Heart Runestone dissolved in the first batch,\n'
+'⇒ the Character\'s Fuel +1%.\n'
+'⓷ The higher the Character\'s Fuel,\n'
+'⇒ the higher the Character\'s Attack,\n'
+'⇒ to the max x 2 additionally.\n'
+'⓸ When all Machinas in the Team have ≥ 50% Fuel,\n'
+'⇒ effects of Runestones of their Attributes increase,\n'
+'⇒ 10% for each Machina present in the Team,\n'
+'⇒ to the max 60%.\n'
+'⓹ When all Machinas in the Team have 100% Fuel,\n'
+'⇒ all Machinas randomly launch 1 to 2 extra attack(s) of its own Attribute or its Counter Attribute as much as 25% of its Attack every Round.\n'
+'Condition:\n'
+'There are 2 or more 【Machina Dynamics】 Members in the Team.'},
+
+{'chi_name':'何仙姑',
+'chif_name':'何仙姑',
+'eng_name':'hexiangu',
+
+'chi_act':'	仙荷之力 ‧ 强 CD5\n\n'
+'神族攻击力 2 倍；每首批消除 1 组队伍成员属性符石或心符石时，将产生 1 粒神族强化符石，最多可产生 6 粒，效果持续至受到敌人攻击',
+'eng_act':'Lotus Power - EX CD5\n\n'
+'God Attack x 2, for each group of Heart Runestones or Runestones of Team Members\' Attributes dissolved, 1 Enchanted God Runestone will be generated, to the max 6 Runestones to be generated (only the first batch of Runestones dissolved will be counted). The Skill stays in play until receiving Damage from enemies\' attacks.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'八仙阵\n\n'
+'队伍中有 3 个或以上八仙系列角色时：\n'
+'I. 连击 (Combo) 时攻击力提升 125%\n'
+'II. 消除心符石时\n'
+'⇒ 全队攻击力额外 1.6 倍',
+'eng_lead':'Assembly of the Eight Xian\n\n'
+'If there are 3 or more Monsters of "The Eight Xian" in the Team, Attack bonus for each Combo increases by 125%, by dissolving Heart Runestones, Team Attack x 1.6 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'“八仙”系列召唤兽对妖精类及魔族目标攻击力提升 2 倍\n'
+'发动条件：\n'
+'队伍中有八仙系列召唤兽作成员\n'
+'必然延长移动符石时间 2 秒。\n'
+'每消除 1 组队伍成员属性符石，额外计算多 1 连击 (Ex. Combo)，最多可额外增加 10 连击 (Ex. Combo)\n'
+'发动条件：\n'
+'以菡萏香销 ‧ 何仙姑及剑气御神 ‧ 吕洞宾作队长或战友',
+'eng_team':'Team Skill:\n\n'
+'◆ Damage dealt to Elves and Demons by Monsters of "The Eight Xian" x 2 additionally.\n'
+'Condition:\n'
+'There is Characters of "The Eight Xian" (series) in the Team.\n\n'
+'◆ 1 Ex. Combo count for each group of Runestones of Members\' Attributes dissolved, to the max 10 Ex. Combo count.\n'
+'◆ Extend Runestone-moving time regardlessly by 2 seconds.\n'
+'Condition:\n'
+'The Leader and Ally are "Supreme Lotus - He Xian gu" and "Mischievous Wit - Lü Dongbin" (interchangeable).'},
 
     
     
