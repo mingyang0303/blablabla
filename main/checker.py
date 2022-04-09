@@ -576,9 +576,9 @@ checker = [
 'IV. 同時消除水、火及木符石\n'
 '⓵ 全隊攻擊力 2.5 倍\n'
 '⓶ 全隊無視「攻前盾」\n',
-'eng_act':'King\'s Sword - Execution CD7\n\n'
+'eng_act':'King\'s Sword - Execution CD7\n'
 'Turn all Runestones into Enchanted Runestones of "Light, Fire, Wood, Water, Darkness, Heart" running straight. \n\n'
-'King\'s Sword - Murder CD7\n\n'
+'King\'s Sword - Murder CD7\n'
 'For 1 Round \n'
 'I. When water runestones are dissolved \n'
 '⇒ 85% of damage taken \n'
@@ -657,7 +657,7 @@ checker = [
 '⇒ explode all Light Runestones until there is no more Light Runestone.\n'
 '◆ If Light Runestones are exploded,\n'
 '⇒ Team Attack x 2.5.\n'
-'◆ By dissolving Human Runestones,
+'◆ By dissolving Human Runestones,\n'
 '⇒ Team Attack x 2.5 additionally.\n\n'
 'Condition:\n'
 'Both the Leader and Ally are Illustrious Laurels - Arthur'},
