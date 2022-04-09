@@ -1784,7 +1784,189 @@ checker = [
 '⇒ 3 Dark God Runestones will be dropped in the first batch of Runestones in the 3 columns on the left, and 3 Light God Runestones in the 3 columns on the right, to the max 9 Runestones to be dropped for each side.\n'
 'Condition:\n'
 'Both the Leader and Ally are "Ascetic Mind - Vishnu".'},
+    
+    {'chi_name':'零',
+'chif_name':'零',
+'eng_name':'Zero',
+
+'chi_act':'顺势而攻 CD8\n\n'
+'I. 15 秒内，可任意移动符石而不会发动消除\n'
+'1 回合内\n'
+'II. 若队长及战友均为兽类成员时\n'
+'⓵ 全队攻击力 2.5 倍\n'
+'⓶ 该回合所受伤害不会使你死亡',
+'eng_act':'	Control of Situation CD8\n\n'
+'I. Unlimited Runestone movement in 15 seconds without dissolving.\n'
+'For 1 Round:\n'
+'II. If the Leader and Ally are Beasts:\n'
+'⓵ Team Attack x 2.5\n'
+'⓶ The Damage received in the Round will not lead to your defeat.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'异瞳的力量 ‧ 强\n\n'
+'I. 兽类生命力及回复力 1.8 倍\n'
+'II. 延长移动符石时间 2 秒\n'
+'III. 连击 (Combo) 时攻击力提升 200%\n'
+'IV. 所有属性符石兼具其他属性符石效果：\n'
+'队伍中每多 1 个兽类成员\n'
+'⇒ 可提升 20% 兼具效果\n'
+'⇒ 最大 100% (可叠加)\n'
+'V. 消除兽族符石\n'
+'⇒ 兽类攻击力额外 3 倍',
+'eng_lead':'Pupils of the Cat - EX\n\n'
+'I. Beast HP & Recovery x 1.8.\n'
+'II. Extend Runestone-moving time by 2 seconds.\n'
+'III. Attack bonus for each Combo increases by 200%.\n'
+'IV. All Attributive Runestones also possess the effect of other Attributive Runestones:\n'
+'For every extra Beast in the Team, ⇒ the effect +20%,\n'
+'⇒ to the max +100% (effects can be superimposed).\n'
+'V. By dissolving Beast Runestones,\n'
+'⇒ Beast Attack x 3 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'队伍中每多 1 个 6 星“神猫大盗”系列角色，于回合结束时，将 2 粒属性符石转化为兽族强化符石 (木符石优先转换)，最多可转 10 粒\n'
+'发动条件：\n'
+'以“如烟无迹 ‧ 阿飘”作队长\n'
+'I. 兽类成员\n'
+'⇒“生命力、攻击力及回复力”基值 1.3 倍\n'
+'II. 延长移动符石时间 2 秒\n'
+'发动条件：\n'
+'以“领风典范 ‧ 蜜儿”作队长，并以“如烟无迹 ‧ 阿飘”或“随缘顺心 ‧ 零”作战友\n\n'
+'队伍中每多 1 个 6 星“神猫大盗”系列角色，可使兽类成员进入关卡后的主动技能 CD 减少 1，最多可减少 5 CD\n'
+'每回合移动符石时触碰的首 6 粒符石转化为兽族强化符石\m'
+'发动条件：\n'
+'以“随缘顺心 ‧ 零”作队长',
+'eng_team':'Team Skill:\n\n'
+'◆ Beast Attack, HP & Recovery basic value x 1.3 additionally.\n'
+'◆ Extend Runestone-moving time by 2 seconds.\n'
+'Condition:\n'
+'The Leader is "Cat of Charisma - Mellow", and the Ally is "Carefree Mindset - Zero".\n'
+'◆ For every extra 6 star Monster of "The Master Cathieves" present in the Team, Active Skill CDs of Beasts -1 after entering a Stage, to the max -5 CD.\n'
+'◆ Turn the first 6 Runestones touched while moving into Enchanted Beast Runestones each Round.\n'
+'Condition:\n'
+'The Leader is "Carefree Mindset - Zero".\n\n'
+'◆ For every extra 6 star Monster of "The Master Cathieves" present in the Team, turn 2 Attributive Runestones into Enchanted Beast Runestones at the end of each Round, to the max 10 Runestones to be turned (Earth Runestones rank first in priority).\n'
+'Condition:\n'
+'The Leader is "Untraceable Moves - Ghostie".'},
+    
+    {'chi_name':'蜜儿',
+'chif_name':'蜜兒',
+'eng_name':'Mellow',
+
+'chi_act':'伺机而攻 CD8\n\n'
+'发动技能时敌方全体生命力需为全满：所有成员进入潜行模式及攻击力提升 3 倍，效果持续至对敌人造成伤害 (效果持续期间技能不会冷却)',
+'eng_act':'Spying Feline CD8\n\n'
+'This Skill can be activated only when the enemies\' HP is full. All Monsters will be undercover with their Attack x 3. The effect stays in play until the Damage is dealt to the enemy. CD will not drop when the Skill is in play.',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'女王的力量\n\n'
+'队伍中只有兽类成员时：\n'
+'I. 全队攻击力 4 倍\n'
+'II. 每个成员增加 400 点回复力\n'
+'III. 队伍中没有重复成员时：\n'
+'每回合消除符石的组数愈多\n'
+'⇒ 全队攻击力额外提升愈多\n'
+'⇒ 消除 10 组可提升至最大 3 倍',
+'eng_lead':'Reign of the Queen\n\n'
+'When the Team has only Beasts,\n'
+'I. Team Attack x 4.\n'
+'II. Recovery basic value of each Member +400.\n'
+'III. When there are no identical Members in the Team:\n'
+'the more the groups of Runestones dissolved in the Round,\n'
+'⇒ the higher the Team Attack increases additionally,\n'
+'⇒ to the max x 3 for 10 groups.',
+
+'chi_team':'队伍技能：\n\n'
+'队伍中每多 1 个 6 星“神猫大盗”系列角色，于回合结束时，将 2 粒属性符石转化为兽族强化符石 (木符石优先转换)，最多可转 10 粒\n'
+'发动条件：\n'
+'以“如烟无迹 ‧ 阿飘”作队长\n\n'
+'I. 兽类成员\n'
+'⇒“生命力、攻击力及回复力”基值 1.3 倍\n'
+'II. 延长移动符石时间 2 秒\n'
+'发动条件：\n'
+'以“领风典范 ‧ 蜜儿”作队长，并以“如烟无迹 ‧ 阿飘”或“随缘顺心 ‧ 零”作战友\n\n'
+'队伍中每多 1 个 6 星“神猫大盗”系列角色，可使兽类成员进入关卡后的主动技能 CD 减少 1，最多可减少 5 CD\n'
+'每回合移动符石时触碰的首 6 粒符石转化为兽族强化符石\n'
+'发动条件：\n'
+'以“随缘顺心 ‧ 零”作队长',
+'eng_team':'Team Skill:\n\n'
+'◆ Beast Attack, HP & Recovery basic value x 1.3 additionally.\n'
+'◆ Extend Runestone-moving time by 2 seconds.\n'
+'Condition:\n'
+'The Leader is "Cat of Charisma - Mellow", and the Ally is "Untraceable Moves - Ghostie".or "Carefree Mindset - Zero".\n\n'
+'◆ For every extra 6 star Monster of "The Master Cathieves" present in the Team, Active Skill CDs of Beasts -1 after entering a Stage, to the max -5 CD.\n'
+'Condition:\n'
+'The Leader is "Carefree Mindset - Zero".\n\n'
+'◆ For every extra 6 star Monster of "The Master Cathieves" present in the Team, turn 2 Attributive Runestones into Enchanted Beast Runestones at the end of each Round, to the max 10 Runestones to be turned (Earth Runestones rank first in priority).\n'
+'Condition:\n'
+'The Leader is "Untraceable Moves - Ghostie".'},
    
+{'chi_name':'阿飘',
+'chif_name':'阿飄',
+'eng_name':'ghostie',
+
+'chi_act':'	惊世爆破 CD10\n\n'
+'所有符石转化为兽族强化符石。队伍中只有兽类成员时，1 回合内，首批 1 粒符石即可发动消除',
+'eng_act':'	Phenomenal Detonation CD10\n\n'
+'Turn all Runestones into Enchanted Beast Runestones. When the Team consists of only Beasts, for 1 Round, Runestones can be dissolved singly or in groups of 2 or more',
+
+'chi_trans1':'没有技能',
+'eng_trans1':'none',
+'chi_tact1':'没有技能',
+'eng_tact1':'none',
+'chi_trans2':'没有技能',
+'eng_trans2':'none',
+'chi_tact2':'没有技能',
+'eng_tact2':'none',
+
+'chi_lead':'幽魂的力量\n\n'
+'队伍中只有兽类成员时：\n'
+'I. 全队生命力 2 倍及攻击力 5.5 倍\n'
+'II. 每回合扣除全队总生命力 10%\n'
+'III. 每消除 1 粒兽族符石，回复 5% 总生命力',
+'eng_lead':'Ability of the Unnoticed\n\n'
+'When the Team consists of only Beasts, Team Attack x 5.5, HP x 2, 10% of total HP will be deducted every Round, recover 5% of total HP for each Beast Runestone dissolved.',
+
+'chi_team':'队伍技能：\n\n'
+'队伍中每多 1 个 6 星“神猫大盗”系列角色，于回合结束时，将 2 粒属性符石转化为兽族强化符石 (木符石优先转换)，最多可转 10 粒\n'
+'发动条件：\n'
+'以“如烟无迹 ‧ 阿飘”作队长\n\n'
+'I. 兽类成员\n'
+'⇒“生命力、攻击力及回复力”基值 1.3 倍\n'
+'II. 延长移动符石时间 2 秒\n'
+'发动条件：\n'
+'以“领风典范 ‧ 蜜儿”作队长，并以“如烟无迹 ‧ 阿飘”或“随缘顺心 ‧ 零”作战友\n\n'
+'队伍中每多 1 个 6 星“神猫大盗”系列角色，可使兽类成员进入关卡后的主动技能 CD 减少 1，最多可减少 5 CD\n'
+'每回合移动符石时触碰的首 6 粒符石转化为兽族强化符石\n'
+'发动条件：\n'
+'以“随缘顺心 ‧ 零”作队长',
+'eng_team':'Team Skill:\n\n'
+'◆ Beast Attack, HP & Recovery basic value x 1.3 additionally.\n'
+'◆ Extend Runestone-moving time by 2 seconds.\n'
+'Condition:\n'
+'The Leader is "Cat of Charisma - Mellow", and the Ally is "Untraceable Moves - Ghostie".\n\n'
+'◆ For every extra 6 star Monster of "The Master Cathieves" present in the Team, Active Skill CDs of Beasts -1 after entering a Stage, to the max -5 CD.\n'
+'Condition:\n'
+'The Leader is "Carefree Mindset - Zero".\n'
+'◆ For every extra 6 star Monster of "The Master Cathieves" present in the Team, turn 2 Attributive Runestones into Enchanted Beast Runestones at the end of each Round, to the max 10 Runestones to be turned (Earth Runestones rank first in priority).\n'
+'Condition:\n'
+'The Leader is "Untraceable Moves - Ghostie".'},
 
     
     
