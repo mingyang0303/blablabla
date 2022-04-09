@@ -1648,9 +1648,9 @@ checker = [
 'eng_name':'brahma',
 
 'chi_act':'力量的肇始 CD6\n\n'
-'将黑白符石变回原来色调；1 回合内，必然延长移动符石时间 6 秒；自身攻击力 6 倍；连击 (Combo) 数目增加 6',
+'将黑白符石变回原来色调,1 回合内，必然延长移动符石时间 6 秒，自身攻击力 6 倍，连击 (Combo) 数目增加 6',
 'eng_act':'Beginning of Power CD6\n\n'
-'Clear the negative effect of "B&W Zone". For 1 Round, extend Runestone-moving time regardlessly by 6 seconds; the Monster\'s Attack x 6; Combo count +6.',
+'Clear the negative effect of "B&W Zone". For 1 Round, extend Runestone-moving time regardlessly by 6 seconds, the Monster\'s Attack x 6, Combo count +6.',
 
 'chi_trans1':'没有技能',
 'eng_trans1':'none',
@@ -1692,6 +1692,7 @@ checker = [
 '◆ Heart Runestones also possess 50% effect of all Attributive Runestones.\n'
 'Condition:\n'
 'Both the Leader and Ally are "Chittamatra - Brahma".'},
+
     
     {'chi_name':'毗湿奴',
 'chif_name':'毗濕奴'.
