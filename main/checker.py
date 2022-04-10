@@ -2970,7 +2970,7 @@ checker = [
 'chif_name':'希1',
 'eng_name':'xi1',
 
-'chi_act':'誓約的泉源 ‧ 神之加冕 CD\n\n',
+'chi_act':'誓約的泉源 ‧ 神之加冕 CD\n\n'
 'I. 移除暗及心符石\n'
 '⇒ 掉落水神族強化符石\n'
 '2 回合內\n'
