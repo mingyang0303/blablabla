@@ -2320,7 +2320,7 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are 6 star Characters of "Primal Deities" (series), with 3 or more 6 star Characters of "Primal Deities" (series) and "Mastery of Herbs - Shennong", "Traitor of Goodwill - Xingtian", or "Primitive Creator - Pangu" in the Team.'},
     
-    {'chi_name':'伏羲',
+{'chi_name':'伏羲',
 'chif_name':'伏羲',
 'eng_name':'fuxi',
 
@@ -2345,7 +2345,7 @@ checker = [
 '⇒ 全队攻击力额外 2 倍\n'
 'III. 消除神族符石时\n'
 '⇒ 神族及兽类攻击力额外 1.5 倍',
-'eng_lead':'Magic Field of Taiji \n\n',
+'eng_lead':'Magic Field of Taiji\n\n'
 'When the Team consists of only Gods and Beasts:\n'
 'I. Team Attack x 4.5, HP & Recovery x 1.4.\n'
 'II. When there are 3 or more Attributes in the Team, Team Attack x 2 additionally.\n'
@@ -2376,7 +2376,7 @@ checker = [
 
 '“百草药神 ‧ 神农”、“舞干戚 ‧ 刑天”、“开天辟地 ‧ 盘古”跟随队长的暴击率，有几率可暴击 2.5 倍\n'
 '发动条件：\n'
-'以 6 星“上古诸神”系列角色作队长及战友；且队伍中有 3 个或以上 6 星“上古诸神”系列角色；并以“百草药神 ‧ 神农”、“舞干戚 ‧ 刑天”或“开天辟地 ‧ 盘古”作队员',
+'以 6 星“上古诸神”系列角色作队长及战友，且队伍中有 3 个或以上 6 星“上古诸神”系列角色；并以“百草药神 ‧ 神农”、“舞干戚 ‧ 刑天”或“开天辟地 ‧ 盘古”作队员',
 'eng_team':'Team Skill:\n\n'
 '◆ For each Monster of "Primal Deities" in the Team, there is a chance of Critical Attack x 2.5. The higher the Xian Point (XP), the higher the Critical Rate, to the max 100% for 10 XP.\n'
 'Condition:\n'
@@ -2384,7 +2384,7 @@ checker = [
 
 '◆ For 6 star Monsters of "Primal Deities" in the Team, the Monster\'s Xian Point (XP) +1 for every Runestone of its Race and Attribute dissolved, to the max 20 XP in accumulation. XP -2 every time when receiving Damage from an enemy\'s attack.\n'
 'Condition:\n'
-'There is 6 star Characters of "Primal Deities" (series) in the Team.\n\n'
+'There is 6 star Characters of Primal Deities series in the Team.\n\n'
 
 '◆ Turn Runestones of Members\' Attributes touched while moving into Enchanted God Runestones.\n'
 '◆ Light Runestones also possess 50% effect of other Attributive Runestones.\n'
