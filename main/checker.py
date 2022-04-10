@@ -739,6 +739,7 @@ checker = [
     {'chi_name':'梅林',
 'chif_name':'梅林',
 'eng_name':'merlin',
+     
 'chi_act':'	治癒之賦 ‧ 五屬追擊 CD6\n\n'
 '1 回合內\n'
 'I. 隊伍成員的屬性愈多\n'
@@ -749,17 +750,15 @@ checker = [
 '⓶ 所有成員追打暗屬性攻擊 1 次\n'
 '⓷ 全隊對敵方造成攻擊傷害的 5%\n'
 '⇒ 轉化為生命力',
-'eng_act':'Recovery Talent - Attack Conversion CD6\n\n'
-'For 1 Round, the more the Attributes of Monsters in the Team, the higher the Recovery, to the max x 3.5. When all Members have the same Recovery basic value, one extra Dark Attack will be launched by each Member; 5% of Damage dealt to enemies will be converted to HP Recovery (Damage dealt by Active and Leader Skills will not trigger the effect). ',
+     
 'chi_lead':'暗黑回復魔法 ‧ 魅\n\n'
 'I. 妖精類攻擊力及回復力 6.5 倍、生命力 1.5 倍\n'
 'II. 每直行首批消除 1 組 ≥4 粒符石\n'
 '⇒ 該直行產生 1 粒心強化符石\n'
 'III. 回合結束時\n'
 '⇒ 將心符石轉化為妖族強化符石\n',
-'eng_lead':'Dark Magic of Recovery\n\n'
-'Elf Attack & Recovery x 4. Turn Heart Runestones into Enchanted Heart Runestones after each Round.',
-'chi_team':'隊伍技能：\n\n'
+
+'chi_team':'隊伍技能：\n'
 'I. 必然延長移動符石時間 3 秒\n'
 'II. 心符石兼具 300% 屬性符石效果\n'
 'III. 每有 1 直行首批消除\n'
@@ -781,7 +780,44 @@ checker = [
 '所有成員的回復力基值跟隨回復力基值最高的成員\n\n'
 '發動條件：\n'
 '以「幻域真我．梅林」及 ≥3 個妖精類作成員',
-'eng_team':'None'},
+     
+     'eng_act':'Recovery Talent - Quintet Attack CD 6 \n'
+     'For 1 Round: \n'
+     'I. The more Attributes in the Team, \n'
+     '⇒ the higher the Team Attack and Recovery, to the max x 3.5. \n'
+     'II. When all Members in the Team has the same Recovery basic value: \n'
+     '⓵ The Character launches 5 extra attacks (one Attribute each).\n'
+     '⓶ Each Member launches an extra Dark attack.\n'
+     '⓷ 5% of Attack-damage dealt to enemies by the Team will be converted to HP Recovery.',
+     
+     'eng_lead':'Dark Magic of Recovery - EX \n\n'
+     'I. Elf Attack & Recovery x 6.5; HP x 1.5. \n'
+     'II. If a group of ≥4 Runestones is dissolved in a column in the first batch, \n'
+     '⇒ 1 Enchanted Heart Runestone will be generated in that column. \n'
+     'III. At the end of the Round, \n'
+     '⇒ turn Heart Runestones into Enchanted Elf Runestones. ',
+     
+     'eng_team':'Team Skill: \n'
+     '◆ Extend Runestone-moving time regardlessly by 3 seconds. \n'
+     '◆ Heart Runestones also possess 300% effect of Attributive Runestones \n'
+     '◆ For every group of ≥4 Runestones dissolved in a column in the first batch, \,'
+     '⇒ Team Attack increases \n'
+     '⇒ to the max x 7 for 6 columns. \n'
+     '◆ If a group of ≥4 Runestones is dissolved in a column in the first batch, \n'
+     '⇒ 2 Enchanted Heart Runestones will be generated in that column. \n'
+     '(Active Skills "Magical Stage - Beam" and "Magical Stage - Gloom" cannot be activated) \n'
+     '◆ If Heart Runestones are touched, \n'
+     '⇒ clear their negative state of Electrified Runestones, Frozen Runestones, Weakened Runestones, Lock-for-Recovery Runestones and Petrified Runestones, \n'
+     '⇒ and modify them to become Elf Runestones. \n'
+     '◆ Boss Skill “Sticky” will be nullified. \n'
+     '◆ By dissolving Heart Runestones, \n'
+     '⇒ Damage received -50%. \n\n'
+     'Condition: \n'
+     'Both the Leader and Ally are Illusionist\'s Anima - Merlin.'},
+
+
+    
+    
     {'chi_name':'织田信长',
 'chif_name':'織田信長',
 'eng_name':'nobunaga',
