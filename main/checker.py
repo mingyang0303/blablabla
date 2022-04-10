@@ -2803,7 +2803,7 @@ checker = [
 '◆ [＊] The Team starts with 50 DP after entering a Stage.\n'
 '[＊] DP +1 for every 500 HP recovered.\n'
 '[＊] DP -10 for every 3 Water Runestones dissolved.\n'
-'DP -30 in the Round upon receiving Damage from an enemy's attack.\n'
+'DP -30 in the Round upon receiving Damage from an enemy\'s attack.\n'
 'Condition:\n'
 'The Leader and Ally are "Auspice of Protection - Cang Bi" or "Billows of Freedom - Cang Bi".'},
     
