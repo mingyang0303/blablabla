@@ -2396,7 +2396,77 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are 6 star Characters of "Primal Deities" (series), with 3 or more 6 star Characters of "Primal Deities" (series) and "Mastery of Herbs - Shennong", "Traitor of Goodwill - Xingtian", or "Primitive Creator - Pangu" in the Team.'},
     
-    
+    {'chi_name':'西王母',
+'chif_name':'西王母',
+'eng_name':'xiwangmu',
+
+'chi_act':'蟠桃盛宴 CD3\n\n'
+'1 回合内\n'
+'I. 连击 (Ex. Combo) 数目增加 3\n'
+'II. 自身以外“上古诸神”系列角色的“仙力”增加 5 点\n'
+'II. 将战友直行的符石\n'
+'⇒ 转化为与自身直行相同的符石(包括强化符石、种族符石)\n'
+'III. 若自身为战友\n'
+'⇒ 则将自身直行的符石添加为神族符石\n'
+'IV. 发动技能时若自身“仙力”达 10 点\n'
+'⇒ 连击 (Ex. Combo) 数目额外增加 8',
+'eng_act':'Peaches of Immortality CD3\n\n'
+'For 1 Round\n'
+'I. Ex. Combo count +3.\n'
+'II. Xian Point (XP) of Monsters of "Primal Deities" (except this Monster) +5.\n'
+'II. Turn the column of Runestones below the Ally into the column of Runestones below this Monster (the effects of Enchanted Runestones and Race Runestones apply).\n'
+'III. If the Monster is the Ally, modify the column below the Monster to become God Runestones.\n'
+'IV. If the Monster\'s XP is 10 upon Skill activation, Ex. Combo count +8.',
+
+'chi_lead':'煞神之罚\n\n'
+'队伍中只有神族或兽类成员时：\n'
+'I. 全队攻击力 4.5 倍及生命力 1.6 倍\n'
+'II. 消除 ≥5 粒神族符石时\n'
+'⇒ 神族及兽类攻击力额外 2 倍',
+'eng_lead':'Punishment of the Traitor\n\n'
+'When the Team consists of only Gods and Beasts:\n'
+'I. Team Attack x 4.5, HP x 1.6.\n'
+'II. By dissolving 5 or more God Runestones, Team Attack x 2 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'每消除 1 粒光神族符石\n'
+'⇒ 自身可累积 1 点“仙力”\n'
+'⇒ 最多可累积 20 点。\n'
+'每受敌人攻击 1 次\n'
+'⇒ 减少 2 点“仙力”\n'
+'发动条件：\n'
+'以“瑶池婉妗 ‧ 西王母”作成员\n\n'
+'于回合结束时，将队长直行的符石转化为光神族符石，若此时生命力全满，则转化为光神族强化符石\n'
+'发动条件：\n'
+'以“瑶池婉妗 ‧ 西王母”作队长及战友\n\n'
+'“逐日旅程 ‧ 夸父”攻击力基值 1.8 倍\n'
+'发动条件：\n'
+'以“瑶池婉妗 ‧ 西王母”及“逐日旅程 ‧ 夸父”作成员\n\n'
+'每个“上古诸神”系列角色均有几率暴击 2.5 倍：\n'
+'其“仙力”愈高\n'
+'⇒ 其暴击率愈高\n'
+'⇒ 10 点“仙力”可提升至 100%\n'
+'发动条件：\n'
+'以 6 星“上古诸神”系列角色作队长及战友\n\n'
+'“百草药神 ‧ 神农”、“舞干戚 ‧ 刑天”、“开天辟地 ‧ 盘古”跟随队长的暴击率，有几率可暴击 2.5 倍\n'
+'发动条件：\n'
+'以 6 星“上古诸神”系列角色作队长及战友；且队伍中有 3 个或以上 6 星“上古诸神”系列角色；并以“百草药神 ‧ 神农”、“舞干戚 ‧ 刑天”或“开天辟地 ‧ 盘古”作队员',
+'eng_team':'Team Skill\n\n'
+'◆ At the end of each Round, turn the column of Runestones below the Leader into Light God Runestones; if Team HP is full, the Runestones turned will become Enchanted Runestones.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Lady of the Supreme - Xiwangmu".\n\n'
+'◆ Attack basic value of "Sun Chaser - Kuafu" x 1.8 additionally.\n'
+'Condition:\n'
+'There are "Lady of the Supreme - Xiwangmu" and "Sun Chaser - Kuafu" in the Team.\n\n'
+'◆ For each Monster of "Primal Deities" in the Team, there is a chance of Critical Attack x 2.5. The higher the Xian Point (XP), the higher the Critical Rate, to the max 100% for 10 XP.\n'
+'Condition:\n'
+'The Leader and Ally are 6 star Characters of "Primal Deities" (series).\n\n'
+'◆ For 6 star Monsters of "Primal Deities" in the Team, the Monster\'s Xian Point (XP) +1 for every Runestone of its Race and Attribute dissolved, to the max 20 XP in accumulation. XP -2 every time when receiving Damage from an enemy\'s attack.\n'
+'Condition:\n'
+'There is 6 star Characters of "Primal Deities" (series) in the Team.\n\n'
+'◆ Critical Rate of "Mastery of Herbs - Shennong", "Traitor of Goodwill - Xingtian" and "Primitive Creator - Pangu" will synchronize with that of the Leader, with a chance of Critical Attack x 2.5.\n'
+'Condition:\n'
+'Both the Leader and Ally are 6 star Characters of "Primal Deities" (series), with 3 or more 6 star Characters of "Primal Deities" (series) and "Mastery of Herbs - Shennong", "Traitor of Goodwill - Xingtian", or "Primitive Creator - Pangu" in the Team.'},
     
 
     
