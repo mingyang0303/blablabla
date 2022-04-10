@@ -2345,7 +2345,7 @@ checker = [
 '⇒ 全队攻击力额外 2 倍\n'
 'III. 消除神族符石时\n'
 '⇒ 神族及兽类攻击力额外 1.5 倍',
-'eng_lead':'Magic Field of Taiji',
+'eng_lead':'Magic Field of Taiji \n\n',
 'When the Team consists of only Gods and Beasts:\n'
 'I. Team Attack x 4.5, HP & Recovery x 1.4.\n'
 'II. When there are 3 or more Attributes in the Team, Team Attack x 2 additionally.\n'
@@ -2416,7 +2416,7 @@ checker = [
 'II. Xian Point (XP) of Monsters of "Primal Deities" (except this Monster) +5.\n'
 'II. Turn the column of Runestones below the Ally into the column of Runestones below this Monster (the effects of Enchanted Runestones and Race Runestones apply).\n'
 'III. If the Monster is the Ally, modify the column below the Monster to become God Runestones.\n'
-'IV. If the Monster's XP is 10 upon Skill activation, Ex. Combo count +8.',
+'IV. If the Monster\'s XP is 10 upon Skill activation, Ex. Combo count +8.',
 
 'chi_lead':'煞神之罚\n\n'
 '队伍中只有神族或兽类成员时：\n'
