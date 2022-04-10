@@ -2114,10 +2114,10 @@ checker = [
 'II. 所有属性符石兼具25% 其他属性符石效果 (可叠加)\n'
 'III. 每回合回复相等于队伍中所有“魔性原罪 · 夏娃”攻击力基值总和的生命力(需消除符石)',
 'eng_lead':'The Original Sin\n\n'
-'When the Team consists of only Demons and Elves, Team Attack x 6; HP x 2, all Attributive Runestones also possess 25% effects of other Attributive Runestones (effects can be superimposed), recover HP as much as the total Attack basic value of "Origin of All Sins - Eve" in the Team each Round (dissolving Runestones is necessary).',
+'When the Team consists of only Demons and Elves, Team Attack x 6, HP x 2, all Attributive Runestones also possess 25% effects of other Attributive Runestones (effects can be superimposed), recover HP as much as the total Attack basic value of "Origin of All Sins - Eve" in the Team each Round (dissolving Runestones is necessary).',
 
 'chi_team':'队伍技能：\n\n'
-'每消除 1 组 5 粒或以上的心或火符石时，1 个魔性原罪 · 夏娃 (最左方优先) 获得 1 个禁果，消除 2 组可获最多 2 个禁果。 魔性原罪 · 夏娃最多可同时持有 4 个禁果；每持有 1 个禁果，于回合结束时，随机转化 1 粒魔族符石，最多 24 粒。\n'
+'每消除 1 组 5 粒或以上的心或火符石时，1 个魔性原罪 · 夏娃 (最左方优先) 获得 1 个禁果，消除 2 组可获最多 2 个禁果。 魔性原罪 · 夏娃最多可同时持有 4 个禁果,每持有 1 个禁果，于回合结束时，随机转化 1 粒魔族符石，最多 24 粒。\n'
 '持有 4 个禁果的魔性原罪 · 夏娃在发动攻击时，额外追打无属性攻击 1 次。\n'
 '魔性原罪 · 夏娃持有禁果时，全队攻击力提升 1.3 倍\n'
 '发动条件：\n'
@@ -2148,7 +2148,7 @@ checker = [
 'eng_team':'Team Skill:\n\n'
 '◆ By dissolving a group of 5 or more Heart or Fire Runestones, the first "Origin of All Sins - Eve" from the left gets a Forbidden Fruit, to the max 2 Forbidden Fruits for 2 groups of Runestones dissolved. Each "Origin of All Sins - Eve" in the Team can possess at most 4 Forbidden Fruits at a time. Turn 1 Runestone into Demon Runestone at the end of the Round for each Forbidden Fruit in hand, to the max 24 Runestones to be turned.\n'
 '◆ For "Origin of All Sins - Eve" who has 4 Forbidden Fruits, the Monster launches an extra non-Attributive attack.\n'
-'◆ When "Origin of All Sins - Eve" is having Forbidden Fruit(s), Team Attack x 1.3 additionally.\n'
+'◆ When "Origin of All Sins - Eve" is having Forbidden Fruits, Team Attack x 1.3 additionally.\n'
 'Condition:\n'
 'Both the Leader and Ally are "Origin of All Sins - Eve".\n\n'
 
@@ -2158,21 +2158,21 @@ checker = [
 'The Leader and Ally are "Origin of All Sins - Eve" or "Diva of Obsession - Cleo".\n\n'
 
 '◆ After entering a Stage:\n'
-'⓵ All “Origin of All Sins - Eve” get 2 Forbidden Fruits.\n'
-'⓶ All “Innocent Temptation - Eve” get 2 Golden Fruits.\n'
-'◆ “Origin of All Sins - Eve” and “Innocent Temptation - Eve“\n'
+'⓵ All "Origin of All Sins - Eve" get 2 Forbidden Fruits.\n'
+'⓶ All "Innocent Temptation - Eve" get 2 Golden Fruits.\n'
+'◆ "Origin of All Sins - Eve” and "Innocent Temptation - Eve"\n'
 '⇒ Attack basic value +1,500.\n'
 'Condition:\n'
 'Both the Leader and Ally are "Origin of All Sins - Eve", with "Innocent Temptation - Eve" in the Team.\n\n'
 
-'◆ “Diabolic Magma - Cherufe“\n'
+'◆ "Diabolic Magma - Cherufe"\n'
 '⓵ HP & Attack basic value x 2.\n'
 '⓶ Skill CD -1.\n'
 'Condition:\n'
 'There are "Diabolic Magma - Cherufe" and "Origin of All Sins - Eve" or "Innocent Temptation - Eve" in the Team.\n'
 
 '◆ Attack basic value of "Origin of All Sins - Eve" +2000 after entering a Stage.\n'
-'◆ Attack basic value of the Demon to the right of the Leader will synchronize with that of the first "Origin of All Sins - Eve" from the left\n'.
+'◆ Attack basic value of the Demon to the right of the Leader will synchronize with that of the first "Origin of All Sins - Eve" from the left.\n'
 'Condition:\n'
 'Both the Leader and Ally are "Origin of All Sins - Eve", with only Elves or Demons in the Team.'},
 
