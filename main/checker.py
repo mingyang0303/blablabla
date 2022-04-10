@@ -3010,6 +3010,129 @@ checker = [
 '⇒ EP +1,\n'
 '⇒ to the max +1 each Round.'},
     
+ {'chi_name':'维洛妮卡',
+'chif_name':'維洛妮卡',
+'eng_name':'veronica',
+
+'chi_act':'战甲利刃 ‧ 兽 CD5\n\n'
+'I. 消耗现有 20% 生命力(生命力为 1 时无法发动技能)\n'
+'II. 将暗符石转化为兽族强化符石\n'
+'1 回合内\n'
+'III. 自身攻击力 6 倍\n'
+'IV. 兽类成员的伤害\n'
+'⇒ 无视敌人防御力\n'
+'⇒ 无视“指定形状盾”敌技',
+'eng_act':'Shield of Purple Blood\n\n'
+'At the expense of 20% HP (this Skill cannot be activated when Team HP is 1):\n'
+'I. Turn Dark Runestones into Enchanted Beast Runestones.\n'
+'For 1 Round:\n'
+'II. The Monster\'s Attack x 6.\n'
+'III. Damage dealt by Beasts will disregard enemies\' Defense and Puzzle Shield.',
+
+'chi_lead':'战火纷飞\n\n'
+'队伍中只有兽类成员：\n'
+'I. 全队攻击力 6.5 倍及生命力 1.5 倍\n'
+'II. 每个成员增加 500 点回复力\n'
+'III. 场上每有 1 个附加效果\n'
+'⇒ 全队攻击力额外 1.5 倍\n'
+'⇒ 最多计算 4 个附加效果\n'
+'IV. 生命力未满时\n'
+'⇒ 全队攻击力及回复力额外 2 倍\n'
+'V. 首批消除 1 组 ≥5 粒符石时，使敌方全体中毒：\n'
+'⇒ 每回合受到自身攻击力的伤害 (此伤害无视防御力及属性并持续至死亡)',
+'eng_lead':'Fires of War\n\n'
+'When the Team has only Beasts:\n'
+'I. Team Attack x 6.5 & HP x 1.5.\n'
+'II. Recovery basic value of each Member +500.\n'
+'III. For every additional effect in play,\n'
+'⇒ Team Attack x 1.5 additionally,\n'
+'⇒ to the max for 4 effects.\n'
+'IV. When Team HP is not full,\n'
+'⇒ Team Attack & Recovery x 2 additionally.\n'
+'V. By dissolving a group of ≥5 Runestones in the first batch,\n'
+'⇒ poison all enemies with the Monster's Attack every Round (regardless of Defense and Attribute until defeated).',
+
+'chi_team':'队伍技能：\n\n'
+'I. 将移动符石时所触碰的队伍成员属性符石\n'
+'⇒ 转化为兽族强化符石\n'
+'II. 必然延长移动符石时间 5 秒\n'
+'III. 进入关卡后，兽类成员技能 CD -6\n'
+'IV. 所受光属性及暗属性目标伤害\n'
+'⇒ 减少 50%\n'
+'发动条件：\n'
+'以“冥血吞蚀 ‧ 维洛妮卡”作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ Turn Runestones of Members\' Attributes touched while moving into Enchanted Beast Runestones.\n'
+'◆ Extend Runestone-moving time regardlessly by 5 seconds.\n'
+'◆ Skill CD of Beasts -6 after entering a Stage.\n'
+'◆ Damage received from Light and Dark enemies -50%.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Blood of Obscurity - Veronica".'},
+    
+   {'chi_name':'恩莉儿',
+'chif_name':'恩莉兒',
+'eng_name':'enlil',
+
+'chi_act':'逆水之焰 CD6\n\n'
+'I. 火属性伤害可克制水属性目标\n'
+'II. 消除种族符石时\n'
+'⇒ 个人追打火及木属性攻击 1 次(效果会在关闭此技能或死亡后消失)\n'
+'此技能可随时关闭，关闭时：\n'
+'⓵ 引爆神族成员直行符石\n'
+'⇒ 掉落神族强化符石',
+'eng_act':'Unquenchable Flames Cd6\n\n'
+'I. Fire Damage can overpower Water enemies.\n'
+'II. By dissolving Race Runestones, the Monster launches an extra Fire attack and an extra Earth attack.\n'
+'The Skill stays in play until deactivation or defeated.\n'
+'This Skill can be deactivated anytime. Upon deactivation of the Skill:\n'
+'⇒ Explode the columns of Runestones below Gods to generate Enchanted God Runestones.',
+
+'chi_lead':'神女之柔\n\n'
+'队伍中只有神族或人类成员，并需有 ≥4 个神族成员：\n'
+'I. 全队攻击力 6.5 倍及生命力 1.2 倍\n'
+'II. 必然延长移动符石时间 1 秒\n'
+'III. 消除的符石愈多\n'
+'⇒ 全队攻击力额外提升愈多\n'
+'⇒ 消除 20 粒可达至最大 2.8 倍',
+'eng_lead':'Tenderness of the Goddess\n\n'
+'When the Team includes only Gods and Humans, and there are ≥4 Gods:\n'
+'I. Team Attack x 6.5, HP x 1.2.\n'
+'II. Extend Runestone-moving time regardlessly by 1 second.\n'
+'III. The more the Runestones dissolved, the higher the Team Attack increases additionally, to the max x 2.8 for 20 Runestones.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 进入关卡后，将龙脉仪储满\n'
+'II. 下回合开始时\n'
+'⇒ 所有符石随机转换为五属及心符石\n'
+'III. 所有属性符石互相兼具 50% 效果\n'
+'发动条件：\n'
+'以“智火解析 ‧ 恩莉儿”作队长及战友\n\n'
+
+'I. 将移动符石时触碰的首 6 粒符石\n'
+'⇒ 转化为人族强化符石\n'
+'II. 根据转珠结束时放手的符石\n'
+'⇒ 最左方的“编号 6666 ‧ 依贝思”及\n'
+'最左方的“智火解析 ‧ 恩莉儿”直行首批掉落该种强化符石\n'
+'发动条件：\n'
+'以“编号 6666 ‧ 依贝思”作队长及战友\n'
+
+'“源恨复苏 · 恩莉儿”\n'
+'⇒ 对神族目标攻击力额外 3 倍\n'
+'发动条件：\n'
+'以“源恨复苏 · 恩莉儿”及“智火解析 ‧ 恩莉儿”作成员',
+'eng_team':'Team Skill:\n\n'
+'◆ The Craft Apparatus will be fully charged after entering a Stage.\n'
+'◆ Refresh all Runestones into Runestones of all types at the beginning of each Round.\n'
+'◆ All Attributive Runestones also possess 50% effect of each other.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Fire of Sagacity - Enlil".\n\n'
+'◆ Damage dealt by "Resentment Awakening - Enlil" on Gods x 3 additionally.\n'
+'Condition:\n'
+'There are "Fire of Sagacity - Enlil" and "Resentment Awakening - Enlil" in the Team.'}, 
+    
+    
+    
+    
     
     
     
