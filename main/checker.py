@@ -2743,7 +2743,7 @@ checker = [
 'For 1 Round,\n'
 'II. Attack of Dragons, Humans, Elves & Demons x 2.5.\n'
 'III. Red Dragon Point increases to 100.\n'
-'(Active Skill after switching please check /check changbitrans)',
+'(Active Skill after switching please check /check cangbitrans)',
 
 'chi_lead':'三族戰勢\n\n'
 '隊中只有龍類、神族或獸類成員時：\n'
