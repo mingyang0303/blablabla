@@ -909,15 +909,6 @@ checker = [
 'II. Damage will be dealt regardless of Fixed Combo Shield.\n'
 'III. If the Leader and Ally are Beasts,\n'
 '⇒ Skill CD of the Monster -2.',
- 
- 'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
 
 'chi_lead':'紫魅断魂 ‧ 强\n\n'
 'I. 队伍中只有兽类成员时：\n'
@@ -1012,15 +1003,6 @@ checker = [
 'eng_act':'	Floral Sea of Sakura - EX CD6\n\n'
 'Modify Fire and Heart Runestones to become Elf Runestones. Upon the Round of activation, the number of Combos made in the Round will be recorded. At the beginning of next Round, turn non-Fire and non-Heart Runestones into Enchanted Fire Runestones of a number same as the recorded number of Combos made.',
 
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'noen',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
-
 'chi_lead':'粉樱花雨\n\n'
 'I. 妖精类攻击力 1.8 倍\n'
 'II. 火及心符石兼具 25%\n'
@@ -1076,15 +1058,6 @@ checker = [
 'eng_act':'Spirits in a Row CD\n\n'
 'Tap and turn a row of Runestones into Enchanted Heart Runestones. Elf Attack x 2 for 1 Round.',
 
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
-
 'chi_lead':'魅艳之刺\n\n'
 'I. 妖精类攻击力 4.5 倍\n'
 'II. 心符石兼具 25% 所有属性符石效果(可叠加)',
@@ -1126,15 +1099,6 @@ checker = [
 '1 回合内，自身攻击力 4 倍，连击 (Combo) 数目增加 6，队伍中每个龙类、兽类或妖精类成员将额外增加 1 连击 (Combo)，最多可额外增加 6 连击 (Combo)',
 'eng_act':'	Source of Power CD6\n\n'
 'For 1 Round, the Monster\'s Attack x 4, Combo count +6, for each Dragon, Beast or Elf present in the Team, Combo count +1 additionally, to the max +6.',
-
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
 
 'chi_lead':'创造之能 ‧ 强\n\n'
 'I. 光属性“龙类、兽类及妖精类”\n'
@@ -1180,15 +1144,6 @@ checker = [
 'eng_act':'Dimensions of Dreams CD10\n\n'
 'For 1 Round, Runestones can be dissolved by aligning 2 or more of them, until 30 Runestones of one type are dissolved.',
 
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
-
 'chi_lead':'吞噬之欲\n\n'
 'I. 魔族、龙类及兽类攻击力 4 倍\n'
 'II. 心符石兼具 50% 所有属性符石效果 (可叠加)',
@@ -1233,15 +1188,6 @@ checker = [
 'eng_act':'Extensive Elimination CD8\n\n'
 'Explode all Runestones to generate Enchanted Dragon Runestones of the Attribute of the Dragons in the column(s).\n'
 'For columns below non-Dragon, Runestones will be dropped randomly.',
-
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
 
 'chi_lead':'暗龙暴 ‧ 强\n\n'
 'I. 龙类生命力 1.6 倍及攻击力 7 倍\n'
@@ -1299,15 +1245,6 @@ checker = [
 'II. Each of Humans and Demons in the Team launches an extra attack as much as 50% of its attack.\n'
 'III. When the enemy attacks, Humans and Demons will launch one more extra attack next Round.\n'
 'The effects stay in play until Runestones of 6 types are dissolved in the first batch.',
-
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
 
 'chi_lead':'酷冷之杀意 ‧ 溢\n\n'
 '队伍中只有火、木及暗属性成员时：\n'
@@ -1376,15 +1313,6 @@ checker = [
 'For 1 Round:\n'
 'III. Unlimited Runestone movement without dissolving.\n'
 'IV. The more Combos made, the higher the Monster\'s Attack, to the max x 15 for 10 Combos.',
-
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
 
 'chi_lead':'霸者盛势 ‧ 无上控压\n\n'
 'I. 必然延长移动符石时间 1 秒\n'
@@ -1459,15 +1387,6 @@ checker = [
 'IV. When the Monster has 10 force points upon Skill activation, the Monster\'s Damage will be dealt regardless of Puzzle Shield and enemies\' Defense.\n\n'
 'Force points -50% after Skill activation.',
 
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
-
 'chi_lead':'巾帼之炽焰\n\n'
 'I. 队伍中有 ≥3 种属性成员时：\n'
 '⓵ 全队攻击力 3.5 倍\n'
@@ -1525,15 +1444,6 @@ checker = [
 'eng_act':'Trigram of Gloom CD6\n\n'
 'By tapping a Runestone on the Magic Circle of Elements, Runestones of that type will be exploded to generate Enchanted Dark God Runestones. For 1 Round, Dark Runestones also possess 50% effect of other Attributive Runestones.',
 
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
-
 'chi_lead':'冥神 ‧ 符箓\n\n'
 'I. 暗属性及神族攻击力 3.4 倍\n'
 'II. 消除 3 粒符石\n'
@@ -1567,15 +1477,6 @@ checker = [
 '木属性及机械族攻击力 1.8 倍，若发动技能时自身行动值达至 100%，攻击力提升至 2.2 倍；队伍中若有 3 个或以上机械族成员，必然延长移动符石时间 3 秒。效果会在进入下一层数 (Wave) 时消失',
 'eng_act':'Soul-penetrating Power CD6\n\n'
 'Earth Attack & Machina Attack x 1.8, if the Monster\'s Fuel is 100% upon Skill activation, the Attack multiplier increases to x 2.2. If there are 3 or more Machinas in the Team, extend Runestone-moving time regardlessly by 3 seconds. The Skill stays in play within the Wave.',
-
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
 
 'chi_lead':'夺魄之森\n\n'
 'I. “妖精类及魔族”以外的木属性成员攻击力 4 倍\n'
@@ -1642,15 +1543,6 @@ checker = [
 'eng_act':'Lotus Power - EX CD5\n\n'
 'God Attack x 2, for each group of Heart Runestones or Runestones of Team Members\' Attributes dissolved, 1 Enchanted God Runestone will be generated, to the max 6 Runestones to be generated (only the first batch of Runestones dissolved will be counted). The Skill stays in play until receiving Damage from enemies\' attacks.',
 
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
-
 'chi_lead':'八仙阵\n\n'
 '队伍中有 3 个或以上八仙系列角色时：\n'
 'I. 连击 (Combo) 时攻击力提升 125%\n'
@@ -1684,15 +1576,6 @@ checker = [
 '将黑白符石变回原来色调,1 回合内，必然延长移动符石时间 6 秒，自身攻击力 6 倍，连击 (Combo) 数目增加 6',
 'eng_act':'Beginning of Power CD6\n\n'
 'Clear the negative effect of "B&W Zone". For 1 Round, extend Runestone-moving time regardlessly by 6 seconds, the Monster\'s Attack x 6, Combo count +6.',
-
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
 
 'chi_lead':'元素创念 ‧ 强\n\n'
 '队伍中只有神族成员时\n'
@@ -1735,15 +1618,6 @@ checker = [
 'eng_act':'Reform of Chaos\n\n'
 'Clear the negative effect of "B&W Zone". Tap and explode 2 columns of Runestones to generate Enchanted Water God Runestones.',
 
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
-
 'chi_lead':'神妖灭世 ‧ 强\n\n'
 '队伍中只有神族或妖精类成员时\n'
 'I. 全队攻击力 6 倍\n'
@@ -1773,15 +1647,6 @@ checker = [
 '将黑白符石变回原来色调,1 回合内，减少 50% 所受伤害,消除神族符石愈多，全队攻击力提升愈多，5 粒可提升至最大 2 倍',
 'eng_act':'Notion of Salvation CD5\n\n'
 'Clear the negative effect of "B&W Zone". For 1 Round, Damage received -50%; the more the God Runestones dissolved, the higher the Team Attack, to the max x 2 for 5 Runestones.',
-
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
 
 'chi_lead':'幻惑护生\n\n'
 '队伍中只有神族成员时：\n'
@@ -1834,15 +1699,6 @@ checker = [
 'II. If the Leader and Ally are Beasts:\n'
 '⓵ Team Attack x 2.5\n'
 '⓶ The Damage received in the Round will not lead to your defeat.',
-
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
 
 'chi_lead':'异瞳的力量 ‧ 强\n\n'
 'I. 兽类生命力及回复力 1.8 倍\n'
@@ -1899,15 +1755,6 @@ checker = [
 'eng_act':'Spying Feline CD8\n\n'
 'This Skill can be activated only when the enemies\' HP is full. All Monsters will be undercover with their Attack x 3. The effect stays in play until the Damage is dealt to the enemy. CD will not drop when the Skill is in play.',
 
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
-
 'chi_lead':'女王的力量\n\n'
 '队伍中只有兽类成员时：\n'
 'I. 全队攻击力 4 倍\n'
@@ -1959,15 +1806,6 @@ checker = [
 'eng_act':'	Phenomenal Detonation CD10\n\n'
 'Turn all Runestones into Enchanted Beast Runestones. When the Team consists of only Beasts, for 1 Round, Runestones can be dissolved singly or in groups of 2 or more',
 
-'chi_trans1':'没有技能',
-'eng_trans1':'none',
-'chi_tact1':'没有技能',
-'eng_tact1':'none',
-'chi_trans2':'没有技能',
-'eng_trans2':'none',
-'chi_tact2':'没有技能',
-'eng_tact2':'none',
-
 'chi_lead':'幽魂的力量\n\n'
 '队伍中只有兽类成员时：\n'
 'I. 全队生命力 2 倍及攻击力 5.5 倍\n'
@@ -2000,6 +1838,77 @@ checker = [
 '◆ For every extra 6 star Monster of "The Master Cathieves" present in the Team, turn 2 Attributive Runestones into Enchanted Beast Runestones at the end of each Round, to the max 10 Runestones to be turned (Earth Runestones rank first in priority).\n'
 'Condition:\n'
 'The Leader is "Untraceable Moves - Ghostie".'},
+    
+    {'chi_name':'爱因斯坦',
+'chif_name':'愛因斯坦',
+'eng_name':'einstein',
+
+'chi_act':'流水定律 CD6\n\n'
+'3 回合内，首批掉落的 8 粒符石必定为水强化符石；技能持续时若所有机械族成员的行动值达至 100%，自身攻击力 3 倍',
+'eng_act':'Principle of Water\n\n'
+'For 3 Rounds, the first batch of 8 Runestones to be dropped will be Enchanted Water Runestones. When all Machinas in the Team have 100% Fuel when the effect is in play, the Monster\'s Attack x 3.',
+
+'chi_lead':'机械理论\n\n'
+'队伍中只有机械族或人类成员时：\n'
+'I. 全队攻击力 4.5 倍\n'
+'II. 减少 40% 所受伤害\n'
+'III. 消除水强化符石时\n'
+'⇒ 机械族成员的行动值提升 5%\n'
+'IV. 所有机械族成员的行动值达至 100% 时\n'
+'⇒ 攻击力额外 1.5 倍',
+'eng_lead':'Theory of Machines\n\n'
+'When the Team consists of only Machinas and Humans, Team Attack x 4.5; Damage received -40%; by dissolving Enchanted Water Runestones, Fuel of Machinas +5%; when all Machinas in the Team have 100% Fuel, Team Attack x 1.5 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'若当前回合总伤害大于敌方总生命力 2.5 倍等值，下回合全队攻击力提升 2 倍\n'
+'回合结束时，引爆水符石四周的水以外符石\n'
+'水符石兼具 50% 心符石效果\n'
+'进入关卡后，机械族成员的主动技能 CD 减少 3\n'
+'发动条件：\n'
+'以时空相对论 ‧ 爱因斯坦作队长及战友\n\n'
+'【机械动力】\n'
+'I. 每首批消除 1 粒自身属性符石\n'
+'⇒ 自身行动值提升 2%\n'
+'II. 每首批消除 1 粒心符石\n'
+'⇒ 自身行动值提升 1%\n'
+'III. 行动值愈高\n'
+'⇒ 自身攻击力提升愈多\n'
+'⇒ 最大提升至 2 倍。\n'
+'IV. 当所有机械族成员的行动值达至 50% 或以上时\n'
+'⇒ 机械族成员属性的符石效果提升\n'
+'⇒ 每个机械族成员可提升 10% 效果\n'
+'⇒ 最高 60%\n'
+'V. 当所有机械族成员的行动值达至 100% 时\n'
+'⇒ 机械族成员每回合\n'
+'以 25% 自身攻击力随机追打自身属性或自身克制属性的攻击 1 至 2 次\n'
+'发动条件：\n'
+'队伍中有 ≥2 个【机械族】成员',
+'eng_team':'Team Skill:\n\n'
+'◆ When the total Damage dealt in the Round is more than 2.5x of the enemy\'s total HP, Team Attack x 2 additionally in the next Round.\n'
+'◆ Explode non-Water Runestones around Water Runestones at the end of each Round.\n'
+'◆ Water Runestones also possess 50% effect of Heart Runestones. After entering a Stage, Active Skill CDs of Machinas -3.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Relativity of Cosmology - Einstein".\n\n'
+'◆ 【Machina Dynamics】\n'
+'⓵ For each Runestone of the Character\'s Attribute dissolved in the first batch,\n'
+'⇒ the Character\'s Fuel +2%.\n'
+'⓶ For each Heart Runestone dissolved in the first batch,\n'
+'⇒ the Character\'s Fuel +1%.\n'
+'⓷ The higher the Character\'s Fuel,\n'
+'⇒ the higher the Character\'s Attack,\n'
+'⇒ to the max x 2 additionally.\n'
+'⓸ When all Machinas in the Team have ≥ 50% Fuel,\n'
+'⇒ effects of Runestones of their Attributes increase,\n'
+'⇒ 10% for each Machina present in the Team,\n'
+'⇒ to the max 60%.\n'
+'⓹ When all Machinas in the Team have 100% Fuel,\n'
+'⇒ all Machinas randomly launch 1 to 2 extra attack(s) of its own Attribute or its Counter Attribute as much as 25% of its Attack every Round.\n'
+'Condition:\n'
+'There are 2 or more 【Machina Dynamics】 Members in the Team.'}
+
+    
+    
+    
 
     
     
