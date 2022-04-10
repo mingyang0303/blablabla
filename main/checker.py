@@ -1905,6 +1905,137 @@ checker = [
 '⇒ all Machinas randomly launch 1 to 2 extra attack(s) of its own Attribute or its Counter Attribute as much as 25% of its Attack every Round.\n'
 'Condition:\n'
 'There are 2 or more 【Machina Dynamics】 Members in the Team.'},
+    
+    {'chi_name':'伽利略',
+'chif_name':'伽利略',
+'eng_name':'galileo',
+
+'chi_act':'机械解密 CD6\n\n'
+'解除机械族成员被封锁的技能 (此技能无视封锁技能)。3 回合内，机械族成员的攻击力及回复力 1.8 倍；发动技能时若所有机械族成员的行动值达至 100%，延长移动符石时间至 15 秒',
+'eng_act':'	Machine Decoder CD6\n\n'
+'Release the locked Skills of all Machinas. For 3 Rounds, Machina Attack & Recovery x 1.8; when all Machinas in the Team have 100% Fuel upon Skill activation, extend Runestone-moving time to 15 seconds. This Skill will not be locked.',
+
+'chi_lead':'几何结界\n\n'
+'队伍中只有机械族成员时：\n'
+'I. 全队攻击力 5 倍\n'
+'II. 必然延长移动符石时间 1 秒\n'
+'III. 自身的攻击力减至 0 并将原有的攻击力基值的 2 倍\n'
+'⇒ 分别加入其他成员的攻击力基值\n'
+'IV. 若使用相同的队长及战友\n'
+'⇒ 则分别加入所有队员的攻击力基值\n'
+'V. 于自身直行首批消除 1 组 ≥4 粒符石时\n'
+'⇒ 身旁成员的主动技能 CD 减少 1',
+'eng_lead':'Dimension of Geometry\n\n'
+'When the Team has only Machinas,\n'
+'I. Team Attack x 5.\n'
+'II. Extend Runestone-moving time regardlessly by 1 second.\n'
+'III. The Character\'s Attack becomes 0, adding 2x the deducted Attack basic value to the Attack basic value of all Members\n'
+'IV. If the Leader and Ally are the same, the deducted Attack basic value will be added to the Attack basic value of all Members (Leader and Ally excluded)\n'
+'V. By dissolving a group of ≥4 Runestones in the column below the Monster, Active Skill CD of the neighboring Member(s) -1.',
+
+'chi_team':'队伍技能：\n\n'
+'每首批消除 1 粒火、木或暗符石，额外提升机械族成员的行动值 1%\n'
+'发动条件：\n'
+'以生物多样性 ‧ 达尔文或超新星序曲 ‧ 伽利略作队长及战友；或以生物多样性 ‧ 达尔文作队长及战友\n\n'
+'【机械动力】\n'
+'I. 每首批消除 1 粒自身属性符石\n'
+'⇒ 自身行动值提升 2%\n'
+'II. 每首批消除 1 粒心符石\n'
+'⇒ 自身行动值提升 1%\n'
+'III. 行动值愈高\n'
+'⇒ 自身攻击力提升愈多\n'
+'⇒ 最大提升至 2 倍。\n'
+'IV. 当所有机械族成员的行动值达至 50% 或以上时\n'
+'⇒ 机械族成员属性的符石效果提升\n'
+'⇒ 每个机械族成员可提升 10% 效果\n'
+'⇒ 最高 60%\n'
+'V. 当所有机械族成员的行动值达至 100% 时\n'
+'⇒ 机械族成员每回合\n'
+'以 25% 自身攻击力随机追打自身属性或自身克制属性的攻击 1 至 2 次\n'
+'发动条件：\n'
+'队伍中有 ≥2 个【机械族】成员',
+'eng_team':'Team Skill:\n\n'
+'◆ Fuel of Machinas +1% for each Fire, Earth or Dark Runestone dissolved (only the first batch of Runestones dissolved will be counted).\n'
+'Condition:\n'
+'The Leader and Ally are "Mutated Biodiversity - Darwin" or "Prologue of Supernova - Galileo".\n\n'
+'◆ 【Machina Dynamics】\n'
+'⓵ For each Runestone of the Character\'s Attribute dissolved in the first batch,\n'
+'⇒ the Character\'s Fuel +2%.\n'
+'⓶ For each Heart Runestone dissolved in the first batch,\n'
+'⇒ the Character\'s Fuel +1%.\n'
+'⓷ The higher the Character\'s Fuel,\n'
+'⇒ the higher the Character\'s Attack,\n'
+'⇒ to the max x 2 additionally.\n'
+'⓸ When all Machinas in the Team have ≥ 50% Fuel,\n'
+'⇒ effects of Runestones of their Attributes increase,\n'
+'⇒ 10% for each Machina present in the Team,\n'
+'⇒ to the max 60%.\n'
+'⓹ When all Machinas in the Team have 100% Fuel,\n'
+'⇒ all Machinas randomly launch 1 to 2 extra attack(s) of its own Attribute or its Counter Attribute as much as 25% of its Attack every Round.\n'
+'Condition:\n'
+'There are 2 or more 【Machina Dynamics】 Members in the Team.'},
+    
+    {'chi_name':'达尔文',
+'chif_name':'達爾文',
+'eng_name':'darwin',
+
+'chi_act':'元素探研 CD6\n\n'
+'引爆所有符石以掉落强化符石，每引爆 1 种属性符石，1 回合内自身攻击力额外提升 1 倍，最多可提升至 6 倍；消除 5 种属性符石时，自身主动技能 CD 减少 3',
+'eng_act':'Experiment of Elements CD6\n\n'
+'Explode all Runestones to generate Enchanted Runestones. For 1 Round, the more the Attributes of Runestones exploded, the higher the Monster\'s Attack, to the max x 6. When Runestones of 5 Attributes are dissolved, the Monster\'s current Skill CD -3.',
+
+'chi_lead':'金液流动\n\n'
+'队伍中只有机械族成员时：\n'
+'I. 全队生命力、攻击力及回复力 2 倍\n'
+'II. 消除 ≥3 种符石时\n'
+'⇒ 全队攻击力额外 3 倍\n'
+'III. 心符石兼具 50% 所有属性符石效果(可叠加)',
+'eng_lead':'Flow of Golden Liquid\n\n'
+'When the Team consists of only Machinas, Team HP, Attack & Recovery x 2; by dissolving Runestones of 3 or more types, Team Attack x 3 additionally; Heart Runestones also possess 50% effects of all Attributive Runestones (the effects can be superimposed).',
+
+'chi_team':'队伍技能：\n\n'
+'每首批消除 1 粒火、木或暗符石，额外提升机械族成员的行动值 1%\n'
+'发动条件：\n'
+'以生物多样性 ‧ 达尔文或超新星序曲 ‧ 伽利略作队长及战友；或以生物多样性 ‧ 达尔文作队长及战友\n\n'
+'【机械动力】\n'
+'I. 每首批消除 1 粒自身属性符石\n'
+'⇒ 自身行动值提升 2%\n'
+'II. 每首批消除 1 粒心符石\n'
+'⇒ 自身行动值提升 1%\n'
+'III. 行动值愈高\n'
+'⇒ 自身攻击力提升愈多\n'
+'⇒ 最大提升至 2 倍。\n'
+'IV. 当所有机械族成员的行动值达至 50% 或以上时\n'
+'⇒ 机械族成员属性的符石效果提升\n'
+'⇒ 每个机械族成员可提升 10% 效果\n'
+'⇒ 最高 60%\n'
+'V. 当所有机械族成员的行动值达至 100% 时\n'
+'⇒ 机械族成员每回合\n'
+'以 25% 自身攻击力随机追打自身属性或自身克制属性的攻击 1 至 2 次\n'
+'发动条件：\n'
+'队伍中有 ≥2 个【机械族】成员',
+'eng_team':'Team Skill:\n\n'
+'◆ Fuel of Machinas +1% for each Fire, Earth or Dark Runestone dissolved (only the first batch of Runestones dissolved will be counted).\n'
+'Condition:\n'
+'The Leader and Ally are "Mutated Biodiversity - Darwin" or "Prologue of Supernova - Galileo".\n\n'
+'◆ 【Machina Dynamics】\n'
+'⓵ For each Runestone of the Character\'s Attribute dissolved in the first batch,\n'
+'⇒ the Character\'s Fuel +2%.\n'
+'⓶ For each Heart Runestone dissolved in the first batch,\n'
+'⇒ the Character\'s Fuel +1%.\n'
+'⓷ The higher the Character\'s Fuel,\n'
+'⇒ the higher the Character\'s Attack,\n'
+'⇒ to the max x 2 additionally.\n'
+'⓸ When all Machinas in the Team have ≥ 50% Fuel,\n'
+'⇒ effects of Runestones of their Attributes increase,\n'
+'⇒ 10% for each Machina present in the Team,\n'
+'⇒ to the max 60%.\n'
+'⓹ When all Machinas in the Team have 100% Fuel,\n'
+'⇒ all Machinas randomly launch 1 to 2 extra attack(s) of its own Attribute or its Counter Attribute as much as 25% of its Attack every Round.\n'
+'Condition:\n'
+'There are 2 or more 【Machina Dynamics】 Members in the Team.'},
+    
+    
 
     
     
