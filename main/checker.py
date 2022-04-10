@@ -1904,7 +1904,7 @@ checker = [
 '⓹ When all Machinas in the Team have 100% Fuel,\n'
 '⇒ all Machinas randomly launch 1 to 2 extra attack(s) of its own Attribute or its Counter Attribute as much as 25% of its Attack every Round.\n'
 'Condition:\n'
-'There are 2 or more 【Machina Dynamics】 Members in the Team.'}
+'There are 2 or more 【Machina Dynamics】 Members in the Team.'},
 
     
     
