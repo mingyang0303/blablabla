@@ -3050,7 +3050,7 @@ checker = [
 'IV. When Team HP is not full,\n'
 '⇒ Team Attack & Recovery x 2 additionally.\n'
 'V. By dissolving a group of ≥5 Runestones in the first batch,\n'
-'⇒ poison all enemies with the Monster's Attack every Round (regardless of Defense and Attribute until defeated).',
+'⇒ poison all enemies with the Monster\'s Attack every Round (regardless of Defense and Attribute until defeated).',
 
 'chi_team':'队伍技能：\n\n'
 'I. 将移动符石时所触碰的队伍成员属性符石\n'
