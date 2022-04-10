@@ -2966,7 +2966,57 @@ checker = [
     
     
     
-    
+    {'chi_name':'希1',
+'chif_name':'希1',
+'eng_name':'xi1',
+
+'chi_act':'誓約的泉源 ‧ 神之加冕 CD\n\n',
+'I. 移除暗及心符石\n'
+'⇒ 掉落水神族強化符石\n'
+'2 回合內\n'
+'II. 全隊攻擊力 2.25 倍\n'
+'III. 延長移動符石時間至 20 秒\n'
+'IV. 將移動符石時觸碰的凍結符石狀態解除',
+'chi_lead':'水元素暴濤 ‧ 強 \n\n'
+'I. 水屬性攻擊力 7 倍，消除水符石的組數愈多\n'
+'⇒ 水屬性攻擊力愈高\n'
+'⇒ 消除 3 組可達至最大 10 倍\n'
+'II. 水屬性生命力及回復力 1.6 倍\n'
+'III. 每回合結束時，\n'
+'隨機將 2 粒符石轉化為\n'
+'⇒ 水神族強化符石',
+'chi_team':'隊伍技能： \n\n'
+'水符石兼具心符石效果發動條件：\n'
+'以清絮綺羅 ‧ 希作戰友及隊長 \n\n'
+'隊伍技能：\n'
+'I. 必然延長移動符石時間 3 秒 \n'
+'II. 消除 1 組 ≥10 粒水符石\n'
+'⇒ 水屬性成員無視「固定連擊盾」 \n\n'
+'發動條件： \n'
+'以「清絮綺羅 ‧ 希」作戰友及隊長',
+
+'eng_act':'Watery Promise - God\'s Enchantment\n\n'
+'I. Remove Dark and Heart Runestones to generate Enchanted Water God Runestones. \n'
+'For 2 Rounds:\n'
+'II. Team Attack x 2.25.\n'
+'III. Extend Runestone-moving time to 20 seconds.\n'
+'IV. Clear the negative state of Frozen Runestones touched while moving.',
+'eng_lead':'Giant Elemental Waves - EX \n\n'
+'I. Water Attack x 7; HP & Recovery x 1.6.\n'
+'II. The more the groups of Water Runestones dissolved,\n'
+'⇒ the higher the Water Attack,\n'
+'⇒ to the max x 10 for 3 groups.\n'
+'III. Turn 2 random Runestones into Enchanted Water God Runestones at the end of each Round.',
+'eng_team':'Team Skill: \n'
+'Water Runestones also have the effect of Heart Runestones Activating \n\n'
+'Conditions: \n'
+'With Qingxu Qiluo·Xi, a comrade and leader \n\n'
+'Team Skills: \n'
+'I. The time for moving Runestones must be extended by 3 seconds\n'
+'II. Dissolve ≥10 Water Runestones from a group\n'
+'⇒ Water-type members ignore the\n'
+activation conditions of "Fixed Combo Shield":\n'
+'Combat comrades and captains with "Qingxu Kira·Xi" '},
     
     {'chi_name':'暗妍希',
      'chif_name':'暗妍希',
