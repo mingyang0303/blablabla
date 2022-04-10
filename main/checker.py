@@ -699,7 +699,7 @@ checker = [
 'III. 消除強化符石時\n'
 '⇒ 自身攻擊力額外 1.5 倍\n',
      
-'eng_name':'League of Knights \n\n'
+'eng_lead':'League of Knights \n\n'
 'When the Team has only Fire, Earth or Dark Members: \n'
 'I. Team Attack x 6.5; HP & Recovery x 1.3. \n'
 'II. By dissolving Heart Runestones, \n'
