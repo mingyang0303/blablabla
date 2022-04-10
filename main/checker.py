@@ -678,10 +678,17 @@ checker = [
 '⇒ 最大 5 倍\n'
 'II. 自身無視「攻前盾」\n'
 '效果持續至自身沒有發動攻擊',
-'eng_act':'Dark Power of Blade CD5\n'
-'Turn Water Runestones into Enchanted Dark Runestones. At the beginning of next Round, turn Runestones into Enchanted Dark Runestones of a number same as that of the Enchanted Runestones dissolved in this Round (Water and Light Runestones rank first in priority).\n\n'
-'Sword Unsheathing CD5\n'
-'The Monster\'s Attack continues to increase every Round, to the max x 4, until no Attack is launched by the Monster.',
+     
+'eng_act':'Dark Power of Blade - Ex CD5\n'
+'I. Explode Water Runestones to generate Enchanted Dark Runestones. \n'
+'II. Explode Light Runestones to generate Enchanted Heart Runestones. \n'
+'III. At the end of the Round, \n'
+'turn Runestones into Enchanted Dark Demon Runestones of a number same as that of the Enchanted Runestones dissolved in the Round (Water and Light Runestones rank first in priority).\n\n'
+'Sword Unsheathing - Ex CD5\n'
+'I. The Character\'s Attack continues to increase each Round, to the max x 5. \n'
+'II. The Character\'s Damage will be dealt regardless of Initial Shield. \n'
+'The Skill stays in play until no attack is launched by the Character.',
+
 'chi_lead':'騎士之盟\n'
 '隊伍中只有火、木及暗屬性成員時：\n'
 'I. 全隊攻擊力 6.5 倍、\n'
@@ -690,8 +697,15 @@ checker = [
 '⇒ 全隊攻擊力額外 2.5 倍\n'
 'III. 消除強化符石時\n'
 '⇒ 自身攻擊力額外 1.5 倍\n',
-'eng_lead':'Alliance of Knights\n\n'
-'When the Team consists of only Fire, Earth and Dark Monsters, Team Attack x 4 and if Heart Runestones are dissolved, there will be a 50 chance of gaining an extra of x 2 (the probability can be summed up)',
+     
+'eng_name':'League of Knights \n\n'
+'When the Team has only Fire, Earth or Dark Members: \n'
+'I. Team Attack x 6.5; HP & Recovery x 1.3. \n'
+'II. By dissolving Heart Runestones, \n'
+'⇒ Team Attack x 2.5 additionally. \n'
+'III. By dissolving Enchanted Runestones, \n'
+'⇒ the Character’s Attack x 1.5 additionally.',
+     
 'chi_team':'隊伍技能：\n\n'
 'I. 必然延長移動符石時間 3 秒\n'
 'II. 火、木、暗符石互相兼具效果\n'
@@ -708,7 +722,18 @@ checker = [
 '無視「三屬盾」及「五屬盾」\n\n'
 '發動條件：\n'
 '以「逐光暗徒．蘭斯洛特」作隊長及戰友',
-'eng_team':'None'},
+     
+'eng_team':'Team Skill: \n\n'
+    '◆ Extend Runestone-moving time regardlessly by 3 seconds. \n'
+    '◆ Fire, Earth and Dark Runestones also possess the effect of each other. \n'
+    '◆ Fire, Earth and Dark Runestones also possess 25% effect of Heart Runestones. \n'
+    '◆ Heart Runestones also possess the effect of Fire, Earth and Dark Runestones. \n'
+    '◆ By dissolving ≥4 types of Runestones, each Member launches an extra attack of its Weakness Attribute. \n'
+    '◆ Turn the Fire, Earth and Dark Runestones touched while moving into Enchanted Runestones. \n'
+    '◆ By dissolving Fire, Earth and Dark Runestones in the same Round, \n'
+    '⇒ Damage of “Light Chaser - Lancelot” will be dealt regardless of Trio Elemental Shield and Quintet Elemental Shield. \n\n'
+    'Condition: \n'
+    'Both the Leader and Ally are Light Chaser - Lancelot '},
     {'chi_name':'梅林',
 'chif_name':'梅林',
 'eng_name':'merlin',
