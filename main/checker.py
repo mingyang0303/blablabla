@@ -2537,7 +2537,7 @@ checker = [
 '◆ Acquire ”Crystallization“ Power:\n'
 'For 1 Round:\n'
 'I. Elf Attack x 2.\n'
-'II. Damage received will be lowered to 0.(The Damage-reducing effect is applicable to Boss Skills deducting a specific % of Summoner\'s HP such as "Bloody Scythe" etc.)\n'
+'II. Damage received will be lowered to 0.(The Damage-reducing effect is applicable to Boss Skills deducting a specific % of Summoner\'s HP such as "Bloody Scythe" etc.)\n\n'
 '◆ The Skill can be activated at the beginning of the Round by tapping the fully charged Craft Apparatus at the expense of one activation of Dragonic Compulsion.\n'
 'Condition:\n'
 'Both the Leader and Ally are "Paragon of Brilliance - Diamond".\n\n'
@@ -2565,6 +2565,72 @@ checker = [
 '◆ Heart and Dark Runestones also possess the effects of each other.\n'
 'Condition:\n'
 'Both the Leader and Ally are "Paragon of Brilliance - Diamond", with "Volcanic Blade - Obsidian" in the Team.'},
+    
+    {'chi_name':'翡翠',
+'chif_name':'翡翠',
+'eng_name':'jade',
+
+'chi_act':'翠碧猎捕 CD6\n\n'
+'队长需为妖精类才可发动此技能：\n'
+'每个妖精类成员以自身回复力的 3 倍\n'
+'⇒ 各自加入自身攻击力(效果会在关闭此技能或死亡后消失)\n\n'
+'此技能可随时关闭，关闭时：\n'
+'⓵ 引爆所有符石以掉落强化符石\n'
+'⓶ 完全回复生命力',
+'eng_act':'Jade Green Hunt CD6\n\n'
+'The Skill can be activated only when the Leader is an Elf:\n'
+'Add 3x the Recovery basic value of each Elf into its own Attack basic value.(The Skill stays in play until deactivation or defeated.)\n\n'
+'This Skill can be deactivated anytime. Upon deactivation of the Skill:\n'
+'⓵ Explode all Runestones to generate Enchanted Runestones.\n'
+'⓶ Fully recover HP.',
+
+'chi_lead':'翠色傲睨\n\n'
+'队伍只有妖精类成员时\n'
+'I. 全队攻击力 6 倍\n'
+'II. 每个成员增加 400 点攻击力及回复力\n'
+'III. 木符石兼具 50% 其他属性符石效果\n'
+'IV. 心符石兼具 50% 所有属性符石效果\n'
+'V. 进入关卡后\n'
+'⇒ 所有成员的技能 CD 减少 3 (可叠加)\n'
+'VI. 场上有附加效果时\n'
+'⇒ 全队攻击力额外 1.65 倍',
+'eng_lead':'Jade Green Gaze\n\n'
+'When the Team consists of only Elves:\n'
+'I. Team Attack x 6.\n'
+'II. Attack & Recovery basic value of each Elf +400.\n'
+'III. Earth Runestones also possess 50% effect of other Attributive Runestones.\n'
+'IV. Heart Runestones also possess 50% effect of all Attributive Runestones.\n'
+'V. Skill CDs of all Members -3 after entering a Stage (the effect can be superimposed).\n'
+'VI. When there is an additional effect in play,\n'
+'⇒ Team Attack x 1.65 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 获得“结晶化”能力：\n'
+'⓵ 将场上的符石变回原始模样\n'
+'⓶ 1 回合内\n'
+'⇒ 无视“燃烧”敌技(不包括“炼狱之火”)\n'
+'⇒ 无视“黏腐”敌技\n\n'
+'于回合开始时点击已储满的龙脉仪\n'
+'⇒ 可触发“结晶化”能力(需消耗龙脉仪使用次数 1 次)\n\n'
+'II. 当前生命力全满时\n'
+'⇒ 下一次所受伤害不会使你死亡(同 1 回合只会发动 1 次)\n'
+'发动条件：\n'
+'以“黛心盈透 ‧ 翡翠”作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ Acquire Crystallization Power:\n'
+'⓵ Restore all Runestones to normal state.\n'
+'⓶ For 1 Round, Boss Skills "Burning" (excluding "Hellfire") and "Sticky Land" will be nullified.\n'
+'◆ The Skill can be activated at the beginning of the Round by tapping the fully charged Craft Apparatus at the expense of one activation of Dragonic Compulsion.\n'
+'◆ When HP is full, the next Damage received will not lead to your defeat (one activation each Round).\n'
+'Condition:\n'
+'Both the Leader and Ally are "Pride of Regalia - Jade".'},
+    
+    
+    
+    
+    
+    
+    
     
     
     
