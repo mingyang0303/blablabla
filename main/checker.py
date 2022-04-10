@@ -3130,9 +3130,188 @@ checker = [
 'Condition:\n'
 'There are "Fire of Sagacity - Enlil" and "Resentment Awakening - Enlil" in the Team.'}, 
     
+    {'chi_name':'依贝思',
+'chif_name':'依貝思',
+'eng_name':'elpis',
+
+'chi_act':'疾风侵噬 CD2\n\n'
+'1 回合内根据累积战斗回合数 (需消除符石)+1 的数量\n'
+'⓵“智火解析 ‧ 恩莉儿”及自身\n'
+'⇒ 以 50% 攻击力追打\n'
+'⇒ 最多可追打 8 次\n'
+'⓶ 优先引爆相应粒数的风化、冻结、电击符石，并引爆木以外符石\n'
+'⇒ 最多引爆 8 粒符石\n'
+'⇒ 掉落木人族符石\n'
+'发动技能后累积战斗回合数减半',
+'eng_act':'Uncontrollable Winds CD2n\n'
+'For 1 Round:\n'
+'According to the number of accumulated Rounds +1 (dissolving Runestones is necessary):\n'
+'⓵ The Monster and "Fire of Sagacity - Enlil" launch extra attacks as much as 50% of own Attack, to the max 8 extra attacks.\n'
+'⓶ Explode Weathered, Frozen, Electrified and non-Earth Runestones to generate Earth Human Runestones, to the max 8 Runestones to be exploded.\n'
+'Accumulated Rounds -50% after Skill activation.',
+
+'chi_lead':'藤棘怒号\n\n'
+'队伍中只有人类或神族时：\n'
+'I. 全队攻击力 6 倍\n'
+'II. 木及心符石分别兼具\n'
+'⇒ 50% 其他符石效果\n'
+'III. 队伍中只有木属性、“代偶规条”成员或“智火解析 ‧ 恩莉儿”\n'
+'⇒ 全队攻击力额外 3 倍',
+'eng_lead':'Howling Thorns\n\n'
+'When the Team includes only Humans and Gods:\n'
+'I. Team Attack x 6.\n'
+'II. Earth and Heart Runestones also possess 50% effect of other Runestones.\n'
+'III. If the Team consists of only Earth Members, Monsters of "Creeds of Earthlings" or "Fire of Sagacity - Enlil", Team Attack x 3 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 将移动符石时触碰的首 6 粒符石\n'
+'⇒ 转化为人族强化符石\n'
+'II. 根据转珠结束时放手的符石\n'
+'⇒ 最左方的“编号 6666 ‧ 依贝思”及最左方的“智火解析 ‧ 恩莉儿”直行首批掉落该种强化符石\n'
+'III. 必然延长移动符石时间 2 秒\n'
+'发动条件：\n'
+'以“编号 6666 ‧ 依贝思”作队长及战友\n\n'
+
+'队长的队长技能“藤棘怒号”\n'
+'⇒ 变为“藤棘怒号 ‧ 挡”\n'
+'队伍中只有人类或神族时：\n'
+'I. 全队攻击力 6 倍\n'
+'II. 木及心符石分别兼具\n'
+'⇒ 50% 其他符石效果\n'
+'III. 队伍中只有木属性、“代偶规条”成员或“智火解析 ‧ 恩莉儿”\n'
+'⇒ 全队攻击力额外 3 倍\n'
+'IV. 减少 50% 所受伤害\n'
+'⇒ 受到 25 次攻击后失去此效果\n'
+'发动条件：\n'
+'以“编号 6666 ‧ 依贝思”作队长及战友，且队伍中只有人类或神族成员',
+'eng_team':'Team Skill:\n\n'
+'◆ Turn the first 6 Runestones touched while moving into Enchanted Human Runestones.\n'
+'◆ The first batch of Runestones to be dropped in the columns below the first "No. 6666 - Elpis" and "Fire of Sagacity - Enlil" from the left will be Enchanted Runestones of the last Runestone picked to end moving.\n'
+'◆ Extend Runestone-moving time regardlessly by 2 seconds.\n'
+'Condition:\n'
+'Both the Leader and Ally are "No. 6666 - Elpis".\n'
+
+'◆ Change the Leader Skill of the Leader from "Howling Thorns" to "Howling Thorns - Shield".\n'
+'When the Team includes only Humans and Gods:\n'
+'I. Team Attack x 6.\n'
+'II. Earth and Heart Runestones also possess 50% effect of other Runestones.\n'
+'III. If the Team consists of only Earth Members, Monsters of "Creeds of Earthlings" or "Fire of Sagacity - Enlil", Team Attack x 3 additionally.\n'
+'IV. Damage received -50% for the first 25 attacks from enemies.\n'
+'Condition:\n'
+'Both the Leader and Ally are "No. 6666 - Elpis", with only Humans or Gods in the Team.'},
     
+    {'chi_name':'因其都',
+'chif_name':'因其都',
+'eng_name':'enkidu',
+
+'chi_act':'潜能苏醒 CD7\n\n'
+'I. 解除所有成员被封锁的技能(此技能无视封锁技能)\n'
+'II. 若队伍中齐集 5、6、7、8 星成员\n'
+'⇒ 将场上的符石变回原始模样\n'
+'III. 引爆所有符石\n'
+'⇒ 7 星及 8 星成员直行掉落强化符石\n'
+'1 回合内\n'
+'IV. 其他符石兼具暗符石效果',
+'eng_act':'Awakening Potentials CD7\n\n'
+'I. Release the locked Skills of all Members.(This Skill will not be locked.)\n'
+'II. When there are 5, 6, 7 and 8 star Monsters in the Team, restore all Runestones to normal state.\n'
+'III. Explode all Runestones to generate Enchanted Runestones in the columns below 7 star and 8 star Monsters.\n'
+'IV. For 1 Round, other Runestones also possess the effect of Dark Runestones.',
+
+'chi_lead':'筹划之战\n\n'
+'队伍中只有暗属性成员时：\n'
+'I. 全队攻击力 5 倍\n'
+'II. 首批没有消除暗符石时 (需消除符石)\n'
+'⇒ 减少 25% 所受伤害\n'
+'III. 心符石兼具 50% 暗符石效果\n'
+'IV. 队伍中集齐 5、6、7 星成员时\n'
+'⓵ 全队生命力、攻击力、回复力 2 倍\n'
+'⓶ 必然延长移动符石时间 2.5 秒',
+'eng_lead':'Planning for Battles\n\n'
+'When the Team consists of only Dark Members:\n'
+'I. Team Attack x 5.\n'
+'II. If no Dark Runestones are dissolved in the first batch (dissolving Runestones is necessary), Damage received -25%.\n'
+'III. Heart Runestones also possess 50% effect of Dark Runestones.\n'
+'IV. When there are 5, 6 and 7 star Monsters in the Team:\n'
+'⓵ Team Attack, HP & Recovery x 2 additionally.\n'
+'⓶ Extend Runestone-moving time regardlessly by 2.5 seconds.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 5 星及 8 星成员直行\n'
+'⇒ 首批掉落的 5 粒符石必定为暗符石\n'
+'II. “无束天赋 ‧ 因其都”直行\n'
+'⇒ 首批掉落的 5 粒符石必定为心强化符石\n'
+'发动条件：\n'
+'以“无束天赋 ‧ 因其都”作队长及战友\n\n'
+
+'暗属性攻击力 3 倍\n'
+'发动条件：\n'
+'以“无束天赋 ‧ 因其都”作队长及战友；且队伍中有 8 星成员',
+'eng_team':'Team Skill:\n\n'
+'◆ The first 5 Runestones to be dropped in the first batch in the columns below 5 and 8 star Monsters will be Dark Runestones.\n'
+'◆ The first 5 Runestones to be dropped in the first batch in the column below "Liberation of Talent - Enkidu" will be Enchanted Heart Runestones.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Liberation of Talent - Enkidu".\n\n'
+
+'◆ Dark Attack x 3 additionally.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Liberation of Talent - Enkidu", with a 8 star Character in the Team.'},
     
-    
+    {'chi_name':'南纳',
+'chif_name':'南納',
+'eng_name':'leonard',
+
+'chi_act':'水淹木林 CD7\n\n'
+'I. 将所有符石转化为强化符石\n'
+'1 回合内\n'
+'II. 连击 (Combo) 数目增加 6\n'
+'III. 水属性伤害可克制木属性目标\n'
+'IV. 若队长及战友均为“代偶规条”成员\n'
+'⇒ 则连击 (Combo) 数目增加 15',
+'eng_act':'Forests in Floods CD7\n\n'
+'I. Turn all Runestones into Enchanted Runestones.\n'
+'For 1 Round:\n'
+'II. Combo count +6.\n'
+'III. Water Damage can overpower Earth enemies.\n'
+'IV. If the Leader and Ally are "Creeds of Earthlings", Combo count +15.',
+
+'chi_lead':'水月战盾\n\n'
+'I. 水属性及“代偶规条”系列成员攻击力 6 倍、生命力及回复力 1.2 倍\n'
+'II. 消除水符石时\n'
+'⇒ 所受伤害减少 30%\n'
+'III. 消除 1 组 ≥5 粒水符石时\n'
+'⇒ 水属性及“代偶规条”系列成员攻击力额外 2.8 倍',
+'eng_lead':'Shield of Watery Moon\n\n'
+'I. Attack of Water Monsters and Monsters of "Creeds of Earthlings" x 6; HP & Recovery x 1.2.\n'
+'II. By dissolving Water Runestones, Damage received -30%.\n'
+'III. By dissolving a group of ≥5 Water Runestones,\n'
+'⇒ Attack of Water Monsters and Monsters of "Creeds of Earthlings" x 2.8 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 将移动符石时触碰的首 6 粒符石\n'
+'⇒ 转化为水强化符石\n'
+'II. 延长移动符石时间至 15 秒\n'
+'III. 水符石兼具其他属性符石效果\n'
+'IV. 以不同形状首批消除 1 组 ≥5 粒水符石，获得以下效果：\n\n'
+
+'【一】：水属性及“代偶规条”成员\n'
+'⇒ 攻击力 2.2 倍\n'
+'【十】：减少 50% 所受伤害\n'
+'【不同方向的 ∟】：“代偶规条”系列成员的攻击\n'
+'⇒ 无视“三属盾”及“五属盾”\n'
+'发动条件：\n'
+'以“编号 8299 ‧ 南纳”作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ Turn the first 6 Runestones touched while moving into Enchanted Water Runestones.\n'
+'◆ Extend Runestone-moving time to 15 seconds.\n'
+'◆ Water Runestones also possess the effect of other Attributive Runestones.\n'
+'◆ By dissolving a group of ≥5 Water Runestones in a specific shape in the first batch, one of the following effects will be triggered:\n'
+
+'◆ 【一】: Attack of Water Monsters and Monsters of "Creeds of Earthlings" x 2.2 additionally.\n'
+'◆【十】: Damage received -50%.\n'
+'◆【∟(in different forms)】: Damage of Monsters of "Creeds of Earthlings" will be dealt regardless of Trio Elemental Shield and Quintet Elemental Shield.\n'
+'Condition:\n'
+'Both the Leader and Ally are "No. 8299 - Leonard".'},
     
     
     
