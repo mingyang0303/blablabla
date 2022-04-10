@@ -662,9 +662,10 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are Illustrious Laurels - Arthur'},
 
-    {'chi_name':'兰斯洛特',
-'chif_name':'蘭斯洛特',
-'eng_name':'lancelot',
+{'chi_name':'兰斯洛特',
+ 'chif_name':'蘭斯洛特',
+ 'eng_name':'lancelot',
+     
 'chi_act':'暗黑之劍氣 ‧ 魔息 CD5\n'
 'I. 引爆水符石\n'
 '⇒ 掉落暗強化符石\n'
@@ -734,6 +735,7 @@ checker = [
     '⇒ Damage of “Light Chaser - Lancelot” will be dealt regardless of Trio Elemental Shield and Quintet Elemental Shield. \n\n'
     'Condition: \n'
     'Both the Leader and Ally are Light Chaser - Lancelot '},
+    
     {'chi_name':'梅林',
 'chif_name':'梅林',
 'eng_name':'merlin',
