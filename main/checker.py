@@ -2730,7 +2730,7 @@ checker = [
 'The Skill stays in play within the Wave.\n'
 'IV. Restore all Weathered Runestones to normal state.\n'
 'V. Turn all Runestones into Enchanted Runestones.\n'
-'VI. Skill CDs of all Gods, Beasts and Dragons (except "Auspice of Protection - Cang Bi") -1.',
+'VI. Skill CDs of all Gods, Beasts and Dragons (except "Auspice of Protection - Cang Bi") -1.\n\n'
 'Switching CD8\n\n'
 'This Skill can be activated only when the Monster is equipped with the exclusive Dragonware:\n'
 'I. Explode non-Water Runestones to generate Enchanted Attributive Runestones.\n'
@@ -2784,7 +2784,7 @@ checker = [
 '[＊] 每消除 3 粒水符石\n'
 '⇒ 減少 10 點龍鱗值\n'
 '[＊] 受到敵人攻擊後\n'
-'⇒ 該回合減少 30 點龍鱗值\n'
+'⇒ 該回合減少 30 點龍鱗值\n\n'
 '發動條件：\n'
 '以「卿雲護庇 ‧ 蒼璧」或「豁達浪息 ‧ 蒼璧」作隊長及戰友\n\n'
 
