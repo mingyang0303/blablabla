@@ -2468,7 +2468,103 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are 6 star Characters of "Primal Deities" (series), with 3 or more 6 star Characters of "Primal Deities" (series) and "Mastery of Herbs - Shennong", "Traitor of Goodwill - Xingtian", or "Primitive Creator - Pangu" in the Team.'},
     
+{'chi_name':'钻石',
+'chif_name':'鉆石',
+'eng_name':'diamond',
 
+'chi_act':'宝石游乐园 CD10\n\n'
+'2 回合内\n'
+'I. 全队攻击力 2 倍\n'
+'II. 延长移动符石时间至 20 秒\n'
+'III. 所受伤害减至 0(包括“喋血屠刀”、“一击必杀”等扣除召唤师指定 % 生命力的敌技所造成的伤害)',
+'eng_act':'Playground of Diamonds CD10\n\n'
+'For 2 Rounds:\n'
+'I. Team Attack x 2.\n'
+'II. Extend Runestone-moving time to 20 seconds.\n'
+'III. Damage received will be lowered to 0.(applicable to Boss Skills deducting a specific % of Summoner\'s HP such as "Bloody Scythe" etc.)',
+
+'chi_lead':'闪钻光华\n\n'
+'队伍中有 ≥3 种属性成员时\n'
+'I. 妖精类攻击力 6 倍\n'
+'II. 心符石兼具 50% 所有属性符石效果\n'
+'III. 必然延长移动符石时间 1 秒\n'
+'IV. 妖精类成员\n'
+'⇒ 对机械族以外目标攻击力 1.8 倍\n'
+'⇒ 对人类、神族、魔族、妖精类目标攻击力额外 2.42 倍',
+'eng_lead':'Glitter of Diamonds\n\n'
+'When there are 3 or more Attributes in the Team:\n'
+'I. Elf Attack x 6.\n'
+'II. Heart Runestones also possess 50% effect of all Attributive Runestones.\n'
+'III. Extend Runestone-moving time regardlessly by 1 second.\n'
+'IV. Damage dealt by Elves on non-Machina enemies x 1.8, on Human, God, Demon and Elf enemies x 2.42 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+
+'获得“结晶化”能力：\n'
+'1 回合内\n'
+'I. 妖精类攻击力 2 倍\n'
+'II. 所受伤害减至 0(包括“喋血屠刀”、“一击必杀”等扣除召唤师指定 % 生命力的敌技所造成的伤害)\n'
+'于回合开始时点击已储满的龙脉仪\n'
+'⇒ 可触发“结晶化”能力(需消耗龙脉仪使用次数 1 次)\n'
+'发动条件：\n'
+'以“恒久闪耀 ‧ 钻石”作队长及战友\n\n'
+
+'所有成员\n'
+'⇒“生命力、攻击力及回复力”基值 2 倍\n'
+'发动条件：\n'
+'以“恒久闪耀 ‧ 钻石”作队长及战友，且队伍中只有妖精类成员\n\n'
+
+'水及心符石互相兼具效果\n'
+'发动条件：\n'
+'以“恒久闪耀 ‧ 钻石”作队长及战友，并以“天穹倒影 ‧ 蓝宝石”作队员\n\n'
+
+'火及心符石互相兼具效果\n'
+'发动条件：\n'
+'以“恒久闪耀 ‧ 钻石”作队长及战友，并以“肆妄火彩 ‧ 红宝石”作队员\n\n'
+
+'木及心符石互相兼具效果\n'
+'发动条件：\n'
+'以“恒久闪耀 ‧ 钻石”作队长及战友，并以“不菲晶系 ‧ 祖母绿”作队员\n'
+
+'光及心符石互相兼具效果\n'
+'发动条件：\n'
+'以“恒久闪耀 ‧ 钻石”作队长及战友，并以“织光成梦 ‧ 蛋白石”作队员\n'
+
+'暗及心符石互相兼具效果\n'
+'发动条件：\n'
+'以“恒久闪耀 ‧ 钻石”作队长及战友，并以“刚刃蚀刻 ‧ 黑曜石”作队员',
+'eng_team':'Team Skill:\n\n'
+'◆ Acquire ”Crystallization“ Power:\n'
+'For 1 Round:\n'
+'I. Elf Attack x 2.\n'
+'II. Damage received will be lowered to 0.(The Damage-reducing effect is applicable to Boss Skills deducting a specific % of Summoner\'s HP such as "Bloody Scythe" etc.)\n'
+'◆ The Skill can be activated at the beginning of the Round by tapping the fully charged Craft Apparatus at the expense of one activation of Dragonic Compulsion.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Paragon of Brilliance - Diamond".\n\n'
+
+'◆ Team HP, Attack & Recovery basic value x 2 additionally.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Paragon of Brilliance - Diamond", with only Elves in the Team.\n\n'
+
+'◆ Heart and Water Runestones also possess the effects of each other.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Paragon of Brilliance - Diamond", with "Timid Prodigy - Sapphire" in the Team.\n\n'
+
+'◆ Heart and Fire Runestones also possess the effects of each other.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Paragon of Brilliance - Diamond", with "Unbridled Ego - Ruby" in the Team.\n\n'
+
+'◆ Heart and Earth Runestones also possess the effects of each other.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Paragon of Brilliance - Diamond", with "Gem of Vitality - Emerald" in the Team.\n\n'
+
+'◆ Heart and Light Runestones also possess the effects of each other.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Paragon of Brilliance - Diamond", with "Dorky Dreamer - Opal" in the Team.\n\n'
+
+'◆ Heart and Dark Runestones also possess the effects of each other.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Paragon of Brilliance - Diamond", with "Volcanic Blade - Obsidian" in the Team.'},
     
     
     
