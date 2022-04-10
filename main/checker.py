@@ -690,7 +690,7 @@ checker = [
 'II. The Character\'s Damage will be dealt regardless of Initial Shield. \n'
 'The Skill stays in play until no attack is launched by the Character.',
 
-'chi_lead':'騎士之盟\n'
+'chi_lead':'騎士之盟\n\n'
 '隊伍中只有火、木及暗屬性成員時：\n'
 'I. 全隊攻擊力 6.5 倍、\n'
 '生命力及回復力 1.3 倍\n'
