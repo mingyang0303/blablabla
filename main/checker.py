@@ -2625,6 +2625,79 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are "Pride of Regalia - Jade".'},
     
+    {'chi_name':'琥珀',
+'chif_name':'琥珀',
+'eng_name':'amber',
+
+'chi_act':'虫璧 CD8\n\n'
+'将场上所有符石转化为\n'
+'⇒ 固定数量及位置 的“心及火”妖族强化符石',
+'eng_act':'Flames of Bug\n\n'
+'Turn all Runestones into Enchanted Heart Elf Runestones and Enchanted Fire Elf Runestones of fixed numbers and positions.',
+
+'chi_lead':'慑魄瑰宝\n\n'
+'I. 妖精类生命力及攻击力 2.5 倍\n'
+'II. 心符石不会发动消除\n'
+'III. 每消除 1 组属性符石时\n'
+'⇒ 回复“妖精类成员生命力等值”5% 的生命力',
+'eng_lead':'Piercing Amber Eyes\n\n'
+'I. Elf HP & Attack x 2.5.\n'
+'II. Heart Runestones can\'t be dissolved.\n'
+'III. For every group of Attributive Runestones dissolved,\n'
+'⇒ recover HP as much as 5% of total Elf HP.',
+
+'chi_team':'队伍技能：\n\n'
+'获得“结晶化”能力：\n'
+'1 回合内，移动符石前场上每有 1 粒心符石\n'
+'⇒ 该回合增加 1 连击 (Combo)(需消除符石)\n'
+'于回合开始时点击已储满的龙脉仪\n'
+'⇒ 可触发“结晶化”能力(需消耗龙脉仪使用次数 1 次)\n'
+'发动条件：\n'
+'以“虫火浮光 ‧ 琥珀”作队长及战友\n\n'
+'I. 受到敌人攻击时，场上每有 1 粒心符石\n'
+'⇒ 减少 10% 所受伤害\n'
+'⇒ 10 粒可减少最多 100% 伤害\n\n'
+'II. 当受到敌人攻击，于所有敌人攻击完结后\n'
+'⇒ 将心符石转化为其他属性符石\n'
+'⇒ 并以“转化符石粒数”(最多 30 粒)倍化“200 倍队伍攻击力”，对敌方全体造成无属性伤害\n\n'
+'III. “虫火浮光 ‧ 琥珀”的主动技能\n'
+'⇒“虫璧”变为“虫璧 ‧ 灵动”：\n'
+'1 回合内\n'
+'⓵ 2 粒心符石相连即可发动消除 (无视队长技能的消心禁令)\n'
+'⓶ 将场上所有符石转化为\n'
+'⇒ 固定数量及位置的“心及火”妖族强化符石\n\n'
+'IV. 消除妖族符石时\n'
+'⇒ 妖精类成员的技能 CD 减少 1\n'
+'发动条件：\n'
+'以“虫火浮光 ‧ 琥珀”作队长及战友，且队伍中只有妖精类成员',
+'eng_team':'Team Skill\n\n'
+'◆ Acquire Crystallization Power:\n'
+'For 1 Round, Combo count +1 for each present Heart Runestone before the start of moving Runestones (dissolving Runestones is necessary).\n'
+'◆ The Skill can be activated at the beginning of the Round by tapping the fully charged Craft Apparatus at the expense of one activation of Dragonic Compulsion.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Heated Fluorescence - Amber".\n\n'
+
+'◆ Upon receiving Damage from the enemy\'s attacks,\n'
+'⇒ Damage received -10% for every present Heart Runestone,\n'
+'⇒ to the max -100% for 10 Runestones.\n\n'
+
+'◆ After the enemy\'s attacks,\n'
+'⇒ Turn Heart Runestones into Attributive Runestones\n'
+'⇒ Deal non-Attributive Damage to all enemies as much as 200x Team Attack in proportion to the number of Runestones turned (to the max 30x).\n\n'
+
+'◆ Change the Active Skill of "Heated Fluorescence - Amber" from "Flames of Bug" to "Flames of Bug - EX".\n'
+'For 1 Round:\n'
+'I. Heart Runestones can be dissolved by aligning 2 or more of them (overriding the Leader Skill).\n'
+'II. Turn all Runestones into Enchanted Heart Elf Runestones and Enchanted Fire Elf Runestones of fixed numbers and positions.\n'
+'◆ By dissolving Elf Runestones, Skill CD of Elves -1.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Heated Fluorescence - Amber", with only Elves in the Team.'},
+    
+    
+    
+    
+    
+    
     
     
     
