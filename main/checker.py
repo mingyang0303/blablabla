@@ -2320,7 +2320,81 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are 6 star Characters of "Primal Deities" (series), with 3 or more 6 star Characters of "Primal Deities" (series) and "Mastery of Herbs - Shennong", "Traitor of Goodwill - Xingtian", or "Primitive Creator - Pangu" in the Team.'},
     
-    
+    {'chi_name':'伏羲',
+'chif_name':'伏羲',
+'eng_name':'fuxi',
+
+'chi_act':'智慧之火 CD7\n\n'
+'I. 神族成员直行的符石\n'
+'⇒ 添加为神族符石\n'
+'II. 兽类成员直行的符石\n'
+'⇒ 添加为兽族符石\n'
+'III. 15 秒内，可任意移动符石而不会发动消除\n'
+'IV. 发动技能时若自身“仙力”达 10 点\n'
+'⇒ 1 回合内，全队攻击力及回复力 2 倍',
+'eng_act':'Flames of Wisdom CD7\n\n'
+'I. Modify the column(s) of Runestones below God(s) to become God Runestones.\n'
+'II. Turn the column(s) of Runestones below Beast(s) into Beast Runestones.\n'
+'III. Unlimited Runestone movement without dissolving within 15 seconds.\n'
+'IV. If the Monster\'s Xian Point (XP) is 10 upon Skill activation, Team Attack & Recovery x 2 for 1 Round.',
+
+'chi_lead':'乾坤太极阵\n\n'
+'队伍中只有神族或兽类成员时：\n'
+'I. 全队攻击力 4.5 倍、生命力及回复力 1.4 倍\n'
+'II. 队伍中有 ≥3 种属性成员时\n'
+'⇒ 全队攻击力额外 2 倍\n'
+'III. 消除神族符石时\n'
+'⇒ 神族及兽类攻击力额外 1.5 倍',
+'eng_lead':'Magic Field of Taiji \n\n',
+'When the Team consists of only Gods and Beasts:\n'
+'I. Team Attack x 4.5, HP & Recovery x 1.4.\n'
+'II. When there are 3 or more Attributes in the Team, Team Attack x 2 additionally.\n'
+'III. By dissolving God Runestones, Team Attack x 1.5 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'每消除 1 粒火神族符石\n'
+'⇒ 自身可累积 1 点“仙力”\n'
+'⇒ 最多可累积 20 点。\n'
+'每受敌人攻击 1 次\n'
+'⇒ 减少 2 点“仙力”\n'
+'发动条件：\n'
+'以“太昊八卦 ‧ 伏羲”作成员\n\n'
+
+'I. 将移动符石时触碰的队伍成员属性符石\n'
+'⇒ 转化为神族强化符石\n'
+'II. 光符石兼具 50% 其他属性符石效果\n'
+'III. 暗符石兼具 50% 其他属性符石效果\n'
+'发动条件：\n'
+'以“创世神女 ‧ 女娲”或“太昊八卦 ‧ 伏羲”作队长及战友\n\n'
+
+'每个“上古诸神”系列角色均有几率暴击 2.5 倍：\n'
+'其“仙力”愈高\n'
+'⇒ 其暴击率愈高\n'
+'⇒ 10 点“仙力”可提升至 100%\n'
+'发动条件：\n'
+'以 6 星“上古诸神”系列角色作队长及战友\n\n'
+
+'“百草药神 ‧ 神农”、“舞干戚 ‧ 刑天”、“开天辟地 ‧ 盘古”跟随队长的暴击率，有几率可暴击 2.5 倍\n'
+'发动条件：\n'
+'以 6 星“上古诸神”系列角色作队长及战友；且队伍中有 3 个或以上 6 星“上古诸神”系列角色；并以“百草药神 ‧ 神农”、“舞干戚 ‧ 刑天”或“开天辟地 ‧ 盘古”作队员',
+'eng_team':'Team Skill:\n\n'
+'◆ For each Monster of "Primal Deities" in the Team, there is a chance of Critical Attack x 2.5. The higher the Xian Point (XP), the higher the Critical Rate, to the max 100% for 10 XP.\n'
+'Condition:\n'
+'The Leader and Ally are 6 star Characters of "Primal Deities" (series).\n\n'
+
+'◆ For 6 star Monsters of "Primal Deities" in the Team, the Monster\'s Xian Point (XP) +1 for every Runestone of its Race and Attribute dissolved, to the max 20 XP in accumulation. XP -2 every time when receiving Damage from an enemy\'s attack.\n'
+'Condition:\n'
+'There is 6 star Characters of "Primal Deities" (series) in the Team.\n\n'
+
+'◆ Turn Runestones of Members\' Attributes touched while moving into Enchanted God Runestones.\n'
+'◆ Light Runestones also possess 50% effect of other Attributive Runestones.\n'
+'◆ Dark Runestones also possess 50% effect of other Attributive Runestones.\n'
+'Condition:\n'
+'The Leader and Ally are "Primal Divinity - Fuxi" or "Ancestral Creation - Nüwa".\n\n'
+
+'◆ Critical Rate of "Mastery of Herbs - Shennong", "Traitor of Goodwill - Xingtian" and "Primitive Creator - Pangu" will synchronize with that of the Leader, with a chance of Critical Attack x 2.5.\n'
+'Condition:\n'
+'Both the Leader and Ally are 6 star Characters of "Primal Deities" (series), with 3 or more 6 star Characters of "Primal Deities" (series) and "Mastery of Herbs - Shennong", "Traitor of Goodwill - Xingtian", or "Primitive Creator - Pangu" in the Team.'},
     
     
     
