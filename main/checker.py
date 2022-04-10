@@ -2693,7 +2693,119 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are "Heated Fluorescence - Amber", with only Elves in the Team.'},
     
-    
+    {'chi_name':'苍璧',
+'chif_name':'蒼璧',
+'eng_name':'cangbi',
+
+'chi_act':'不撓之誌 ‧ 龍 CD6\n\n'
+'I. 無視「黏腐」敵技\n'
+'II. 每次觸碰「黏腐」位置\n'
+'⇒ 回復 5% 生命力 (不會溢補)\n'
+'III. 每個成員追打 1 次\n'
+'上述效果會在進入下一層數 (Wave) 時消失\n'
+'IV. 解除「風化符石」狀態\n'
+'V. 將所有符石轉化為強化符石\n'
+'VI.「卿雲護庇 ‧ 蒼璧」以外龍類、神族、獸類 CD 減少 1\n\n'
+'變身 CD8\n\n'
+'需裝備專屬龍刻武裝才可變身及發動此技能：\n'
+'I. 引爆水以外的符石\n'
+'⇒ 掉落屬性強化符石\n'
+'1 回合內\n'
+'II. 龍類、神族、獸類\n'
+'⇒ 攻擊力 2.5 倍\n'
+'III. 發動技能時，若隊長及戰友為「卿雲護庇 ‧ 蒼璧」或「豁達浪息 ‧ 蒼璧」\n'
+'⇒「龍鱗值」減至 0 點\n\n'
+'若隊長為「緋曦赤霞 ‧ 紅璦」及以「緋曦赤霞 ‧ 紅璦」、「卿雲護庇 ‧ 蒼璧」 或「豁達浪息 ‧ 蒼璧」作戰友，則效果改為：\n'
+'I. 引爆「水及火」以外符石\n'
+'⇒ 掉落屬性強化符石\n'
+'1 回合內\n'
+'II. 龍類、人類、妖精類、魔族攻擊力 2.5 倍\n'
+'III.「紅鱗值」提升至 100 點\n'
+'(變身後技能請查看/check 蒼璧變身)',
+
+'eng_act':'Determination of the Runedragon CD6\n\n'
+'I. Boss Skill "Sticky Land" will be nullified.\n'
+'II. Recover 5% HP for every time when a sticky position is touched (no overhealing).\n'
+'III. Each Monster in the Team launches an extra attack each Round.\n'
+'The Skill stays in play within the Wave.\n'
+'IV. Restore all Weathered Runestones to normal state.\n'
+'V. Turn all Runestones into Enchanted Runestones.\n'
+'VI. Skill CDs of all Gods, Beasts and Dragons (except "Auspice of Protection - Cang Bi") -1.',
+'Switching CD8\n\n'
+'This Skill can be activated only when the Monster is equipped with the exclusive Dragonware:\n'
+'I. Explode non-Water Runestones to generate Enchanted Attributive Runestones.\n'
+'For 1 Round\n'
+'II. Attack of Dragons, God & Beasts x 2.5.\n'
+'III. If the Leader and Ally are "Auspice of Protection - Cang Bi" or "Billows of Freedom - Cang Bi" upon Skill activation,\n'
+'⇒ Dragon Point becomes 0.\n'
+'If the Leader is 「Crimson Runedragon - Hong Ai」 and the Ally is 「Crimson Runedragon - Hong Ai」, "Auspice of Protection - Cang Bi" or "Billows of Freedom - Cang Bi":\n'
+'I. Explode non-Water and non-Fire Runestones to generate Enchanted Attributive Runestones.\n'
+'For 1 Round,\n'
+'II. Attack of Dragons, Humans, Elves & Demons x 2.5.\n'
+'III. Red Dragon Point increases to 100.\n'
+'(Active Skill after switching please check /check changbitrans)',
+
+'chi_lead':'三族戰勢\n\n'
+'隊中只有龍類、神族或獸類成員時：\n'
+'I. 全隊攻擊力 6.5 倍及生命力 1.4 倍\n'
+'II. 每個成員增加 300 點回復力\n'
+'III. 龍類、神族、獸類同時發動攻擊時\n'
+'⇒ 全隊攻擊力額外 1.8 倍\n'
+'IV. 隊中只有龍類成員\n'
+'⇒ 全隊攻擊力額外 1.8 倍\n'
+'V. 水符石兼具 50% 其他符石效果',
+'eng_lead':'Forces of Three Races\n\n'
+'When the Team has only Dragons, Gods or Beasts:\n'
+'I. Team Attack x 6.5 & HP x 1.4.\n'
+'II. Recovery basic value of each Member +300.\n'
+'III. When a Dragon, a God and a Beast launch attacks in the same Round,\n'
+'⇒ Team Attack x 1.8 additionally.\n'
+'IV. When the Team has only Dragons,\n'
+'⇒ Team Attack x 1.8 additionally.\n'
+'V. Water Runestones also possess 50% effect of other Runestones.',
+
+'chi_team':'隊伍技能：\n\n'
+'I. 每消除 1 粒龍族符石\n'
+'⇒ 回復 3,000 點生命力\n'
+'⇒ 消除 30 粒可回復最多 90,000 點\n'
+'II. 必然延長移動符石時間 2 秒\n\n'
+
+'III. 【龍鱗值】\n'
+'⓵ 龍鱗值愈高\n'
+'⇒ 減少所受傷害愈多\n'
+'⇒ 最多可減少 100%\n'
+'⓶ 龍鱗值愈低\n'
+'⇒ 全隊攻擊力提升愈多\n'
+'⇒ 最多可提升至 5 倍\n\n'
+
+'[＊] 進入關卡後，獲得 50 點龍鱗值\n'
+'[＊] 每回復 500 點生命力\n'
+'⇒ 提升 1 點龍鱗值\n'
+'[＊] 每消除 3 粒水符石\n'
+'⇒ 減少 10 點龍鱗值\n'
+'[＊] 受到敵人攻擊後\n'
+'⇒ 該回合減少 30 點龍鱗值\n'
+'發動條件：\n'
+'以「卿雲護庇 ‧ 蒼璧」或「豁達浪息 ‧ 蒼璧」作隊長及戰友\n\n'
+
+'＊此召喚獸於 CD 0 時可以變身，變身後將以消耗能量點的方式發動技能。召喚獸的技能等級愈高，發動技能時所需的能量值愈低。變身時，能量點為全滿狀態 (12 點)，當能量點未滿時，可以於 1 回合內消除 3 粒或以上的水符石，以儲存 1 點能量點。',
+
+'eng_team':'Team Skill:\n\n'
+'◆ For each Dragon Runestone dissolved,\n'
+'⇒ recover 3,000 HP\n'
+'⇒ to the max 90,000 HP for 30 Runestones dissolved.\n'
+'◆ Extend Runestone-moving time regardlessly by 2 seconds.\n\n'
+
+'◆ 【Dragon Point (DP)】\n'
+'⓵ The higher the DP, the less the Damage received, to the max -100%.\n'
+'⓶ The lower the DP, the higher the Team Attack, to the max x 5 additionally.\n\n'
+
+'◆ [＊] The Team starts with 50 DP after entering a Stage.\n'
+'[＊] DP +1 for every 500 HP recovered.\n'
+'[＊] DP -10 for every 3 Water Runestones dissolved.\n'
+'DP -30 in the Round upon receiving Damage from an enemy's attack.\n'
+'Condition:\n'
+'The Leader and Ally are "Auspice of Protection - Cang Bi" or "Billows of Freedom - Cang Bi".'},
     
     
     
