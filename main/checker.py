@@ -2970,7 +2970,7 @@ checker = [
 'chif_name':'希1',
 'eng_name':'xi1',
 
-'chi_act':'誓約的泉源 ‧ 神之加冕 CD\n\n'
+'chi_act':'誓約的泉源 ‧ 神之加冕 CD 6\n\n'
 'I. 移除暗及心符石\n'
 '⇒ 掉落水神族強化符石\n'
 '2 回合內\n'
@@ -2995,7 +2995,7 @@ checker = [
 '發動條件： \n'
 '以「清絮綺羅 ‧ 希」作戰友及隊長',
 
-'eng_act':'Watery Promise - God\'s Enchantment\n\n'
+'eng_act':'Watery Promise - God\'s Enchantment CD 6 \n\n'
 'I. Remove Dark and Heart Runestones to generate Enchanted Water God Runestones. \n'
 'For 2 Rounds:\n'
 'II. Team Attack x 2.25.\n'
