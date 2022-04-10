@@ -2035,11 +2035,129 @@ checker = [
 'Condition:\n'
 'There are 2 or more 【Machina Dynamics】 Members in the Team.'},
     
-    
+    {'chi_name':'达尔文',
+'chif_name':'達爾文',
+'eng_name':'darwin',
 
+'chi_act':'元素探研 CD6\n\n'
+'引爆所有符石以掉落强化符石，每引爆 1 种属性符石，1 回合内自身攻击力额外提升 1 倍，最多可提升至 6 倍；消除 5 种属性符石时，自身主动技能 CD 减少 3',
+'eng_act':'Experiment of Elements CD6\n\n'
+'Explode all Runestones to generate Enchanted Runestones. For 1 Round, the more the Attributes of Runestones exploded, the higher the Monster\'s Attack, to the max x 6. When Runestones of 5 Attributes are dissolved, the Monster\'s current Skill CD -3.',
+
+'chi_lead':'金液流动\n\n'
+'队伍中只有机械族成员时：\n'
+'I. 全队生命力、攻击力及回复力 2 倍\n'
+'II. 消除 ≥3 种符石时\n'
+'⇒ 全队攻击力额外 3 倍\n'
+'III. 心符石兼具 50% 所有属性符石效果(可叠加)',
+'eng_lead':'Flow of Golden Liquid\n\n'
+'When the Team consists of only Machinas, Team HP, Attack & Recovery x 2; by dissolving Runestones of 3 or more types, Team Attack x 3 additionally; Heart Runestones also possess 50% effects of all Attributive Runestones (the effects can be superimposed).',
+
+'chi_team':'队伍技能：\n\n'
+'每首批消除 1 粒火、木或暗符石，额外提升机械族成员的行动值 1%\n'
+'发动条件：\n'
+'以生物多样性 ‧ 达尔文或超新星序曲 ‧ 伽利略作队长及战友；或以生物多样性 ‧ 达尔文作队长及战友\n\n'
+'【机械动力】\n'
+'I. 每首批消除 1 粒自身属性符石\n'
+'⇒ 自身行动值提升 2%\n'
+'II. 每首批消除 1 粒心符石\n'
+'⇒ 自身行动值提升 1%\n'
+'III. 行动值愈高\n'
+'⇒ 自身攻击力提升愈多\n'
+'⇒ 最大提升至 2 倍。\n'
+'IV. 当所有机械族成员的行动值达至 50% 或以上时\n'
+'⇒ 机械族成员属性的符石效果提升\n'
+'⇒ 每个机械族成员可提升 10% 效果\n'
+'⇒ 最高 60%\n'
+'V. 当所有机械族成员的行动值达至 100% 时\n'
+'⇒ 机械族成员每回合\n'
+'以 25% 自身攻击力随机追打自身属性或自身克制属性的攻击 1 至 2 次\n'
+'发动条件：\n'
+'队伍中有 ≥2 个【机械族】成员',
+'eng_team':'Team Skill:\n\n'
+'◆ Fuel of Machinas +1% for each Fire, Earth or Dark Runestone dissolved (only the first batch of Runestones dissolved will be counted).\n'
+'Condition:\n'
+'The Leader and Ally are "Mutated Biodiversity - Darwin" or "Prologue of Supernova - Galileo".\n\n'
+'◆ 【Machina Dynamics】\n'
+'⓵ For each Runestone of the Character\'s Attribute dissolved in the first batch,\n'
+'⇒ the Character\'s Fuel +2%.\n'
+'⓶ For each Heart Runestone dissolved in the first batch,\n'
+'⇒ the Character\'s Fuel +1%.\n'
+'⓷ The higher the Character\'s Fuel,\n'
+'⇒ the higher the Character\'s Attack,\n'
+'⇒ to the max x 2 additionally.\n'
+'⓸ When all Machinas in the Team have ≥ 50% Fuel,\n'
+'⇒ effects of Runestones of their Attributes increase,\n'
+'⇒ 10% for each Machina present in the Team,\n'
+'⇒ to the max 60%.\n'
+'⓹ When all Machinas in the Team have 100% Fuel,\n'
+'⇒ all Machinas randomly launch 1 to 2 extra attack(s) of its own Attribute or its Counter Attribute as much as 25% of its Attack every Round.\n'
+'Condition:\n'
+'There are 2 or more 【Machina Dynamics】 Members in the Team.'},
+
+    {'chi_name':'武则天',
+'chif_name':'武則天',
+'eng_name':'wuzetian',
+
+'chi_act':'集权之谋 CD8\n\n'
+'引爆队伍成员属性以外的符石，以掉落强化符石。1 回合内，延长移动符石时间至 12 秒；每首批消除 2 组符石，魔族及光属性成员以 30% 自身攻击力追打光属性攻击 1 次，最多可追打 5 次',
+'eng_act':'Scheme for Authority CD8\n\n'
+'Explode Runestones not of Team Members\' Attributes to generate Enchanted Runestones. For 1 Round, extend Runestone-moving time to 12 seconds. For every 2 groups of Runestones dissolved, each Demon and Light Member in the Team launch an extra Light attack as much as 30% of its own attack, to the max 5 extra attacks to be launched by each Monster (only the first batch of Runestones dissolved will be counted)',
+
+'chi_lead':'魔曌之势\n\n'
+'队伍中只有魔族成员时：\n'
+'I. 魔族攻击力 4 倍，光属性魔族攻击力则 5 倍\n'
+'II. 消除魔族符石时\n'
+'⇒ 全队攻击力额外 2 倍',
+'eng_lead':'Dominance of the Empress\n\n'
+'When the Team consists of only Demons, Demon Attack x 4, Light Demon Attack x 5, by dissolving Demon Runestones, Team Attack x 2 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'队长的队长技能“魔曌之势”变为“魔曌之势 ‧ 强”：队伍中只有魔族成员时：魔族攻击力 4 倍，光属性魔族攻击力则 5 倍；消除魔族符石时，全队攻击力额外提升 2 倍。若转珠结束时放手的符石为属性符石：该种属性符石兼具其他符石效果，移动符石时触碰的首 5 粒符石转化为该属性魔族强化符石。减少 90% 所受伤害，受到 5 次攻击后变为减少 45% 所受伤害\n'
+'发动条件：\n'
+'以后仪天下 · 武则天作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ Change the Leader Skill of the Leader from "Dominance of the Empress" to "Dominance of the Empress - EX".\n'
+'When the Team has only Demons, Demon Attack x 4, Light Demon Attack x 5, by dissolving Demon Runestones, Team Attack x 2 additionally. When the last Runestone you let go to end moving is an Attributive Runestone, Runestones of that Attribute also possess the effect of other Runestones, turn the first 5 Runestones touched while moving into Enchanted Demon Runestones of that Attribute. Damage received -90% for the first 5 Damage received. After that, Damage received -45%.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Militant Heroine - Wu Zetian".'},
     
-    
-    
+    {'chi_name':'克丽奥',
+'chif_name':'克麗奧',
+'eng_name':'cleo',
+
+'chi_act':'翩跹起舞 CD6\n\n'
+'点选 2 直行的符石，将之转化为暗魔族强化符石，1 回合内，魔族及妖精类攻击力 2 倍',
+'eng_act':'Top of the Pyramid CD6\n\n'
+'Tap and turn 2 columns of Runestones into Enchanted Dark Demon Runestones. For 1 Round, Demon and Elf Attack x 2.',
+
+'chi_lead':'倾世魅颜\n\n'
+'队伍中只有魔族或妖精类成员时：\n'
+'I. 全队生命力、攻击力及回复力 1.5 倍\n'
+'II. 每首批消除 1 个角落的符石时\n'
+'⇒ 全队攻击力提升 1.25 倍\n'
+'⇒ 4 个角落可达至最大 5 倍',
+'eng_lead':'Beauty of the World\n\n'
+'When the Team consists of only Demons and Elves, Team Attack, HP & Recovery x 1.5, by dissolving a Runestone in a corner, Team Attack x 1.25 additionally, to the max x 5 for dissolving Runestones in 4 corners (only the first batch of Runestones dissolved will be counted).',
+
+'chi_team':'队伍技能：\n\n'
+'必然延长移动符石时间 2 秒。\n'
+'移动符石时触碰的火、光、暗符石转化为魔族强化符石\n'
+'发动条件：\n'
+'以魔性原罪 · 夏娃或艳后争鸣 · 克丽奥作队长及战友，或以艳后争鸣 · 克丽奥作队长及战友\n\n'
+'下回合开始时，将 4 个角落的符石转化为暗魔族符石。\n'
+'每消除 1 粒魔族符石，该回合减少 10% 所受伤害，最多减少 60%\n'
+'发动条件：\n'
+'以艳后争鸣 · 克丽奥作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ Extend Runestone-moving time regardlessly by 2 seconds.\n'
+'◆ Turn all Fire, Light and Dark Runestones touched while moving into Enchanted Demon Runestones.\n'
+'Condition:\n'
+'The Leader and Ally are "Origin of All Sins - Eve" or "Diva of Obsession - Cleo".\n\n'
+'◆ Turn Runestones in the 4 corners into Dark Demon Runestones at the beginning of each Round.\n'
+'◆ Damage received -10% for each Demon Runestone dissolved, to the max -60%.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Diva of Obsession - Cleo".'},
 
     
     
