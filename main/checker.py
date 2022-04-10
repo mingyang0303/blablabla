@@ -3015,7 +3015,7 @@ checker = [
 'I. The time for moving Runestones must be extended by 3 seconds\n'
 'II. Dissolve ≥10 Water Runestones from a group\n'
 '⇒ Water-type members ignore the\n'
-activation conditions of "Fixed Combo Shield":\n'
+'activation conditions of "Fixed Combo Shield":\n'
 'Combat comrades and captains with "Qingxu Kira·Xi" '},
     
     {'chi_name':'暗妍希',
