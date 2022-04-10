@@ -2240,7 +2240,85 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are "Diva of Obsession - Cleo".'},
     
-   
+   {'chi_name':'女娲',
+'chif_name':'女媧',
+'eng_name':'nuwa',
+
+'chi_act':'五色秘术 CD6\n\n'
+'1 回合内\n'
+'I. 每消除 1 组符石\n'
+'⇒ 额外计算多 2 连击 (Ex. Combo)\n'
+'⇒ 最多可额外增加 20 连击 (Ex. Combo）\n'
+'II. 发动技能时若自身“仙力”达 10 点\n'
+'⓵ 效果则持续 2 回合\n'
+'⓶ 最多可增加 30 个 Ex. Combo\n'
+'III. 若队长或战友为“上古诸神”成员\n'
+'⇒ 额外增加 1 回合效果',
+'eng_act':'Magic of Five Elements CD6\n\n'
+'For 1 Round:\n'
+'I. Ex. Combo count +2 for every group of Runestones dissolved, to the max Ex. Combo count +20.\n'
+'II. If the Monster\'s Xian Point (XP) is 10 upon Skill activation:\n'
+'⓵ The Skill stays in play for 2 Rounds.\n'
+'⓶ Ex. Combo count to the max +30.\n'
+'III. If the Leader or Ally is a Monster of "Primal Deities", the Skill stays in play for 1 more Round.',
+
+'chi_lead':'补天炼石\n\n'
+'队伍中只有神族或兽类成员时：\n'
+'I. 全队攻击力 6 倍及回复力 2 倍\n'
+'II. 队中每有 1 个 6 星“上古诸神”系列角色\n'
+'⇒ 必然延长移动符石时间 1 秒\n'
+'III. 消除神族符石时\n'
+'⇒ 神族及兽类攻击力额外 2 倍',
+'eng_lead':'Repairing the Heaven\n\n'
+'When the Team consists of only Gods and Beasts:\n'
+'I. Team Attack x 6, Recovery x 2.\n'
+'II. Extend Runestone-moving by 1 second for each 6* Monster of "Primal Deities" present in the Team.\n'
+'III. By dissolving God Runestones, Team Attack x 2 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'每消除 1 粒木神族符石\n'
+'⇒ 自身可累积 1 点“仙力”\n'
+'⇒ 最多可累积 20 点。\n'
+'每受敌人攻击 1 次\n'
+'⇒ 减少 2 点“仙力”\n'
+'发动条件：\n'
+'以“创世神女 ‧ 女娲”作成员\n\n'
+
+'I. 将移动符石时触碰的队伍成员属性符石\n'
+'⇒ 转化为神族强化符石\n'
+'II. 光符石兼具 50% 其他属性符石效果\n'
+'III. 暗符石兼具 50% 其他属性符石效果\n'
+'发动条件：\n'
+'以“创世神女 ‧ 女娲”或“太昊八卦 ‧ 伏羲”作队长及战友；或以“创世神女 ‧ 女娲”作队长及战友\n\n'
+
+'每个“上古诸神”系列角色均有几率暴击 2.5 倍：\n'
+'其“仙力”愈高\n'
+'⇒ 其暴击率愈高\n'
+'⇒ 10 点“仙力”可提升至 100%\n'
+'发动条件：\n'
+'以 6 星“上古诸神”系列角色作队长及战友\n\n'
+
+'“百草药神 ‧ 神农”、“舞干戚 ‧ 刑天”、“开天辟地 ‧ 盘古”跟随队长的暴击率，有几率可暴击 2.5 倍\n'
+'发动条件：\n'
+'以 6 星“上古诸神”系列角色作队长及战友；且队伍中有 3 个或以上 6 星“上古诸神”系列角色；并以“百草药神 ‧ 神农”、“舞干戚 ‧ 刑天”或“开天辟地 ‧ 盘古”作队员',
+'eng_team':'Team Skill:\n\n'
+'◆ For each Monster of "Primal Deities" in the Team, there is a chance of Critical Attack x 2.5. The higher the Xian Point (XP), the higher the Critical Rate, to the max 100% for 10 XP.\n'
+'Condition:\n'
+'The Leader and Ally are 6 star Characters of "Primal Deities" (series).\n\n'
+
+'◆ For 6 star Monsters of "Primal Deities" in the Team, the Monster\'s Xian Point (XP) +1 for every Runestone of its Race and Attribute dissolved, to the max 20 XP in accumulation. XP -2 every time when receiving Damage from an enemy\'s attack.\n'
+'Condition:\n'
+'There is 6 star Characters of "Primal Deities" (series) in the Team.\n\n'
+
+'◆ Turn Runestones of Members\' Attributes touched while moving into Enchanted God Runestones.\n'
+'◆ Light Runestones also possess 50% effect of other Attributive Runestones.\n'
+'◆ Dark Runestones also possess 50% effect of other Attributive Runestones.\n'
+'Condition:\n'
+'The Leader and Ally are "Primal Divinity - Fuxi" or "Ancestral Creation - Nüwa".\n\n'
+
+'◆ Critical Rate of "Mastery of Herbs - Shennong", "Traitor of Goodwill - Xingtian" and "Primitive Creator - Pangu" will synchronize with that of the Leader, with a chance of Critical Attack x 2.5.\n'
+'Condition:\n'
+'Both the Leader and Ally are 6 star Characters of "Primal Deities" (series), with 3 or more 6 star Characters of "Primal Deities" (series) and "Mastery of Herbs - Shennong", "Traitor of Goodwill - Xingtian", or "Primitive Creator - Pangu" in the Team.'},
     
     
     
