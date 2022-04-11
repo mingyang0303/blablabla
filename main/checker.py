@@ -3884,7 +3884,7 @@ checker = [
     
     {'chi_name':'时空菲吕拉',
 'chif_name':'時空菲呂拉',
-'eng_name':'philyra',
+'eng_name':'chronosgatephilyra',
 
 'chi_act':'倍化术 ‧ 连击 CD5\n'
 'I. 将《时空之门》角色及神族成员直行的符石\n'
@@ -3961,9 +3961,176 @@ checker = [
 'Condition:\n'
 'Both the Leader and Ally are "Philyra, The Authors\' Muse".'},
     
+    {'chi_name':'时空路西法',
+'chif_name':'時空路西法',
+'eng_name':'chronosgatelucifer',	
+
+'chi_act':'看破 CD8\n'
+'发动技能时消耗现有 10% 生命力(生命力为 1 时仍可发动)\n'
+'1 回合内\n'
+'I. 自身攻击力 8 倍\n'
+'II. 自身攻击\n'
+'⇒ 无视敌人防御力\n'
+'III. 若有击毙敌人时\n'
+'⇒ 该回合不会扣减技能持续回合\n\n'
+
+'极热效应 CD6\n'
+'I. 选择 2 横行的符石\n'
+'⇒【左右滑动移除】\n'
+'2 回合内\n'
+'II. 无视“燃烧”敌技',
+
+'eng_act':'Ultimate Guard Break CD8\n'
+'Deplete 10% of current HP upon Skill activation (activatable when HP is 1).\n'
+'For 1 Round:\n'
+'I. The Monster\'s Attack x 8.\n'
+'II. The Monster\'s Damage will be dealt regardless of Defense.\n'
+'III. If an enemy is defeated,\n'
+'⇒ the number of Rounds with the Skill staying in play will not reduce.\n\n'
+
+'Burning Effect CD6\n'
+'I. Select and swipe to remove 2 rows of Runestones.\n'
+'For 2 Rounds,\n'
+'II. Boss Skill "Burning" will be nullified.',
+
+'chi_lead':'刺棘之怒\n\n'
+'I. 神族、魔族、妖精类攻击力 6 倍、生命力及回复力 1.3 倍\n'
+'II. 消除 ≥3 种符石时\n'
+'⇒ 神族、魔族、妖精类攻击力额外 2 倍\n'
+'III. 生命力未满时\n'
+'⇒ 全队攻击力额外 3.5 倍\n'
+'IV. 消除暗符石时\n'
+'⇒ 全队攻击力额外 1.5 倍',
+'eng_lead':'Anger of Thorns\n\n'
+'I. God, Demon & Elf Attack x 6; HP & Recovery x 1.3.\n'
+'II. By dissolving ≥3 types of Runestones,\n'
+'⇒ God, Demon & Elf Attack x 2 additionally.\n'
+'III. When HP is not full,\n'
+'⇒ Team Attack x 3.5 additionally.\n'
+'IV. By dissolving Dark Runestones,\n'
+'⇒ Team Attack x 1.5 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 进入关卡后及每回合结束时\n'
+'⇒ 将队长直行的符石转化为“暗及心”神族强化符石\n'
+'II. 暗及心符石分别兼具\n'
+'⇒ 50% 其他符石效果\n'
+'III. 进入关卡后\n'
+'⇒ 队长技能 CD -8\n'
+'IV. 发动【左右滑动移除】技能\n'
+'⇒ 每次向左或向右方滑动，\n'
+'触发不同效果：\n\n'
+
+'【向左方滑动】\n'
+'⇒ 1 回合内，全体敌人的攻击力弱化 60%(不可叠加回合数)\n'
+'【向右方滑动】\n'
+'⇒１回合内\n'
+'⓵ 全队回复力变 0\n'
+'⓶ 全队攻击力 2 倍\n'
+'⓷ 队长追打光属性攻击 1 次(可叠加回合数)\n'
+'发动条件：\n'
+'以“叛逆天使 ‧ 路西法”作队长，并以“叛逆天使 ‧ 路西法”或“扭曲天使 ‧ 亚伯汗”作战友',
+'eng_team':'Team Skill:\n\n'
+'◆ After entering a Stage and at the end of each Round, turn the column below the Leader into Enchanted Dark God and Enchanted Heart God Runestones.\n'
+'◆ Dark and Heart Runestones also possess 50% effect of other Runestones.\n'
+'◆ Skill CD of the Leader -8 after entering a Stage.\n'
+'◆ When activating the Skill of “Swiping left or right to remove Runestones”, different effects will be triggered:\n\n'
+
+'◆ 【Swipe left】\n'
+'Weaken the Attack of all enemies by 60% for 1 Round (the no. of Rounds cannot be superimposed).\n'
+'◆ 【Swipe right】\n'
+'For 1 Round:\n'
+'⓵ Team Recovery becomes 0.\n'
+'⓶ Team Attack x 2.\n'
+'⓷ The Leader launches an extra Light Attack (the no. of Rounds can be superimposed).\n'
+'Condition:\n'
+'The Leader is "Angel of Doom Lucifer", and the Ally is "Angel of Distortion Azazel" or "Angel of Doom Lucifer".'},
     
-    
-    
+    {'chi_name':'时空亚伯汗',
+'chif_name':'時空亞伯汗',
+'eng_name':'azazel',
+
+'chi_act':'倍化术 ‧ 神族 CD3\n'
+'1 回合内\n'
+'I. 累积战斗回合数愈多(需消除符石)\n'
+'⇒ 转化为神族强化符石愈多\n'
+'⇒ 最多可转化 30 粒(队伍成员属性符石及非种族符石优先转换)\n'
+'II. 每首批消除 1 粒种族符石\n'
+'⇒ 掉落 1 粒光强化符石\n\n'
+
+'回复效应 CD5\n'
+'I. 选择 2 横行的符石\n'
+'⇒【左右滑动移除】\n'
+'II. 回复 60% 生命力\n'
+'III. 队长为“次元英雄”系列角色\n'
+'⇒ 延迟全体敌人行动 1 回合',
+'eng_act':'Refinement Multiplier - Gods CD3\n'
+'For 1 Round:\n'
+'I. The more the accumulated Rounds (dissolving Runestones is necessary),\n'
+'⇒ the more the Enchanted God Runestones to be turned into,\n'
+'⇒ to the max 30 Runestones (Runestones of Members\' Attributes and non-Race Runestones rank first in priority).\n'
+'II. For every Race Runestone dissolved in the first batch,\n'
+'⇒ 1 Enchanted Light Runestone will be generated.\n\n'
+
+'Healing Effect CD5\n'
+'I. Select and swipe to remove 2 rows of Runestones.\n'
+'II. Recover 60% HP.\n'
+'III. If the Leader is a Monster of "Heroes of Dimensions",\n'
+'⇒ CDs of all enemies will be delayed for 1 Round.',
+
+'chi_lead':'抗神之力\n\n'
+'I. 神族、魔族、妖精类攻击力 6.5 倍、生命力及回复力 1.3 倍\n'
+'II. 消除 ≥3 种符石时\n'
+'⇒ 神族、魔族、妖精类攻击力额外 2 倍\n'
+'III. 消除种族符石时\n'
+'⇒ 神族、魔族、妖精类攻击力额外 2 倍\n'
+'IV. 消除光符石时\n'
+'⇒ 全队攻击力额外 1.5 倍',
+'eng_lead':'Overwhelming Power\n\n'
+'I. God, Demon & Elf Attack x 6.5; HP & Recovery x 1.3.\n'
+'II. By dissolving ≥3 types of Runestones,\n'
+'⇒ God, Demon & Elf Attack x 2 additionally.\n'
+'III. By dissolving Race Runestones,\n'
+'⇒ God, Demon & Elf Attack x 2 additionally.\n'
+'IV. By dissolving Light Runestones,\n'
+'⇒ Team Attack x 1.5 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 进入关卡后及每回合结束时\n'
+'⇒ 将队长直行的符石转化为“光及心”神族强化符石\n'
+'II. 光及心符石分别兼具\n'
+'⇒ 50% 其他符石效果\n'
+'III. 生命力全满时\n'
+'⇒ 减少 70% 所受伤害\n'
+'IV. 发动【左右滑动移除】技能\n'
+'⇒ 每次向左或向右方滑动，\n'
+'触发不同效果：\n\n'
+
+'【向左方滑动】\n'
+'⓵ 回复 20,000 点生命力\n'
+'⇒ 1 回合内\n'
+'⓶ 全队回复力 2.5 倍 (可叠加回合数)\n'
+'【向右方滑动】\n'
+'⇒ 1 回合内\n'
+'⓵ 全队攻击力 2 倍\n'
+'⓶ 全队无视“五属盾” (可叠加回合数)\n'
+'发动条件：\n'
+'以“扭曲天使 ‧ 亚伯汗”作队长，并以“扭曲天使 ‧ 亚伯汗”或“叛逆天使 ‧ 路西法”作战友',
+'eng_team':'Team Skill:\n\n'
+'◆ After entering a Stage and at the end of each Round, turn the column below the Leader into Enchanted Light God and Enchanted Heart God Runestones.\n'
+'◆ Light and Heart Runestones also possess 50% effect of other Runestones.\n'
+'◆ When HP is full, Damage received -70%.\n'
+'◆ When activating the Skill of “Swiping left or right to remove Runestones”, different effects will be triggered:\n\n'
+
+'◆ 【Swipe left】\n'
+'⓵ Recover 20,000 HP.\n'
+'⓶ Team Recovery x 2.5 for 1 Round (the no. of Rounds can be superimposed).\n'
+'◆ 【Swipe right】\n'
+'For 1 Round:\n'
+'⓵ Team Attack x 2.\n'
+'⓶ Damage of the Team will be dealt regardless of Quintet Elemental Shield (the no. of Rounds can be superimposed).\n'
+'Condition:\n'
+'The Leader is "Angel of Distortion Azazel", and the Ally is "Angel of Distortion Azazel" or "Angel of Doom Lucifer".'},
     
     
     
@@ -3971,6 +4138,13 @@ checker = [
     
     
 
+    
+    
+    
+    
+    
+    
+    
     
     
     
