@@ -101,21 +101,21 @@ ancts = [{'name': '德王顯仁・敖廣',
 'star': '★ ★ ★ ★ ★ ★ ★ ☆ ☆'
 },
 {
-'name': '高潔騎士 • 亞瑟',
-'eng': 'Knight of Virtuousness - Arthur',
-'link': 'https://telegra.ph/file/b282bc6fda729945903fa.jpg',
-'star': '★ ★ ★ ★ ★ ★ ☆ ☆ ☆'},
+'name': '榮聲披身 • 亞瑟',
+'eng': 'Illustrious Laurels - Arthur',
+'link': 'https://telegra.ph/file/5b2ec362386d4cc77b60c.jpg',
+'star': '★ ★ ★ ★ ★ ★ ★ ☆ ☆'},
 {
-'name': '千刃騎士 • 蘭斯洛特',
-'eng': 'Knight of Swordmaster - Lancelot',
-'link': 'https://telegra.ph/file/8292d7fead0d4bb81d02a.jpg',
-'star': '★ ★ ★ ★ ★ ★ ☆ ☆ ☆'
+'name': '逐光暗徒 • 蘭斯洛特',
+'eng': 'Light Chaser - Lancelot',
+'link': 'https://telegra.ph/file/2409c4a0dd2df5e8bd00b.jpg',
+'star': '★ ★ ★ ★ ★ ★ ★ ☆ ☆'
 },
 
-{'name': '幻變術師 • 梅林',
-'eng': 'Merlin the Illusional - Sorceress',
-'link': 'https://telegra.ph/file/6cf7005a9612437a8f3b6.jpg',
-'star': '★ ★ ★ ★ ★ ★ ☆ ☆ ☆'
+{'name': '幻域真我 • 梅林',
+'eng': 'Illusionist\'s Anima - Merlin',
+'link': 'https://telegra.ph/file/e4a602f1b9ff91e31d56a.jpg',
+'star': '★ ★ ★ ★ ★ ★ ★ ☆ ☆'
 },
 {
 'name': '烽火武心 • 織田信長',
