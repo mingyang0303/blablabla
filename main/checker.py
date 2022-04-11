@@ -3503,7 +3503,7 @@ checker = [
 'chif_name':'伊斯塔',
 'eng_name':'shtar',
 
-'chi_act':'炮火连天 CD6',
+'chi_act':'炮火连天 CD6 \n\n',
 'I. 将黑白符石变回原来色调\n'
 'II. 身上有附加效果的成员及“星辰之理 ‧ 苏因”攻击力 2.2 倍\n'
 'III. 消除神族符石时\n'
@@ -3555,7 +3555,6 @@ checker = [
 '◆ Attack bonus for Combo increases by 50%.\n'
 'Condition:\n'
 'The Leader is "Gospel of Stars - Saint" and the Ally is "Phantom Pride - Ishtar" or "Gospel of Stars - Saint", with a Character of Twelve Zodiacs series or Star Burst Pulses series in the Team.\n\n'
-
 '◆ At the end of the Round, turn 9 fixed positions into Enchanted Fire God, Enchanted Light God and Enchanted Heart God Runestones (3 for each).\n'
 '◆ By dissolving God Runestones,\n'
 '⇒ Active Skill CD of “Phantom Pride - Ishtar” & "Gospel of Stars - Saint" -2.\n'
