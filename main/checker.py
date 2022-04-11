@@ -3562,7 +3562,92 @@ checker = [
 'Condition:\n'
 'The Leader is "Phantom Pride - Ishtar", and the Ally is "Phantom Pride - Ishtar" or "Gospel of Stars - Saint".'},
     
-   
+   {'chi_name':'英格丽',
+'chif_name':'英格麗',
+'eng_name':'ingrid',
+
+'chi_act':'命定的守护 CD8\n\n'
+'1 回合内\n'
+'I. 心符石兼具\n'
+'⇒ 200% 属性符石效果\n'
+'II. 2 粒符石即可发动消除，效果持续至消除 1 种符石达 25 粒\n'
+'III. 回合结束时\n'
+'⇒ 自身进入 2 回合濒死状态',
+'eng_act':'Destined Protection\n\n'
+'For 1 Round,\n'
+'I. Heart Runestones also possess 200% effect of Attributive Runestones.\n'
+'II. Runestones can be dissolved by aligning 2 or more of them, until 25 Runestones of one type are dissolved.\n'
+'III. The Monster enters a dying state (fatigue state) at the end of the Round for 2 Rounds.',
+
+'chi_lead':'魔女承志\n\n'
+'I. 全队攻击力 6 倍\n'
+'II. 队中有 ≥3 种族成员时\n'
+'⇒ 全队攻击力额外 1.8 倍\n'
+'III. 队伍中有 ≥3 种属性成员时\n'
+'⇒ 全队攻击力额外 1.5 倍\n'
+'IV. 队员、战友的属性及种族均没有重复时\n'
+'⇒ 全队生命力、攻击力、回复力额外 1.8 倍',
+'eng_lead':'Will of Witch\n\n'
+'I. Team Attack x 6.\n'
+'II. If there are ≥3 Races in the Team,\n'
+'⇒ Team Attack x 1.8 additionally.\n'
+'III. If there are ≥3 Attributes in the Team,\n'
+'⇒ Team Attack x 1.5 additionally.\n'
+'IV. If the Attributes and Races of Team Members and Ally are not repeated,\n'
+'⇒ Team HP, Attack & Recovery x 1.8 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'进入关卡后，“梦咏守望 ‧ 英格丽”\n'
+'⇒ 技能 CD -2\n'
+'发动条件：\n'
+'以“梦咏守望 ‧ 英格丽”及“以诺”作成员\n\n'
+
+'进入关卡后，最左方的“天才使魔 ‧ 豹豹”\n'
+'⇒ 技能 CD -6\n'
+'发动条件：\n'
+'以“梦咏守望 ‧ 英格丽”及“天才使魔 ‧ 豹豹”作成员\n\n'
+
+'I. 所有符石兼具\n'
+'⇒ 其他属性符石效果\n'
+'II. 所有属性符石兼具\n'
+'⇒ 50% 心符石效果\n'
+'III. 队中有神族及魔族成员时\n'
+'⓵ 将移动符石时触碰的符石\n'
+'⇒ 转化为强化符石\n'
+'⓶ 增加 4 连击 (Combo)\n'
+'IV. 队中有龙类、兽类及妖精类其中 2 种族成员时\n'
+'⓵ 全队生命力、攻击力、回复力 1.2 倍\n'
+'⓶ 无视“燃烧”敌技(不包括“炼狱之火”)\n'
+'⓷ 无视“黏腐”敌技\n'
+'V. 队中有机械族成员时\n'
+'⓵ 所有成员每回合以 50% 攻击力追打自身属性或自身克制属性的攻击 1 次\n'
+'⓶ 必然延长移动符石时间 2.5 秒\n'
+'发动条件：\n'
+'以“梦咏守望 ‧ 英格丽”作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ After entering a Stage,\n'
+'Skill CD of “Guardian of Reverie - Ingrid“ -2.\n'
+'Condition:\n'
+'There are "Guardian of Reverie - Ingrid" and "Enoch" in the Team.\n\n'
+
+'◆ After entering a Stage,\n'
+'Skill CD of the first “Panther the Ingenious Feline” from the left -6.\n'
+'Condition:\n'
+'There are "Guardian of Reverie - Ingrid" and "Panther the Ingenious Feline" in the Team.\n\n'
+
+'◆ All Runestones also possess the effect of other Attributive Runestones.\n'
+'◆ All Attributive Runestones also possess 50% effect of Heart Runestones.\n'
+'◆ When the Team has God(s) and Demon(s):\n'
+'⓵ Turn Runestones touched while moving into Enchanted Runestones.\n'
+'⓶ Combo count +4 each Round.\n'
+'◆ When there are any 2 races of Dragon(s), Beast(s) and Elf(s) in the Team:\n'
+'⓵ Team HP, Attack & Recovery x 1.2.\n'
+'⓶ Boss Skills "Burning" (excluding "Hellfire") and "Sticky Land" will be nullified.\n'
+'◆ When the Team has Machina(s):\n'
+'⓵ All Members launch an extra attack of their own Attribute or Counter Attribute as much as 50% of their Attack every Round.\n'
+'⓶ Extend Runestone-moving time regardlessly by 2.5 seconds.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Guardian of Reverie - Ingrid".'},
     
     
     
