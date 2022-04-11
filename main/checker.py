@@ -4334,7 +4334,99 @@ checker = [
 'Condition:\n'
 'The Leader is a Beast or Dragon, with "Apex of Fortitude - Huaxi" or "Soaring Aspiration - Jichen" in the Team.'},
     
-   
+    {'chi_name':'霏音',
+'chif_name':'霏音',
+'eng_name':'feiyin',
+
+'chi_act':'猛兽极袭 CD7\n\n'
+'I. 若队长为龙类或兽类\n'
+'⓵ 发动技能时自身转换为【兽】形态\n'
+'⓶ 还原所有“碎裂”的位置\n'
+'II. 将兽类成员直行的符石\n'
+'⇒ 转化为兽族强化符石\n'
+'1 回合内\n'
+'III. 连击 (Combo) 时攻击力提升 50%\n'
+'IV. 受敌人反击伤害减少 100%\n'
+'V. 解除“亡命爆击”',
+'eng_act':'Assault of Wildness CD7\n\n'
+'	I. If the Leader is a Dragon or Beast:\n'
+'⓵ The Monster will turn into【Beast】form upon Skill activation.\n'
+'⓶ Restore all cracked positions.\n'
+'II. Turn the column(s) below Beast(s) into Enchanted Beast Runestones.\n'
+'For 1 Round:\n'
+'III. Attack bonus +50% for each Combo made.\n'
+'IV. Damage reflected from enemies -100%.\n'
+'V. Boss Skill “Death Damage” (receiving Damage upon the defeat of the enemy) will be nullified.',
+
+'chi_lead':'兽威撼地\n\n'
+'I. 兽类及龙类攻击力 6.5 倍及生命力 1.3 倍\n'
+'II. 队伍中只有兽类成员时\n'
+'⇒ 兽类生命力及回复力额外 1.3 倍\n'
+'III. 达至 ≥6 连击 (Combo) 时\n'
+'⇒ 龙类及兽类攻击力额外 2.5 倍\n'
+'IV. 延长移动符石时间 2 秒',
+'eng_lead':'Predatory Instinct\n\n'
+'I. Beast & Dragon Attack x 6.5 & HP x 1.3.\n'
+'II. When the Team has only Beasts,\n'
+'⇒ Beast HP & Recovery x 1.3 additionally.\n'
+'III. When ≥6 Combos are made,\n'
+'⇒ Dragon & Beast Attack x 2.5 additionally.\n'
+'IV. Extend Runestone-moving time by 2 seconds.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 进入关卡后，“琴息濯洗 ‧ 霏音”\n'
+'⇒ 转换为【兽】形态\n\n'
+
+'II. 当“琴息濯洗 ‧ 霏音”为【兽】形态时：\n'
+'⓵ 自身攻击力及回复力 2 倍\n'
+'⓶ 受到敌人攻击后\n'
+'⇒ 转换为【人】形态\n\n'
+
+'III. 当“琴息濯洗 ‧ 霏音”为【人】形态时：\n'
+'⓵ 回合结束时，自身技能 CD -1\n'
+'⓶“琴息濯洗 ‧ 霏音”发动主动技能时\n'
+'⇒ 自身转换为【兽】形态\n'
+'发动条件：\n'
+'队长为龙类或兽类，并以“琴息濯洗 ‧ 霏音”作成员\n\n'
+
+'I. 首批消除属性符石\n'
+'⇒ 该种符石 2 粒相连即可发动消除\n'
+'⇒ 效果持续至消除 1 种符石达 15 粒\n'
+'II. 将移动符石时触碰的队伍成员属性符石\n'
+'⇒ 转化为兽族强化符石\n'
+'III. 兽类及龙类成员属性符石\n'
+'⇒ 分别兼具 50% 其他符石效果\n'
+'IV. 移动符石时间剩余 ≥50%\n'
+'⇒ 该回合所受伤害减少 50%\n'
+'V. 移动符石时间剩余 <50%\n'
+'⓵ 所有成员追打 1 次\n'
+'⓶ 所有成员无视“固定连击盾”\n'
+'发动条件：\n'
+'以“琴息濯洗 ‧ 霏音”作队长，并以“琴息濯洗 ‧ 霏音”或“少华钧天 ‧ 华曦”作战友',
+'eng_team':'Team Skill:\n\n'
+'◆ "Harmonic of Purification - Feiyin" will turn into【Beast】form after entering a Stage.\n'
+'◆ When "Harmonic of Purification - Feiyin" is in【Beast】form:\n'
+'⓵ The Monster\'s Attack & Recovery x 2.\n'
+'⓶ The Monster will turn into【Human】form upon receiving Damage from the enemy\'s attack.\n\n'
+
+'◆ III. When "Harmonic of Purification - Feiyin" is in【Human】form:\n'
+'⓵ The Monster\'s Skill CD -1 at the end of each Round.\n'
+'⓶ "Harmonic of Purification - Feiyin" will turn into【Beast】form when its Active Skill is activated.\n'
+'Condition:\n'
+'The Leader is a Beast or Dragon, "Harmonic of Purification - Feiyin" in the Team.\n\n'
+
+'◆ By dissolving Attributive Runestones in the first batch,\n'
+'⇒ Runestones of that Attribute can be dissolved by aligning 2 or more of them.\n'
+'⇒ The effect stays in play until 15 Runestones of a type are dissolved.\n'
+'◆ Turn Runestones of Members\' Attributes touched while moving into Enchanted Beast Runestones.\n'
+'◆ Runestones of the Beasts\' and Dragons\' Attributes also possess 50% effect of other Runestones.\n'
+'◆ When Runestone-moving time left is ≥50%,\n'
+'⇒ Damage received -50% this Round.\n'
+'◆ When Runestone-moving time left is < 50%:\n'
+'⓵ Each Member launches an extra attack.\n'
+'⓶ Damage of the Team will be dealt regardless of Fixed Combo Shield.\n'
+'Condition:\n'
+'The Leader is "Harmonic of Purification - Feiyin", and the Ally is "Harmonic of Purification - Feiyin" or "Apex of Fortitude - Huaxi".'},
     
     
     
