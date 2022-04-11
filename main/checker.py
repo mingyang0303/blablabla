@@ -3503,7 +3503,7 @@ checker = [
 'chif_name':'伊斯塔',
 'eng_name':'shtar',
 
-'chi_act':'炮火连天 CD6 \n\n',
+'chi_act':'炮火连天 CD6 \n\n'
 'I. 将黑白符石变回原来色调\n'
 'II. 身上有附加效果的成员及“星辰之理 ‧ 苏因”攻击力 2.2 倍\n'
 'III. 消除神族符石时\n'
