@@ -598,8 +598,7 @@ ancts = [{'name': '德王顯仁・敖廣',
 'eng': 'The First Synthetic Soul - Lilith',
 'link': 'https://telegra.ph/file/3782a8d68cdc429455f24.jpg',
 'star': '★ ★ ★ ★ ★ ★ ★ ☆ ☆'
-},        
-        ]
+}]
 
 my_hero = [
 {'heroname': '綠谷出久',
