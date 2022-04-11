@@ -472,9 +472,9 @@ ancts = [{'name': '德王顯仁・敖廣',
 'star': '★ ★ ★ ★ ★ ★ ★ ★ ☆'
 },
 {
-'name': '煌耀女帝 • 美索不達米亞',
-'eng': 'Glorious Amazon - Mesopotamia',
-'link': 'https://telegra.ph/file/d520fe903b618e8090146.jpg',
+'name': '女帝的銘誓 • 美索不達米亞',
+'eng': 'Fealty of the Amazon - Mesopotamia',
+'link': 'https://telegra.ph/file/cc728a6bfc63620e9524a.jpg',
 'star': '★ ★ ★ ★ ★ ★ ★ ☆ ☆'},
 {
 'name': '開世的文明 • 瑪雅',
@@ -489,10 +489,10 @@ ancts = [{'name': '德王顯仁・敖廣',
 'star': '★ ★ ★ ★ ★ ★ ★ ★ ☆'
 },
 {
-'name': '千古一帝 • 秦始皇',
-'eng': 'Majesty of Millennium - Ying Zheng',
-'link': 'https://telegra.ph/file/6262fa8722d9444cfb422.jpg',
-'star': '★ ★ ★ ★ ★ ★ ★ ☆ ☆'
+'name': '霸權傾軋 • 秦始皇',
+'eng': 'Autocratic Pretensions - Ying Zheng',
+'link': 'https://telegra.ph/file/345c977f37f2264e1f18c.jpg',
+'star': '★ ★ ★ ★ ★ ★ ★ ★ ☆'
 },
 {
 'name': '聖杯之永息 • 艾麗亞',
@@ -580,7 +580,26 @@ ancts = [{'name': '德王顯仁・敖廣',
 'eng': 'Innocent Temptation - Eve',
 'link': 'https://telegra.ph/file/40f7bdbe3cc5fd5a765b3.jpg',
 'star': '★ ★ ★ ★ ★ ★ ★ ☆ ☆'
-}]
+},
+{
+'name': '環光聖戰 • 涅索伊',
+'eng': 'Halo Warfare - Nesoi',
+'link': 'https://telegra.ph/file/cb90617fbe21f77f9ffba.jpg',
+'star': '★ ★ ★ ★ ★ ★ ★ ☆ ☆'
+},
+{
+'name': '天道炎旌 • 刻琿',
+'eng': 'Flames of Divine Order - Ke Hun',
+'link': 'https://telegra.ph/file/87d0c9f74f2423b35d7b6.jpg',
+'star': '★ ★ ★ ★ ★ ★ ★ ☆ ☆'
+},
+{
+'name': '最初的仿魂 • 莉莉絲',
+'eng': 'The First Synthetic Soul - Lilith',
+'link': 'https://telegra.ph/file/3782a8d68cdc429455f24.jpg',
+'star': '★ ★ ★ ★ ★ ★ ★ ☆ ☆'
+},        
+        ]
 
 my_hero = [
 {'heroname': '綠谷出久',
