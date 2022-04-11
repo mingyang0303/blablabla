@@ -4404,14 +4404,14 @@ checker = [
 '发动条件：\n'
 '以“琴息濯洗 ‧ 霏音”作队长，并以“琴息濯洗 ‧ 霏音”或“少华钧天 ‧ 华曦”作战友',
 'eng_team':'Team Skill:\n\n'
-'◆ "Harmonic of Purification - Feiyin" will turn into【Beast】form after entering a Stage.\n'
-'◆ When "Harmonic of Purification - Feiyin" is in【Beast】form:\n'
+'◆ "Harmonic of Purification - Feiyin" will turn into[Beast]form after entering a Stage.\n'
+'◆ When "Harmonic of Purification - Feiyin" is in[Beast]form:\n'
 '⓵ The Monster\'s Attack & Recovery x 2.\n'
-'⓶ The Monster will turn into【Human】form upon receiving Damage from the enemy\'s attack.\n\n'
+'⓶ The Monster will turn into[Human]form upon receiving Damage from the enemy\'s attack.\n\n'
 
-'◆ III. When "Harmonic of Purification - Feiyin" is in【Human】form:\n'
+'◆ III. When "Harmonic of Purification - Feiyin" is in[Human]form:\n'
 '⓵ The Monster\'s Skill CD -1 at the end of each Round.\n'
-'⓶ "Harmonic of Purification - Feiyin" will turn into【Beast】form when its Active Skill is activated.\n'
+'⓶ "Harmonic of Purification - Feiyin" will turn into[Beast]form when its Active Skill is activated.\n'
 'Condition:\n'
 'The Leader is a Beast or Dragon, "Harmonic of Purification - Feiyin" in the Team.\n\n'
 
