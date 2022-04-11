@@ -3882,7 +3882,84 @@ checker = [
 'Condition:\n'
 'The Leader is "Crimson Runedragon - Hong Ai", with "Billows of Freedom - Cang Bi" in the Team.'},
     
-    
+    {'chi_name':'时空菲吕拉',
+'chif_name':'時空菲呂拉',
+'eng_name':'philyra',
+
+'chi_act':'倍化术 ‧ 连击 CD5\n'
+'I. 将《时空之门》角色及神族成员直行的符石\n'
+'⇒转化为强化符石\n'
+'2 回合内\n'
+'II. 额外增加 6 连击(Combo、Ex. Combo)\n'
+'III. 首批掉落直行《时空之门》角色的属性种族符石\n\n'
+'移除黏涎 CD5\n'
+'I. 选择 3 横行的符石\n'
+'⇒【左右滑动移除】\n'
+'2 回合内\n'
+'II. 无视“黏腐”敌技',
+'eng_act':'Refinement Multiplier - Combos CD5\n'
+'I. Turn the column(s) below "ChronosGate" Monster(s) and God(s) into Enchanted Runestones.\n'
+'For 2 Rounds,\n'
+'II. Combo count +6 (Combo & Ex. Combo).\n'
+'III. The first batch to be dropped will be Race Runestones of the Attribute of "ChronosGate" Monster(s).\n\n'
+'Stickiness Removal CD5\n'
+'I. Select and swipe to remove 3 rows of Runestones.\n'
+'For 2 Rounds,\n'
+'II. Boss Skill "Sticky Land" will be nullified.',
+
+'chi_lead':'猛炎之神力\n\n'
+'I. “次元英雄”系列及神族攻击力 7 倍\n'
+'II. 火、光、暗属性生命力及回复力 1.5 倍\n'
+'III. 首批消除任何 1 横行内的所有符石时\n'
+'⇒ “次元英雄”系列及神族攻击力额外 2 倍\n'
+'IV. 达至 ≥6 连击 (Combo 或 Ex. Combo) 时\n'
+'⇒ 全队攻击力额外 2 倍',
+'eng_lead':'Act of God\n\n'
+'I. Attack of Monsters of “Heroes of Dimension” & Gods x 7.\n'
+'II. Fire, Light & Dark HP & Recovery x 1.5.\n'
+'III. By dissolving all Runestones in any row in the first batch,\n'
+'⇒ Attack of Monsters of “Heroes of Dimension” & Gods x 2 additionally.\n'
+'IV. When ≥6 Combos (Combo or Ex. Combo) are made,\n'
+'⇒ Team Attack x 2 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 所有符石分别兼具\n'
+'⇒ 火、光、暗符石效果\n'
+'II. 火符石兼具\n'
+'⇒ 50% 心符石效果\n'
+'III. 首批 3 粒相连的符石\n'
+'⇒ 可发动消除\n'
+'IV. 受敌人反击伤害减少 90%\n'
+'V. 横行消除 ≥1 组 ≥5 粒符石\n'
+'⇒“次元英雄”角色技能 CD -1\n'
+'VI. 发动【左右滑动移除】技能\n'
+'⇒ 每次向左或向右方滑动，\n'
+'触发不同效果：\n\n'
+
+'【向左方滑动】\n'
+'⇒1 回合内，延长移动符石时间至 12 秒(可叠加回合数)\n'
+'【向右方滑动】\n'
+'⇒ 1 回合内\n'
+'⓵ 全队攻击力 2.2 倍\n'
+'⓶ 无视敌人防御力(可叠加回合数）\n'
+'发动条件：\n'
+'以“写作之神 ‧ 菲吕拉”作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ All Runestones also possess the effect of Fire, Light and Dark Runestones.\n'
+'◆ Fire Runestones also possess 50% effect of Heart Runestones.\n'
+'◆ Runestones can be dissolved by aligning 3 or more of them in the first batch.\n'
+'◆ Damage reflected from enemies -90%.\n'
+'◆ By dissolving ≥1 group of ≥5 Runestones in a row, Skill CD of “Heroes of Dimension” -1.\n'
+'◆ When activating the Skill of “Swiping left or right to remove Runestones”, different effects will be triggered:\n\n'
+
+'◆ 【Swipe left】\n'
+'Extend Runestone-moving time to 12 seconds for 1 Round (the no. of Rounds can be superimposed).\n'
+'◆ 【Swipe right】\n'
+'For 1 Round:\n'
+'⓵ Team Attack x 2.2\n'
+'⓶ Damage will be dealt regardless of Defense.(the no. of Rounds can be superimposed).\n'
+'Condition:\n'
+'Both the Leader and Ally are "Philyra, The Authors\' Muse".'},
     
     
     
