@@ -1156,7 +1156,7 @@ checker = [
     
     {'chi_name':'道罗斯',
 'chif_name':'道羅斯',
-'eng_name':' daoloth',
+'eng_name':'daoloth',
 
 'chi_act':'力量之源 CD6\n\n'
 '1 回合内，自身攻击力 4 倍，连击 (Combo) 数目增加 6，队伍中每个龙类、兽类或妖精类成员将额外增加 1 连击 (Combo)，最多可额外增加 6 连击 (Combo)',
