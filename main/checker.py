@@ -3499,6 +3499,70 @@ checker = [
 'Condition:\n'
 'The Leader is "Phantom Pride - Ishtar", and the Ally is "Phantom Pride - Ishtar" or "Gospel of Stars - Saint".'},
     
+    {'chi_name':'伊斯塔',
+'chif_name':'伊斯塔',
+'eng_name':'shtar',
+
+'chi_act':'炮火连天 CD6',
+'I. 将黑白符石变回原来色调\n'
+'II. 身上有附加效果的成员及“星辰之理 ‧ 苏因”攻击力 2.2 倍\n'
+'III. 消除神族符石时\n'
+'⇒ 神族成员以 50% 攻击力追打 1 次(效果会在关闭此技能或死亡后消失)\n\n'
+'此技能可随时关闭，关闭时：\n'
+'⓵ 完全回复生命力\n'
+'⓶ 将神族成员直行的符石\n'
+'⇒ 转化为强化符石',
+'eng_act':'Gunfire Blast CD6\n\n'
+'I. Clear the negative effect of "B&W Zone".\n'
+'II. Attack of Member(s) with additional effect in play and "Gospel of Stars - Saint" x 2.2.\n'
+'III. By dissolving God Runestones,\n'
+'⇒ God(s) launches an extra attack as much as 50% of own Attack. The Skill stays in play until deactivation or defeated.\n\n'
+'This Skill can be deactivated anytime. Upon deactivation of the Skill:\n'
+'⓵ Fully recover HP.\n'
+'⓶ Turn the column below God\n'
+'⇒ into Enchanted Runestones.',
+
+'chi_lead':'战神之焰\n\n'
+'队伍中只有神族成员时：\n'
+'I. 全队攻击力 6.5 倍及生命力 1.4 倍\n'
+'II. 火、光、心符石互相兼具 50% 效果\n'
+'III. 同时消除火、光、心符石其中 2 种符石时\n'
+'⇒ 全队攻击力额外 3 倍\n'
+'IV. 场上有附加效果时\n'
+'⇒ 自身及身上有附加效果的成员攻击无视五属盾',
+'eng_lead':'Blaze of God\n\n'
+'When the Team has only Gods:\n'
+'I. Team Attack x 6.5 & HP x 1.4.\n'
+'II. Fire, Light & Heart Runestones also possess 50% effect of each other.\n'
+'III. If 2 out of 3 types of Runestones (Fire, Light & Heart) are dissolved in the same Round,\n'
+'⇒ Team Attack x 3 additionally.\n'
+'IV. When there is an additional effect in play,\n'
+'⇒ Damage of the Monster and Members with an additional effect in play on their icons will be dealt regardless of "Quintet Elemental Shield".',
+
+'chi_team':'队伍技能：\n\n'
+'I. 回合结束时，将指定 9 个位置的符石转化为\n'
+'⇒“火、光、心”神族强化符石各 3 粒\n'
+'II. 消除神族符石时\n'
+'⇒“蜃楼星火 ‧ 伊斯塔”及“星辰之理 ‧ 苏因”技能 CD -2\n'
+'III. 无视“黏腐”敌技\n'
+'发动条件：\n'
+'以“蜃楼星火 ‧ 伊斯塔”作队长，并以“蜃楼星火 ‧ 伊斯塔”或“星辰之理 ‧ 苏因”作战友',
+'eng_team':'Team Skill:\n\n'
+'◆ "Twelve Zodiacs" & "Star Burst Pulses":\n'
+'⓵ Active Skill CD -2 (at most to CD 1)\n'
+'⓶ Active Skill CD -8 after entering a Stage\n'
+'⓷ HP, Attack & Recovery basic value x 2\n'
+'◆ Attack bonus for Combo increases by 50%.\n'
+'Condition:\n'
+'The Leader is "Gospel of Stars - Saint" and the Ally is "Phantom Pride - Ishtar" or "Gospel of Stars - Saint", with a Character of Twelve Zodiacs series or Star Burst Pulses series in the Team.\n\n'
+
+'◆ At the end of the Round, turn 9 fixed positions into Enchanted Fire God, Enchanted Light God and Enchanted Heart God Runestones (3 for each).\n'
+'◆ By dissolving God Runestones,\n'
+'⇒ Active Skill CD of “Phantom Pride - Ishtar” & "Gospel of Stars - Saint" -2.\n'
+'◆ Boss Skill "Sticky Land" will be nullified.\n'
+'Condition:\n'
+'The Leader is "Phantom Pride - Ishtar", and the Ally is "Phantom Pride - Ishtar" or "Gospel of Stars - Saint".'},
+    
    
     
     
