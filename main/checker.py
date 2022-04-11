@@ -4426,7 +4426,7 @@ checker = [
 '⓵ Each Member launches an extra attack.\n'
 '⓶ Damage of the Team will be dealt regardless of Fixed Combo Shield.\n'
 'Condition:\n'
-'The Leader is "Harmonic of Purification - Feiyin", and the Ally is "Harmonic of Purification - Feiyin" or "Apex of Fortitude - Huaxi.'},
+'The Leader is "Harmonic of Purification - Feiyin", and the Ally is "Harmonic of Purification - Feiyin" or "Apex of Fortitude - Huaxi".'},
     
     
     
