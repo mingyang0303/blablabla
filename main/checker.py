@@ -4334,7 +4334,7 @@ checker = [
 'Condition:\n'
 'The Leader is a Beast or Dragon, with "Apex of Fortitude - Huaxi" or "Soaring Aspiration - Jichen" in the Team.'},
     
-    {'chi_name':'霏音',
+   {'chi_name':'霏音',
 'chif_name':'霏音',
 'eng_name':'feiyin',
 
@@ -4396,22 +4396,22 @@ checker = [
 '⇒ 转化为兽族强化符石\n'
 'III. 兽类及龙类成员属性符石\n'
 '⇒ 分别兼具 50% 其他符石效果\n'
-'IV. 移动符石时间剩余 ≥50%\n'
-'⇒ 该回合所受伤害减少 50%\n'
-'V. 移动符石时间剩余 <50%\n'
+'IV. 移动符石时间剩余大于或等于 50% \n'
+'⇒ 该回合所受伤害减少 50% \n'
+'V. 移动符石时间剩余小于50%\n'
 '⓵ 所有成员追打 1 次\n'
 '⓶ 所有成员无视“固定连击盾”\n'
 '发动条件：\n'
 '以“琴息濯洗 ‧ 霏音”作队长，并以“琴息濯洗 ‧ 霏音”或“少华钧天 ‧ 华曦”作战友',
 'eng_team':'Team Skill:\n\n'
-'◆ "Harmonic of Purification - Feiyin" will turn into[Beast]form after entering a Stage.\n'
-'◆ When "Harmonic of Purification - Feiyin" is in[Beast]form:\n'
+'◆ “Harmonic of Purification - Feiyin” will turn into【Beast】form after entering a Stage.\n'
+'◆ When “Harmonic of Purification - Feiyin” is in【Beast】form:\n'
 '⓵ The Monster\'s Attack & Recovery x 2.\n'
-'⓶ The Monster will turn into[Human]form upon receiving Damage from the enemy\'s attack.\n\n'
+'⓶ The Monster will turn into【Human】form upon receiving Damage from the enemy\'s attack.\n\n'
 
-'◆ III. When "Harmonic of Purification - Feiyin" is in[Human]form:\n'
+'◆ III. When “Harmonic of Purification - Feiyin” is in【Human】form:\n'
 '⓵ The Monster\'s Skill CD -1 at the end of each Round.\n'
-'⓶ "Harmonic of Purification - Feiyin" will turn into[Beast]form when its Active Skill is activated.\n'
+'⓶ “Harmonic of Purification - Feiyin” will turn into【Beast】form when its Active Skill is activated.\n'
 'Condition:\n'
 'The Leader is a Beast or Dragon, "Harmonic of Purification - Feiyin" in the Team.\n\n'
 
@@ -4420,13 +4420,13 @@ checker = [
 '⇒ The effect stays in play until 15 Runestones of a type are dissolved.\n'
 '◆ Turn Runestones of Members\' Attributes touched while moving into Enchanted Beast Runestones.\n'
 '◆ Runestones of the Beasts\' and Dragons\' Attributes also possess 50% effect of other Runestones.\n'
-'◆ When Runestone-moving time left is ≥50%,\n'
+'◆ When Runestone-moving time left is higher or equal to 50%,\n'
 '⇒ Damage received -50% this Round.\n'
-'◆ When Runestone-moving time left is < 50%:\n'
+'◆ When Runestone-moving time left is lower than 50%:\n'
 '⓵ Each Member launches an extra attack.\n'
 '⓶ Damage of the Team will be dealt regardless of Fixed Combo Shield.\n'
 'Condition:\n'
-'The Leader is "Harmonic of Purification - Feiyin", and the Ally is "Harmonic of Purification - Feiyin" or "Apex of Fortitude - Huaxi".'},
+'The Leader is "Harmonic of Purification - Feiyin", and the Ally is "Harmonic of Purification - Feiyin" or "Apex of Fortitude - Huaxi.'},
     
     
     
