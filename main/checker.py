@@ -4435,6 +4435,182 @@ checker = [
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {'chi_name':'拉普拉斯',
+'chif_name':'拉普拉斯',
+'eng_name':'laplace',
+
+'chi_act':'恶魔的幻象 CD4\n'
+'I. 完全回复生命力\n'
+'II. 队中所有“全知的恶魔 · 拉普拉斯”\n'
+'⇒ 转化为“幻象”形态\n\n'
+'恶魔的真象 CD6\n'
+'I. 点击元素法阵上的符石 2 次\n'
+'⓵ 移除首次点选的符石\n'
+'⓶ 掉落第 2 次点选的符石\n'
+'II. 将所有符石转化为\n'
+'⇒ 魔族强化符石\n'
+'1 回合内\n'
+'III. 可任意移动符石而不会发动消除\n'
+'IV. 魔族成员追打 1 次\n'
+'V. 魔族成员\n'
+'⇒ 无视“三属盾”及“五属盾”敌技\n'
+'VI. 队中所有“全知的恶魔 · 拉普拉斯”\n'
+'⇒ 转化为“真实”形态',
+'eng_act':'Phantom of Demon CD4\n'
+'I. Fully recover HP.\n'
+'II. Turn all "Demon of Omniscience - Laplace" into 【Phantom】 form.\n\n'
+'Truth of Demon CD6\n'
+'I. By tapping a Runestone on the Magic Circle of Elements twice:\n'
+'⓵ Remove the Runestones tapped for the first time.\n'
+'⓶ Generate the Runestones tapped for the second time.\n'
+'II. Turn all Runestones into Enchanted Demon Runestones.\n'
+'For 1 Round,\n'
+'III. Unlimited Runestone movement without dissolving.\n'
+'IV. Each Demon launches an extra attack.\n'
+'V. Demon Damage will be dealt regardless of Trio Elemental Shield and Quintet Elemental Shield.\n'
+'VI. Turn all "Demon of Omniscience - Laplace" into 【True】 form.',
+
+'chi_lead':'宇宙之掌\n\n'
+'I. 魔族攻击力 7.5 倍及生命力 1.4 倍\n'
+'II. 只能消除首批符石\n'
+'III. ≥3 粒相同种类的符石相连\n'
+'⇒ 即可发动消除\n'
+'IV. 必然延长移动符石时间 3 秒\n'
+'V. 首批消除 ≥15 粒符石\n'
+'⇒ 魔族攻击力额外 2 倍\n'
+'⇒ 魔族成员无视“指定形状盾”',
+'eng_lead':'Palm of Cosmos\n\n'
+'I. Demon Attack x 7.5, HP x 1.4.\n'
+'II. Only the first batch of Runestones can be dissolved.\n'
+'III. Runestones can be dissolved by grouping ≥3 of them.\n'
+'IV. Extend Runestone-moving time regardlessly by 3 seconds.\n'
+'V. By dissolving ≥15 Runestones in the first batch,\n'
+'⇒ Demon Attack x 2 additionally.\n'
+'⇒ Damage of Demons will be dealt regardless of Puzzle Shield.',
+
+'chi_team':'队伍技能：\n\n'
+'I.“全知的恶魔 · 拉普拉斯”\n'
+'⇒ 获得“幻象”及“真实”2 种形态\n'
+'II. 当“全知的恶魔 · 拉普拉斯”为“幻象”形态时\n'
+'⇒ 自身攻击力减少 50%\n'
+'III. 当“全知的恶魔 · 拉普拉斯”为“真实”形态时\n'
+'⇒ 自身攻击力 1.5 倍\n'
+'发动条件：\n'
+'以“全知的恶魔 · 拉普拉斯”作成员\n\n'
+
+'I. 进入关卡后，“全知的恶魔 · 拉普拉斯”\n'
+'⇒ 转换为“幻象”形态\n'
+'II. 当“全知的恶魔 · 拉普拉斯”为“幻象”形态时\n'
+'⓵ 于移动符石后获得以下效果：\n'
+'1 回合内，回避敌人首次攻击\n'
+'⓶ 回合结束时，\n'
+'“全知的恶魔 · 拉普拉斯”\n'
+'⇒ 转换为“真实”形态\n'
+'III. 当“全知的恶魔 · 拉普拉斯”为“真实”形态时\n'
+'⓵ 每消除 1 组符石，连击 (Combo) 数目增加 2\n'
+'⓶“全知的恶魔 · 拉普拉斯”攻击力 4 倍\n'
+'⓷ 击毙敌人后，“全知的恶魔 · 拉普拉斯”\n'
+'⇒ 转换为“幻象”形态\n'
+'发动条件：\n'
+'以“全知的恶魔 · 拉普拉斯”作队长及战友\n\n'
+
+'I. 所有符石兼具\n'
+'⇒ 其他符石效果\n'
+'II. 首批消除 ≤3 种符石\n'
+'⇒ 减少 80% 所受伤害\n'
+'III. 首批消除场上所有符石时\n'
+'⓵ 全队攻击力额外 2 倍\n'
+'⓶ 首批掉落五属魔族强化符石各 6 粒\n'
+'发动条件：\n'
+'以“全知的恶魔 · 拉普拉斯”作队长及战友\n\n'
+
+'“矛盾螺旋 ‧ 沃瓦道”\n'
+'⇒ 技能 CD 减少 2\n'
+'发动条件：\n'
+'以“全知的恶魔 · 拉普拉斯”及“矛盾螺旋 ‧ 沃瓦道”作成员\n\n'
+
+'I. 必然延长移动符石时间 2 秒\n'
+'II. 最左方的“全知的恶魔 · 拉普拉斯”\n'
+'⇒ 增加 1,000 点攻击力基值\n'
+'发动条件：\n'
+'以“魔权在握 ‧ 巴力”及“全知的恶魔 · 拉普拉斯”作成员\n\n'
+
+'组合技能：魔劫\n'
+'I. 移除场上所有符石\n'
+'⇒ 掉落固定版面的魔族强化符石\n'
+'3 回合内\n'
+'II.“魔权在握 ‧ 巴力”及“全知的恶魔 · 拉普拉斯”\n'
+'⓵ 追打 2 次\n'
+'⓶ 无视五属盾\n'
+'⓷ 不会被封锁主动技能\n'
+'III.若队长为“魔权在握 ‧ 巴力”\n'
+'⇒ 刷新护盾\n'
+'发动条件：\n'
+'以“全知的恶魔 ‧ 拉普拉斯”及“魔权在握 ‧ 巴力”作成员\n\n'
+'(召唤兽等级达 50 或以上)',
+'eng_team':'Team Skill:\n\n'
+'◆ “Demon of Omniscience - Laplace” acquires “Phantom” and “True” forms.\n'
+'◆ The following effects will be granted when “Demon of Omniscience - Laplace” turns into the forms below:\n'
+'【Phantom】\n'
+'▋The Character\'s Attack -50%\n'
+'【True】\n'
+'▋The Character\'s Attack x 1.5.\n'
+'Condition:\n'
+'There is "Demon of Omniscience - Laplace" in the Team.\n\n'
+
+'◆ “Demon of Omniscience - Laplace” will turn into “Phantom” form after entering a Stage.\n'
+'The following effects will be granted when “Demon of Omniscience - Laplace” turns into the forms below:\n'
+'【Phantom】\n'
+'⓵ The following effects will be granted upon the completion of moving Runestones:\n'
+'Dodge the 1st attack of the 1st attacking enemy for 1 Round.\n'
+'⓶ At the end of the Round,\n'
+'“Demon of Omniscience - Laplace” will be changed into 【True】 form.\n'
+'【True】\n'
+'⓵ Combo count +2 for every group of Runestones dissolved.\n'
+'⓶ Attack of “Demon of Omniscience - Laplace” x 4.\n'
+'⓷ After an enemy is defeated,\n'
+'“Demon of Omniscience - Laplace” will be changed into 【Phantom】 form.\n'
+'◆ All Runestones also possess the effect of other Runestones.\n'
+'◆ If ≤3 types of Runestones are dissolved in the first batch,\n'
+'⇒ Damage received -80%.\n'
+'◆ If all Runestones are dissolved in the first batch,\n'
+'⓵ Team Attack x 2 additionally.\n'
+'⓶ The first batch of Runestones to be dropped will be Enchanted Demon Runestones of 5 Attributes (6 for each).\n'
+'Condition:\n'
+'Both the Leader and Ally are "Demon of Omniscience - Laplace".\n\n'
+
+'◆ “Helix of Contradictory - Vorvadoss”\n'
+'⇒ Active Skill CD -2.\n'
+'Condition:\n'
+'There are "Demon of Omniscience - Laplace" and "Helix of Contradictory - Vorvadoss" in the Team.\n\n'
+
+'◆ Extend Runestone-moving time regardlessly by 2 seconds.\n'
+'◆ Attack basic value of the leftmost "Demon of Omniscience - Laplace" +1,000.\n'
+'Condition:\n'
+'There are "Absolute Authoritarian - Baal" and “Demon of Omniscience - Laplace” in the Team.\n\n'
+
+'Combine Skill - Calamity of Demons\n'
+'I. Remove all Runestones\n'
+'⇒ to generate Enchanted Demon Runestones at fixed positions.\n'
+'For 3 Rounds,\n'
+'II. “Absolute Authoritarian - Baal” & “Demon of Omniscience - Laplace”:\n'
+'⓵ Launch 2 extra attacks.\n'
+'⓶ Damage will be dealt regardless of Quintet Elemental Shield.\n'
+'⓷ Active Skills will not be locked.\n'
+'III. If the Leader is “Absolute Authoritarian - Baal”,\n'
+'⇒ refresh the protective shield.\n'
+'Condition:\n'
+'There are "Absolute Authoritarian - Baal" and “Demon of Omniscience - Laplace” in the Team.'},
+    
     {'chi_name':'贾比尔',
 'chif_name':'賈比爾',
 'eng_name':'jabir',
