@@ -4447,7 +4447,86 @@ checker = [
     
     
     
-    
+    {'chi_name':'玛雅',
+'chif_name':'瑪雅',
+'eng_name':'maya',
+
+'chi_act':'突破之结界 ‧ 强 CD6\n\n'
+'I. 将所有符石转化为强化符石\n'
+'1 回合内\n'
+'II. 光属性、神族、魔族攻击力 2 倍\n'
+'III. 光属性“神族及魔族”\n'
+'⓵ 则攻击力 2.5 倍\n'
+'⓶ 无视“固定连击盾”\n'
+'IV. 光、暗、心符石互相兼具效果',
+'eng_act':'Magic Field of Enchantment - EX CD6\n\n'
+'I. Turn all Runestones into Enchanted Runestones.\n'
+'For 1 Round:\n'
+'II. Attack of Light Members, Gods and Demons x 2.\n'
+'III. For Light Gods and Light Demons,\n'
+'⓵ Attack x 2.5.\n'
+'⓶ Damage will be dealt regardless of Fixed Combo Shield.\n'
+'IV. Light, Dark and Heart Runestones also possess the effect of each other.',
+
+'chi_lead':'玄华独尊 ‧ 崇\n\n'
+'I. 光属性生命力、攻击力、回复力 1.5 倍\n'
+'II. 光及暗符石兼具\n'
+'⇒ 50% 心符石效果\n'
+'III. 暗符石兼具 50% 光符石效果\n'
+'IV. 心符石兼具光符石效果\n'
+'V. 消除光、暗、心符石其中 2 种符石\n'
+'⇒ 光属性攻击力额外 7 倍',
+'eng_lead':'Total Supremacy of Illumination\n\n'
+'I. Light HP, Attack & Recovery x 1.5.\n'
+'II. Light and Dark Runestones also possess 50% effect of Heart Runestones.\n'
+'III. Dark Runestones also possess 50% effect of Light Runestones.\n'
+'IV. Heart Runestones also possess the effect of Light Runestones.\n'
+'V. If 2 out of 3 types of Runestones (Light, Dark & Heart) are dissolved in the same Round, Light Attack x 7 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'每合计消除 3 粒光、暗或心符石时\n'
+'⇒ 光属性攻击力提升\n'
+'⇒ 消除 30 粒可提升至最大 5 倍\n'
+'发动条件：\n'
+'以“开世的文明 ‧ 玛雅”作队长及战友\n\n'
+
+'队长的队长技能“玄华独尊 ‧ 崇”\n'
+'⇒ 变为“玄华独尊 ‧ 崇极”\n'
+'I. 光属性生命力、攻击力、回复力 1.6 倍\n'
+'II. 延长移动符石时间至 10 秒\n'
+'III. 光及暗符石兼具\n'
+'⇒ 50% 心符石效果\n'
+'IV. 暗及心符石兼具光符石效果\n'
+'V. 水、火、木符石兼具\n'
+'⇒ 50% 光符石效果\n\n'
+
+'VI. 消除光、暗、心符石其中 2 种符石时\n'
+'⇒ 光属性攻击力额外 7 倍\n'
+'VII. ≥3 粒相同种类的符石相连，即可发动消除\n'
+'VIII. 所有符石掉落率不受其他技能影响\n'
+'(包括改变掉落符石属性的技能)\n'
+'IX. 回合结束时，可点选“X 型”\n'
+'⇒ 引爆 10 个固定位置的符石\n'
+'X. 没有点选时，将“X 型”位置的符石\n'
+'⇒ 转化为光强化符石\n'
+'发动条件：\n'
+'以“开世的文明 ‧ 玛雅”作队长',
+'eng_team':'Team Skill:\n\n'
+'◆ For every 3 Light, Dark or Heart Runestones dissolved, Light Attack increases additionally, to the max x 5 for 30 Runestones dissolved.\n'
+'◆ Change the Leader Skill of the Leader from "Total Supremacy of Illumination" to "Total Supremacy of Illumination - EX".\n'
+'I. Light HP, Attack & Recovery x 1.6.\n'
+'II. Extend Runestone-moving time to 10 seconds.\n'
+'III. Light and Dark Runestones also possess 50% effect of Heart Runestones.\n'
+'IV. Dark and Heart Runestones also possess the effect of Light Runestones.\n'
+'V. Water, Fire and Earth Runestones also possess 50% effect of Light Runestones.\n\n'
+
+'VI. If 2 out of 3 types of Runestones (Light, Dark & Heart) are dissolved in the same Round, Light Attack x 7 additionally.\n'
+'VII. Runestones can be dissolved by grouping ≥3 of them.\n'
+'VIII. Drop rate of all Runestones will not be affected by Amelioration or Skills (including those altering the Attribute of dropping Runestones).\n'
+'IX. At the end of the Round, Summoner can choose whether to explode 10 Runestones at fixed positions (in the shape of "X") or not.\n'
+'X. If Runestones are not exploded, turn Runestones at fixed positions into Enchanted Light Runestones.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Dawn of Civilization - Maya".'},
     
     {'chi_name':'亚特兰堤斯',
 'chif_name':'亞特蘭堤斯',
