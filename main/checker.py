@@ -4442,7 +4442,77 @@ checker = [
     
     
     
-    
+    {'chi_name':'潘朵拉',
+'chif_name':'潘朵拉',
+'eng_name':'pandora',
+
+'chi_act':'绝望的诅咒 CD6\n\n'
+'I. 引爆所有风化、冻结、弱化、电击、石化符石\n'
+'II. 点选元素法阵上的 1 种属性\n'
+'⇒ 所有成员追打该属性攻击 1 次\n'
+'III. 若队伍中只有妖精类成员\n'
+'⇒ 将所有符石转化为妖族强化符石',
+'eng_act':'Imprecation of Desperation CD6\n\n'
+'I. Explode all Weathered, Frozen, Weakened, Electrified and Petrified Runestones.\n'
+'II. By tapping an Attribute on the Magic Circle of Elements, each Member launches an extra attack of that Attribute.\n'
+'III. If the Team consists of only Elves, turn all Runestones into Enchanted Elf Runestones.',
+
+'chi_lead':'万恶之源\n\n'
+'I. 妖精类生命力、攻击力、回复力 1.6 倍\n'
+'II. 达至 ≥5 连击 (Combo)\n'
+'⓵ 全队攻击力额外 2 倍\n'
+'⓶ 妖精类攻击力则额外 5 倍\n'
+'III. 必然延长移动符石时间 1.5 秒\n'
+'IV. 所有符石兼具 300% 其他符石效果',
+'eng_lead':'Source of Sins\n\n'
+'I. Elf HP, Attack & Recovery x 1.6.\n'
+'II. When ≥5 Combos are made,\n'
+'⓵ Team Attack x 2 additionally,\n'
+'⓶ Elf Attack x 5 additionally.\n'
+'III. Extend Runestone-moving time regardlessly by 1.5 seconds.\n'
+'IV. All Runestones also possess 300% effect of other Runestones.',
+
+'chi_team':'队伍技能：\n\n'
+'所有成员的回复力跟随回复力最高的成员\n'
+'发动条件：\n'
+'以“希望之盒 ‧ 潘朵拉”作成员，且队中只有妖精类成员\n\n'
+
+'I. 进入关卡后，将龙脉仪储满\n'
+'II. 获得“潘朵拉盒子”能力：\n'
+'3 回合内\n'
+'I. 最左方及最右方直行的符石\n'
+'⇒ 不能消除及引爆\n'
+'II. 当前生命力全满时\n'
+'⇒ 所受伤害不会使你死亡\n'
+'III. 每消除 1 连击 (Combo)\n'
+'⇒ 额外计算多 4 连击 (Combo)\n'
+'于回合开始时点击已储满的龙脉仪\n'
+'⇒ 可触发“潘朵拉盒子”能力\n'
+'发动条件：\n'
+'以“希望之盒 ‧ 潘朵拉”作队长及战友\n\n'
+
+'将每个成员回复力基值的 5 倍\n'
+'⇒ 各自加入自身攻击力基值\n'
+'发动条件：\n'
+'以“希望之盒 ‧ 潘朵拉”作队长及战友，且队伍中只有妖精类成员',
+'eng_team':'Team Skill:\n\n'
+'◆ Change the Craft Apparatus into the "Pandora\'s Box" with the following Skills:\n'
+'◆ For 3 Rounds:\n'
+'I. The columns of Runestones on the far left and far right sides cannot be dissolved or exploded.\n'
+'II. When HP is full, the Damage received will not lead to your defeat.\n'
+'III. Combo count +4 for every Combo made.\n'
+'◆ The "Pandora\'s Box" can be activated at the beginning of the Round by tapping the fully charged Craft Apparatus.\n'
+'◆ The Craft Apparatus will be fully charged after entering a Stage.\n'
+'Condition:\n'
+'Both the Leader and Ally are "The Box of Hope - Pandora".\n\n'
+
+'◆ Recovery basic value of all Members will synchronize with that of the Member that has the highest Recovery.\n'
+'Condition:\n'
+'The Team has only Elves, with "The Box of Hope - Pandora" in the Team.\n\n'
+
+'◆ Add 5x Recovery basic value of each Monster into its own Attack.\n'
+'Condition:\n'
+'Both the Leader and Ally are "The Box of Hope - Pandora", with only Elves in the Team.'},
     
     {'chi_name':'拉普拉斯',
 'chif_name':'拉普拉斯',
