@@ -4439,7 +4439,86 @@ checker = [
     
     
 
-    
+    {'chi_name':'唐三藏',
+'chif_name':'唐三藏',
+'eng_name':'tangsanzang',
+
+'chi_act':'弘扬大义 ‧ 除障 CD5\n\n'
+'I. 移除所有电击、风化、冻结、石化符石\n'
+'⇒ 掉落随机种族符石\n'
+'1 回合内\n'
+'II. 光属性攻击力及回复力 2.2 倍\n'
+'III. 队中所有成员的攻击力基值相同时\n'
+'⇒ 所有符石兼具其他符石效果',
+'eng_act':'Tripitaka of Light Divinity CD5\n\n'
+'I. Remove all Electrified, Weathered, Frozen and Petrified Runestones to generate random Race Runestones.\n'
+'For 1 Round:\n'
+'II. Light Attack and Recovery x 2.2.\n'
+'III. When all Members have the same Attack basic value,\n'
+'⇒ all Runestones also possess the effect of other Runestones.',
+
+'chi_lead':'种族凝汇 ‧ 光之暴\n\n'
+'队伍中有 ≥3 种族成员时：\n'
+'I. 光属性攻击力 6 倍\n'
+'II. 每消除 1 种“种族符石”\n'
+'⇒ 光属性攻击力额外 1.5 倍',
+'eng_lead':'Convergence of Races - Beam\n\n'
+'If there are 3 or more Races in the Team:\n'
+'I. Light Attack x 6.\n'
+'II. For each Race of Race Runestones dissolved, Light Attack x 1.5 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'队长的队长技能“种族凝汇 ‧ 光之暴”变为“种族凝汇 ‧ 极光之暴”，当中所有成员的生命力基值、攻击力基值及回复力基值分别跟随生命力基值、攻击力基值及回复力基值最高的成员，光符石的掉落率提升，必然延长移动符石时间 2 秒\n'
+'发动条件：\n'
+'以大乘儆恶 ‧ 唐三藏作队长及战友\n\n'
+
+'流沙河魔将 ‧ 沙僧转换为光属性\n'
+'发动条件：\n'
+'以大乘儆恶 ‧ 唐三藏作队长及战友，并以流沙河魔将 ‧ 沙僧作队员\n\n'
+
+'天蓬使者・猪八戒转换为光属性\n'
+'发动条件：\n'
+'以大乘儆恶 ‧ 唐三藏作队长及战友，并以天蓬使者・猪八戒作队员\n\n'
+
+'“化戾金仙 ‧ 孙悟空”发动攻击时\n'
+'⇒ 额外追打五属攻击各 1 次\n'
+'发动条件：\n'
+'以“大乘儆恶 ‧ 唐三藏”作队长及战友并以“化戾金仙 ‧ 孙悟空”作队员\n\n'
+
+'I. 每回合随机将 5 粒非种族符石\n'
+'⇒ 添加为队中成员种族符石\n'
+'II. 消除种族符石时\n'
+'⇒ 全队攻击力额外 5 倍\n'
+'III. 队长增加 5,000 点生命力基值\n'
+'发动条件：\n'
+'以“大乘儆恶 ‧ 唐三藏”作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ Drop rate of Light Runestones increases.\n'
+'◆ Extend Runestone-moving time regardlessly by 2 seconds.\n'
+'◆ Change the Leader Skill of the Leader from "Convergence of Races - Beam" to "Convergence of Races - Beam EX".\n'
+'If there are 3 or more Races in the Team:\n'
+'I. Light Attack x 6.\n'
+'II. For each Race of Race Runestones dissolved, Light Attack x 1.5 additionally.\n'
+'III. HP, Attack & Recovery basic value of all Members will synchronize with that of the Member that has the highest HP, Attack & Recovery.\n\n'
+
+'◆ Modify 5 random non-Race Runestones to become Runestones of Members\' Races each Round.\n'
+'◆ By dissolving Race Runestones,\n'
+'⇒ Team Attack x 5 additionally.\n'
+'◆ Leader\'s HP basic value +5,000.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Mahayana Punisher - Tang Sanzang".\n\n'
+
+'◆ Change the Attribute of Sha Seng the Sand Fiend into Light.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Mahayana Punisher - Tang Sanzang", with "Sha Seng the Sand Fiend" in the Team.\n\n'
+
+'◆ Change the Attribute of Zhu Bajie the Heavenly Marshal into Light.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Mahayana Punisher - Tang Sanzang", with "Zhu Bajie the Heavenly Marshal" in the Team.\n\n'
+
+'◆ 5 extra attacks (one Attribute each) will be launched by "Tranquil Transcendence - Sun Wukong" when it attacks.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Mahayana Punisher - Tang Sanzang", with "Tranquil Transcendence - Sun Wukong" in the Team.'},
     
     {'chi_name':'庞贝',
 'chif_name':'龐貝',
