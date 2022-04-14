@@ -4436,9 +4436,153 @@ checker = [
     
     
     
+    {'chi_name':'青圭变身',
+'chif_name':'青圭變身',
+'eng_name':'qingguitrans',
+
+'chi_act':'苍璧诱敌 CD5\n'
+'点选元素法阵上的 1 粒符石\n'
+'I. 将该种属性符石转化为龙族强化符石\n'
+'II. 并将敌方全体转为该属性持续 5 回合\n'
+'III. 1 回合内，自身攻击力 5 倍\n\n'
+'原璧之固 CD6\n'
+'3 回合内\n'
+'I. 心符石的掉落率降至 0并将原有几率增加至\n'
+'⇒ 其他符石的掉落率\n'
+'II. 队伍不受中毒技能影响\n'
+'III. 木属性及龙类攻击力 2 倍',
+'eng_act':'	Allure of the Jade CD5\n'
+'I. By tapping a Runestone on the Magic Circle of Elements, Runestones of that type will be turned into Enchanted Dragon Runestones.\n'
+'II. Turn all enemies\' into that Attribute for 5 Rounds.\n'
+'III. The Monster\'s Attack x 5 for 1 Round.\n\n'
+'Solidity of the Jade CD6\n'
+'For 3 Rounds:\n'
+'I. Drop rate of Heart Runestones will be transferred to that of other Runestones.\n'
+'II. The Team will not be poisoned.\n'
+'III. Earth and Dragon Attack x 2.',
+
+'chi_lead':'绝世奇玉\n\n'
+'I. 龙类攻击力 6 倍及生命力 1.4 倍队伍中只有龙类成员时：\n'
+'II. 水、木、暗符石分别兼具\n'
+'⇒ 50% 其他属性符石效果\n'
+'III. 首批消除的连击 (Combo) 数目\n'
+'⇒ 会加入下回合的连击 (Combo) 数目\n'
+'⇒ 下回合随机转化相应粒数的龙族强化符石',
+'eng_lead':'Jade of Supremacy\n\n'
+'I. Dragon Attack x 6 & HP x 1.4.\n'
+'When the Team has only Dragons:\n'
+'II. Water, Earth and Dark Runestones also possess 50% effect of other Attributive Runestones.\n'
+'III. For Combos made in the first batch:\n'
+'⇒ Combos will be added to the next Round.\n'
+'⇒ Runestones of the same number will be turned into Enchanted Dragon Runestones in the next Round',
+
+'chi_team':'队伍技能：\n\n'
+'I. 进入关卡后\n'
+'⇒ 龙类成员的主动技能 CD 变 0\n'
+'II. 龙类成员每 1 次发动主动技能\n'
+'⇒ 永久提升全队攻击力\n'
+'⇒ 发动 20 次可提升至最大 6 倍\n'
+'III. 连击 (Combo) 数目愈多\n'
+'⇒ 攻击力提升愈多\n'
+'⇒ 15 连击可达至最大 2.5 倍\n'
+'IV. 延长移动符石时间 3 秒\n'
+'V. 每消除 1 粒龙族符石\n'
+'⇒ 回复 3,000 点生命力\n'
+'⇒ 消除 30 粒可回复最多 90,000 点\n'
+'发动条件：\n'
+'以“和氏之璧 ‧ 青圭”或 “纹龙啸息 ‧ 青圭”作队长及战友\n\n'
+'能量储存条件：1 回合内消除 3 粒或以上的木符石',
+'eng_team':'Team Skill:\n\n'
+'◆ After entering a stage, Active Skill CDs of Dragons become 0.\n'
+'◆ Every time a Dragon activating its Skill, Team Attack increases onwards, to the max x 6 for 20 times.\n'
+'◆ The more the Combos made, the higher the Team Attack increases additionally, to the max x 2.5 for 15 Combos.\n'
+'◆ Extend Runestone-moving time by 3 seconds.\n'
+'◆ For each Dragon Runestone dissolved,\n'
+'⇒ recover 3,000 HP\n'
+'⇒ to the max 90,000 HP for 30 Runestones dissolved.\n'
+'Condition:\n'
+'The Leader and Ally are "Jade of Prestige - Qing Gui" or "Howl of Rune Dragon - Qing Gui".\n\n'
+
+'* EP stacking condition: \n'
+'Dissolve ≥3 Earth Runestones in 1 Round\n'
+'⇒ EP +1,\n'
+'⇒ to the max +1 each Round.'},
     
-    
-    
+    {'chi_name':'青圭',
+'chif_name':'青圭',
+'eng_name':'qinggui',
+
+'chi_act':'苍璧诱敌 CD5\n'
+'点选元素法阵上的 1 粒符石\n'
+'I. 将该种属性符石转化为龙族强化符石\n'
+'II. 并将敌方全体转为该属性持续 5 回合\n'
+'III. 1 回合内，自身攻击力 5 倍\n\n'
+'变身 CD8\n'
+'变身,\n'
+'所有符石转化为龙族符石\n'
+'（变身后技能请查看/check 青圭变身）',
+'eng_act':'Allure of the Jade\n'
+'I. By tapping a Runestone on the Magic Circle of Elements, Runestones of that type will be turned into Enchanted Dragon Runestones.\n'
+'II. Turn all enemies\' into that Attribute for 5 Rounds.\n'
+'III. The Monster\'s Attack x 5 for 1 Round.\n\n'
+'Switching CD8\n'
+'Switch. Modify all Runestones to become Dragon Runestones.\n'
+'(Active Skill after switching please check /check qingguitrans)',
+
+'chi_lead':'惊世璞玉\n\n'
+'I. 龙类攻击力 5 倍及生命力 1.8 倍\n'
+'II. 消除龙族符石时\n'
+'⇒ 自身攻击力 2.5 倍\n'
+'III. ≥3 个龙类成员发动攻击时\n'
+'⇒ 全队攻击力额外 2.4 倍\n'
+'IV. 队伍中只有龙类成员时\n'
+'⇒ 木符石兼具 25% 其他属性符石效果',
+'eng_lead':'Jade of Superiority\n\n'
+'I. Dragon Attack x 5 & HP x 1.8.\n'
+'II. By dissolving Dragon Runestones,\n'
+'⇒ the Monster\'s Attack x 2.5.\n'
+'III. When ≥3 Dragons launch attacks in the same Round,\n'
+'⇒ Team Attack x 2.4 additionally.\n'
+'IV. When the Team has only Dragons,\n'
+'⇒ Earth Runestones also possess 25% effect of other Attributive Runestones.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 进入关卡后\n'
+'⇒ 龙类成员的主动技能 CD 变 0\n'
+'II. 龙类成员每 1 次发动主动技能\n'
+'⇒ 永久提升全队攻击力\n'
+'⇒ 发动 20 次可提升至最大 6 倍\n'
+'III. 连击 (Combo) 数目愈多\n'
+'⇒ 攻击力提升愈多\n'
+'⇒ 15 连击可达至最大 2.5 倍\n'
+'IV. 延长移动符石时间 3 秒\n'
+'V. 每消除 1 粒龙族符石\n'
+'⇒ 回复 3,000 点生命力\n'
+'⇒ 消除 30 粒可回复最多 90,000 点\n'
+'发动条件：\n'
+'以“和氏之璧 ‧ 青圭”或 “纹龙啸息 ‧ 青圭”作队长及战友\n'
+'＊此召唤兽于 CD 0 时可以变身，变身后将以消耗能量点的方式发动技能。召唤兽的技能等级愈高，发动技能时所需的能量值愈低。变身时，能量点为全满状态 (12 点)；当能量点未满时，可以于 1 回合内消除 3 粒或以上的木符石，以储存 1 点能量点。',
+'eng_team':'Team Skill:\n\n'
+'◆ After entering a stage, Active Skill CDs of Dragons become 0.\n'
+'◆ Every time a Dragon activating its Skill, Team Attack increases onwards, to the max x 6 for 20 times.\n'
+'◆ The more the Combos made, the higher the Team Attack increases additionally, to the max x 2.5 for 15 Combos.\n'
+'◆ Extend Runestone-moving time by 3 seconds.\n'
+'◆ For each Dragon Runestone dissolved,\n'
+'⇒ recover 3,000 HP\n'
+'⇒ to the max 90,000 HP for 30 Runestones dissolved.\n'
+'Condition:\n'
+'The Leader and Ally are "Jade of Prestige - Qing Gui" or "Howl of Rune Dragon - Qing Gui".\n\n'
+
+'【Switch】\n'
+'I. This Character can Switch to another form when its Skill CD reaches 0.\n'
+'⇒ After Switching, Skills can be activated through consuming Energy Points (EPs).\n'
+'II. The higher the Character\'s Skill Level,\n'
+'⇒ the fewer EPs it needs to activate its Skills.\n'
+'III. Character\'s EPs will be at maximum (12 EPs) after Switching.\n'
+'IV. If EPs are consumed, Summoner can restack them:\n'
+'Dissolve ≥3 Earth Runestones in 1 Round\n'
+'⇒ EP +1,\n'
+'⇒ to the max +1 each Round.'},
     
     {'chi_name':'艾莉亚',
 'chif_name':'艾莉亞',
