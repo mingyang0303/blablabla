@@ -4454,7 +4454,7 @@ checker = [
 'III. 无视“指定形状盾”及“攻前盾”\n'
 'IV.“炙焰城主 ‧ 庞贝”的攻击\n'
 '⇒ 无视“五属盾”',
-'eng_act':'Breakthrough of Tricolor Siege Cd8\n\n'
+'eng_act':'Breakthrough of Tricolor Siege CD8\n\n'
 'I. Release the locked Skills of Machinas.\n'
 '(This Skill will not be locked)\n'
 'II. Remove all Runestones to generate Enchanted Water, Enchanted Fire and Enchanted Earth Runestones of fixed numbers and fixed positions.\n'
