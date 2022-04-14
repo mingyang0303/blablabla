@@ -4435,7 +4435,75 @@ checker = [
     
     
     
-    
+    {'chi_name':'贾比尔',
+'chif_name':'賈比爾',
+'eng_name':'jabir',
+
+'chi_act':'惊世之步、炼丹术 CD6\n\n'
+'每次只能选取 1 个效果。\n'
+'效果1：1 回合内\n'
+'I. 移动的步数愈多，全队攻击力提升愈多\n'
+'⇒ 移动 20 步攻击力可提升至最大 3 倍\n\n'
+
+'若队伍中只有兽类成员：\n'
+'1 回合内\n'
+'II. 兽类成员的攻击伤害可克制敌人\n'
+'III. 无视“燃烧”(不包括“炼狱之火”)\n'
+'IV. 无视“黏腐”敌技\n'
+'V. 触碰电击符石时仍可移动符石\n\n'
+
+'效果2：I. 回复相当于兽类成员 2 倍的生命力\n'
+'II. 1 回合内，延长移动符石时间至 12 秒',
+'eng_act':'Phenomenal Power of Steps & Mystery of Alchemy CD6\n\n'
+'Only one effect can be selected for 1 Round.\n'
+'Effect One:\n'
+'I. The more the steps moved while moving Runestones, the higher the Team Attack, to the max x 3 for 20 steps moved.\n\n'
+
+'When the Team consists of only Beasts:\n'
+'II. Damage dealt by Beasts can overpower the enemies.\n'
+'II. Boss Skills "Burning" (excluding "Hellfire") and "Sticky Land" will be nullified.\n'
+'III. Runestone movement will not be stopped when an Electrified Runestone is touched.\n\n'
+
+'Effect Two:\n'
+'I. Recover HP as much as 2x HP of Beasts in the Team.\n'
+'II. For 1 Round, extend Runestone-moving time to 12 seconds.',
+
+'chi_lead':'元素之核\n\n'
+'队中只有兽类成员时：\n'
+'I. 全队攻击力 8 倍、生命力及回复力 1.5 倍\n'
+'II. 所有符石兼具\n'
+'⇒ 50% 其他符石效果\n'
+'III. 消除兽族符石\n'
+'⇒ 全队攻击力额外 2.5 倍',
+'eng_lead':'Core of Elements\n\n'
+'When the Team has only Beasts:\n'
+'I. Team Attack x 8, HP & Recovery x 1.5.\n'
+'II. All Runestones also possess 50% effect of other Runestones.\n'
+'III. By dissolving Beast Runestones,\n'
+'⇒ Team Attack x 2.5 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 必然延长移动符石时间 3 秒\n'
+'II. 移动符石时间每过 0.5 秒\n'
+'⇒ 即时扣除自身总生命力 6.25%\n'
+'(最多扣至 1 血)\n'
+'III. 根据此队伍技能所扣除的总生命力\n'
+'⇒ 提升兽类攻击力\n'
+'⇒ 最多可提升至 4 倍\n'
+'发动条件：\n'
+'以“贤者之石 ‧ 元兽贾比尔”作队长及战友\n\n'
+
+'将移动符石时触碰的符石\n'
+'⇒ 添加为兽族符石\n'
+'发动条件：\n'
+'以“贤者之石 ‧ 元兽贾比尔”作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ Extend Runestone-moving time regardlessly by 3 seconds.\n'
+'◆ For every 0.5 seconds of Runestone-moving time used, deduct HP by 6.25% of total HP (bottom out at 1).\n'
+'◆ Beast Attack increases additionally in proportion to total HP deducted, to the max x 4 additionally.\n'
+'◆ Modify all Runestones touched while moving to become Beast Runestones.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Philosopher\'s Legend - Jabir".'},
     
     {'chi_name':'罗刹女',
 'chif_name':'羅剎女',
