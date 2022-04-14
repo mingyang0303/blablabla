@@ -4520,7 +4520,7 @@ checker = [
 
 '◆ Alter the Attribute of "Shackles of Souls - Anubis" into Light.\n'
 'Condition:\n'
-'The Team has only "Shackles of Souls - Anubis", "Soaring Sacredness - Horus" and Light Gods.'}
+'The Team has only "Shackles of Souls - Anubis", "Soaring Sacredness - Horus" and Light Gods.'},
     
     {'chi_name':'玛雅',
 'chif_name':'瑪雅',
