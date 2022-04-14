@@ -4449,7 +4449,90 @@ checker = [
     
     
     
-    
+    {'chi_name':'亚特兰堤斯',
+'chif_name':'亞特蘭堤斯',
+'eng_name':'atlantis',
+
+'chi_act':'自由激涛 ‧ 涌 CD8\n'
+'I. 15 秒内，可任意移动符石而不会发动消除\n'
+'1 回合内\n'
+'II. 全队攻击力 2.2 倍\n'
+'III. 若队中只有水属性成员\n'
+'⇒ 水符石 1 粒即可发动消除\n'
+'⇒ 效果持续至消除 30 粒水符石\n\n'
+'睿智急流 CD3\n'
+'将 5 至 8 粒符石\n''
+'⇒ 转化为水强化符石 (心符石优先转换)',
+'eng_act':'Tide of Freedom CD8\n'
+'I. Unlimited Runestone movement without dissolving in 15 seconds.\n'
+'For 1 Round,\n'
+'II. Team Attack x 2.2.\n'
+'III. If the Team has only Water Monsters,\n'
+'⇒ Water Runestones can be dissolved singly or in groups of 2 or more.\n'
+'⇒ The effect stays in play until 30 Water Runestones are dissolved.\n\n'
+'Stream of Wisdom CD3\n'
+'Turn 5 to 8 Runestones into Enchanted Water Runestones (Heart Runestones rank first in priority).',
+
+'chi_lead':'海渊凝念 ‧ 强\n\n'
+'队中只有水属性成员时：\n'
+'I. 全队攻击力 6.5 倍及生命力 1.5 倍\n'
+'II. 每消除 1 粒水符石\n'
+'⇒ 回复 3% 总生命力 (受连击 (Combo) 加乘影响)\n'
+'III. 若首批消除的连击 (Combo) 数为单数时\n'
+'⓵ 减少 40% 所受伤害\n'
+'⓶ 所有成员的攻击无视五属盾\n'
+'IV. 若首批消除的连击 (Combo) 数为双数时\n'
+'⇒ 全队攻击力额外 2.5 倍\n'
+'V. 若首批消除的连击 (Combo) 数 ≥6\n'
+'⇒ 可以同时获得 III, IV 效果',
+'eng_lead':'Deep Notion of the Ocean - EX\n\n'
+'When the Team has only Water Monsters:\n'
+'I. Team Attack x 6.5 & HP x 1.5.\n'
+'II. Recover 3% of total HP for each Water Runestone dissolved (affected by Combo bonus).\n'
+'III. When Combos of odd numbers are made in the first batch,\n'
+'⓵ Damage received -40%.\n'
+'⓶ Damage of the Team will be dealt regardless of "Quintet Elemental Shield".\n'
+'IV. When Combos of even numbers are made in the first batch,\n'
+'⇒ Team Attack x 2.5 additionally.\n'
+'V. When ≥6 Combos are dissolved in the first batch,\n'
+'⇒ Effects III & IV will be triggered.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 队中成员每 1 次发动主动技能\n'
+'⇒“明悟睿涛 ‧ 亚特兰堤斯”的技能 CD -1 (技能发动者除外)\n'
+'II.“明悟睿涛 ‧ 亚特兰堤斯”\n'
+'发动技能的回合\n'
+'⇒“明悟睿涛 ‧ 亚特兰堤斯”攻击力 2 倍\n'
+'发动条件：\n'
+'以“明悟睿涛 ‧ 亚特兰堤斯”作成员\n\n'
+
+'I. 水符石的掉落率提升至 40%\n'
+'II. 掉落的水符石\n'
+'⇒ 以水强化符石代替\n'
+'III. 必然延长移动符石时间 3 秒\n'
+'IV. 无视“黏腐”敌技\n'
+'V. 触碰电击符石时仍可移动符石\n'
+'VI. 首批消除所有水符石时\n'
+'⇒ 全队攻击力 4 倍\n'
+'发动条件：\n'
+'以“明悟睿涛 ‧ 亚特兰堤斯”作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ I. Every time a Monster activates its Skill,\n'
+'⇒ Skill CD of “Tide of Wisdom - Atlantis” -1 (except the one activating its Skill).\n'
+'◆ II. Upon the Round of activation of the Skill of "Tide of Wisdom - Atlantis”,\n'
+'⇒ Attack of "Tide of Wisdom - Atlantis” x 2.\n'
+'Condition:\n'
+'There is "Tide of Wisdom - Atlantis" in the Team.\n\n'
+
+'◆ Drop rate of Water Runestones increases to 40%.\n'
+'◆ All Water Runestones to be dropped will be Enchanted Water Runestones.\n'
+'◆ Extend Runestone-moving time regardlessly by 3 seconds.\n'
+'◆ Boss Skill "Sticky Land" will be nullified.\n'
+'◆ Runestone movement will not be stopped when an Electrified Runestone is touched.\n'
+'◆ By dissolving all Water Runestones in the first batch,\n'
+'⇒ Team Attack x 4.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Tide of Wisdom - Atlantis".'},
     
     {'chi_name':'希1',
 'chif_name':'希1',
