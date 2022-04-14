@@ -4445,7 +4445,82 @@ checker = [
     
     
     
-    
+{'chi_name':'阿努比斯',
+'chif_name':'阿努比斯',
+'eng_name':'anubis',
+
+'chi_act':'断魂冥渊 CD5\n\n'
+'I. 全队攻击力 1.5 倍\n'
+'II. 自身属性符石掉落率提升\n'
+'III. 自身属性符石\n'
+'⇒ 兼具 50% 心符石效果\n'
+'IV. 发动此技能及回合结束时\n'
+'⇒ 将自身属性符石转化为神族强化符石\n'
+'(效果会在关闭此技能或死亡后消失)\n\n'
+
+'此技能可随时关闭，关闭时：\n'
+'⓵ 引爆自身及身旁神族成员直行符石\n'
+'⇒ 掉落强化符石\n'
+'1 回合内\n'
+'⓶ 神族攻击力及回复力 2 倍\n'
+'⓷“冥魂判守 ‧ 阿努比斯”的技能 CD - 2',
+'eng_act':'Flow of Soul-reaping Shadow - EX CD5\n\n'
+'I. Team Attack x 1.5.\n'
+'II. Increase the drop rate of Runestones of the Character\'s Attribute.\n'
+'III. Runestones of the Character\'s Attribute also possess 50% effect of Heart Runestones.\n'
+'IV. Upon Skill activation and at the end of the Round,\n'
+'⇒ turn Runestones of the Character\'s Attribute into Enchanted God Runestones.\n'
+'(The Skill stays in play until deactivation or defeat.)\n\n'
+
+'This Skill can be deactivated anytime. Upon deactivation of the Skill:\n'
+'⓵ Explode the columns below the Character and neighboring God(s) to generate Enchanted Runestones.\n'
+'For 1 Round:\n'
+'⓶ God Attack & Recovery x 2.\n'
+'⓷ Skill CD of “Shackles of Souls - Anubis” -2.',
+
+'chi_lead':'无上神权 ‧ 制裁\n\n'
+'I. 神族攻击力 7 倍\n'
+'II. 消除属性强化符石\n'
+'⇒ 该属性攻击力额外 2 倍\n'
+'III. 自身发动技能时\n'
+'⇒ 神族攻击力额外 2 倍',
+'eng_lead':'Omnipotence of Gods - EX\n\n'
+'I. God Attack x7.\n'
+'II. By dissolving Enchanted Attributive Runestones,\n'
+'⇒ Attack of that Attribute x 2 additionally.\n'
+'III. Upon activation of the Character\'s Skill,\n'
+'⇒ God Attack x 2 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'最左方的“冥魂判守 ‧ 阿努比斯”及最左方的各属“埃及皇权”系列成员\n'
+'⇒“生命力、攻击力、回复力”基值 1.5 倍\n'
+'发动条件：\n'
+'以“冥魂判守 ‧ 阿努比斯”及“埃及皇权”系列角色作成员\n\n'
+
+'“冥魂判守 ‧ 阿努比斯”转换为“埃及皇权”系列角色的属性\n'
+'发动条件：\n'
+'队伍中有“冥魂判守 ‧ 阿努比斯”及“埃及皇权”系列角色，并只有相同属性的神族成员\n'
+'(“冥魂判守 ‧ 阿努比斯”除外)',
+'eng_team':'Team Skill:\n\n'
+'◆ HP, Attack & Recovery basic value of the first "Shackles of Souls - Anubis" and the first Monster of "Imperiality of Egypt" of each Attribute from the left x 1.5 additionally.\n'
+'Condition:\n'
+'There are "Shackles of Souls - Anubis" and Character(s) of Imperiality of Egypt series in the Team.\n\n'
+
+'◆ Alter the Attribute of "Shackles of Souls - Anubis" into Water.\n'
+'Condition:\n'
+'The Team has only "Shackles of Souls - Anubis", "Solemn Commitment - Sobek" and Water Gods.\n\n'
+
+'◆ Alter the Attribute of "Shackles of Souls - Anubis" into Fire.\n'
+'Condition:\n'
+'The Team has only "Shackles of Souls - Anubis", "Twisted Obsession - Khepri" and Fire Gods.\n\n'
+
+'◆ Alter the Attribute of "Shackles of Souls - Anubis" into Earth.\n'
+'Condition:\n'
+'The Team has only "Shackles of Souls - Anubis", "Honourable Dedication - Serket" and Earth Gods.\n\n'
+
+'◆ Alter the Attribute of "Shackles of Souls - Anubis" into Light.\n'
+'Condition:\n'
+'The Team has only "Shackles of Souls - Anubis", "Soaring Sacredness - Horus" and Light Gods.'}
     
     {'chi_name':'玛雅',
 'chif_name':'瑪雅',
