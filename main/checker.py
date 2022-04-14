@@ -4437,7 +4437,45 @@ checker = [
     
     
     
-    
+    {'chi_name':'罗刹女',
+'chif_name':'羅剎女',
+'eng_name':'rakshasa',
+
+'chi_act':'逆焰之一扇天涯 CD6\n\n'
+'I. 木属性伤害可克制火及木属性目标\n'
+'II. 每消除 2 粒木符石\n'
+'⇒ 个人追打木属性攻击 1 次，最多 10 次\n'
+'(效果会在关闭此技能或死亡后消失)\n'
+
+'此技能可随时关闭，关闭时：\n'
+'⇒ 当前技能 CD 减少 2\n'
+'⇒ 将所有符石转化为木强化符石',
+'eng_act':'Flame-quenching Fan - EX CD6\n\n'
+'I. Earth Damages can overpower Fire and Earth enemies.\n'
+'II. For every 2 Earth Runestones dissolved, the Monster launches an extra Earth attack, to the max 10 extra attacks (the Skill stays in play until deactivation or defeated).\n'
+'This Skill can be deactivated anytime.\n'
+
+'Upon deactivation of the Skill:\n'
+'⇒ Current Skill CD -2.\n'
+'⇒Turn all Runestones into Enchanted Earth Runestones.',
+
+'chi_lead':'神魔之森 ‧ 狂风\n\n'
+'队伍中只有木属性魔族或木属性神族成员时：\n'
+'I. 全队攻击力 4 倍\n'
+'II. 每消除 4 组符石时\n'
+'⇒ 必定掉落 4 粒木强化符石',
+'eng_lead':'Forest of Gods & Demons - EX\n\n'
+'When the Team includes only Earth Demons and Earth Gods, Team Attack x 4; for every 4 groups of Runestones dissolved, 4 Enchanted Earth Runestones will be generated.',
+
+'chi_team':'队伍技能：\n\n'
+'“迅杀芭扇 ‧ 罗刹女”、异空转生“中国神”及“究极中国神”系列成员\n'
+'⇒“生命力、攻击力及回复力”基值 1.5 倍\n'
+'发动条件：\n'
+'以“迅杀芭扇 ‧ 罗刹女”及 ≥ 1 个异空转生“中国神”或“究极中国神”系列角色作成员',
+'eng_team':'Team Skill:\n\n'
+'◆ HP, Attack & Recovery basic value of "Devastating Tornado - Rakshasa" and Monsters of "Chinese Gods Reborn" and "Chinese Gods - Supreme Reckoning" x 1.5 additionally.\n'
+'Condition:\n'
+'There are "Devastating Tornado - Rakshasa", and Chinese Gods Reborn - Refinement series, Chinese Gods Reborn - Divergence series, or Chinese Gods - Supreme Reckoning series in the Team.'},
 
     {'chi_name':'唐三藏',
 'chif_name':'唐三藏',
