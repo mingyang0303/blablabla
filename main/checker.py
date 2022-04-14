@@ -4443,7 +4443,109 @@ checker = [
     
     
     
-    
+    {'chi_name':'美索不达米亚',
+'chif_name':'美索不達米亞',
+'eng_name':'mesopotamia',
+
+'chi_act':'强悍之志 ‧ 勇往 CD5\n\n'
+'I. 达成 ≥4 连击 (Combo)\n'
+'⇒ 个人追打光及暗属性攻击 1 次\n'
+'II. 达成 ≥6 连击\n'
+'⓵ 自身攻击力 3 倍\n'
+'⓶ 自身无视“三属盾”及“五属盾”\n'
+'III. 达成 ≥8 连击 (Combo)\n'
+'⓵ 个人以 25% 攻击力\n'
+'⇒ 追打水及火属性攻击 1 次\n'
+'⓶ 自身无视“固定连击盾”\n'
+'(效果会在关闭此技能或死亡后消失)\n\n'
+
+'此技能可随时关闭，关闭时：\n'
+'⓵ 点选元素法阵上的 1 粒符石\n'
+'⇒ 引爆所有符石\n'
+'⇒ 掉落该种符石以外的人族符石',
+'eng_act':'Indomitable Will - Ex CD5\n\n'
+'I. When ≥4 Combos are made,\n'
+'⇒ the Character launches an extra Light attack and an extra Dark attack.\n'
+'II. When ≥6 Combos are made:\n'
+'⓵ The Character\'s Attack x 3.\n'
+'⓶ The Character\'s Damage will be dealt regardless of Trio Elemental Shield and Quintet Elemental Shield.\n'
+'III. When ≥8 Combos are made:\n'
+'⓵ The Character launches an extra Water attack and an extra Fire attack as much as 25% of its Attack.\n'
+'⓶ The Character\'s Damage will be dealt regardless of Fixed Combo Shield.\n'
+'(The effect stays in play until deactivation or defeat.)\n\n'
+
+'This Skill can be deactivated anytime. Upon deactivation of the Skill:\n'
+'⓵ By tapping a Runestone on the Magic Circle of Elements,\n'
+'⇒ Explode all Runestones to generate Human Runestones not of that type.',
+
+'chi_lead':'千秋的传承 ‧ 使命\n\n'
+'I. 木属性攻击力 6.5 倍、生命力及回复力 1.6 倍\n'
+'II. 木属性人类攻击力则 8 倍\n'
+'III. 必然延长移动符石时间 3 秒\n'
+'IV. 消除种族符石时\n'
+'⇒ 木属性攻击力额外 4 倍\n'
+'V. 每消除 1 组光或暗符石\n'
+'⇒ 回合结束时将 3 粒符石转化为人族强化符石\n'
+'(木及心符石优先转换)\n'
+'⇒ 最多可转化 30 粒',
+'eng_lead':'Selfless Heiress - EX\n\n'
+'I. Earth Attack x 6.5; HP & Recovery x 1.6.\n'
+'II. Earth Human Attack x 8.\n'
+'III. Extend Runestone-moving time regardlessly by 3 seconds.\n'
+'IV. By dissolving Race Runestones,\n'
+'⇒ Earth Attack x 4 additionally.\n'
+'V. For every group of Light or Dark Runestones dissolved,\n'
+'⇒ turn 3 Runestones into Enchanted Human Runestones at the end of the Round (Earth and Heart Runestones rank first in priority),\n'
+'⇒ to the max 30 Runestones to be turned.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 2 粒光或暗符石相连\n'
+'⇒ 即可发动消除\n'
+'(所有符石掉落不受其他技能影响，包括改变掉落符石属性的技能)\n'
+'II. 光、暗符石兼具\n'
+'⇒ 木及心符石效果\n'
+'III. 队长及战友进场及首回合结束时 CD-5\n'
+'发动条件：\n'
+'以“女帝的铭誓 ‧ 美索不达米亚”作队长及战友\n\n'
+
+'I. “千变真个 ‧ 切西亚”\n'
+'⇒ 转换为队长的属性\n'
+'II.“千变真个 ‧ 切西亚”的主动技能变为“三原灵冕化阵 ‧ 神森”\n'
+'1 回合内\n'
+'I. 队长及战友进入亢奋状态\n'
+'II. 将所有符石转化为\n'
+'⇒ “光、暗、木、心”强化符石：\n'
+'⓵ 木符石出现率上升\n'
+'⓶ 木符石以木神族强化符石代替\n\n'
+
+'III.“千变真个 ‧ 切西亚”\n'
+'⇒ 技能 CD -1\n'
+'IV.“千变真个 ‧ 切西亚”\n'
+'⇒ 攻击力 1.6 倍\n'
+'V. 心符石首批 2 粒相连\n'
+'⇒ 即可发动消除\n'
+'发动条件：\n'
+'以“女帝的铭誓 ‧ 美索不达米亚”作队长及战友，并以“千变真个 ‧ 切西亚”作队员',
+'eng_team':'Team Skill:\n\n'
+'◆ Light and Dark Runestones can be dissolved by grouping 2 or more of them (Drop rate of all Runestones will not be affected by Amelioration or Skills, including those altering the Attribute of dropping Runestones).\n'
+'◆ Light and Dark Runestones also possess the effect of Earth and Heart Runestones.\n'
+'◆ Skill CDs of the Leader and Ally -5 after entering a stage and at the end of the first Round.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Fealty of the Amazon - Mesopotamia".\n\n'
+
+'◆ The Attribute of “Disguised Self - Chessia” will synchronize with that of the Leader.\n'
+'◆ Change the Active Skill of “Disguised Self - Chessia” into “Tricolor Circle - Deific Woods”.\n'
+'For 1 Round:\n'
+'I. The Leader and Ally enter a hyper state.\n'
+'II. Turn all Runestones into Enchanted Light, Enchanted Dark, Enchanted Earth and Enchanted Heart Runestones:\n'
+'⓵ Increase the Occurrence rate of Earth Runestones.\n'
+'⓶ Earth Runestones will become Enchanted Earth God Runestones.\n\n'
+
+'◆ Skill CD of “Disguised Self - Chessia” -1.\n'
+'◆ Attack of “Disguised Self - Chessia” x 1.6.\n'
+'◆ Heart Runestones can be dissolved by aligning 2 or more of them in the first batch.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Fealty of the Amazon - Mesopotamia", with “Disguised Self - Chessia” in the Team.'},
     
 {'chi_name':'阿努比斯',
 'chif_name':'阿努比斯',
