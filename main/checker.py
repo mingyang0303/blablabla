@@ -4461,7 +4461,7 @@ checker = [
 '⇒ 水符石 1 粒即可发动消除\n'
 '⇒ 效果持续至消除 30 粒水符石\n\n'
 '睿智急流 CD3\n'
-'将 5 至 8 粒符石\n''
+'将 5 至 8 粒符石\n'
 '⇒ 转化为水强化符石 (心符石优先转换)',
 'eng_act':'Tide of Freedom CD8\n'
 'I. Unlimited Runestone movement without dissolving in 15 seconds.\n'
