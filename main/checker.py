@@ -4441,7 +4441,120 @@ checker = [
 
     
     
-    
+    {'chi_name':'庞贝',
+'chif_name':'龐貝',
+'eng_name':'pompeii',
+
+'chi_act':'傲倪万物．三原结界 CD8\n\n'
+'I. 解除机械族成员被封锁的技能\n'
+'(此技能无视封锁技能)\n'
+'II. 移除所有符石\n'
+'⇒ 掉落固定数量及位置的“水、火、木”强化符石\n'
+'1 回合内\n'
+'III. 无视“指定形状盾”及“攻前盾”\n'
+'IV.“炙焰城主 ‧ 庞贝”的攻击\n'
+'⇒ 无视“五属盾”',
+'eng_act':'Breakthrough of Tricolor Siege Cd8\n\n'
+'I. Release the locked Skills of Machinas.\n'
+'(This Skill will not be locked)\n'
+'II. Remove all Runestones to generate Enchanted Water, Enchanted Fire and Enchanted Earth Runestones of fixed numbers and fixed positions.\n'
+'For 1 Round,\n'
+'III. Damage will be dealt regardless of Puzzle Shield and Initial Shield.\n'
+'IV. Damage of “Ruler of Scorching Flames - Pompeii” will be dealt regardless of Quintet Elemental Shield.',
+
+'chi_lead':'灭族之焰．追击\n\n'
+'I. 火属性及机械族攻击力 6.5 倍\n'
+'II.“炙焰城主 ‧ 庞贝”的攻击\n'
+'⇒ 无视敌人防御力\n'
+'III. 消除水、火或木符石时\n'
+'⇒ 机械族成员追打相应属性攻击 1 次\n'
+'IV. 每首批消除 1 种符石\n'
+'⇒ 于回合结束时将 5 粒该种符石添加为机械族符石 (非种族符石优先转换)',
+'eng_lead':'Fire of Extermination - EX\n\n'
+'I. Fire Attack & Machina Attack x 6.5.\n'
+'II. Damage of "Ruler of Scorching Flames - Pompeii" will be dealt regardless of Defense.\n'
+'III. By dissolving Water, Fire or Earth Runestones,\n'
+'⇒ each Machina launches an extra attack of the corresponding Attribute(s) dissolved.\n'
+'IV. For each type of Runestones dissolved in the first batch,\n'
+'⇒ modify 5 random Runestones of that type to become Machina Runestones at the end of the Round\n'
+'(non-Race Runestones rank first in priority).',
+
+'chi_team':'队伍技能：\n\n'
+'I. 队伍中最小冷却回合为 8且技能等级已满的机械族成员\n'
+'⇒ 技能 CD -2\n'
+'II. 水、木、心符石\n'
+'⇒ 兼具火符石效果\n'
+'III. 水、火、木符石\n'
+'⇒ 兼具心符石效果\n\n'
+
+'IV. 每回合随机锁定 8 个位置，每消除 1 个锁定位置 (不计重复) 内的符石时\n'
+'⓵ 火属性及机械族攻击力提升\n'
+'⇒ 最多可提升 3 倍\n'
+'⓶“炙焰城主 ‧ 庞贝”以 50% 攻击力追打火属性攻击 1 次\n'
+'V. 必然延长移动符石时间 3 秒\n'
+'VI. 将移动符石时触碰的水、火、木符石\n'
+'⇒ 转化为机械族符石\n'
+'发动条件：\n'
+'以“炙焰城主 ‧ 庞贝”作队长及战友\n\n'
+
+'I. 机械族成员\n'
+'⇒“生命力、攻击力及回复力”基值 2 倍\n'
+'II. 进入关卡后，机械族成员的行动值提升 50%\n'
+'发动条件：\n'
+'以“炙焰城主 ‧ 庞贝”作队长及战友，且队中有 ≥3 个机械族成员\n\n'
+
+'【机械动力】\n'
+'I. 每首批消除 1 粒自身属性符石\n'
+'⇒ 自身行动值提升 2%\n'
+'II. 每首批消除 1 粒心符石\n'
+'⇒ 自身行动值提升 1%\n'
+'III. 行动值愈高\n'
+'⇒ 自身攻击力提升愈多\n'
+'⇒ 最大提升至 2 倍。\n'
+'IV. 当所有机械族成员的行动值达至 50% 或以上时\n'
+'⇒ 机械族成员属性的符石效果提升\n'
+'⇒ 每个机械族成员可提升 10% 效果\n'
+'⇒ 最高 60%\n'
+'V. 当所有机械族成员的行动值达至 100% 时\n'
+'⇒ 机械族成员每回合\n'
+'以 25% 自身攻击力随机追打自身属性或自身克制属性的攻击 1 至 2 次\n'
+'发动条件：\n'
+'队伍中有 ≥2 个【机械族】成员',
+'eng_team':'Team Skill:\n\n'
+'◆ For Machinas with Active Skills that have reached the maximum Lv. of which CD is 8, Skill CD -2.\n'
+'◆ Water, Earth and Heart Runestones also possess the effect of Fire Runestones.\n'
+'◆ Water, Fire and Earth Runestones also possess the effect of Heart Runestones.\n\n'
+
+'◆ Lock 8 random positions every Round.\n'
+'If the Runestone at a locked position is dissolved (each position will be counted once only):\n'
+'⓵ Fire Attack & Machina Attack increases, to the max x 3.\n'
+'⓶ "Ruler of Scorching Flames - Pompeii" launches an extra Fire attack as much as 50% of its attack.\n'
+'◆ Extend Runestone-moving time regardlessly by 3 seconds.\n'
+'◆ Turn Water, Fire and Earth Runestones touched while moving into Machina Runestones.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Ruler of Scorching Flames - Pompeii".\n\n'
+
+'◆ Machina HP, Attack & Recovery basic value x 2.\n'
+'◆ Fuel of Machinas +50% after entering a Stage.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Ruler of Scorching Flames - Pompeii", with 3 or more Machina in the Team.\n\n'
+
+'◆ 【Machina Dynamics】\n'
+'⓵ For each Runestone of the Character\'s Attribute dissolved in the first batch,\n'
+'⇒ the Character\'s Fuel +2%.\n'
+'⓶ For each Heart Runestone dissolved in the first batch,\n'
+'⇒ the Character\'s Fuel +1%.\n'
+'⓷ The higher the Character\'s Fuel,\n'
+'⇒ the higher the Character\'s Attack,\n'
+'⇒ to the max x 2 additionally.\n'
+'⓸ When all Machinas in the Team have ≥ 50% Fuel,\n'
+'⇒ effects of Runestones of their Attributes increase,\n'
+'⇒ 10% for each Machina present in the Team,\n'
+'⇒ to the max 60%.\n'
+'⓹ When all Machinas in the Team have 100% Fuel,\n'
+'⇒ all Machinas randomly launch 1 to 2 extra attack(s) of its own Attribute or its Counter Attribute as much as 25% of its Attack every Round.\n'
+'Condition:\n'
+'There are 2 or more 【Machina Dynamics】 Members in the Team.'},
     
     {'chi_name':'美索不达米亚',
 'chif_name':'美索不達米亞',
