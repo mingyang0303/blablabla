@@ -4440,7 +4440,66 @@ checker = [
     
     
     
-    
+    {'chi_name':'艾莉亚',
+'chif_name':'艾莉亞',
+'eng_name':'aria',
+
+'chi_act':'魔幻之秘 CD6\n\n'
+'所有符石转化为固定数量的水人族强化、火人族强化及木人族强化符石。1 回合内，同时消除水强化、火强化及木强化符石时，全队攻击力 2 倍及无视五属盾',
+'eng_act':'The Mystery of Magic CD6\n\n'
+'Turn all Runestones into Enchanted Water Human, Enchanted Fire Human and Enchanted Earth Human Runestones of fixed numbers. For 1 Round, by dissolving Enchanted Water, Enchanted Fire and Enchanted Earth Runestones, Team Attack x 2 and Damage will be dealt regardless of "Quintet Elemental Shield".',
+
+'chi_lead':'稀世力量\n\n'
+'I. 水属性及人类攻击力 6.5 倍\n'
+'II. 必然延长移动符石时间 1 秒\n'
+'III. 水、火、木符石兼具\n'
+'⇒ 50% 心符石效果\n'
+'IV. 同时消除水、火、木符石其中 2 种符石时\n'
+'⇒ 水属性及人类攻击力额外 3 倍\n'
+'V. 同时消除水、火、木符石时\n'
+'⇒ 个人追打水、火、木属性攻击各 1 次',
+'eng_lead':'Power of the Holy Grail\n\n'
+'I. Water & Human Attack x 6.5.\n'
+'II. Extend Runestone-moving time regardlessly by 1 second.\n'
+'III. Water, Fire and Earth Runestones also possess 50% effect of Heart Runestones.\n'
+'IV. If 2 out of 3 types of Runestones (Water, Fire & Earth) are dissolved in the same Round,\n'
+'⇒ Water & Human Attack x 3 additionally.\n'
+'V. By dissolving Water, Fire and Earth Runestones in the same Round, the Monster launches 3 extra attacks (Water, Fire and Earth each).',
+
+'chi_team':'队伍技能：\n\n'
+'火符石兼具水及木符石效果\n'
+'发动条件：\n'
+'以圣杯之永息 · 艾莉亚作队长及战友，且队伍中有火属性成员\n\n'
+
+'木符石兼具水及火符石效果\n'
+'发动条件：\n'
+'以圣杯之永息 · 艾莉亚作队长及战友，且队伍中有木属性成员\n\n'
+
+'根据队伍成员发动攻击的次数及属性 (包括全体攻击)，于回合结束时转化相应数量及属性的人族符石，每种属性符石最多转化 6 粒。\n'
+'消除人族符石时，全队攻击力提升 2.5 倍\n'
+'发动条件：\n'
+'以圣杯之永息 · 艾莉亚作队长及战友\n\n'
+
+'当前生命力全满时，下一次所受伤害不会使你死亡 (同 1 回合只会发动 1 次)\n'
+'发动条件：\n'
+'以圣杯之永息 · 艾莉亚作队长及战友，且队伍中只有水属性或人类成员',
+'eng_team':'Team Skill:\n\n'
+'◆ When HP is full, the next Damage received will not lead to your defeat (one activation each Round).\n'
+'Condition:\n'
+'Both the Leader and Ally are "Chalice of Eternity - Aria", with only Humans or Water Members in the Team.\n\n'
+
+'◆ Fire Runestones also possess the effects of Water and Earth Runestones.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Chalice of Eternity - Aria", with 1 or more Fire Member in the Team.\n\n'
+
+'◆ Earth Runestones also possess the effects of Water and Fire Runestones.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Chalice of Eternity - Aria", with 1 or more Earth Member in the Team.\n\n'
+
+'◆ Turn Runestones into Human Runestones according to Team Members\' number of attacks and Attributes at the end of the Round (including Full Attack), to the max 6 Runestones to be turned for each Attribute.\n'
+'◆ By dissolving Human Runestones, Team Attack x 2.5 additionally.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Chalice of Eternity - Aria".'},
     
     {'chi_name':'潘朵拉',
 'chif_name':'潘朵拉',
