@@ -6828,6 +6828,7 @@ checker = [
 'II. 進入關卡後，獸類成員的主動技能 CD 減少 2 \n\n'
 '发动条件： \n'
 '以「墜落殺戮 ‧ 貝西摩斯」作成員，且隊伍中只有獸類成員',
+'extra': 'test only',
 'eng_team':'Team Skill: \n'
 'I. HP, Attack & Recovery of "Fallen Massacre - Behemoth" x 1.5 additionally.", \n'
 'II. After entering a stage, Active Skill CD(s) of Beast(s) -2. \n\n'
@@ -6836,6 +6837,12 @@ checker = [
 'The Team consists of only Beasts. '}
 ]
 
+
+def biodata_extra(x):
+ for dict in checker:
+  for key in dict:
+   if dict[key] == x:
+       return dict['extra']
 def biodata_ch_name(x):
  for dict in checker:
   for key in dict:
@@ -6881,6 +6888,7 @@ def biodata_en_team(x):
   for key in dict:
    if dict[key] == x:
        return dict['eng_team']
+
 def check(update , context):
     bot = context.bot
     cd = context.chat_data
@@ -6897,12 +6905,26 @@ def check(update , context):
     en_lead = cd['eng_lead'] = biodata_en_lead(msg)
     en_act = cd['eng_act'] = biodata_en_act(msg)
     en_team = cd['eng_team'] = biodata_en_team(msg)
+    extra = cd['extra'] = biodata_extra(msg)
     keyboard = [
         [InlineKeyboardButton(' 主动技能', callback_data='chi_act'),
          InlineKeyboardButton('队伍技能', callback_data='chi_lead'),
          InlineKeyboardButton('Translate\nEN', callback_data='translate_en')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
+
+    keyboard2 = [
+        [InlineKeyboardButton(' 主动技能', callback_data='chi_act'),
+         InlineKeyboardButton('队伍技能', callback_data='chi_lead'),
+         InlineKeyboardButton('更多资料', callback_data='extra'),
+         InlineKeyboardButton('Translate\nEN', callback_data='translate_en')]
+    ]
+    reply_markup2 = InlineKeyboardMarkup(keyboard2)
+
+    if extra != "None"
+       update.message.reply_text(f'<b>{ch_lead}</b>', reply_markup=reply_markup2, parse_mode = ParseMode.HTML)
+    return CHECK
+
     if ch_name == None:
         update.message.reply_text('failed : 角色还没加入资料库')
         return ConversationHandler.END
