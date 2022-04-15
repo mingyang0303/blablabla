@@ -6905,7 +6905,10 @@ def check(update , context):
     en_lead = cd['eng_lead'] = biodata_en_lead(msg)
     en_act = cd['eng_act'] = biodata_en_act(msg)
     en_team = cd['eng_team'] = biodata_en_team(msg)
-    extra = cd['extra'] = biodata_extra(msg)
+    try:
+     extra = cd['extra'] = biodata_extra(msg)
+    except KeyError:
+     pass
     keyboard = [
         [InlineKeyboardButton(' 主动技能', callback_data='chi_act'),
          InlineKeyboardButton('队伍技能', callback_data='chi_lead'),
