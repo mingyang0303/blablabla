@@ -6921,7 +6921,7 @@ def check(update , context):
     ]
     reply_markup2 = InlineKeyboardMarkup(keyboard2)
 
-    if extra != "None"
+    if extra != "None":
        update.message.reply_text(f'<b>{ch_lead}</b>', reply_markup=reply_markup2, parse_mode = ParseMode.HTML)
     return CHECK
 
