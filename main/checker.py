@@ -4436,6 +4436,327 @@ checker = [
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {'chi_name':'卑弥呼',
+'chif_name':'卑彌呼',
+'eng_name':'himiko',
+
+'chi_act':'诡惑秘术 CD6\n\n'
+'I. 解除龙类及兽类成员被封锁的技能\n'
+'(此技能无视封锁技能)\n'
+'II. 移除所有符石\n'
+'⇒ 掉落心强化符石\n'
+'1 回合内\n'
+'III. 所有符石兼具\n'
+'⇒ 200% 其他符石效果\n'
+'IV. 若队中有 ≥2 个龙类或兽类成员\n'
+'⓵ 全队攻击力及回复力 2.5 倍\n'
+'⓶ 全队无视“指定形状盾”',
+'eng_act':'Arcane Mystic CD6\n\n'
+'I. Release the locked Skill(s) of Dragon(s) and Beast(s).\n'
+'(This Skill will not be locked)\n'
+'II. Remove all Runestones to generate Enchanted Heart Runestones.\n'
+'For 1 Round:\n'
+'III. All Runestones also possess 200% effect of other Runestones.\n'
+'IV. If there are ≥2 Dragons or Beasts in the Team:\n'
+'⓵ Team Attack & Recovery x 2.5.\n'
+'⓶ Damage of the Team will be dealt regardless of Puzzle Shield.',
+
+'chi_lead':'元素共生\n\n'
+'I. 全队攻击力 7 倍及生命力 1.5 倍\n'
+'II. 龙类及兽类成员攻击力则 28 倍、生命力则 3 倍\n'
+'III. 火、光、暗、心符石\n'
+'⇒ 互相兼具 50% 效果I. 全队攻击力 7 倍及生命力 1.5 倍\n'
+'II. 龙类及兽类成员攻击力则 28 倍、生命力则 3 倍\n'
+'III. 火、光、暗、心符石\n'
+'⇒ 互相兼具 50% 效果',
+'eng_lead':'Elemental Symbiosis\n\n'
+'I. Team Attack x 7 & HP x 1.5.\n'
+'II. Dragon & Beast Attack x 28 & HP x 3.\n'
+'III. Fire, Light, Dark and Heart Runestones also possess 50% effect of each other.',
+
+'chi_team':'队伍技能：\n\n'
+'获得“秘术土偶”能力：\n'
+'I. 所有成员技能 CD -6\n'
+'II. 完全回复生命力\n'
+'1 回合内\n'
+'III. 可任意移动符石而不会发动消除\n'
+'于回合开始时点击已储满的龙脉仪\n'
+'⇒ 可触发此能力\n'
+'(需消耗 100% 龙脉仪能量及消耗龙脉仪使用次数 1 次)\n'
+'发动条件：\n'
+'以“朔月帝女 ‧ 卑弥呼”作队长及战友\n\n'
+
+'I. 延长移动符石时间至 20 秒\n'
+'II. 心符石兼具属性符石效果\n'
+'III. 首批只消除 1 种属性符石及没有首批消除心符石\n'
+'⇒ 所有成员追打该属性攻击 1 次\n'
+'IV. 首批只消除心符石\n'
+'⇒ 左方第 2 位成员追打五属攻击各 1 次\n'
+'V. 首批只消除 1 组符石\n'
+'⇒ 增加 9 连击 (Combo)\n'
+'发动条件：\n'
+'以“朔月帝女 ‧ 卑弥呼”作队长及战友\n\n'
+
+'I. 龙类及兽类成员\n'
+'⇒ 增加 2,500 点攻击力基值\n'
+'II. 队中有 ≥2 只龙类或兽类成员：\n'
+'⓵ 无视“黏腐”敌技\n'
+'⓶ 触碰电击符石时仍可移动符石\n'
+'⓷ 触碰暴风时仍可移动符石\n'
+'III. 队中有 ≥3 只龙类或兽类成员：\n'
+'“朔月帝女 ‧ 卑弥呼”、龙类、兽类成员\n'
+'⓵ 无视“固定连击盾”\n'
+'⓶ 无视“三属盾”、“五属盾”\n'
+'发动条件：\n'
+'以“朔月帝女 ‧ 卑弥呼”作队长及战友',
+'eng_team':'Team Skill:\n\n'
+'◆ Acquire “Arcane Dogū” ability:\n'
+'I. Skill CD of all Members -6.\n'
+'II. Fully recover HP.\n'
+'For 1 Round:\n'
+'III. Unlimited Runestone movement without dissolving.\n'
+'◆ This ability can be activated at the beginning of the Round by tapping the fully charged Craft Apparatus at the expense of 100% of the power gathered and one activation of Dragonic Compulsion.\n'
+'◆ Extend Runestone-moving time to 20 seconds.\n'
+'◆ Heart Runestones also possess the effect of Attributive Runestones.\n'
+'◆ When Runestones of only 1 Attribute are dissolved and no Heart Runestones are dissolved in the first batch,\n'
+'⇒ each Member launches an extra attack of that Attribute.\n'
+'◆ When only Heart Runestones are dissolved in the first batch,\n'
+'⇒ the 2nd Member from the left launches 5 extra attacks (one Attribute each).\n'
+'◆ When only a group of Runestones is dissolved in the first batch,\n'
+'⇒ Combo count +9.\n'
+'◆ Attack basic value of each Dragon & Beast +2500.\n\n'
+
+'◆ When there are ≥2 Dragons or Beasts in the Team:\n'
+'⓵ Boss Skill "Sticky" will be nullified.\n'
+'⓶ Runestone movement will not be stopped when an Electrified Runestone is touched.\n'
+'⓷ Runestone movement will not be stopped when a tornado is touched.\n\n'
+
+'◆ When there are ≥3 Dragons or Beasts in the Team:\n'
+'“Queen of Yamatai - Himiko”, Dragon(s) & Beast(s):\n'
+'⓵ Damage will be dealt regardless of Fixed Combo Shield.\n'
+'⓶ Damage will be dealt regardless of Trio Elemental Shield and Quintet Elemental Shield.\n'
+'Condition:\n'
+'Both the Leader and Ally are “Queen of Yamatai - Himiko”.'},
+    
+    {'chi_name':'蚩尤',
+'chif_name':'蚩尤',
+'eng_name':'chiyou',
+
+'chi_act':'血战山河 CD8\n\n'
+'I. 若以九黎战神 ‧ 蚩尤作队长\n'
+'⇒ 还原所有“碎裂”的位置\n'
+'II. 点选其中 1 个版面\n'
+'⓵ 移除所有符石\n'
+'⓶ 掉落该固定版面符石\n\n'
+
+'▋ 九战九胜【水、火、木】 \n'
+'▋ 制五兵之器【五属及心】 \n'
+'▋ 三日三夜雾冥【光、暗、心】\n\n' 
+
+'狂战状态下才可发动\n'
+'▋ 八方万邦弭服【终极 ‧ 五属及心】 ',
+'eng_act':'Heroic Mettle\n\n'
+'I. If the Leader is "Divinity of War - Chiyou",\n'
+'⇒ restore all cracked positions.\n'
+'II. Tap one of the board setups to:\n'
+'⓵ Remove all Runestones.\n'
+'⓶ Generate Runestones according to the setup.\n\n'
+
+'▋Setup 1【Water, Fire, Earth】\n'
+'▋Setup 2【5-Attribute & Heart】\n'
+'▋Setup 3【Light, Dark, Heart】\n\n'
+
+'Available only in the "Berserk" mode:\n'
+'▋Setup 4【Ultimate - 5-Attribute & Heart】',
+
+'chi_lead':'战神领军\n\n'
+'I. 全队攻击力 7 倍及生命力 1.5 倍\n'
+'II. 必然延长移动符石时间 2.5 秒\n'
+'III. 减少 20% 所受伤害，\n'
+'IV. 所受火属性伤害则减少 40%\n'
+'V. 若队中只有火属性成员时\n'
+'⇒ 全队攻击力额外 1.2 倍\n'
+'VI. 若队中有 ≥2 种属性成员\n'
+'⇒ 全队攻击力额外 1.5 倍\n'
+'VII. 消除的符石愈多\n'
+'⇒ 攻击力额外提升愈多\n'
+'⇒ 消除 30 粒可达至最大 4 倍',
+'eng_lead':'God of War\n\n'
+'I. Team Attack x 7 & HP x 1.5.\n'
+'II. Extend Runestone-moving time regardlessly by 2.5 seconds.\n'
+'III. Damage received -20%.\n'
+'IV. Fire Damage received -40%.\n'
+'V. When the Team has only Fire Attribute,\n'
+'⇒ Team Attack x 1.2 additionally.\n'
+'VI. When the Team has ≥2 Attributes,\n'
+'⇒ Team Attack x 1.5 additionally.\n'
+'VII. The more the Runestones dissolved,\n'
+'⇒ the higher the Attack increases additionally,\n'
+'⇒ to the max x 4 for 30 Runestones.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 将移动符石时触碰的电击、冻结、弱化、化血、石化符石状态解除\n'
+'⇒ 并转化为神族符石\n'
+'II.“燃烧”敌技伤害减至 1\n'
+'III. 记录“移动符石时间完结一刻”场上的符石分布\n'
+'⇒ 首批掉落所记录的符石\n'
+'(并加强为神族强化符石)\n'
+'IV. 火符石兼具其他符石效果\n'
+'V. 其他符石兼具火符石效果\n'
+'VI.“九黎战神 ‧ 蚩尤”的攻击\n'
+'⇒ 无视指定减伤抗性敌技\n'
+'VII.“九黎战神 ‧ 蚩尤”\n'
+'⇒ 技能 CD -2\n'
+'VIII. 于“九黎战神 ‧ 蚩尤”直行位置结束转珠\n'
+'(需消除符石)\n'
+'⇒ 完全回复生命力\n'
+'发动条件：\n'
+'以“九黎战神 ‧ 蚩尤”作队长及战友\n\n'
+
+'I. 触碰“燃烧”位置或累积消除 ≥30 粒火符石后\n'
+'⇒“九黎战神 ‧ 蚩尤”进入狂战状态\n'
+'* 召唤师死亡后结束狂战状态及重置累积火符石数量\n'
+'II. 狂战状态的“九黎战神 ‧ 蚩尤”\n'
+'⓵ 攻击力 2.5 倍\n'
+'⓶ 攻击克制水属性目标\n'
+'⓷ 无视敌人防御力\n'
+'发动条件：\n'
+'以“九黎战神 ‧ 蚩尤”作成员',
+'eng_team':'Team Skill:\n\n'
+'◆ All Electrified, Frozen, Weakened, Lock-for-Recovery and Petrified Runestones touched while moving will be restored to normal state and turned into God Runestones.\n'
+'◆ Reduce the Damage by “Burning” to 1.\n'
+'◆ Record the distribution of Runestones upon the completion of moving Runestones.\n'
+'⇒ The first batch of Runestones to be dropped will be Enchanted God Runestones of the recorded distribution.\n'
+'◆ Fire Runestones also possess the effect of other Runestones.\n'
+'Other Runestones also possess the effect of Fire Runestones.\n'
+'◆ Damage of “Divinity of War - Chiyou” will be dealt regardless of enemies\' specific damage-reducing resistance.\n'
+'◆ Skill CD of “Divinity of War - Chiyou” -2.\n'
+'◆ When Summoner stops moving Runestones in the column below “Divinity of War - Chiyou” (dissolving Runestones is necessary),\n'
+'⇒ fully recover HP.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Divinity of War - Chiyou".\n\n'
+
+'◆ By touching a “Burning” position or dissolving ≥30 Fire Runestones cumulatively,\n'
+'⇒ “Divinity of War - Chiyou” enters the "Berserk" mode.\n'
+'* "Berserk" mode will be ended and the number of accumulated Fire Runestones will be reset upon defeat.\n'
+'◆ When “Divinity of War - Chiyou” is in the “Berserk” mode:\n'
+'⓵ Its Attack x 2.5.\n'
+'⓶ Its Damage can overpower Water enemies.\n'
+'⓷ Its Damage will be dealt regardless of Defense.\n'
+'Condition:\n'
+'There is "Divinity of War - Chiyou" in the Team.'},
+    
+    {'chi_name':'项羽',
+'chif_name':'項羽',
+'eng_name':'xiangyu',
+
+'chi_act':'力拔山河 CD8\n\n'
+'I. 将场上的符石变回原始模样\n'
+'1 回合内\n'
+'II. 点选元素法阵上的 1 粒符石\n'
+'⇒ 该种符石以外的符石\n'
+'首批 1 粒即可发动消除\n'
+'III. 可任意移动符石而不会发动消除',
+'eng_act':'Over the Mountains and Rivers CD8\n\n'
+'I. Restore all Runestones to normal state.\n'
+'For 1 Round:\n'
+'II. By tapping a Runestone on the Magic Circle of Elements, Runestones not of that type can be dissolved singly or in groups of 2 or more.\n'
+'III. Unlimited Runestone movement without dissolving.',
+
+'chi_lead':'无双之霸\n\n'
+'I. 光属性攻击力 7.5 倍、生命力及回复力 1.8 倍\n'
+'II. 必然延长移动符石时间 2 秒\n'
+'III. 消除 ≥3 组符石时\n'
+'⇒ 全队攻击力额外 3.5 倍\n'
+'IV. 首批消除所有光符石时\n'
+'⇒ 光属性攻击力额外 1.5 倍',
+'eng_lead':'Fight of the Hegemon\n\n'
+'I. Light Attack x 7.5, HP & Recovery x 1.8.\n'
+'II. Extend Runestone-moving time regardlessly by 2 seconds.\n'
+'III. By dissolving ≥3 groups of Runestones,\n'
+'⇒ Team Attack x 3.5 additionally.\n'
+'IV. By dissolving all present Light Runestones in the first batch,\n'
+'⇒ Light Attack x 1.5 additionally.',
+
+'chi_team':'队伍技能：\n\n'
+'◆ 移动符石时每触碰 1 粒光符石\n'
+'⇒ 回复 2000 点生命力\n'
+'⇒ 直至生命力全满\n'
+'◆ 无视“黏腐”敌技\n'
+'◆ 触碰电击符石时仍可移动符石\n'
+'发动条件：\n'
+'以“破阵无双 ‧ 项羽”作队长及战友\n\n'
+
+'◆ 所有符石兼具光符石效果\n'
+'◆ 每消除 1 组符石\n'
+'⇒ 额外计算多 1 连击 (Combo)\n'
+'发动条件：\n'
+'以“破阵无双 ‧ 项羽”作队长及战友；且队中只有光属性成员\n\n'
+
+'◆ 队伍成员属性符石\n'
+'⇒ 互相兼具效果\n'
+'◆ 队长及战友的队长技能“无双之霸”变为“盖世之气”\n'
+'发动条件：\n'
+'以“破阵无双 ‧ 项羽”作队长及战友；且队中有 ≥4 种属性成员\n\n'
+
+'◆ 若“楚颜杀姬 ‧ 虞姬”为左方起第 2 位成员\n'
+'⇒“楚颜杀姬 ‧ 虞姬”转换为“破阵无双 ‧ 项羽”的属性\n'
+'◆“破阵无双 ‧ 项羽”及“楚颜杀姬 ‧ 虞姬”\n'
+'⓵ 技能 CD -3\n'
+'⓶“生命力及攻击力”基值 2 倍\n'
+'发动条件\n'
+'以“破阵无双 ‧ 项羽”作队长，以“楚颜杀姬 ‧ 虞姬”作成员',
+'eng_team':'Team Skill:\n\n'
+'◆ For every Light Runestone touched while moving,\n'
+'⇒ Recover 2000 HP,\n'
+'⇒ until Team HP is full.\n'
+'◆ Boss Skill "Sticky" will be nullified.\n'
+'◆ Runestone movement will not be stopped when an Electrified Runestone is touched.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Hegemon of the Empire - Xiang Yu".\n\n'
+
+'◆ All Runestones also possess the effect of Light Runestones.\n'
+'For every group of Runestones dissolved,\n'
+'⇒ Combo count +1.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Hegemon of the Empire - Xiang Yu", with only Light Members in the Team.\n\n'
+
+'◆ Runestones of Team Members\' Attributes also possess the effect of each other.\n'
+'◆ Change the Leader Skill "Fight of the Hegemon" of the Leader and Ally to "Might of the Hegemon".\n'
+'I. Team Attack x 9, HP & Recovery x 1.6.\n'
+'II. Extend Runestone-moving time regardlessly by 2 seconds.\n'
+'III. By dissolving ≥3 types of Runestones,\n'
+'⇒ Team Attack x 2 additionally.\n'
+'IV. The first batch of Runestones to be dropped will be Enchanted Runestones of the Member\'s Attribute in that column.\n'
+'* Runestones to be dropped later will be arranged in proper order.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Hegemon of the Empire - Xiang Yu", with 4 or more Attributes in the Team.\n\n'
+
+'◆ If "Beguiling Death - Yu Miaoyi" is the 2nd Member from the left,\n'
+'⇒ the Attribute of "Beguiling Death - Yu Miaoyi" will synchronize with that of "Hegemon of the Empire - Xiang Yu".\n'
+'◆ "Hegemon of the Empire - Xiang Yu" and "Beguiling Death - Yu Miaoyi":\n'
+'⓵ Skill CDs -3.\n'
+'⓶ HP & Attack basic value x 2.\n'
+'Condition:\n'
+'The Leader is "Hegemon of the Empire - Xiang Yu", with "Beguiling Death - Yu Miaoyi" in the Team.'},
+    
     {'chi_name':'青圭变身',
 'chif_name':'青圭變身',
 'eng_name':'qingguitrans',
