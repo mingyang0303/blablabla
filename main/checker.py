@@ -4449,7 +4449,138 @@ checker = [
     
     
     
-    
+    {'chi_name':'刻珲',
+'chif_name':'刻琿',
+'eng_name':'kehun',
+
+'chi_act':'五重魔导式 CD4\n\n'
+'发动五重魔导式法阵，点选获取 1 回合效果：\n'
+'【时间静济】\n'
+'▋延长移动符石时间 10 秒\n'
+'▋无视“燃烧”敌技\n\n'
+
+'【元素欺诈】\n'
+'▋引爆所有符石、冻结及石化符石\n'
+'▋敌方全体转为木属性\n\n'
+
+'【空间扭曲】\n'
+'▋额外增加 3 行符石\n'
+'▋将移动符石时触碰的符石\n'
+'⇒ 添加为龙族符石\n\n'
+
+'【物质分解】\n'
+'▋全队攻击力 2.5 倍\n'
+'▋“天道炎旌 ‧ 刻珲”技能 CD-1\n\n'
+
+'【概念覆写】\n'
+'▋全队无视“反首消符石盾”\n'
+'▋将所有符石转化为强化符石\n\n'
+
+'上述每个魔导式于战斗中只能发动 1 次\n'
+'当发动了 3 次“五重魔导式”后，其后每次发动技能时效果改为：\n'
+'1 回合内\n'
+'I. 将敌方全体转为木属性\n'
+'II. 将场上的符石变回原始模样\n'
+'III. 额外增加 3 横行符石：\n'
+'直行“五属及心”龙族强化符石\n'
+'IV. 15 秒内，可任意移动符石而不会发动消除\n'
+'V. 全队攻击力及回复力 2.5 倍\n'
+'VI. 全队无视“反首消符石盾”\n'
+'VII. 无视“燃烧”敌技',
+'eng_act':'5-Layered Magic Formula CD4\n\n'
+'By activating the 5-Layered Magic Formula, tap to acquire an effect for 1 Round:\n'
+'【Time Freeze】\n'
+'▋Extend Runestone-moving time by 10 seconds.\n'
+'▋Boss Skill "Burning" will be nullified.\n\n'
+
+'【Elemental Deception】\n'
+'▋Explode all Runestones,Frozen and Petrified Runestones.\n'
+'▋Alter the Attribute of all enemies into Earth.\n\n'
+
+'【Space Distortion】\n'
+'▋Add 3 rows of Runestones.\n'
+'▋Modify the Runestones touched while movingto become Dragon Runestones.\n\n'
+
+'【Matter Breakdown】\n'
+'▋Team Attack x 2.5.\n'
+'▋Skill CD of "Flames of Divine Order - Ke Hun" -1.\n\n'
+
+'【Concept Overwriting】\n'
+'▋Damage will be dealt regardless of Anti-Runestone Shield (First Batch).\n'
+'▋Turn all Runestones into Enchanted Runestones.\n'
+
+'Each layer of the magic formula can be activated once only in a battle.\n'
+'After the 3rd activation of "5-Layered Magic Formula", the effect for each Skill activation will change as follows:\n'
+'For 1 Round:\n'
+'I. Alter the Attribute of all enemies into Earth.\n'
+'II. Restore all Runestones to normal state.\n'
+'III. Add 3 rows of Enchanted Dragon Runestones of 5 Attributes and Heart. (one type in each column)\n'
+'IV. Unlimited Runestone-movement in 15 seconds without dissolving.\n'
+'V. Team Attack & Recovery x 2.5.\n'
+'VI. Damage will be dealt regardless of Anti-Runestone Shield (First Batch).\n'
+'VII. Boss Skill "Burning" will be nullified.',
+
+'chi_lead':'龙裔圣焰\n\n'
+'I. 全队攻击力 8 倍及生命力 2 倍\n'
+'II. 龙类成员生命力额外 1.6 倍及攻击力额外 4.5 倍\n'
+'III. 必然延长移动符石时间 2 秒',
+'eng_lead':'Dragonborn Flames\n\n'
+'I. Team Attack x 8, HP x 2.\n'
+'II. Dragon HP x 1.6 additionally, Attack x 4.5 additionally.\n'
+'III. Extend Runestone-moving time regardlessly by 2 seconds.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 所有符石兼具其他符石效果\n'
+'II.“天道炎旌 ‧ 刻珲”\n'
+'⇒ 无视“连击相等盾”\n'
+'III. 进场时，随机 5 个位置\n'
+'⇒ 出现“暗器”\n'
+'IV. 回合结束时\n'
+'⓵ 场上每有 1 个“暗器”\n'
+'⇒ 回复 10% 生命力 (不会溢补)，\n'
+'⓶ 随机 3 个位置\n'
+'⇒ 出现“暗器”\,'
+'⇒ 场上最多 5 个位置出现“暗器”\n'
+'V. 每消除 1 粒“暗器”位置的符石\n'
+'⓵ 所有成员追打 1 次\n'
+'⓶ 全队无视敌人防御力\n'
+'⓷ 该暗器会消失\n'
+'VI. 克制敌人属性的伤害额外 3 倍\n'
+'发动条件：\n'
+'以“天道炎旌 ‧ 刻珲”作队长\n'
+
+'每消除 1 粒龙族符石\n'
+'⇒ 回复 3,000 点生命力\n'
+'⇒ 消除 30 粒可回复最多 90,000 点\n'
+'发动条件：\n'
+'以“天道炎旌 ‧ 刻珲”作队长\n'
+
+'“天道炎旌 ‧ 刻珲”及“终身契守 ‧ 和谨”进场 CD -6\n'
+'发动条件：\n'
+'以“天道炎旌 ‧ 刻珲”及“终身契守 ‧ 和谨”作成员,\n'
+'eng_team':'Team Skill:\n\n'
+'◆ All Runestones also possess the effect of other Runestones.\n'
+'◆ Damage of "Flames of Divine Order - Ke Hun" will be dealt regardless of Equal-Combo Shield.\n'
+'◆ A "Hidden Weapon" will appear at 5 random positions after entering a Stage.\n'
+'◆ At the end of the Round:\n'
+'⓵ For every present "Hidden Weapon",\n'
+'⇒ recover 10% HP (no overhealing).\n'
+'⓶ "Hidden Weapons" will appear at 3 random positions,\n'
+'⇒ to the max 5 "Hidden Weapons" to be present.\n'
+'◆ For every Runestone dissolved at a "Hidden Weapon" position:\n'
+'⓵ Each Member launches an extra attack.\n'
+'⓶ Damage will be dealt regardless of Defense.\n'
+'⓷ The "Hidden Weapon" at that position will disappear.\n'
+'◆ Damage of the enemy\'s Weakness Attribute x 3 additionally.\n'
+'◆ For each Dragon Runestone dissolved,\n'
+'⇒ recover 3,000 HP\n'
+'⇒ to the max 90,000 HP for 30 Runestones dissolved.\n'
+'Condition:\n'
+'The Leader is "Flames of Divine Order - Ke Hun".\n\n'
+
+'◆ Skill CDs of "Lifelong Covenant - He Jin" -6 after entering a Stage.\n'
+'Condition:\n'
+'There are "Flames of Divine Order - Ke Hun" and "Lifelong Covenant - He Jin" in the Team.'},
     
     {'chi_name':'卑弥呼',
 'chif_name':'卑彌呼',
