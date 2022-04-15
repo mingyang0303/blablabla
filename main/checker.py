@@ -6924,7 +6924,7 @@ def check(update , context):
     ]
     reply_markup2 = InlineKeyboardMarkup(keyboard2)
 
-    if extra != "None":
+    if extra != None:
        update.message.reply_text(f'<b>{ch_lead}</b>', reply_markup=reply_markup2, parse_mode = ParseMode.HTML)
     return CHECK
 
@@ -6937,6 +6937,7 @@ def check(update , context):
     if en_name == None:
         update.message.reply_text('failed : 角色还没加入资料库')
         return ConversationHandler.END
+    if extra == None:
     update.message.reply_text(f'<b>{ch_lead}</b>', reply_markup=reply_markup, parse_mode = ParseMode.HTML)
     return CHECK
 
