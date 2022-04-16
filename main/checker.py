@@ -6288,6 +6288,127 @@ checker = [
 'activation conditions of "Fixed Combo Shield":\n'
 'Combat comrades and captains with "Qingxu Kira·Xi" '},
     
+    {'chi_name':'希2',
+'chif_name':'希2',
+'eng_name':'Xi2',
+
+'chi_act':'疾速巨浪 CD6\n\n'
+'I. 水符石掉落率提升至 20%\n'
+'II. 发动技能及每回合结束时\n'
+'⇒ 将水符石转化为水神族符石\n'
+'III. 消除水符石愈多\n'
+'⇒ 水属性攻击力愈高\n'
+'⇒ 消除 10 粒可达至最大 3 倍\n'
+'效果持续至没有消除神族符石',
+'eng_act':'Enormous Waves - EX CD6\n\n'
+'I. Increase the drop rate of Water Runestones to 20%.\n'
+'II. Upon Skill activation and at the end of each Round,\n'
+'⇒ turn Water Runestones into Water God Runestones.\n'
+'III. The more the Water Runestones dissolved,\n'
+'⇒ the higher the Water Attack,\n'
+'⇒ to the max x 3 for 10 Runestones dissolved.\n'
+'The Skill stays in play until no God Runestones are dissolved.',
+
+'chi_lead':'水元素之力 ‧ 强韧之壁\n\n'
+'I. 水属性攻击力 7 倍\n'
+'II. 减少 50% 所受伤害',
+'eng_lead':'Protective Shield of Water Elements\n\n'
+'I. Water Attack x 7.\n'
+'II. Damage received -50%.',
+
+'chi_team':'没有队伍技能',
+'eng_team':'None'},
+    
+    {'chi_name':'妍1',
+'chif_name':'妍1',
+'eng_name':'yan1',
+
+'chi_act':'炽热的约定 ‧ 神之加冕 CD6\n\n'
+'I. 将移动符石时触碰的首 8 粒符石添加为神族符石\n'
+'II. 达成 ≥4 连击 (Combo)\n'
+'⓵ 全队攻击力 2 倍\n'
+'⓶ 神族无视敌人防御力\n'
+'(效果会在关闭此技能或死亡后消失)\n\n'
+
+'此技能可随时关闭，关闭时：\n'
+'⓵ 自身技能 CD -2\n'
+'⓶ 将自身、队长、战友直行符石\n'
+'⇒ 转化为心神族强化符石',
+'eng_act':'Fiery Pact - God\'s Enchantment CD6\n\n'
+'I. Modify the first 8 Runestones touched while moving to become God Runestones.\n'
+'II. When ≥4 Combos are made:\n'
+'⓵ Team Attack x 2.\n'
+'⓶ God Damage will be dealt regardless of the enemy\'s Defense.\n'
+'The Skill stays in play until deactivation or defeated.\n\n'
+
+'This Skill can be deactivated anytime. Upon deactivation of the Skill:\n'
+'⓵ The Character\'s Skill CD -2.\n'
+'⓶ Turn the columns below the Character, Leader and Ally into Enchanted Heart God Runestones.',
+
+'chi_lead':'熊熊之火 ‧ 烈\n\n'
+'I. 火属性攻击力 7 倍、生命力及回复力 1.6 倍\n'
+'II. 每回合结束时，将火符石转化为\n'
+'⇒ 火神族强化符石',
+'eng_lead':'Inextinguishable Fire - EX\n\n'
+'I. Fire Attack x 7 ; HP & Recovery x 1.6.\n'
+'II. Turn Fire Runestones into Enchanted Fire God Runestones at the end of each Round.',
+
+'chi_team':'队伍技能：\n\n'
+'I. 触碰“燃烧”位置\n'
+'⇒ 减少 70% 所受伤害\n'
+'II. 光、暗、心符石分别兼具\n'
+'⇒ 火符石效果\n'
+'III. 消除火神族符石时\n'
+'⇒ 火属性成员无视“三属盾”、“四属性”、“五属盾”\n'
+'发动条件：\n'
+'以“烈焰染暮 ‧ 妍”作战友及队长',
+'eng_team':'Team Skill:\n\n'
+'◆ Damage received from "Burning" -70%.\n'
+'◆ Light, Dark and Heart Runestones also possess the effect of Fire Runestones.\n'
+'◆ By dissolving Fire God Runestones,\n'
+'⇒ Damage of Fire Members will be dealt regardless of Trio Elemental Shield, Quartet Elemental Shield and Quintet Elemental Shield.\n'
+'Condition:\n'
+'Both the Leader and Ally are "Rhythm of Blazing Flames - Yan".'},
+    
+    {'chi_name':'妍2',
+'chif_name':'妍2',
+'eng_name':'yan2',
+
+'chi_act':'绽放之热焰 CD6\n\n'
+'I. 木符石掉落率降至 0\n'
+'II. 将原有几率增加至\n'
+'⇒ 火符石的掉落率\n'
+'III. 掉落的火符石\n'
+'⇒ 以火神族强化符石代替\n'
+'IV. 消除神族符石时\n'
+'⇒ 火符石掉落率提升至 40%\n'
+'(效果会在再次发动此技能或死亡后消失)\n\n'
+
+'V. 技能关闭时\n'
+'⓵ 移除所有符石\n'
+'⇒ 掉落神族强化符石',
+'eng_act':'Flames of Blossoms - EX CD6\n\n'
+'I. Drop rate of Earth Runestones will be transferred to that of Fire Runestones.\n'
+'II. Fire Runestones to be dropped will be Enchanted Fire God Runestones.\n'
+'III. By dissolving God Runestones,\n'
+'⇒ drop rate of Fire Runestones increases to 40%.\n'
+'The Skill stays in play until reactivation of the Skill or defeated.\n\n'
+
+'IV. Upon reactivation of the Skill:\n'
+'⇒ Remove all Runestones to generate Enchanted God Runestones.',
+
+'chi_lead':'心中的炽焰\n\n'
+'I. 火属性攻击力 7 倍\n'
+'II. 消除心符石时\n'
+'⇒ 火属性攻击力额外 2 倍',
+'eng_lead':'Tongues of Flames - EX\n\n'
+'I. Fire Attack x 7.\n'
+'II. By dissolving Heart Runestones,\n'
+'⇒ Fire Attack x 2 additionally.',
+
+'chi_team':'没有队伍技能',
+'eng_team':'None'},
+    
     {'chi_name':'暗妍希',
      'chif_name':'暗妍希',
      'eng_name':'darkyanxi',
